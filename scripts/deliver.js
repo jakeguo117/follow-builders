@@ -16,6 +16,7 @@
 //
 // Delivery methods:
 //   - "telegram": sends via Telegram Bot API (needs TELEGRAM_BOT_TOKEN + chat ID)
+//   - "discord": sends via Discord Webhook (needs DISCORD_WEBHOOK_URL)
 //   - "email": sends via Resend API (needs RESEND_API_KEY + email address)
 //   - "stdout" (default): just prints to terminal
 // ============================================================================
@@ -149,6 +150,48 @@ async function sendEmail(text, apiKey, toEmail) {
   }
 }
 
+// -- Discord Delivery (Webhook) -----------------------------------------------
+
+// Sends the digest via Discord Webhook.
+// The user creates a webhook in their Discord channel settings
+// and provides the webhook URL.
+async function sendDiscord(text, webhookUrl) {
+  // Discord has a 2000 character limit per message.
+  // If the digest is longer, we split it into chunks.
+  const MAX_LEN = 1900;
+  const chunks = [];
+  let remaining = text;
+  while (remaining.length > 0) {
+    if (remaining.length <= MAX_LEN) {
+      chunks.push(remaining);
+      break;
+    }
+    // Try to split at a newline near the limit
+    let splitAt = remaining.lastIndexOf('\n', MAX_LEN);
+    if (splitAt < MAX_LEN * 0.5) splitAt = MAX_LEN;
+    chunks.push(remaining.slice(0, splitAt));
+    remaining = remaining.slice(splitAt);
+  }
+
+  for (const chunk of chunks) {
+    const res = await fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        content: chunk
+      })
+    });
+
+    if (!res.ok) {
+      const err = await res.text();
+      throw new Error(`Discord webhook error: ${err}`);
+    }
+
+    // Small delay between chunks to avoid rate limiting
+    if (chunks.length > 1) await new Promise(r => setTimeout(r, 500));
+  }
+}
+
 // -- Main --------------------------------------------------------------------
 
 async function main() {
@@ -180,6 +223,18 @@ async function main() {
           status: 'ok',
           method: 'telegram',
           message: 'Digest sent to Telegram'
+        }));
+        break;
+      }
+
+      case 'discord': {
+        const webhookUrl = delivery.webhookUrl;
+        if (!webhookUrl) throw new Error('delivery.webhookUrl not found in config.json');
+        await sendDiscord(digestText, webhookUrl);
+        console.log(JSON.stringify({
+          status: 'ok',
+          method: 'discord',
+          message: 'Digest sent to Discord'
         }));
         break;
       }

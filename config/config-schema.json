@@ -42,13 +42,17 @@
       "properties": {
         "method": {
           "type": "string",
-          "enum": ["stdout", "telegram", "email"],
+          "enum": ["stdout", "telegram", "discord", "email"],
           "default": "stdout",
-          "description": "Delivery method: stdout (terminal/agent), telegram (bot message), email (via Resend)"
+          "description": "Delivery method: stdout (terminal/agent), telegram (bot message), discord (webhook), email (via Resend)"
         },
         "chatId": {
           "type": "string",
           "description": "Telegram chat ID (only for telegram method)"
+        },
+        "webhookUrl": {
+          "type": "string",
+          "description": "Discord webhook URL (only for discord method)"
         },
         "email": {
           "type": "string",
