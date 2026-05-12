@@ -30,8 +30,8 @@ jobs:
             "frequency": "daily",
             "deliveryTime": "08:00",
             "delivery": {
-              "method": "telegram",
-              "chatId": "2085540482"
+              "method": "discord",
+              "webhookUrl": "https://discord.com/api/webhooks/1503608674067808397/roL1NXVquWfGogEUuFAJboxt2TRLQSkwmZwMD57T_qYyAPLeZrv24Er_SURzlVz2Dy7U"
             },
             "onboardingComplete": true
           }
@@ -40,7 +40,6 @@ jobs:
       - name: Generate and deliver digest
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         run: |
           cd scripts
           node prepare-digest.js | node remix.js | node deliver.js
