@@ -29,17 +29,21 @@ async function readStdin() {
 }
 
 function buildSystemPrompt(prompts, language) {
-  const parts = [
+  const parts = [];
+
+  // For bilingual/zh, put the translation instruction FIRST so the LLM
+  // treats it as a primary directive, not an afterthought.
+  if (language === 'zh' || language === 'bilingual') {
+    parts.push(prompts.translate, '---');
+  }
+
+  parts.push(
     prompts.digest_intro,
     '---',
     prompts.summarize_tweets,
     '---',
     prompts.summarize_podcast,
-  ];
-
-  if (language === 'zh' || language === 'bilingual') {
-    parts.push('---', prompts.translate);
-  }
+  );
 
   return parts.join('\n\n');
 }
@@ -68,7 +72,7 @@ function buildUserMessage(data) {
   return sections.join('\n');
 }
 
-async function callLLM(systemPrompt, userMessage) {
+async function callLLM(systemPrompt, userMessage, language) {
   const res = await fetch(`${BASE_URL}/v1/chat/completions`, {
     method: 'POST',
     headers: {
@@ -82,7 +86,7 @@ async function callLLM(systemPrompt, userMessage) {
         { role: 'user', content: userMessage },
       ],
       temperature: 0.7,
-      max_tokens: 4096,
+      max_tokens: language === 'bilingual' ? 8192 : 4096,
     }),
   });
 
@@ -113,7 +117,7 @@ async function main() {
   const systemPrompt = buildSystemPrompt(data.prompts, language);
   const userMessage = buildUserMessage(data);
 
-  const digest = await callLLM(systemPrompt, userMessage);
+  const digest = await callLLM(systemPrompt, userMessage, language);
   process.stdout.write(digest);
 }
 
