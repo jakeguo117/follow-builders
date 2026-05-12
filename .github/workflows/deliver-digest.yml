@@ -9,6 +9,8 @@ on:
 jobs:
   deliver:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -37,9 +39,18 @@ jobs:
           }
           EOF
 
-      - name: Generate and deliver digest
+      - name: Generate, save, and deliver digest
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           cd scripts
-          node prepare-digest.js | node remix.js | node deliver.js
+          node prepare-digest.js | node remix.js > ../latest-digest.md
+          cat ../latest-digest.md | node deliver.js
+
+      - name: Commit digest to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add latest-digest.md
+          git diff --cached --quiet || git commit -m "digest: $(date +%Y-%m-%d) [skip ci]"
+          git push
