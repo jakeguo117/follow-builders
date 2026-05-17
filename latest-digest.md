@@ -1,218 +1,139 @@
-AI Builders Digest — Saturday, May 16, 2026
+AI Builders Digest — May 17, 2026
 
-## X / TWITTER
+## X/Twitter
 
 ### Swyx (swyx on X)
 
-Swyx shared a funny real-time story: at the AI Engineer Miami conference, he complained about SAP Concur being "dead software," and a SAP employee in the audience invited him to come advise the company on AI transformation for 6,800 employees. TLDR: he made fun of SAP, and SAP… concurred.
+Swyx notes that Codex has become "completely unrecognizable from 3 months ago," praising the team's extreme founder mode. He also shares that Singapore's Head of AI Govtech estimates 1.3 billion agents in the country within 2 years and is building a national MCP gateway.
 
-He also made a sharp observation about company blogs: "Blogs die when they come from 'the ____ team' instead of named individuals. With great ownership comes great accountability."
+Swyx 指出 Codex 在三个月内已变得"完全认不出来"，称赞团队进入了极致的 founder mode。他还透露，新加坡政府 AI 负责人预计该国两年内将有 13 亿个 agent，并正在建设国家级 MCP 网关。
 
-https://x.com/swyx/status/2055113979857703350
-https://x.com/swyx/status/2055079344632926603
-
-Swyx 分享了一个现场趣事：在 AI Engineer Miami 会议上，他吐槽 SAP Concur 是"死掉的软件"，结果台下一位 SAP 员工直接邀请他去公司给 6800 名员工做 AI 转型咨询。TLDR：他吐槽了 SAP，而 SAP… 表示同意（concurred）。
-
-他还对公司博客发表了一个尖锐的观点："博客之所以死掉，是因为它们来自'某某团队'而不是署名的个人。权力越大，责任越大。"
-
-https://x.com/swyx/status/2055113979857703350
-https://x.com/swyx/status/2055079344632926603
+https://x.com/swyx/status/2055494400252481687
+https://x.com/swyx/status/2055470634331750588
 
 ### Peter Yang (petergyang on X)
 
-Peter Yang (Product at Roblox) asked a hilarious but real question: "How do people even do AI hackathons these days? You're just sitting around waiting for the agents half of the time." The tweet got 307 likes and 96 replies — clearly it struck a nerve.
+Peter Yang shares his experience with ChatGPT Finances, calling it "pretty awesome" but noting that AI still struggles with classifying transactions correctly. He also expresses privacy concerns about financial data being used for model training or ad targeting.
 
-He also had a moment of realization: "TIL having AI just start making screens without a design system or components is a sure fire path to slop. Maybe those designers were onto something."
+Peter Yang 分享了他使用 ChatGPT Finances 的体验，称其"相当不错"，但也指出 AI 在正确分类交易方面仍有困难。他还对财务数据被用于模型训练或广告定向表达了隐私担忧。
 
-https://x.com/petergyang/status/2055093015304396986
-https://x.com/petergyang/status/2055091746036716026
+https://x.com/petergyang/status/2055450577094738018
+https://x.com/petergyang/status/2055396161910194395
 
-Roblox 产品经理 Peter Yang 问了一个搞笑但真实的问题："现在 AI 黑客松还怎么玩啊？有一半时间你就是在干等 agent 跑完。"这条推获得了 307 个赞和 96 条回复——显然是戳中了大家的痛点。
+### Google Product Leader Madhu Guru
 
-他还顿悟了一件事："今天才知道，让 AI 在没有设计系统或组件库的情况下直接生成界面，妥妥地会产生垃圾。也许那些设计师是对的。"
+Madhu Guru delivers a sharp take: a generation of PMs is struggling with AI because they were trained to execute playbooks, but AI requires inventing them. He argues that for two decades, most PM work was about repurposing patterns invented by a few teams, making the work mechanical. Now, PMs need to be inventors, not framework executors — and you can't A/B test your way to a breakthrough AI product.
 
-https://x.com/petergyang/status/2055093015304396986
-https://x.com/petergyang/status/2055091746036716026
+Madhu Guru 提出了一个犀利的观点：整整一代产品经理在 AI 时代步履维艰，因为他们受的训练是执行既定 playbook，而 AI 要求的是创造 playbook。过去二十年，少数团队发明产品模式，其他人只是在各个领域照搬——这让大部分 PM 工作变得机械枯燥。现在的 PM 需要成为发明者，而不是框架执行者——你无法通过 A/B 测试来打造突破性的 AI 产品。
 
-### Replit CEO Amjad Masad
-
-Amjad Masad announced that Replit resolved its issues with Apple and published its app for the first time in 4 months. "Thanks to all our customers and creators who helped out. It's been a journey, but we never give up and stay winning!"
-
-He also launched a promotion: if you vibecoded a website somewhere other than Replit, you can import it and get a free mobile app. Yes, FREE MOBILE APP.
-
-https://x.com/amasad/status/2055185058282226146
-https://x.com/amasad/status/2055097107758076254
-
-Replit CEO Amjad Masad 宣布，Replit 已解决与 Apple 的分歧，时隔 4 个月重新发布了 App。"感谢所有帮助我们老客户和创作者。这是一段旅程，但我们永不放弃，继续赢！"
-
-他还推出了一项促销：如果你在其他平台 vibecode 了一个网站，可以导入 Replit 并免费获得一个移动 App。是的，免费的移动 App！
-
-https://x.com/amasad/status/2055185058282226146
-https://x.com/amasad/status/2055097107758076254
+https://x.com/realmadhuguru/status/2055414865146327088
 
 ### Vercel CEO Guillermo Rauch
 
-Guillermo Rauch showed off a new CLI tool: `npx ai-cli image 'a vercel ai sdk diagram'`. Run `npm i -g ai-cli` and you can access every image, video & text model from Vercel AI Gateway instantly — right from your terminal. No more switching between browser tabs just to generate an image.
+Guillermo Rauch shares that Grok CLI now supports Plugins and Skills — installing the Vercel Plugin gives Grok cloud deployment superpowers. He also introduces `vercel curl`, a tool that lets agents easily curl any URL within the Vercel ecosystem, even behind SSO. His core philosophy: "If you become exceptional at managing agents, but are also exceptional in your understanding of the fundamentals, you will be unstoppable."
 
-https://x.com/rauchg/status/2054989456189648918
+Guillermo Rauch 分享了 Grok CLI 对 Plugins 和 Skills 的支持——安装 Vercel Plugin 后，Grok 就获得了云端部署的超能力。他还介绍了 `vercel curl`，让 agent 即使在 SSO 保护下也能轻松访问 Vercel 生态系统内的任何 URL。他的核心理念是："如果你既擅长管理 agent，又对基本功有深刻理解，你将势不可挡。"
 
-Vercel CEO Guillermo Rauch 展示了一个新 CLI 工具：`npx ai-cli image 'a vercel ai sdk diagram'`。运行 `npm i -g ai-cli`，你就可以直接从终端访问 Vercel AI Gateway 上的所有图片、视频和文本模型——再也不用为了生成一张图而切换浏览器标签页了。
-
-https://x.com/rauchg/status/2054989456189648918
+https://x.com/rauchg/status/2055491454307582454
+https://x.com/rauchg/status/2055440326765244742
+https://x.com/rauchg/status/2055278852931530784
 
 ### Box CEO Aaron Levie
 
-Aaron Levie shared a deep take on how AI is scrambling job roles. His key insight: "We're in a period where everything feels like it's getting jumbled up across roles because AI lets you explore the adjacencies of other functions more easily." But his bet is that AI actually enhances specialization, not eliminates it. "The specialist is always going to have an eye for quality that delivers a better outcome."
+Aaron Levie argues that AI is fundamentally different from software — it requires a "forward deployed engineering" model because AI capabilities and best practices evolve constantly, and underlying models change so much they can meaningfully alter workflows. He believes one vendor can share best practices across thousands of companies more efficiently than each company learning them independently. He also declares "headless software is the future."
 
-He also made a sharp observation about the pace of change: "He just spent a year building scaffolding for his agent harness. Now release a new model update that makes all of it obsolete." This resonated — 592 likes.
+Aaron Levie 认为 AI 从根本上不同于传统软件——它需要"前向部署工程"模式，因为 AI 的能力和最佳实践在不断演变，底层模型的变化足以显著改变工作流程。他认为一个供应商跨数千家公司分享最佳实践，比每家公司独立学习要高效得多。他还断言"headless software 是未来"。
 
-https://x.com/levie/status/2055143231625818554
-https://x.com/levie/status/2055136119969529993
+https://x.com/levie/status/2055501840419328286
+https://x.com/levie/status/2055357619888595271
 
-Box CEO Aaron Levie 分享了一个关于 AI 如何打乱岗位边界的深度思考。他的核心观点是："我们正处于一个所有角色都在被搅乱的时期，因为 AI 让你更容易探索其他职能的相邻领域。"但他的赌注是 AI 实际上会强化专业化，而不是消除它。"专家总是会拥有对质量的敏锐判断力，从而产出更好的结果。"
+### Y Combinator President & CEO Garry Tan
 
-他还对变化的节奏做了一个尖锐的观察："他花了一年时间为他的 agent harness 搭建脚手架。结果一个新模型更新发布，让这一切都过时了。"这条推获得了 592 个赞。
+Garry Tan shares his California voter guide and criticizes the "Overpaid CEO tax," arguing it doesn't actually tax overpaid CEOs, instead passing higher gross receipts taxes to consumers while reducing city revenue. He calls it bad anti-business policy.
 
-https://x.com/levie/status/2055143231625818554
-https://x.com/levie/status/2055136119969529993
+Garry Tan 分享了他的加州投票指南，并批评了"CEO 超额薪酬税"，认为这项税并不会真正课征到超额薪酬的 CEO 身上，反而会将更高的毛收入税转嫁给消费者，同时减少城市收入。他称这是一项糟糕的反商业政策。
 
-### Y Combinator CEO Garry Tan
-
-Garry Tan called out "electricity NIMBYs" — people blocking new power infrastructure for data centers. He linked to a post and said "Have you guys heard of markets?" In follow-up tweets, he defended data centers against uninformed criticism about energy, water, and jobs.
-
-https://x.com/garrytan/status/2055155189766865028
-https://x.com/garrytan/status/2055093087660286413
-
-Y Combinator CEO Garry Tan 抨击了"电力 NIMBY（邻避主义者）"——那些阻挠数据中心新电力基础设施的人。他引用了一篇文章并说："你们听说过市场吗？"在后续推文中，他为数据中心辩护，反驳了关于能源、水和就业等方面的无端批评。
-
-https://x.com/garrytan/status/2055155189766865028
-https://x.com/garrytan/status/2055093087660286413
+https://x.com/garrytan/status/2055446378596474891
+https://x.com/garrytan/status/2055384351307858390
 
 ### FirstMark Capital VC Matt Turck
 
-Matt Turck announced that Gradium AI — barely 9 months old — is already beating OpenAI, Eleven Labs, Cartesia, Deepgram, and everyone else on third-party TTS benchmarks. A stunning rise from a very young company.
+Matt Turck jokingly shares some personal news: "He slid into my DMs, don't say prayers don't work y'all."
 
-He also shared details about a Coval.dev announcement.
+Matt Turck 开玩笑地分享了一条个人消息："他私信我了，别说祈祷没用啊各位。"
 
-https://x.com/mattturck/status/2055029555455222199
-https://x.com/mattturck/status/2055029560882663884
-
-FirstMark Capital 合伙人 Matt Turck 宣布，成立仅 9 个月的 Gradium AI 已经在第三方 TTS 基准测试中击败了 OpenAI、Eleven Labs、Cartesia、Deepgram 等所有对手。一家非常年轻的公司实现了惊人的崛起。
-
-他还分享了 Coval.dev 的公告详情。
-
-https://x.com/mattturck/status/2055029555455222199
-https://x.com/mattturck/status/2055029560882663884
-
-### Zara Zhang
-
-Zara Zhang announced she's co-hosting an event in SF next Saturday (5/23) focused on managing and curating CONTEXT for agents. Format: rapid-fire 5-minute demos of real workflows (no slides). Co-hosted with NotionHQ and Radical VC Fund. RSVP link included.
-
-https://x.com/zarazhangrui/status/2054981832408760782
-
-Zara Zhang 宣布她将于下周六（5/23）在旧金山联合主办一场活动，主题是管理和策划 agent 的上下文。形式：5 分钟快速演示真实工作流（无幻灯片）。由 NotionHQ 和 Radical VC Fund 联合主办。附有 RSVP 链接。
-
-https://x.com/zarazhangrui/status/2054981832408760782
+https://x.com/mattturck/status/2055404881024848056
 
 ### FPV Ventures Partner Nikunj Kothari
 
-Nikunj Kothari made a bold claim: "Every single large company with data walls realizing it's time to go headless (or essentially die). The market/usage for agents will be 100x larger than humans. If you gatekeep your systems for humans, you'll most likely be 100x less valuable!"
+Nikunj Kothari is blown away by what Codex agents can do. He describes an agent that went through a 2,000+ line item database, fixed all product images and descriptions, used browser harness for real-time web info, used web search for fact-checking, wrote scripts for future work — and ran for 2 hours while he met founders for coffee. His verdict: "/goal is just AGI if given the right tools."
 
-https://x.com/nikunj/status/2054924517135540320
+Nikunj Kothari 对 Codex agent 的能力感到震惊。他描述了一个 agent 遍历了 2000+ 条记录的数据库，修复了所有产品图片和描述，使用 browser harness 获取实时网络信息，用网络搜索做事实核查，为未来的工作编写脚本——这一切都在他和创始人喝咖啡的两小时内完成。他的结论是："/goal 在合适的工具下就是 AGI。"
 
-FPV Ventures 合伙人 Nikunj Kothari 提出了一个大胆的观点："每一个拥有数据壁垒的大公司都意识到，是时候走向 headless 了（否则基本上就是等死）。agent 的市场/使用量将比人类大 100 倍。如果你只为人类设置系统门槛，你很可能就会贬值 100 倍！"
+https://x.com/nikunj/status/2055428193398780296
+https://x.com/nikunj/status/2055426430654439485
+https://x.com/nikunj/status/2055288369958289536
 
-https://x.com/nikunj/status/2054924517135540320
+### OpenClaw Creator Peter Steinberger (steipete on X)
 
-### Peter Steinberger (steipete on X)
+Peter Steinberger shares an extraordinary thread about how OpenClaw runs ~100 Codex instances in the cloud constantly — reviewing every PR and issue, de-duplicating issues, recreating complex setups, scanning for spam, verifying performance benchmarks, and even listening in on meetings to proactively start work. He launched `clawpatch` (npm install -g clawpatch), a tool that maps codebases into semantic feature slices for bug review. He also notes that Svelte is a great React alternative that Codex handles really well.
 
-Peter Steinberger (creator of OpenClaw) shared that he built a new feature into discrawl (store media). Codex said it was done, but then he used his own Codex review skill and found issues. A meta moment: using AI to review AI-generated code.
+Peter Steinberger 分享了一条令人惊叹的推文串：OpenClaw 在云端持续运行约 100 个 Codex 实例——审查每个 PR 和 issue、去重问题、重建复杂环境、扫描垃圾信息、验证性能基准，甚至监听会议来主动启动工作。他还发布了 `clawpatch`（npm install -g clawpatch），一个将代码库映射成语义功能切片进行 bug 审查的工具。他还提到 Svelte 是一个很好的 React 替代品，Codex 对其支持得很好。
 
-He also recommended a tool at https://www.steipete.com — "pretty sweet."
-
-https://x.com/steipete/status/2055203470941061600
-https://x.com/steipete/status/2055209490887119098
-
-OpenClaw 的创造者 Peter Steinberger 分享说，他为 discrawl 构建了一个新功能（store media）。Codex 说搞定了，但他用自己写的 Codex review skill 一检查，发现了问题。这是一个元时刻：用 AI 来审查 AI 生成的代码。
-
-他还推荐了一个工具 https://www.steipete.com——"相当不错。"
-
-https://x.com/steipete/status/2055203470941061600
-https://x.com/steipete/status/2055209490887119098
+https://x.com/steipete/status/2055405041843052792
+https://x.com/steipete/status/2055402519841411165
+https://x.com/steipete/status/2055364630709448970
 
 ### Every CEO Dan Shipper
 
-Dan Shipper shared a wild 2026 anecdote: he was chatting with his barber about Codex, and the barber told him he uses Claude for crypto trading and Gemini + nano banana to learn jiu jitsu moves. Then the guy in the next chair leaned over and said his company just bought 1,300 Claude seats. "2026 is wild."
+Dan Shipper shares lessons from trying to build an agent-as-a-service platform on OpenClaw: (1) OpenClaw moves extremely fast with tons of regressions, making it very hard to build on as a platform; (2) one super agent for a company beats 1-1 agents for everyone — agents require too much technical work for regular people to maintain. He declares "Codex-native apps are the future."
 
-He also offered a service: Every will come to your company and get your exec team "agent-pilled" — hands-on with Claude Code, Cowork, Codex, and more.
+Dan Shipper 分享了在 OpenClaw 上构建 agent-as-a-service 平台的教训：(1) OpenClaw 发展极快且充满 regression，很难在其上构建平台；(2) 为整个公司打造一个超级 agent，比给每个人配一个独立的 agent 更好——agent 需要太多技术维护工作，普通人搞不定。他断言"Codex-native 应用就是未来"。
 
-https://x.com/danshipper/status/2055030691180503152
-https://x.com/danshipper/status/2055015466054410400
-
-Every 的 CEO Dan Shipper 分享了一个 2026 年的疯狂轶事：他和理发师聊 Codex，理发师告诉他，他用 Claude 做加密货币交易，用 Gemini + nano banana 学柔术。旁边椅子上的一个人探过头来说，他的公司刚买了 1,300 个 Claude 席位。"2026 年真是疯狂。"
-
-他还提供了一项服务：Every 可以到你的公司，让高管团队亲身体验 Claude Code、Cowork、Codex 等工具，帮助他们"agent 入门"。
-
-https://x.com/danshipper/status/2055030691180503152
-https://x.com/danshipper/status/2055015466054410400
-
-### South Park Commons GP Aditya Agarwal
-
-Aditya Agarwal (ex-CTO of Dropbox, early engineer at Facebook) posted a link that got 957 likes and 91 retweets — the most viral post in this digest outside of Sam Altman. The linked article appears to be about something significant, but the tweet itself just had a URL with no context.
-
-https://x.com/adityaag/status/2054976557702066520
-
-South Park Commons 合伙人 Aditya Agarwal（前 Dropbox CTO、Facebook 早期工程师）发布了一个链接，获得了 957 个赞和 91 次转发——是本摘要中除 Sam Altman 外最热门的帖子。链接的文章似乎涉及重要内容，但推文本身只有 URL，没有上下文。
-
-https://x.com/adityaag/status/2054976557702066520
+https://x.com/danshipper/status/2055451869841965154
+https://x.com/danshipper/status/2055347527457886336
 
 ### OpenAI CEO Sam Altman
 
-Sam Altman announced: "Codex in the ChatGPT mobile app!" — 7,778 likes, 388 retweets. This is a major expansion of Codex's accessibility, bringing AI-powered coding assistance to mobile devices.
+Sam Altman appreciates how seriously his team takes user reports, even when the answer turns out to be "I got used to the current level of magic and now I'd like more please."
 
-He also quote-tweeted a thread about "all this" — likely a deeper discussion about Codex's capabilities and roadmap.
+Sam Altman 感谢团队对用户反馈的认真对待，即使答案往往是"我已经习惯了当前的魔法水平，现在想要更多"。
 
-https://x.com/sama/status/2055034461591588916
-https://x.com/sama/status/2055034714231345475
+https://x.com/sama/status/2055356452286640630
 
-OpenAI CEO Sam Altman 宣布："Codex 登陆 ChatGPT 移动 App！"——获得 7,778 个赞和 388 次转发。这是 Codex 可及性的重大扩展，将 AI 驱动的编程辅助带到了移动设备上。
+## Podcasts
 
-他还引用转发了关于"所有这些"的讨论——很可能是在深入探讨 Codex 的能力和路线图。
+### Unsupervised Learning — Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong
 
-https://x.com/sama/status/2055034461591588916
-https://x.com/sama/status/2055034714231345475
+**The Takeaway:** LLMs are a dead end for human-level intelligence — the future belongs to world models that can predict consequences and plan, not next-token prediction.
 
-## PODCASTS
+**The Takeaway（核心观点）：** LLM 是实现人类级智能的死胡同——未来属于能够预测后果并进行规划的世界模型，而不是下一个 token 的预测。
 
-### The MAD Podcast with Matt Turck — Why Every AI Agent Needs Its Own Computer | Ivan Burazin (Daytona)
+Yann LeCun, Turing Award winner and godfather of modern AI, has spun out from Meta to start Ami Labs — and he's making the biggest contrarian bet of his career. His thesis is as clear as it is provocative: LLMs are great for manipulating language, but they're not a path toward human-like intelligence. "They're just not a path towards human level or human like intelligence or even animal like intelligence," he says flatly.
 
-**The Takeaway:** Every serious AI agent needs its own dedicated computer (a "sandbox"), and the infrastructure to run these at scale is fundamentally different from anything that came before — so different that Daytona had to throw out Kubernetes and build their own scheduler from scratch.
+Yann LeCun，图灵奖得主、现代 AI 教父，已从 Meta 独立出来创办了 Ami Labs——他正在下职业生涯中最大的逆势赌注。他的论点清晰而 provocative：LLM 擅长语言操作，但并非通往类人智能的道路。"它们根本不是通往人类级或类人智能甚至动物级智能的路径，"他直言不讳。
 
-Ivan Burazin, CEO of Daytona, makes the case that agents are essentially "digital knowledge workers." And just like human knowledge workers, they need a computer to do sophisticated work. The sandbox isn't just a container or a VM — it's a full computer with its own OS, tools, browser, and even phone number for 2FA. Ivan explains this with a vivid example: when he asked Claude to fetch bank data, Claude said "just log in and give me access." Ivan's response: "Log in and give me access? No. I will not give you access." That moment broke his entire thesis — so he gave the agent its own machine, its own Daytona account, its own phone number for 2FA, and a credit card with a $100/day limit.
+The core problem, in LeCun's view, is that LLMs fundamentally lack two capabilities essential for intelligence: the ability to predict the consequences of their own actions, and the ability to plan through search and optimization. "LLMs do not have the ability to predict the consequences of their actions, and they do not have any planning abilities, because inference is by predicting the next token," he explains. "It's not by search."
 
-The technical depth here is remarkable. Daytona spins up sandboxes in 60 milliseconds, can launch 50,000 in 70 seconds, and has customers running billions per day. They had to build a custom scheduler because off-the-shelf solutions like Kubernetes were designed for stateless, ephemeral workloads (think Lambda functions). Agents need long-running, stateful environments — some running 24+ hours. This requires live migration of sandboxes between physical machines for maintenance, which most providers can't do.
+在 LeCun 看来，核心问题在于 LLM 从根本上缺乏智能所必需的两项能力：预测自身行为后果的能力，以及通过搜索和优化进行规划的能力。"LLM 没有预测自身行为后果的能力，也没有任何规划能力，因为推理就是预测下一个 token，"他解释道。"不是通过搜索。"
 
-Ivan also offers a masterclass in go-to-market for technical founders. He learned from his first startup (CodeAnywhere, started in 2009 — a decade and a half too early) that "timing of the market" is everything. He also learned the difference between a user and a customer: single developers don't want to pay, but developers inside companies will use their corporate card. His GTM strategy? No salespeople. Zero. It's all PLG, powered by Twitter, IRL events (he organized a conference at the Chase Center in SF), and exceptional customer support.
+His alternative is the JEPA (Joint Embedding Predictive Architecture) approach he pioneered at Meta — systems that learn representations of the world by predicting in representation space rather than generating pixels. "All of the architectures that have been successful to learn representations of images and videos are non generative architectures. And all the generative ones basically have been failures." Ami Labs, his new company, is building world models on this architecture for industrial applications — manufacturing, process control, healthcare — where understanding the physical world matters more than language manipulation.
 
-One of the most quotable moments: "We are a part of this super cycle right now and the super cycle does not last forever. And so if you're gonna pause by the super cycle, you are feeding market."
+他的替代方案是他在 Meta 开创的 JEPA（联合嵌入预测架构）——系统通过在表征空间中进行预测来学习世界的表征，而不是生成像素。"所有成功学习图像和视频表征的架构都是非生成式架构。所有生成式架构基本上都失败了。"他的新公司 Ami Labs 正在基于这一架构构建世界模型，用于工业应用——制造业、过程控制、医疗健康——在这些领域，理解物理世界比操作语言更重要。
 
-On the future, Ivan warns that we might be heading toward a CPU shortage — not just GPU. With RL training and millions of agents running concurrently, the demand for CPU compute is exploding. And he questions whether transformers are the end state: "I'm actually wary of people thinking that the models we have is the end state. There could be a new type of model that uses less compute or doesn't use GPUs at all."
+LeCun also shares the inside story of leaving Meta. Contrary to popular narrative, he had zero technical contribution to LLaMA. His role was chief AI scientist, separate from the GenAI organization that turned LLaMA into products. The tension came when Meta's entire focus shifted to LLMs after realizing they'd fallen behind. "The sad side effect is that a lot of the exploratory research was basically not given high priority anymore." His vision paper from 2022, which laid out the JEPA architecture, became the blueprint for Ami Labs — and investors were already bought in.
 
-https://www.youtube.com/watch?v=kMXJrzAa5fM
+LeCun 还分享了离开 Meta 的内幕。与流行的叙事相反，他对 LLaMA 的技术贡献为零。他的角色是首席 AI 科学家，与将 LLaMA 转化为产品的 GenAI 组织是分开的。矛盾出现在 Meta 意识到落后后将全部重心转向 LLM 之后。"可悲的副作用是，大量探索性研究基本上不再被给予高优先级。"他 2022 年那篇阐述 JEPA 架构的愿景论文，成为了 Ami Labs 的蓝图——而投资者早已被他说服。
 
-**核心结论：** 每个严肃的 AI agent 都需要一台专属计算机（"沙箱"），而大规模运行这些沙箱所需的基础设施与以往的任何东西都截然不同——以至于 Daytona 不得不抛弃 Kubernetes，从头构建自己的调度器。
+On the safety debate, LeCun takes a contrarian stance even from his Turing Award co-recipients. He argues that LLMs are "intrinsically unsafe" because they can't be made reliable — "you can't stop them from hallucinating." His objective-driven AI architecture, by contrast, is safer by design because the system must satisfy constraints by construction. "The system cannot violate those things by construction. Not the case for an LLM. The LLM can always escape."
 
-Daytona CEO Ivan Burazin 的观点是，agent 本质上就是"数字知识工作者"。就像人类知识工作者一样，他们需要一台计算机来完成复杂的工作。沙箱不仅仅是一个容器或虚拟机——它是一台完整的计算机，拥有自己的操作系统、工具、浏览器，甚至用于双因素认证的电话号码。Ivan 用一个生动的例子说明了这一点：当他让 Claude 去获取银行数据时，Claude 说"只需登录并给我访问权限"。Ivan 的回答是："登录并给你访问权限？不。我不会给你访问权限。"那一刻，他原有的整个论题都崩塌了——于是他给了 agent 一台专属机器、一个专属 Daytona 账户、一个用于双因素认证的电话号码，以及一张每日限额 100 美元的信用卡。
+在安全辩论中，LeCun 甚至与他的图灵奖共同得主持相反立场。他认为 LLM 是"本质上不安全的"，因为它们无法被变得可靠——"你无法阻止它们产生幻觉。"相比之下，他提出的目标驱动 AI 架构在设计上就更安全，因为系统必须通过构造来满足约束条件。"系统在构造上就无法违反这些条件。LLM 则不然。LLM 总能逃脱。"
 
-这里的技术深度令人瞩目。Daytona 在 60 毫秒内就能启动沙箱，70 秒内可以启动 50,000 个，并且有客户每天运行数十亿个。他们不得不构建一个自定义调度器，因为像 Kubernetes 这样的现成解决方案是为无状态、短暂的负载（想想 Lambda 函数）而设计的。Agent 需要长期运行、有状态的环境——有些运行时间超过 24 小时。这就要求能够在物理机器之间进行沙箱的实时迁移以进行维护，而大多数提供商都无法做到这一点。
+Perhaps his most memorable line: "Five years, complete world domination." When asked about his timeline for JEPA models, he borrows Linus Torvalds' joke — but unlike most AI predictions, LeCun has been right about paradigm shifts before.
 
-Ivan 还为技术创始人提供了一堂关于市场进入策略的大师课。他从第一次创业（CodeAnywhere，始于 2009 年——早了整整十五年）中学到，"市场时机"就是一切。他还学会了用户和客户之间的区别：独立开发者不愿意付费，但公司内部的开发者会使用公司信用卡。他的市场进入策略是什么？没有销售人员。一个都没有。完全是产品驱动增长，由 Twitter、线下活动（他在旧金山 Chase Center 组织了一场会议）和卓越的客户支持驱动。
+也许他最令人难忘的一句话是："五年，完全的世界统治。"当被问及 JEPA 模型的时间线时，他借用了 Linus Torvalds 的笑话——但与大多数 AI 预测不同，LeCun 在范式转变上之前就对了。
 
-最值得引用的时刻之一："我们现在正处于这个超级周期之中，而超级周期不会永远持续下去。所以，如果你在超级周期中停下来，你就是在把市场拱手让人。"
-
-关于未来，Ivan 警告说，我们可能正走向 CPU 短缺——而不仅仅是 GPU。随着强化学习训练和数百万个 agent 同时运行，对 CPU 计算的需求正在爆炸式增长。他还质疑 transformer 是否是最终状态："我其实很警惕人们认为我们现在的模型就是最终状态。可能会出现一种新型模型，它使用更少的计算资源，或者根本不使用 GPU。"
-
-https://www.youtube.com/watch?v=kMXJrzAa5fM
+https://www.youtube.com/@RedpointAI
 
 ---
 
