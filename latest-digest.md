@@ -1,139 +1,127 @@
-AI Builders Digest — May 17, 2026
+AI Builders Digest — Monday, May 18, 2026
 
-## X/Twitter
+## X / TWITTER
 
-### Swyx (swyx on X)
+**Swyx (Shawn Wang)** — AI engineer, founder of AI Engineer Summit, DX tips, Cognition, Temporal.io
 
-Swyx notes that Codex has become "completely unrecognizable from 3 months ago," praising the team's extreme founder mode. He also shares that Singapore's Head of AI Govtech estimates 1.3 billion agents in the country within 2 years and is building a national MCP gateway.
+Swyx announced that AI Engineer Summit is coming to India soon. He also joked about how some creators have better social media teams than he does, noting that a first YouTube pull outperformed his own.
 
-Swyx 指出 Codex 在三个月内已变得"完全认不出来"，称赞团队进入了极致的 founder mode。他还透露，新加坡政府 AI 负责人预计该国两年内将有 13 亿个 agent，并正在建设国家级 MCP 网关。
+https://x.com/swyx/status/2055889947136237595
 
-https://x.com/swyx/status/2055494400252481687
-https://x.com/swyx/status/2055470634331750588
+Swyx（Shawn Wang）宣布 AI Engineer Summit 即将来到印度。他还调侃说有些创作者的社交媒体团队比他的强，第一条 YouTube 视频就比他做得好。
 
-### Peter Yang (petergyang on X)
+---
 
-Peter Yang shares his experience with ChatGPT Finances, calling it "pretty awesome" but noting that AI still struggles with classifying transactions correctly. He also expresses privacy concerns about financial data being used for model training or ad targeting.
+**Peter Yang** — Product at Roblox, writes practical AI tutorials
 
-Peter Yang 分享了他使用 ChatGPT Finances 的体验，称其"相当不错"，但也指出 AI 在正确分类交易方面仍有困难。他还对财务数据被用于模型训练或广告定向表达了隐私担忧。
+Peter Yang shared a viral take urging people in the Bay Area tech rat race to travel and gain perspective: "Don't be the person to put on your tombstone: 'He got divorced and neglected his kids but at least he made D2 at FAANG.'" He also bought a promising-looking product but didn't name it.
 
-https://x.com/petergyang/status/2055450577094738018
-https://x.com/petergyang/status/2055396161910194395
+https://x.com/petergyang/status/2055663937061007762
 
-### Google Product Leader Madhu Guru
+Peter Yang 分享了一条走红的观点，呼吁湾区科技圈的"内卷族"走出去看看世界："别让你的墓碑上写着——'他离了婚、忽略了孩子，但至少做到了 FAANG 的 D2 级别。'"他还买了一个看起来很有前景的产品，但没有透露具体是什么。
 
-Madhu Guru delivers a sharp take: a generation of PMs is struggling with AI because they were trained to execute playbooks, but AI requires inventing them. He argues that for two decades, most PM work was about repurposing patterns invented by a few teams, making the work mechanical. Now, PMs need to be inventors, not framework executors — and you can't A/B test your way to a breakthrough AI product.
+---
 
-Madhu Guru 提出了一个犀利的观点：整整一代产品经理在 AI 时代步履维艰，因为他们受的训练是执行既定 playbook，而 AI 要求的是创造 playbook。过去二十年，少数团队发明产品模式，其他人只是在各个领域照搬——这让大部分 PM 工作变得机械枯燥。现在的 PM 需要成为发明者，而不是框架执行者——你无法通过 A/B 测试来打造突破性的 AI 产品。
+**Madhu Guru** — Product Lead at Google (Gemini, Veo, Nano Banana)
 
-https://x.com/realmadhuguru/status/2055414865146327088
+Madhu Guru reflected on wealth and happiness: "I have friends who made $10M+ and are miserable... Whether something is enough is up to you." He argued that Silicon Valley wrongly treats ambition and happiness as mutually exclusive, when you can be both.
 
-### Vercel CEO Guillermo Rauch
+https://x.com/realmadhuguru/status/2055708451670798839
 
-Guillermo Rauch shares that Grok CLI now supports Plugins and Skills — installing the Vercel Plugin gives Grok cloud deployment superpowers. He also introduces `vercel curl`, a tool that lets agents easily curl any URL within the Vercel ecosystem, even behind SSO. His core philosophy: "If you become exceptional at managing agents, but are also exceptional in your understanding of the fundamentals, you will be unstoppable."
+Madhu Guru 反思了财富与幸福的关系："我有朋友赚了 1000 多万美元却过得很痛苦……一件事够不够，取决于你自己。"他认为硅谷错误地把野心和快乐对立起来，而实际上两者可以兼得。
 
-Guillermo Rauch 分享了 Grok CLI 对 Plugins 和 Skills 的支持——安装 Vercel Plugin 后，Grok 就获得了云端部署的超能力。他还介绍了 `vercel curl`，让 agent 即使在 SSO 保护下也能轻松访问 Vercel 生态系统内的任何 URL。他的核心理念是："如果你既擅长管理 agent，又对基本功有深刻理解，你将势不可挡。"
+---
 
-https://x.com/rauchg/status/2055491454307582454
-https://x.com/rauchg/status/2055440326765244742
-https://x.com/rauchg/status/2055278852931530784
+**Thariq (trq212)** — Claude Code at Anthropic
 
-### Box CEO Aaron Levie
+Thariq quipped: "HTML continues to be undefeated" — a nod to the enduring simplicity and power of the web's most basic building block.
 
-Aaron Levie argues that AI is fundamentally different from software — it requires a "forward deployed engineering" model because AI capabilities and best practices evolve constantly, and underlying models change so much they can meaningfully alter workflows. He believes one vendor can share best practices across thousands of companies more efficiently than each company learning them independently. He also declares "headless software is the future."
+https://x.com/trq212/status/2055903660476129723
 
-Aaron Levie 认为 AI 从根本上不同于传统软件——它需要"前向部署工程"模式，因为 AI 的能力和最佳实践在不断演变，底层模型的变化足以显著改变工作流程。他认为一个供应商跨数千家公司分享最佳实践，比每家公司独立学习要高效得多。他还断言"headless software 是未来"。
+Thariq 调侃道："HTML 至今未尝败绩"——这是在致敬这个最基础的网页构建模块经久不衰的简洁与力量。
 
-https://x.com/levie/status/2055501840419328286
-https://x.com/levie/status/2055357619888595271
+---
 
-### Y Combinator President & CEO Garry Tan
+**Garry Tan** — President & CEO of Y Combinator
 
-Garry Tan shares his California voter guide and criticizes the "Overpaid CEO tax," arguing it doesn't actually tax overpaid CEOs, instead passing higher gross receipts taxes to consumers while reducing city revenue. He calls it bad anti-business policy.
+Garry Tan released GBrain, an open-source (MIT) knowledge system he built that gives AI agents layered memory. He contrasted it with "RAG in a box," saying it makes agents "feel clairvoyant about who you are." He also wrote a philosophical thread arguing that postmodern philosophers Foucault and Derrida have infected institutions with a "mind virus" that prevents building — and the antidote is to build things that reality judges.
 
-Garry Tan 分享了他的加州投票指南，并批评了"CEO 超额薪酬税"，认为这项税并不会真正课征到超额薪酬的 CEO 身上，反而会将更高的毛收入税转嫁给消费者，同时减少城市收入。他称这是一项糟糕的反商业政策。
+https://x.com/garrytan/status/2055670533451366479
+https://x.com/garrytan/status/2055674791873630650
 
-https://x.com/garrytan/status/2055446378596474891
-https://x.com/garrytan/status/2055384351307858390
+Garry Tan 发布了 GBrain，一个他自建的开源（MIT 协议）知识系统，能为 AI agent 提供分层记忆。他将其与"套壳 RAG"做了区分，称它能让 agent "仿佛能预知你是谁"。他还写了一篇哲学长推，认为后现代哲学家福柯和德里达的思想像"精神病毒"一样侵蚀了各类机构，使人们丧失了建设能力——而解药就是去建造那些由现实来评判的东西。
 
-### FirstMark Capital VC Matt Turck
+---
 
-Matt Turck jokingly shares some personal news: "He slid into my DMs, don't say prayers don't work y'all."
+**Zara Zhang** — Builder, Harvard '17
 
-Matt Turck 开玩笑地分享了一条个人消息："他私信我了，别说祈祷没用啊各位。"
+Zara Zhang captured the AI industry emotional rollercoaster: "AI psychosis: cycling between two mental states every single day — ↑ after using coding agents: holy shit I'm omnipotent... ↓ after scrolling twitter: holy shit I'm completely behind."
 
-https://x.com/mattturck/status/2055404881024848056
+https://x.com/zarazhangrui/status/2055728641913536762
 
-### FPV Ventures Partner Nikunj Kothari
+Zara Zhang 精准捕捉了 AI 行业从业者的情绪过山车："AI 精神分裂症：每天在两种状态间循环——↑ 用了 coding agent 后：我靠我无所不能……↓ 刷完推特后：我靠我完全落后了。"
 
-Nikunj Kothari is blown away by what Codex agents can do. He describes an agent that went through a 2,000+ line item database, fixed all product images and descriptions, used browser harness for real-time web info, used web search for fact-checking, wrote scripts for future work — and ran for 2 hours while he met founders for coffee. His verdict: "/goal is just AGI if given the right tools."
+---
 
-Nikunj Kothari 对 Codex agent 的能力感到震惊。他描述了一个 agent 遍历了 2000+ 条记录的数据库，修复了所有产品图片和描述，使用 browser harness 获取实时网络信息，用网络搜索做事实核查，为未来的工作编写脚本——这一切都在他和创始人喝咖啡的两小时内完成。他的结论是："/goal 在合适的工具下就是 AGI。"
+**Nikunj Kothari** — Partner at FPV Ventures
 
-https://x.com/nikunj/status/2055428193398780296
-https://x.com/nikunj/status/2055426430654439485
-https://x.com/nikunj/status/2055288369958289536
+Nikunj Kothari advised young people against moving into VC too early. He argued that you can't truly understand "excellence" without deep operational experience working for great founders. His advice: work at a great company first, start angel investing on the side, and only go full-time into VC if you're absolutely obsessed with the craft.
 
-### OpenClaw Creator Peter Steinberger (steipete on X)
+https://x.com/nikunj/status/2055648134819450907
 
-Peter Steinberger shares an extraordinary thread about how OpenClaw runs ~100 Codex instances in the cloud constantly — reviewing every PR and issue, de-duplicating issues, recreating complex setups, scanning for spam, verifying performance benchmarks, and even listening in on meetings to proactively start work. He launched `clawpatch` (npm install -g clawpatch), a tool that maps codebases into semantic feature slices for bug review. He also notes that Svelte is a great React alternative that Codex handles really well.
+Nikunj Kothari 建议年轻人不要太早进入风投行业。他认为，没有在优秀创始人手下深度工作的运营经验，就无法真正理解什么是"卓越"。他的建议是：先在一家好公司工作，同时做天使投资，只有当你对投资这件事痴迷到无法做其他工作时，才全职进入 VC。
 
-Peter Steinberger 分享了一条令人惊叹的推文串：OpenClaw 在云端持续运行约 100 个 Codex 实例——审查每个 PR 和 issue、去重问题、重建复杂环境、扫描垃圾信息、验证性能基准，甚至监听会议来主动启动工作。他还发布了 `clawpatch`（npm install -g clawpatch），一个将代码库映射成语义功能切片进行 bug 审查的工具。他还提到 Svelte 是一个很好的 React 替代品，Codex 对其支持得很好。
+---
 
-https://x.com/steipete/status/2055405041843052792
-https://x.com/steipete/status/2055402519841411165
-https://x.com/steipete/status/2055364630709448970
+**Peter Steinberger (steipete)** — Creator of OpenClaw, former iOS developer
 
-### Every CEO Dan Shipper
+Peter Steinberger released BlackBar 0.2.0 for Blacksmith, a menu bar CI monitoring tool. He also joked about the irresistible urge to read Hacker News comments despite knowing better. And he advised people to "deslop your Claude code" and switch to OpenAI Codex.
 
-Dan Shipper shares lessons from trying to build an agent-as-a-service platform on OpenClaw: (1) OpenClaw moves extremely fast with tons of regressions, making it very hard to build on as a platform; (2) one super agent for a company beats 1-1 agents for everyone — agents require too much technical work for regular people to maintain. He declares "Codex-native apps are the future."
+https://x.com/steipete/status/2055685581758206139
+https://x.com/steipete/status/2055747016727167035
 
-Dan Shipper 分享了在 OpenClaw 上构建 agent-as-a-service 平台的教训：(1) OpenClaw 发展极快且充满 regression，很难在其上构建平台；(2) 为整个公司打造一个超级 agent，比给每个人配一个独立的 agent 更好——agent 需要太多技术维护工作，普通人搞不定。他断言"Codex-native 应用就是未来"。
+Peter Steinberger 发布了 BlackBar 0.2.0（Blacksmith 的菜单栏 CI 监控工具）。他还自嘲说明知不该看 Hacker News 评论区但还是忍不住。他建议开发者"别再凑合着用 Claude Code 了，赶紧切换到 OpenAI Codex"。
 
-https://x.com/danshipper/status/2055451869841965154
-https://x.com/danshipper/status/2055347527457886336
+---
 
-### OpenAI CEO Sam Altman
+**Dan Shipper** — CEO of Every
 
-Sam Altman appreciates how seriously his team takes user reports, even when the answer turns out to be "I got used to the current level of magic and now I'd like more please."
+Dan Shipper made a playful analogy: "If you use a bicycle it weakens your walking abilities, too!" — pushing back on the idea that AI tools make you dumber. He also celebrated "successfully Codex-pilling the world one text at a time."
 
-Sam Altman 感谢团队对用户反馈的认真对待，即使答案往往是"我已经习惯了当前的魔法水平，现在想要更多"。
+https://x.com/danshipper/status/2055727669900141017
+https://x.com/danshipper/status/2055715359244566552
 
-https://x.com/sama/status/2055356452286640630
+Dan Shipper 打了个有趣的比方："骑自行车也会削弱你的走路能力！"——这是在反驳"用 AI 工具会让人变笨"的观点。他还庆祝自己"一条一条地成功让全世界都开始用 Codex"。
 
-## Podcasts
+---
 
-### Unsupervised Learning — Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong
+## PODCASTS
 
-**The Takeaway:** LLMs are a dead end for human-level intelligence — the future belongs to world models that can predict consequences and plan, not next-token prediction.
+**No Priors** — *Pax Silica: Inside the Trump Administration's Tech Strategy with US Under Secretary of State for Economic Affairs Jacob Helberg*
 
-**The Takeaway（核心观点）：** LLM 是实现人类级智能的死胡同——未来属于能够预测后果并进行规划的世界模型，而不是下一个 token 的预测。
+**The Takeaway:** The US government is taking a radically entrepreneurial, product-centric approach to securing the AI supply chain — treating economic security zones like startup platforms rather than traditional government infrastructure projects.
 
-Yann LeCun, Turing Award winner and godfather of modern AI, has spun out from Meta to start Ami Labs — and he's making the biggest contrarian bet of his career. His thesis is as clear as it is provocative: LLMs are great for manipulating language, but they're not a path toward human-like intelligence. "They're just not a path towards human level or human like intelligence or even animal like intelligence," he says flatly.
+Jacob Helberg, US Under Secretary of State for Economic Affairs, joined No Priors to lay out Pax Silica, a 14-country economic security coalition that just announced its first major project: a 4,000-acre "forward deployed industrial base" in the Philippines.
 
-Yann LeCun，图灵奖得主、现代 AI 教父，已从 Meta 独立出来创办了 Ami Labs——他正在下职业生涯中最大的逆势赌注。他的论点清晰而 provocative：LLM 擅长语言操作，但并非通往类人智能的道路。"它们根本不是通往人类级或类人智能甚至动物级智能的路径，"他直言不讳。
+What makes this interesting is the philosophy behind it. Helberg explicitly contrasts Pax Silica with China's Belt and Road Initiative. Where China uses state-owned enterprises to build government-operated infrastructure (often creating debt traps), the US approach is to "put our companies in the driver's seat." The goal is to build commercially viable platforms that can eventually live outside government as private services.
 
-The core problem, in LeCun's view, is that LLMs fundamentally lack two capabilities essential for intelligence: the ability to predict the consequences of their own actions, and the ability to plan through search and optimization. "LLMs do not have the ability to predict the consequences of their actions, and they do not have any planning abilities, because inference is by predicting the next token," he explains. "It's not by search."
+The Philippines zone is structured in two phases: first, the State Department takes the land into custody as diplomatic property (governed by US embassy law), then a two-year window to negotiate investor protections, tax regimes, and legal safeguards. Helberg is particularly interested in the robotics supply chain, which is currently dominated by China.
 
-在 LeCun 看来，核心问题在于 LLM 从根本上缺乏智能所必需的两项能力：预测自身行为后果的能力，以及通过搜索和优化进行规划的能力。"LLM 没有预测自身行为后果的能力，也没有任何规划能力，因为推理就是预测下一个 token，"他解释道。"不是通过搜索。"
+Helberg framed America as a "global underdog" — a nation that performs best when its back is against the wall. He sees Silicon Valley's contrarian, founder mentality as the quintessence of this American spirit. His message to builders: "You have a lot of room and potential for coming out with a rabbit out of a hat situation where we somehow end up solving this issue in a way that was completely unanticipated through innovation."
 
-His alternative is the JEPA (Joint Embedding Predictive Architecture) approach he pioneered at Meta — systems that learn representations of the world by predicting in representation space rather than generating pixels. "All of the architectures that have been successful to learn representations of images and videos are non generative architectures. And all the generative ones basically have been failures." Ami Labs, his new company, is building world models on this architecture for industrial applications — manufacturing, process control, healthcare — where understanding the physical world matters more than language manipulation.
+https://www.youtube.com/watch?v=xjlYpGaxIPA
 
-他的替代方案是他在 Meta 开创的 JEPA（联合嵌入预测架构）——系统通过在表征空间中进行预测来学习世界的表征，而不是生成像素。"所有成功学习图像和视频表征的架构都是非生成式架构。所有生成式架构基本上都失败了。"他的新公司 Ami Labs 正在基于这一架构构建世界模型，用于工业应用——制造业、过程控制、医疗健康——在这些领域，理解物理世界比操作语言更重要。
+**No Priors** — *Pax Silica：对话美国国务院经济事务副国务卿 Jacob Helberg，解读特朗普政府的科技战略*
 
-LeCun also shares the inside story of leaving Meta. Contrary to popular narrative, he had zero technical contribution to LLaMA. His role was chief AI scientist, separate from the GenAI organization that turned LLaMA into products. The tension came when Meta's entire focus shifted to LLMs after realizing they'd fallen behind. "The sad side effect is that a lot of the exploratory research was basically not given high priority anymore." His vision paper from 2022, which laid out the JEPA architecture, became the blueprint for Ami Labs — and investors were already bought in.
+**核心观点：** 美国政府正在以一种极其"创业公司式"、以产品为中心的方式来确保 AI 供应链安全——把"经济安全区"当作创业平台来运营，而不是传统的政府基建项目。
 
-LeCun 还分享了离开 Meta 的内幕。与流行的叙事相反，他对 LLaMA 的技术贡献为零。他的角色是首席 AI 科学家，与将 LLaMA 转化为产品的 GenAI 组织是分开的。矛盾出现在 Meta 意识到落后后将全部重心转向 LLM 之后。"可悲的副作用是，大量探索性研究基本上不再被给予高优先级。"他 2022 年那篇阐述 JEPA 架构的愿景论文，成为了 Ami Labs 的蓝图——而投资者早已被他说服。
+美国国务院经济事务副国务卿 Jacob Helberg 做客 No Priors，详细阐述了 Pax Silica——一个由 14 个国家组成的经济安全联盟，刚刚宣布了首个重大项目：在菲律宾建设一个 4000 英亩的"前沿部署工业基地"。
 
-On the safety debate, LeCun takes a contrarian stance even from his Turing Award co-recipients. He argues that LLMs are "intrinsically unsafe" because they can't be made reliable — "you can't stop them from hallucinating." His objective-driven AI architecture, by contrast, is safer by design because the system must satisfy constraints by construction. "The system cannot violate those things by construction. Not the case for an LLM. The LLM can always escape."
+这件事的有趣之处在于其背后的哲学。Helberg 明确将 Pax Silica 与中国的一带一路做了对比。中国用国企来建设政府运营的基础设施（常常制造债务陷阱），而美国的方式是"让我们的公司来掌舵"。目标是打造商业上可持续的平台，最终脱离政府，作为私营服务独立运营。
 
-在安全辩论中，LeCun 甚至与他的图灵奖共同得主持相反立场。他认为 LLM 是"本质上不安全的"，因为它们无法被变得可靠——"你无法阻止它们产生幻觉。"相比之下，他提出的目标驱动 AI 架构在设计上就更安全，因为系统必须通过构造来满足约束条件。"系统在构造上就无法违反这些条件。LLM 则不然。LLM 总能逃脱。"
+菲律宾园区分两个阶段：第一阶段由国务院将土地收为外交财产（适用美国大使馆法律），然后有两年的时间窗口来谈判投资者保护、税收制度和法律保障。Helberg 对机器人供应链尤其感兴趣，这个领域目前由中国主导。
 
-Perhaps his most memorable line: "Five years, complete world domination." When asked about his timeline for JEPA models, he borrows Linus Torvalds' joke — but unlike most AI predictions, LeCun has been right about paradigm shifts before.
-
-也许他最令人难忘的一句话是："五年，完全的世界统治。"当被问及 JEPA 模型的时间线时，他借用了 Linus Torvalds 的笑话——但与大多数 AI 预测不同，LeCun 在范式转变上之前就对了。
-
-https://www.youtube.com/@RedpointAI
+Helberg 将美国定位为"全球弱者"——一个在背水一战时表现最佳的国家。他认为硅谷那种逆势而行的创始人精神正是这种美国精神的精髓。他对 builders 传递的信息是："你们有很大空间和潜力来创造'帽子戏法'——通过创新，以一种完全出人意料的方式解决这个问题。"
 
 ---
 
