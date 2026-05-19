@@ -1,128 +1,153 @@
-AI Builders Digest — Monday, May 18, 2026
+AI Builders Digest — Tuesday, May 19, 2026
 
-## X / TWITTER
+## X/Twitter
 
-**Swyx (Shawn Wang)** — AI engineer, founder of AI Engineer Summit, DX tips, Cognition, Temporal.io
+**Swyx (Shawn Wang) — DX Tips, Cognition, Temporal.io, AI Engineer, Latent Space**
 
-Swyx announced that AI Engineer Summit is coming to India soon. He also joked about how some creators have better social media teams than he does, noting that a first YouTube pull outperformed his own.
+Swyx quote-tweeted about the "agentic Excel" concept, noting that it's essentially what you get when you expand the side panel to become the main interface. He also shared that some folks were doing a kaya toast breakfast in Singapore at 11am, and posted a Singapore-related quote tweet (context unclear).
 
-https://x.com/swyx/status/2055889947136237595
+https://x.com/swyx/status/2056201387172843800
 
-Swyx（Shawn Wang）宣布 AI Engineer Summit 即将来到印度。他还调侃说有些创作者的社交媒体团队比他的强，第一条 YouTube 视频就比他做得好。
-
----
-
-**Peter Yang** — Product at Roblox, writes practical AI tutorials
-
-Peter Yang shared a viral take urging people in the Bay Area tech rat race to travel and gain perspective: "Don't be the person to put on your tombstone: 'He got divorced and neglected his kids but at least he made D2 at FAANG.'" He also bought a promising-looking product but didn't name it.
-
-https://x.com/petergyang/status/2055663937061007762
-
-Peter Yang 分享了一条走红的观点，呼吁湾区科技圈的"内卷族"走出去看看世界："别让你的墓碑上写着——'他离了婚、忽略了孩子，但至少做到了 FAANG 的 D2 级别。'"他还买了一个看起来很有前景的产品，但没有透露具体是什么。
+Swyx（Shawn Wang）转推了关于"agentic Excel"的讨论，指出这本质上就是把侧边栏扩展为主界面的效果。他还在新加坡组织了一场11点的咖椰吐司早餐聚会，并发布了一条与新加坡相关的引用推文。
 
 ---
 
-**Madhu Guru** — Product Lead at Google (Gemini, Veo, Nano Banana)
+**Peter Yang — Product at Roblox**
 
-Madhu Guru reflected on wealth and happiness: "I have friends who made $10M+ and are miserable... Whether something is enough is up to you." He argued that Silicon Valley wrongly treats ambition and happiness as mutually exclusive, when you can be both.
+Peter Yang teased that it's a "big week for all my Google friends" and assured that "they've been cooking" — suggesting upcoming product announcements from Google. He also shared a thread on building evals: "Build evals based on real traces + feedback. Read actual customer conversations with your model to build product sense, and use Claude to synthesize feedback into top themes. Don't run 'eval theater' on generic academic benchmarks. As models get smarter, evals need to get harder to keep producing signal."
 
-https://x.com/realmadhuguru/status/2055708451670798839
+https://x.com/petergyang/status/2056210471917912140
+https://x.com/petergyang/status/2056178053848703019
 
-Madhu Guru 反思了财富与幸福的关系："我有朋友赚了 1000 多万美元却过得很痛苦……一件事够不够，取决于你自己。"他认为硅谷错误地把野心和快乐对立起来，而实际上两者可以兼得。
-
----
-
-**Thariq (trq212)** — Claude Code at Anthropic
-
-Thariq quipped: "HTML continues to be undefeated" — a nod to the enduring simplicity and power of the web's most basic building block.
-
-https://x.com/trq212/status/2055903660476129723
-
-Thariq 调侃道："HTML 至今未尝败绩"——这是在致敬这个最基础的网页构建模块经久不衰的简洁与力量。
+Peter Yang 透露本周对"所有谷歌朋友"来说是个大日子，暗示谷歌即将发布重要产品。他还分享了一条关于构建评估体系的建议："基于真实用户交互记录和反馈来构建评估。阅读模型与客户的实际对话来建立产品直觉，用Claude将反馈综合成核心主题。不要在通用的学术基准上搞'评估表演'。模型越聪明，评估就需要越难才能持续产生有效信号。"
 
 ---
 
-**Garry Tan** — President & CEO of Y Combinator
+**Thariq (Thariq Shihipar) — Claude Code @ Anthropic**
 
-Garry Tan released GBrain, an open-source (MIT) knowledge system he built that gives AI agents layered memory. He contrasted it with "RAG in a box," saying it makes agents "feel clairvoyant about who you are." He also wrote a philosophical thread arguing that postmodern philosophers Foucault and Derrida have infected institutions with a "mind virus" that prevents building — and the antidote is to build things that reality judges.
+"tired: I brought my work laptop and my personal laptop / wired: I am dual wielding" — a playful take on carrying two laptops at once.
 
-https://x.com/garrytan/status/2055670533451366479
-https://x.com/garrytan/status/2055674791873630650
+https://x.com/trq212/status/2056145415867937182
 
-Garry Tan 发布了 GBrain，一个他自建的开源（MIT 协议）知识系统，能为 AI agent 提供分层记忆。他将其与"套壳 RAG"做了区分，称它能让 agent "仿佛能预知你是谁"。他还写了一篇哲学长推，认为后现代哲学家福柯和德里达的思想像"精神病毒"一样侵蚀了各类机构，使人们丧失了建设能力——而解药就是去建造那些由现实来评判的东西。
-
----
-
-**Zara Zhang** — Builder, Harvard '17
-
-Zara Zhang captured the AI industry emotional rollercoaster: "AI psychosis: cycling between two mental states every single day — ↑ after using coding agents: holy shit I'm omnipotent... ↓ after scrolling twitter: holy shit I'm completely behind."
-
-https://x.com/zarazhangrui/status/2055728641913536762
-
-Zara Zhang 精准捕捉了 AI 行业从业者的情绪过山车："AI 精神分裂症：每天在两种状态间循环——↑ 用了 coding agent 后：我靠我无所不能……↓ 刷完推特后：我靠我完全落后了。"
+Thariq 调侃了同时携带工作电脑和个人电脑的场景："老套：我带了工作电脑和个人电脑 / 新潮：我在双持。"
 
 ---
 
-**Nikunj Kothari** — Partner at FPV Ventures
+**Amjad Masad — CEO @ Replit**
 
-Nikunj Kothari advised young people against moving into VC too early. He argued that you can't truly understand "excellence" without deep operational experience working for great founders. His advice: work at a great company first, start angel investing on the side, and only go full-time into VC if you're absolutely obsessed with the craft.
+Amjad Masad quote-tweeted something about "What SMBs are building," suggesting he's highlighting the types of applications small and medium businesses are creating on Replit.
 
-https://x.com/nikunj/status/2055648134819450907
+https://x.com/amasad/status/2056083305468944820
 
-Nikunj Kothari 建议年轻人不要太早进入风投行业。他认为，没有在优秀创始人手下深度工作的运营经验，就无法真正理解什么是"卓越"。他的建议是：先在一家好公司工作，同时做天使投资，只有当你对投资这件事痴迷到无法做其他工作时，才全职进入 VC。
-
----
-
-**Peter Steinberger (steipete)** — Creator of OpenClaw, former iOS developer
-
-Peter Steinberger released BlackBar 0.2.0 for Blacksmith, a menu bar CI monitoring tool. He also joked about the irresistible urge to read Hacker News comments despite knowing better. And he advised people to "deslop your Claude code" and switch to OpenAI Codex.
-
-https://x.com/steipete/status/2055685581758206139
-https://x.com/steipete/status/2055747016727167035
-
-Peter Steinberger 发布了 BlackBar 0.2.0（Blacksmith 的菜单栏 CI 监控工具）。他还自嘲说明知不该看 Hacker News 评论区但还是忍不住。他建议开发者"别再凑合着用 Claude Code 了，赶紧切换到 OpenAI Codex"。
+Amjad Masad 转推了一条关于"中小企业在构建什么"的内容，展示中小企业在Replit上创建的各类应用。
 
 ---
 
-**Dan Shipper** — CEO of Every
+**Guillermo Rauch — CEO @ Vercel**
 
-Dan Shipper made a playful analogy: "If you use a bicycle it weakens your walking abilities, too!" — pushing back on the idea that AI tools make you dumber. He also celebrated "successfully Codex-pilling the world one text at a time."
+"The ideal 🪩 doesn't exi…" — Guillermo Rauch teased something with a disco ball emoji, likely hinting at a new product or feature from Vercel.
 
-https://x.com/danshipper/status/2055727669900141017
-https://x.com/danshipper/status/2055715359244566552
+https://x.com/rauchg/status/2056201218540904667
 
-Dan Shipper 打了个有趣的比方："骑自行车也会削弱你的走路能力！"——这是在反驳"用 AI 工具会让人变笨"的观点。他还庆祝自己"一条一条地成功让全世界都开始用 Codex"。
-
----
-
-## PODCASTS
-
-**No Priors** — *Pax Silica: Inside the Trump Administration's Tech Strategy with US Under Secretary of State for Economic Affairs Jacob Helberg*
-
-**The Takeaway:** The US government is taking a radically entrepreneurial, product-centric approach to securing the AI supply chain — treating economic security zones like startup platforms rather than traditional government infrastructure projects.
-
-Jacob Helberg, US Under Secretary of State for Economic Affairs, joined No Priors to lay out Pax Silica, a 14-country economic security coalition that just announced its first major project: a 4,000-acre "forward deployed industrial base" in the Philippines.
-
-What makes this interesting is the philosophy behind it. Helberg explicitly contrasts Pax Silica with China's Belt and Road Initiative. Where China uses state-owned enterprises to build government-operated infrastructure (often creating debt traps), the US approach is to "put our companies in the driver's seat." The goal is to build commercially viable platforms that can eventually live outside government as private services.
-
-The Philippines zone is structured in two phases: first, the State Department takes the land into custody as diplomatic property (governed by US embassy law), then a two-year window to negotiate investor protections, tax regimes, and legal safeguards. Helberg is particularly interested in the robotics supply chain, which is currently dominated by China.
-
-Helberg framed America as a "global underdog" — a nation that performs best when its back is against the wall. He sees Silicon Valley's contrarian, founder mentality as the quintessence of this American spirit. His message to builders: "You have a lot of room and potential for coming out with a rabbit out of a hat situation where we somehow end up solving this issue in a way that was completely unanticipated through innovation."
-
-https://www.youtube.com/watch?v=xjlYpGaxIPA
-
-**No Priors** — *Pax Silica：对话美国国务院经济事务副国务卿 Jacob Helberg，解读特朗普政府的科技战略*
-
-**核心观点：** 美国政府正在以一种极其"创业公司式"、以产品为中心的方式来确保 AI 供应链安全——把"经济安全区"当作创业平台来运营，而不是传统的政府基建项目。
-
-美国国务院经济事务副国务卿 Jacob Helberg 做客 No Priors，详细阐述了 Pax Silica——一个由 14 个国家组成的经济安全联盟，刚刚宣布了首个重大项目：在菲律宾建设一个 4000 英亩的"前沿部署工业基地"。
-
-这件事的有趣之处在于其背后的哲学。Helberg 明确将 Pax Silica 与中国的一带一路做了对比。中国用国企来建设政府运营的基础设施（常常制造债务陷阱），而美国的方式是"让我们的公司来掌舵"。目标是打造商业上可持续的平台，最终脱离政府，作为私营服务独立运营。
-
-菲律宾园区分两个阶段：第一阶段由国务院将土地收为外交财产（适用美国大使馆法律），然后有两年的时间窗口来谈判投资者保护、税收制度和法律保障。Helberg 对机器人供应链尤其感兴趣，这个领域目前由中国主导。
-
-Helberg 将美国定位为"全球弱者"——一个在背水一战时表现最佳的国家。他认为硅谷那种逆势而行的创始人精神正是这种美国精神的精髓。他对 builders 传递的信息是："你们有很大空间和潜力来创造'帽子戏法'——通过创新，以一种完全出人意料的方式解决这个问题。"
+Guillermo Rauch 用迪斯科球表情符号发布了一条引战推文"理想的🪩不存在……"，很可能在暗示Vercel的新产品或功能。
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Aaron Levie — CEO @ Box**
+
+Aaron Levie posted a thoughtful thread on the changing landscape for CS graduates and engineers. His key argument: "Right now there's a temporary mismatch between the jobs that used to be sought after in some fields and the new jobs that are becoming in demand." He notes that as AI makes coding abundant, the types of roles engineers should consider "radically expands" — every industry needs technical talent to implement agentic systems. He also emphasizes that "the expert with AI is always going to be far more capable than the novice" and warns against bailing on learning fundamentals. "Despite some of the rhetoric in the valley that this is less important now, that couldn't be further from the case. Don't give up on going deep in your craft."
+
+https://x.com/levie/status/2056219645796090197
+https://x.com/levie/status/2056051851439857933
+
+Aaron Levie 发布了一条关于CS毕业生和工程师就业格局变化的深度推文。核心观点是："目前某些领域曾经热门的工作与新涌现的需求岗位之间存在暂时性的错配。"他指出，随着AI让编程变得充裕，工程师应该考虑的岗位类型"急剧扩大"——每个行业都需要技术人才来实施agent系统。他还强调"懂行的专家加上AI永远比新手更强"，并警告不要放弃学习基础知识。"尽管硅谷有些论调说这些现在不重要了，但事实恰恰相反。不要放弃在你领域里深入钻研。"
+
+---
+
+**Garry Tan — President & CEO @ Y Combinator**
+
+Garry Tan quote-tweeted Ken Griffin (Citadel CEO) with a contrarian take: "Ken Griffin doesn't understand the ceiling just got raised. Some 20-something maybe reading this will build the cracked AI-human-computer-symbiosis team that will supersede his whole operation because he is too distracted about lowering cost. Boil the ocean don't cut your costs." He also shared that for personal AI scenarios against his 120k markdown brain, ZeroEntropy has earned the top slot.
+
+https://x.com/garrytan/status/2056123737544757733
+https://x.com/garrytan/status/2056122508550738223
+
+Garry Tan 转推了Citadel CEO Ken Griffin的言论并给出相反观点："Ken Griffin不明白天花板已经被抬高了。某个正在读这条推文的20多岁年轻人可能会建立一支疯狂的AI-人类-计算机共生团队，超越他的整个业务，因为他太专注于降低成本了。要煮沸海洋，而不是削减成本。"他还分享说，在他的12万markdown笔记中，ZeroEntropy在个人AI场景中表现最佳。
+
+---
+
+**Matt Turck — VC @ FirstMark Capital**
+
+"When a multi-billion dollar venture fund has a $1B exit in its portfolio" — Matt Turck commented on the rarity of billion-dollar exits even for top-tier venture funds.
+
+https://x.com/mattturck/status/2056129724565373406
+
+Matt Turck 评论道："当一个数十亿美元的VC基金在其投资组合中有一个10亿美元退出时"——指出即使对于顶级风投基金来说，十亿美元级别的退出也相当罕见。
+
+---
+
+**Zara Zhang — Builder, Harvard '17**
+
+"People consistently overestimate how hard it is to build something and underestimate how hard it is to win people's attention once you've built it" — a sharp observation on the asymmetry between building and distribution.
+
+https://x.com/zarazhangrui/status/2056132881630826952
+
+Zara Zhang 提出了一个尖锐的观察："人们总是高估构建一个产品的难度，而低估了产品建好后赢得用户注意力的难度。"
+
+---
+
+**Nikunj Kothari — Partner @ FPV Ventures**
+
+Nikunj Kothari shared a detailed warning for employees joining recently minted unicorn companies. He highlights a "triple whammy": (1) tranched valuations mean employee strike prices are often >2x the lead investor's preferred price, (2) high strike prices and 409a valuations make early exercise expensive, and (3) stock packages look great "on paper" but are massively inflated. His advice: "Make sure you go with wide eyes and use Claude/ChatGPT to do some exit math on your equity." He also shared a playful Claude Code command: `claude --dangerously-skip-permissions /goal improve the codebase for performance and add a bit of aura`.
+
+https://x.com/nikunj/status/2056125669466333672
+https://x.com/nikunj/status/2056014576215601431
+
+Nikunj Kothari 详细警告了加入新晋独角兽公司的员工面临的问题。他指出"三重打击"：(1) 分期估值意味着员工的行权价通常是领投方优先股价格的2倍以上；(2) 高行权价和高409a估值使得早期行权成本高昂；(3) 股票包"纸面上"看起来很好但实际上被严重高估。他的建议是："睁大眼睛，用Claude/ChatGPT对你的股权做一些退出数学计算。"他还分享了一个有趣的Claude Code命令：`claude --dangerously-skip-permissions /goal improve the codebase for performance and add a bit of aura`。
+
+---
+
+**Aditya Agarwal — GP @ South Park Commons, Co-Founder @ Bevel Health**
+
+"On Friday I used AI to write a lot of code. And then on Saturday I watched humans play sports (FA Cup Final) and dance (my kid's dance recital). I am not worried that we won't have meaning and purpose." — A grounded perspective on AI and human purpose.
+
+https://x.com/adityaag/status/2056015684145127612
+
+Aditya Agarwal 给出了一个接地气的视角："周五我用AI写了很多代码。周六我看了人类踢足球（足总杯决赛）和跳舞（我孩子的舞蹈汇演）。我不担心我们会失去意义和目的。"
+
+---
+
+**Sam Altman — CEO @ OpenAI**
+
+"ChatGPT Images 2.0 💚 India. Already more than 1 billion images created there; awesome to see." — Sam Altman highlighted the massive adoption of ChatGPT's image generation in India.
+
+https://x.com/sama/status/2056165722804654196
+
+Sam Altman 强调了ChatGPT图像生成在印度的巨大采用："ChatGPT Images 2.0 💚 印度。已经在印度创建了超过10亿张图像；太棒了。"
+
+---
+
+## Podcasts
+
+### AI & I by Every — Claude Code Can Be Your Second Brain
+
+**The Takeaway:** Claude Code running on top of an Obsidian vault, accessed from a phone via a home server, is the most powerful "second brain" setup available today — and it fundamentally changes where and how deep work can happen.
+
+Noah Breyer (founder of Alethic, an AI strategy consultancy, and former co-founder of Percolate) shares his deeply personal setup for using Claude Code as a thinking partner and note-taking system. His approach is refreshingly counterintuitive: he uses Claude Code primarily *not* for coding, but for thinking, researching, and writing.
+
+The core of his system is simple but powerful. He keeps his entire Obsidian vault (a collection of markdown files synced with Git) as a directory, and runs Claude Code from the root — giving it access to all 1,500+ notes he's accumulated. When starting a new project (like an upcoming talk on "Transformers Eating the World"), he tells Claude Code to search his entire archive for relevant material, pull it into a project folder, and then act as a "thinking partner" — asking questions and helping him connect ideas, *without* trying to write anything. "I think partially because we call it generative, there's entirely too much focus on its ability to write and not enough focus on its ability to read," he says. "Its ability to read is incredible, and arguably much more useful on a day-to-day basis."
+
+The most remarkable part: he set up a mini PC in his basement with Tailscale VPN, allowing him to SSH into it from his phone using Termius. This means he can do deep research, writing, and even push code fixes while sitting by a pond or having breakfast after dropping his kids off. "I literally sat on my phone and worked on this talk for two hours," he says. "That would not have been possible without this setup."
+
+He also shares a powerful perspective on parenting and AI. His 10-year-old built a Secret Santa app using v0 (75 iterations!), and he argues that "if there's a tool that can allow a 10-year-old to build an app, there can't be a bubble." On education, he believes the real job of teachers is to "convince kids that it's worth learning to write" — not just to teach writing mechanics. His recommended book: *The Truth Detective* by Tim Harford, for building media literacy skills that translate directly to working with AI.
+
+https://www.youtube.com/watch?v=in7i-EVDDlk
+
+**核心收获：** 在Obsidian笔记库上运行Claude Code，通过家庭服务器从手机访问——这是目前最强大的"第二大脑"设置，它从根本上改变了深度工作可以在哪里以及如何发生。
+
+Noah Breyer（AI战略咨询公司Alethic创始人，前Percolate联合创始人）分享了他将Claude Code作为思考伙伴和笔记系统的个人设置。他的方法令人耳目一新：他主要不是用Claude Code来写代码，而是用来思考、研究和写作。
+
+他的系统核心简单但强大。他将整个Obsidian笔记库（一个用Git同步的markdown文件集合）作为一个目录，从根目录运行Claude Code——让它能访问所有1500多条笔记。在开始一个新项目时（比如即将发表的关于"Transformer吞噬世界"的演讲），他让Claude Code搜索整个笔记库中的相关材料，拉入项目文件夹，然后充当"思考伙伴"——提问并帮助他连接想法，但*不*尝试写任何东西。他说："我认为部分原因是我们称之为'生成式'，导致我们过于关注它的写作能力，而忽视了它的阅读能力。它的阅读能力令人难以置信，在日常使用中可以说更有用。"
+
+最引人注目的部分：他在地下室设置了一台迷你PC，安装了Tailscale VPN，这样他就可以用Termius从手机SSH连接到它。这意味着他可以在池塘边坐着，或者送孩子上学后吃早餐时，进行深度研究、写作甚至推送代码修复。"我坐在手机上花了两个小时准备这个演讲，"他说。"没有这个设置，这是不可能的。"
+
+他还分享了对育儿和AI的深刻见解。他10岁的女儿用v0构建了一个"秘密圣诞老人"应用（迭代了75次！），他认为"如果有一个工具能让10岁的孩子构建一个应用，那就不可能是泡沫。"在教育方面，他认为教师的真正工作是"说服孩子学习写作是值得的"——而不仅仅是教授写作技巧。他推荐的书是Tim Harford的《真相侦探》，用于培养直接适用于与AI协作的媒体素养技能。
