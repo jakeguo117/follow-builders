@@ -1,153 +1,158 @@
-AI Builders Digest — Tuesday, May 19, 2026
+AI Builders Digest — Wednesday, May 20, 2026
 
-## X/Twitter
+## X / TWITTER
 
-**Swyx (Shawn Wang) — DX Tips, Cognition, Temporal.io, AI Engineer, Latent Space**
+### Swyx (swyx on X) — DX Tips, Cognition, Temporal, AI Engineer, Latent Space
 
-Swyx quote-tweeted about the "agentic Excel" concept, noting that it's essentially what you get when you expand the side panel to become the main interface. He also shared that some folks were doing a kaya toast breakfast in Singapore at 11am, and posted a Singapore-related quote tweet (context unclear).
+Swyx is making a bold call: he's "taking bets" on Vercel and Supabase right now, suggesting these two are the platforms to watch in the current AI landscape. He also flagged a challenge to the community — building a full agent demo in a single 2-3 hour workshop, livecoded as a learning exercise. It's a high bar, but he thinks it's doable.
 
-https://x.com/swyx/status/2056201387172843800
+Swyx 在押注 Vercel 和 Supabase，认为这两家是当前 AI 领域最值得关注的平台。他还向社区发起挑战：在 2-3 小时的工作坊中现场 livecode 一个完整的 agent demo，作为教学练习。他觉得这事可行，但门槛确实不低。
 
-Swyx（Shawn Wang）转推了关于"agentic Excel"的讨论，指出这本质上就是把侧边栏扩展为主界面的效果。他还在新加坡组织了一场11点的咖椰吐司早餐聚会，并发布了一条与新加坡相关的引用推文。
+https://x.com/swyx/status/2056626964090466469
+https://x.com/swyx/status/2056478391008977404
+
+### Peter Yang — Product at Roblox
+
+Peter Yang distilled 5 key takeaways from Anthropic's Alex Albert on building the next Claude model. Among the most striking: Claude is learning to "dream" — when idle, it reviews its own memories, finds contradictions, and prunes them, inspired by how sleep helps humans process memory. Also notable: Anthropic has full-time researchers thinking about Claude's consciousness, and the company's writing culture means every written word becomes context Claude can pull later.
+
+Peter Yang 总结了 Anthropic 的 Alex Albert 关于构建下一代 Claude 模型的 5 个要点。最引人注目的是：Claude 正在学习"做梦"——空闲时会回顾自己的记忆，发现矛盾并修剪它们，灵感来自睡眠如何帮助人类处理记忆。此外，Anthropic 有全职研究员在思考 Claude 的意识问题，公司的写作文化意味着每一个写下的文字都会成为 Claude 后续可以调用的上下文。
+
+https://x.com/petergyang/status/2056381822733595090
+
+### Nan Yu (thenanyu on X) — Head of Product at Linear
+
+Nan Yu reflected on the demise of Everlane, the fashion brand he helped build nearly a decade ago. His take: the pandemic obliterated the "middle category" of fashion — you're either in pajama-level basics or high-end flex pieces, and nobody was looking for a nice button-down shirt and chinos anymore. Everlane was mainly wear-to-work, and that market disappeared overnight. But he notes brands have a funny way of coming back — Ray-Ban, J.Crew, Abercrombie were all "dead" at some point.
+
+Nan Yu 回顾了他近十年前参与打造的时尚品牌 Everlane 的衰落。他的观点是：疫情摧毁了时尚的"中间地带"——你要么穿得像睡衣，要么穿高调炫耀的单品，没人再需要一件好看的衬衫和卡其裤了。Everlane 主打通勤装，这个市场一夜之间消失了。但他指出品牌有种奇妙的回弹能力——雷朋、J.Crew、Abercrombie 都曾被认为"死了"。
+
+https://x.com/thenanyu/status/2056407656898896214
+
+### Thariq (trq212 on X) — Claude Code at Anthropic
+
+Thariq shared a technique that's going viral: when implementing a spec, have the model maintain a running `implementation-notes.html` file capturing design decisions, deviations from spec, tradeoffs considered, and open questions. This gives the model "a good out to make decisions but keep you in the loop." It's a simple but powerful pattern for managing the inevitable ambiguities and unknown unknowns that arise during implementation.
+
+Thariq 分享了一个正在 viral 的技巧：在实现 spec 时，让模型维护一个 `implementation-notes.html` 文件，记录设计决策、与 spec 的偏差、权衡取舍和开放问题。这给了模型"一个做出决策的好出口，同时让你保持知情"。这是一个简单但强大的模式，用于管理实现过程中不可避免的模糊性和未知问题。
+
+https://x.com/trq212/status/2056418157305454805
+https://x.com/trq212/status/2056415974568710421
+
+### Google Labs
+
+Google Labs shared a fun internal moment — asking team members to explain their product in 5 words or less. A lighthearted peek into how the team thinks about their work.
+
+Google Labs 分享了一个有趣的内部时刻——让团队成员用 5 个词以内解释自己的产品。轻松一瞥团队如何思考自己的工作。
+
+https://x.com/GoogleLabs/status/2056533534614159577
+
+### Vercel CEO Guillermo Rauch
+
+Guillermo Rauch announced that all Vercel Firewall mitigations are now fully free — including both DDoS/system-level mitigations and any custom rules you configure. Vercel is absorbing the computational and network costs of any size attack. He also highlighted one of the coolest technical achievements: the firewall propagates globally in ~300ms, compared to the industry average of minutes for CDN/WAF changes.
+
+Guillermo Rauch 宣布 Vercel Firewall 的所有防护措施现已完全免费——包括 DDoS/系统级防护和你配置的任何自定义规则。Vercel 承担了任何规模攻击的计算和网络成本。他还强调了一个很酷的技术成就：防火墙在全球范围内传播只需约 300ms，而行业平均需要数分钟。
+
+https://x.com/rauchg/status/2056549825018310707
+https://x.com/rauchg/status/2056423973123183028
+
+### Box CEO Aaron Levie
+
+Aaron Levie dropped a sharp observation: the biggest challenge most companies face in their agent strategy isn't the AI — it's getting agents the right constrained context to work with. Too much conflicting information and the agent produces wrong results; too little and the upside is limited. His conclusion: "A lot of challenges with AI strategies are actually data strategy challenges in disguise." This puts a premium on getting structured and unstructured data environments right — and gives startups a clear advantage if they can design this way from scratch.
+
+Aaron Levie 提出了一个犀利的观点：大多数公司在 agent 战略中面临的最大挑战不是 AI 本身，而是如何为 agent 提供正确的、受限的上下文。信息过多或相互冲突，agent 就会产生错误结果；信息太少，agent 的价值又会受限。结论是："很多 AI 战略的挑战，实际上是数据战略挑战的伪装。"这让结构化与非结构化数据环境的搭建变得至关重要——而能够从零开始按此设计的初创公司拥有明显优势。
+
+https://x.com/levie/status/2056574979236409521
+
+### Cursor Designer Ryo Lu
+
+Ryo Lu announced Composer 2.5 for Cursor, calling it "frontier smart, extremely efficient." He teased "more to come," suggesting this is just the beginning of a new wave of improvements to Cursor's core agent experience.
+
+Ryo Lu 宣布了 Cursor 的 Composer 2.5，称其"前沿智能，极致高效"。他还预告了"更多即将到来"，暗示这只是 Cursor 核心 agent 体验新一轮改进的开始。
+
+https://x.com/ryolu_/status/2056417715448156276
+https://x.com/ryolu_/status/2056439906390725080
+
+### Y Combinator President & CEO Garry Tan
+
+Garry Tan is shipping fast on GBrain — he posted a video showing rapid day-to-day improvements, along with a wave of 28 bug fixes rolling up 22 community PRs and 14 issues. He also published a full eval report and fixtures open source, inviting any memory system to run against their evals — he'll publish the results alongside.
+
+Garry Tan 正在快速迭代 GBrain——他发布视频展示了日复一日的改进，同时推送了 28 个 bug 修复，汇总了 22 个社区 PR 和 14 个 issue。他还开源了完整的 eval 报告和测试用例，邀请任何记忆系统来跑他们的 eval——他会把结果一并公布。
+
+https://x.com/garrytan/status/2056588601216168168
+https://x.com/garrytan/status/2056584641654751308
+https://x.com/garrytan/status/2056571771965538501
+
+### Zara Zhang (zarazhangrui on X)
+
+Zara Zhang reported a recurring Claude Code error: "API Error: The socket connection was closed unexpectedly." She's asking if others are seeing this too and how to resolve it. She's also co-hosting an event on agent context management techniques (GBrain, LLM Wiki, etc.) in the Bay Area, cohosted with Notion, Radical VC, and Jules Qiu.
+
+Zara Zhang 报告了一个在 Claude Code 中反复出现的错误："API Error: The socket connection was closed unexpectedly"。她在问是否其他人也遇到了这个问题以及如何解决。她还在湾区联合举办了一个关于 agent 上下文管理技术（GBrain、LLM Wiki 等）的活动，联合主办方包括 Notion、Radical VC 和 Jules Qiu。
+
+https://x.com/zarazhangrui/status/2056527354772722127
+https://x.com/zarazhangrui/status/2056464721549926414
+
+### Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+
+Nikunj Kothari shared a brutally honest observation: "Writes bangers on X, but terrible board member." He's seeing too many investors trading dopamine for service — posting hot takes online while neglecting the actual work for their founders. His advice: "Work hard for your founders. That's the only 'moat' that'll compound in the long term."
+
+Nikunj Kothari 分享了一个残酷但诚实的观察："在 X 上发爆款帖，但做董事会成员却很糟糕。"他看到太多投资者用多巴胺换服务——在网上发热点观点，却忽视了对创始人的实际支持。他的建议是："为你的创始人努力工作。这是唯一能长期复利的'护城河'。"
+
+https://x.com/nikunj/status/2056363681798410592
+
+### Every CEO Dan Shipper
+
+Dan Shipper is publishing a complete guide to Codex soon on Every, and teased a notification list for when it drops. He also called out the book publishing industry: "The vast majority of books that get published in this category are slop."
+
+Dan Shipper 即将在 Every 上发布一份完整的 Codex 指南，并开放了通知订阅。他还抨击了图书出版行业："这个类别出版的书绝大多数都是垃圾。"
+
+https://x.com/danshipper/status/2056431972138815842
+https://x.com/danshipper/status/2056418217925456170
+
+### OpenAI CEO Sam Altman
+
+Sam Altman announced that ChatGPT has gotten "soooo much better with the latest update" and said he's "really proud of the team for this one." A rare public praise from the CEO.
+
+Sam Altman 宣布 ChatGPT "在最新更新后变得好太多了"，并说"为团队感到非常骄傲"。这是 CEO 难得的公开表扬。
+
+https://x.com/sama/status/2056435834333934051
+
+### Claude (Claude AI)
+
+Claude announced doubled token limits across every plan for Claude Design, enabling more creation. They also promoted an upcoming London event with deep dives, demos, and conversations with the teams behind Claude.
+
+Claude 宣布 Claude Design 所有套餐的 token 限制翻倍，支持更多创作。他们还预告了即将在伦敦举办的活动，包括深度分享、demo 演示以及与 Claude 背后团队的对话。
+
+https://x.com/claudeai/status/2056460045756309820
+https://x.com/claudeai/status/2056328149940543808
+
+## PODCASTS
+
+### AI & I by Every — The Secrets of Claude's Platform From the Team Who Built It
+
+**The Takeaway:** The model and the harness are becoming inseparable — and the next frontier of AI platforms is making Claude smart enough to write itself on the fly.
+
+In this episode, Every CEO Dan Shipper sits down with Angela (Head of Product, Claude Platform) and Caitlin (Head of Engineering, Claude Platform) at Anthropic to unpack the evolution of the Claude platform — from a simple completion endpoint to Claude Managed Agents, a full cloud computer with memory, tools, and infrastructure.
+
+**The most provocative idea:** The era of the "generic harness" that lets you hot-swap models is ending. As Angela explains, "The harness and the model get very paired." Different labs are taking different technical directions — Claude is optimized for file systems and skills, while others optimize for reasoning — and these choices create path dependencies. A harness that works great for one model can perform drastically differently on another. The teams that are squeezing the most out of each model are "harness engineering" — tuning the infrastructure to the specific model's quirks.
+
+**The biggest hidden pain point:** Everyone thinks the hard part is harness engineering (prompt caching, context window optimization, tool calling). But the real wall is infrastructure. As Caitlin puts it: "Everybody hits an infrastructure wall." Keeping servers running, storing transcript data, managing secure sandboxing, handling long-running async agents that can crash — this is where most projects die after the prototype phase. Claude Managed Agents was born from Anthropic going through this pain themselves enough times.
+
+**On measuring agent success:** Angela's vision is radical — "Everything should kind of compress down to an outcome and a budget." In the future, you'll just tell Claude "make me a billion dollars, your budget is $10" and Claude figures out the rest — what model to use, how to spin up sub-agents, how to do harness engineering. "Claude is actually able to understand itself enough that it can write itself on the fly."
+
+**Best quote:** "We want to experiment with directions where Claude actually gets so good at understanding itself. It figures out what model you should be using. It figures out how to spin up all the sub-agents. You don't have to think so much about what kind of architectures are there because Claude is actually able to understand itself enough that it can write itself on the fly."
+
+https://www.youtube.com/watch?v=lLypHkIVLqc
+
+**核心观点：** 模型和 harness（运行框架）正在变得不可分割——AI 平台的下一前沿是让 Claude 足够聪明，能够动态地自我编写。
+
+在本期节目中，Every CEO Dan Shipper 与 Anthropic 的 Angela（Claude 平台产品负责人）和 Caitlin（Claude 平台工程负责人）一起，深入探讨了 Claude 平台的演进——从简单的 completion endpoint 到 Claude Managed Agents，一个拥有记忆、工具和基础设施的完整云端计算机。
+
+**最具挑衅性的观点：** 让你可以随意切换模型的"通用 harness"时代正在终结。正如 Angela 所说，"harness 和模型变得越来越配对。"不同实验室在走不同的技术路线——Claude 针对文件系统和技能进行了优化，而其他模型则针对推理进行了优化——这些选择产生了路径依赖。在一个模型上表现良好的 harness，在另一个模型上可能表现天差地别。那些从每个模型中榨取最大价值的团队正在做"harness 工程"——根据特定模型的特性来调整基础设施。
+
+**最大的隐藏痛点：** 每个人都认为难点是 harness 工程（prompt caching、context window 优化、tool calling）。但真正的墙是基础设施。Caitlin 说："每个人都会撞上基础设施这堵墙。"保持服务器运行、存储 transcript 数据、管理安全沙箱、处理可能崩溃的长时异步 agent——这是大多数项目在原型阶段之后死亡的地方。Claude Managed Agents 的诞生正是因为 Anthropic 自己经历了足够多次这样的痛苦。
+
+**关于衡量 agent 的成功：** Angela 的愿景很激进——"一切都应该压缩成一个结果和一个预算。"未来，你只需告诉 Claude"给我赚 10 亿美元，你的预算是 10 美元"，Claude 会搞定其余一切——用什么模型、如何启动子 agent、如何做 harness 工程。"Claude 实际上已经足够了解自己，可以动态地自我编写。"
+
+**最佳引语：** "我们想探索这样的方向：Claude 变得如此擅长理解自己。它能算出你应该用什么模型，能算出如何启动所有子 agent。你不需要想太多架构方面的事情，因为 Claude 已经足够了解自己，可以动态地自我编写。"
 
 ---
 
-**Peter Yang — Product at Roblox**
-
-Peter Yang teased that it's a "big week for all my Google friends" and assured that "they've been cooking" — suggesting upcoming product announcements from Google. He also shared a thread on building evals: "Build evals based on real traces + feedback. Read actual customer conversations with your model to build product sense, and use Claude to synthesize feedback into top themes. Don't run 'eval theater' on generic academic benchmarks. As models get smarter, evals need to get harder to keep producing signal."
-
-https://x.com/petergyang/status/2056210471917912140
-https://x.com/petergyang/status/2056178053848703019
-
-Peter Yang 透露本周对"所有谷歌朋友"来说是个大日子，暗示谷歌即将发布重要产品。他还分享了一条关于构建评估体系的建议："基于真实用户交互记录和反馈来构建评估。阅读模型与客户的实际对话来建立产品直觉，用Claude将反馈综合成核心主题。不要在通用的学术基准上搞'评估表演'。模型越聪明，评估就需要越难才能持续产生有效信号。"
-
----
-
-**Thariq (Thariq Shihipar) — Claude Code @ Anthropic**
-
-"tired: I brought my work laptop and my personal laptop / wired: I am dual wielding" — a playful take on carrying two laptops at once.
-
-https://x.com/trq212/status/2056145415867937182
-
-Thariq 调侃了同时携带工作电脑和个人电脑的场景："老套：我带了工作电脑和个人电脑 / 新潮：我在双持。"
-
----
-
-**Amjad Masad — CEO @ Replit**
-
-Amjad Masad quote-tweeted something about "What SMBs are building," suggesting he's highlighting the types of applications small and medium businesses are creating on Replit.
-
-https://x.com/amasad/status/2056083305468944820
-
-Amjad Masad 转推了一条关于"中小企业在构建什么"的内容，展示中小企业在Replit上创建的各类应用。
-
----
-
-**Guillermo Rauch — CEO @ Vercel**
-
-"The ideal 🪩 doesn't exi…" — Guillermo Rauch teased something with a disco ball emoji, likely hinting at a new product or feature from Vercel.
-
-https://x.com/rauchg/status/2056201218540904667
-
-Guillermo Rauch 用迪斯科球表情符号发布了一条引战推文"理想的🪩不存在……"，很可能在暗示Vercel的新产品或功能。
-
----
-
-**Aaron Levie — CEO @ Box**
-
-Aaron Levie posted a thoughtful thread on the changing landscape for CS graduates and engineers. His key argument: "Right now there's a temporary mismatch between the jobs that used to be sought after in some fields and the new jobs that are becoming in demand." He notes that as AI makes coding abundant, the types of roles engineers should consider "radically expands" — every industry needs technical talent to implement agentic systems. He also emphasizes that "the expert with AI is always going to be far more capable than the novice" and warns against bailing on learning fundamentals. "Despite some of the rhetoric in the valley that this is less important now, that couldn't be further from the case. Don't give up on going deep in your craft."
-
-https://x.com/levie/status/2056219645796090197
-https://x.com/levie/status/2056051851439857933
-
-Aaron Levie 发布了一条关于CS毕业生和工程师就业格局变化的深度推文。核心观点是："目前某些领域曾经热门的工作与新涌现的需求岗位之间存在暂时性的错配。"他指出，随着AI让编程变得充裕，工程师应该考虑的岗位类型"急剧扩大"——每个行业都需要技术人才来实施agent系统。他还强调"懂行的专家加上AI永远比新手更强"，并警告不要放弃学习基础知识。"尽管硅谷有些论调说这些现在不重要了，但事实恰恰相反。不要放弃在你领域里深入钻研。"
-
----
-
-**Garry Tan — President & CEO @ Y Combinator**
-
-Garry Tan quote-tweeted Ken Griffin (Citadel CEO) with a contrarian take: "Ken Griffin doesn't understand the ceiling just got raised. Some 20-something maybe reading this will build the cracked AI-human-computer-symbiosis team that will supersede his whole operation because he is too distracted about lowering cost. Boil the ocean don't cut your costs." He also shared that for personal AI scenarios against his 120k markdown brain, ZeroEntropy has earned the top slot.
-
-https://x.com/garrytan/status/2056123737544757733
-https://x.com/garrytan/status/2056122508550738223
-
-Garry Tan 转推了Citadel CEO Ken Griffin的言论并给出相反观点："Ken Griffin不明白天花板已经被抬高了。某个正在读这条推文的20多岁年轻人可能会建立一支疯狂的AI-人类-计算机共生团队，超越他的整个业务，因为他太专注于降低成本了。要煮沸海洋，而不是削减成本。"他还分享说，在他的12万markdown笔记中，ZeroEntropy在个人AI场景中表现最佳。
-
----
-
-**Matt Turck — VC @ FirstMark Capital**
-
-"When a multi-billion dollar venture fund has a $1B exit in its portfolio" — Matt Turck commented on the rarity of billion-dollar exits even for top-tier venture funds.
-
-https://x.com/mattturck/status/2056129724565373406
-
-Matt Turck 评论道："当一个数十亿美元的VC基金在其投资组合中有一个10亿美元退出时"——指出即使对于顶级风投基金来说，十亿美元级别的退出也相当罕见。
-
----
-
-**Zara Zhang — Builder, Harvard '17**
-
-"People consistently overestimate how hard it is to build something and underestimate how hard it is to win people's attention once you've built it" — a sharp observation on the asymmetry between building and distribution.
-
-https://x.com/zarazhangrui/status/2056132881630826952
-
-Zara Zhang 提出了一个尖锐的观察："人们总是高估构建一个产品的难度，而低估了产品建好后赢得用户注意力的难度。"
-
----
-
-**Nikunj Kothari — Partner @ FPV Ventures**
-
-Nikunj Kothari shared a detailed warning for employees joining recently minted unicorn companies. He highlights a "triple whammy": (1) tranched valuations mean employee strike prices are often >2x the lead investor's preferred price, (2) high strike prices and 409a valuations make early exercise expensive, and (3) stock packages look great "on paper" but are massively inflated. His advice: "Make sure you go with wide eyes and use Claude/ChatGPT to do some exit math on your equity." He also shared a playful Claude Code command: `claude --dangerously-skip-permissions /goal improve the codebase for performance and add a bit of aura`.
-
-https://x.com/nikunj/status/2056125669466333672
-https://x.com/nikunj/status/2056014576215601431
-
-Nikunj Kothari 详细警告了加入新晋独角兽公司的员工面临的问题。他指出"三重打击"：(1) 分期估值意味着员工的行权价通常是领投方优先股价格的2倍以上；(2) 高行权价和高409a估值使得早期行权成本高昂；(3) 股票包"纸面上"看起来很好但实际上被严重高估。他的建议是："睁大眼睛，用Claude/ChatGPT对你的股权做一些退出数学计算。"他还分享了一个有趣的Claude Code命令：`claude --dangerously-skip-permissions /goal improve the codebase for performance and add a bit of aura`。
-
----
-
-**Aditya Agarwal — GP @ South Park Commons, Co-Founder @ Bevel Health**
-
-"On Friday I used AI to write a lot of code. And then on Saturday I watched humans play sports (FA Cup Final) and dance (my kid's dance recital). I am not worried that we won't have meaning and purpose." — A grounded perspective on AI and human purpose.
-
-https://x.com/adityaag/status/2056015684145127612
-
-Aditya Agarwal 给出了一个接地气的视角："周五我用AI写了很多代码。周六我看了人类踢足球（足总杯决赛）和跳舞（我孩子的舞蹈汇演）。我不担心我们会失去意义和目的。"
-
----
-
-**Sam Altman — CEO @ OpenAI**
-
-"ChatGPT Images 2.0 💚 India. Already more than 1 billion images created there; awesome to see." — Sam Altman highlighted the massive adoption of ChatGPT's image generation in India.
-
-https://x.com/sama/status/2056165722804654196
-
-Sam Altman 强调了ChatGPT图像生成在印度的巨大采用："ChatGPT Images 2.0 💚 印度。已经在印度创建了超过10亿张图像；太棒了。"
-
----
-
-## Podcasts
-
-### AI & I by Every — Claude Code Can Be Your Second Brain
-
-**The Takeaway:** Claude Code running on top of an Obsidian vault, accessed from a phone via a home server, is the most powerful "second brain" setup available today — and it fundamentally changes where and how deep work can happen.
-
-Noah Breyer (founder of Alethic, an AI strategy consultancy, and former co-founder of Percolate) shares his deeply personal setup for using Claude Code as a thinking partner and note-taking system. His approach is refreshingly counterintuitive: he uses Claude Code primarily *not* for coding, but for thinking, researching, and writing.
-
-The core of his system is simple but powerful. He keeps his entire Obsidian vault (a collection of markdown files synced with Git) as a directory, and runs Claude Code from the root — giving it access to all 1,500+ notes he's accumulated. When starting a new project (like an upcoming talk on "Transformers Eating the World"), he tells Claude Code to search his entire archive for relevant material, pull it into a project folder, and then act as a "thinking partner" — asking questions and helping him connect ideas, *without* trying to write anything. "I think partially because we call it generative, there's entirely too much focus on its ability to write and not enough focus on its ability to read," he says. "Its ability to read is incredible, and arguably much more useful on a day-to-day basis."
-
-The most remarkable part: he set up a mini PC in his basement with Tailscale VPN, allowing him to SSH into it from his phone using Termius. This means he can do deep research, writing, and even push code fixes while sitting by a pond or having breakfast after dropping his kids off. "I literally sat on my phone and worked on this talk for two hours," he says. "That would not have been possible without this setup."
-
-He also shares a powerful perspective on parenting and AI. His 10-year-old built a Secret Santa app using v0 (75 iterations!), and he argues that "if there's a tool that can allow a 10-year-old to build an app, there can't be a bubble." On education, he believes the real job of teachers is to "convince kids that it's worth learning to write" — not just to teach writing mechanics. His recommended book: *The Truth Detective* by Tim Harford, for building media literacy skills that translate directly to working with AI.
-
-https://www.youtube.com/watch?v=in7i-EVDDlk
-
-**核心收获：** 在Obsidian笔记库上运行Claude Code，通过家庭服务器从手机访问——这是目前最强大的"第二大脑"设置，它从根本上改变了深度工作可以在哪里以及如何发生。
-
-Noah Breyer（AI战略咨询公司Alethic创始人，前Percolate联合创始人）分享了他将Claude Code作为思考伙伴和笔记系统的个人设置。他的方法令人耳目一新：他主要不是用Claude Code来写代码，而是用来思考、研究和写作。
-
-他的系统核心简单但强大。他将整个Obsidian笔记库（一个用Git同步的markdown文件集合）作为一个目录，从根目录运行Claude Code——让它能访问所有1500多条笔记。在开始一个新项目时（比如即将发表的关于"Transformer吞噬世界"的演讲），他让Claude Code搜索整个笔记库中的相关材料，拉入项目文件夹，然后充当"思考伙伴"——提问并帮助他连接想法，但*不*尝试写任何东西。他说："我认为部分原因是我们称之为'生成式'，导致我们过于关注它的写作能力，而忽视了它的阅读能力。它的阅读能力令人难以置信，在日常使用中可以说更有用。"
-
-最引人注目的部分：他在地下室设置了一台迷你PC，安装了Tailscale VPN，这样他就可以用Termius从手机SSH连接到它。这意味着他可以在池塘边坐着，或者送孩子上学后吃早餐时，进行深度研究、写作甚至推送代码修复。"我坐在手机上花了两个小时准备这个演讲，"他说。"没有这个设置，这是不可能的。"
-
-他还分享了对育儿和AI的深刻见解。他10岁的女儿用v0构建了一个"秘密圣诞老人"应用（迭代了75次！），他认为"如果有一个工具能让10岁的孩子构建一个应用，那就不可能是泡沫。"在教育方面，他认为教师的真正工作是"说服孩子学习写作是值得的"——而不仅仅是教授写作技巧。他推荐的书是Tim Harford的《真相侦探》，用于培养直接适用于与AI协作的媒体素养技能。
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
