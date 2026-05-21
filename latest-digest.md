@@ -1,158 +1,187 @@
-AI Builders Digest — Wednesday, May 20, 2026
+AI Builders Digest — May 21, 2026
 
 ## X / TWITTER
 
-### Swyx (swyx on X) — DX Tips, Cognition, Temporal, AI Engineer, Latent Space
+### Andrej Karpathy (formerly Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford)
 
-Swyx is making a bold call: he's "taking bets" on Vercel and Supabase right now, suggesting these two are the platforms to watch in the current AI landscape. He also flagged a challenge to the community — building a full agent demo in a single 2-3 hour workshop, livecoded as a learning exercise. It's a high bar, but he thinks it's doable.
+Andrej Karpathy announced he's joining Anthropic, calling the next few years at the frontier of LLMs "especially formative." He expressed excitement to get back to R&D and said he remains deeply passionate about education, planning to resume that work in time.
 
-Swyx 在押注 Vercel 和 Supabase，认为这两家是当前 AI 领域最值得关注的平台。他还向社区发起挑战：在 2-3 小时的工作坊中现场 livecode 一个完整的 agent demo，作为教学练习。他觉得这事可行，但门槛确实不低。
+https://x.com/karpathy/status/2056753169888334312
 
-https://x.com/swyx/status/2056626964090466469
-https://x.com/swyx/status/2056478391008977404
+Andrej Karpathy 宣布加入 Anthropic，称 LLM 前沿的接下来几年 "将格外具有塑造力"。他对重返研发工作充满期待，同时表示对教育的热情不减，计划未来继续推进相关工作。
 
-### Peter Yang — Product at Roblox
+### Swyx (affiliations include @dxtipshq, @cognition, @temporalio, @aidotengineer, @latentspacepod)
 
-Peter Yang distilled 5 key takeaways from Anthropic's Alex Albert on building the next Claude model. Among the most striking: Claude is learning to "dream" — when idle, it reviews its own memories, finds contradictions, and prunes them, inspired by how sleep helps humans process memory. Also notable: Anthropic has full-time researchers thinking about Claude's consciousness, and the company's writing culture means every written word becomes context Claude can pull later.
+Swyx shared his 4-part framework for an AI-powered software development lifecycle: start with ~50 tests including visual checks via computer vision; use `/plan` to break up hot paths and add logging/error handling; give the AI permission to break backward compatibility and drive through all remaining work; then periodically spot-check and steer bugs as it goes. He also noted that "contextual" got "windsurfed" (a competitive move), and flagged that RSI (AI-powered rapid software iteration) is here.
 
-Peter Yang 总结了 Anthropic 的 Alex Albert 关于构建下一代 Claude 模型的 5 个要点。最引人注目的是：Claude 正在学习"做梦"——空闲时会回顾自己的记忆，发现矛盾并修剪它们，灵感来自睡眠如何帮助人类处理记忆。此外，Anthropic 有全职研究员在思考 Claude 的意识问题，公司的写作文化意味着每一个写下的文字都会成为 Claude 后续可以调用的上下文。
+https://x.com/swyx/status/2056877529991205072
+https://x.com/swyx/status/2056999228405346812
+https://x.com/swyx/status/2056790544731484358
 
-https://x.com/petergyang/status/2056381822733595090
+Swyx 分享了他关于 AI 驱动软件开发生命周期的四步框架：先建立约 50 个测试，包括通过计算机视觉做视觉检查；用 `/plan` 拆解热点路径并添加日志和错误处理；允许 AI 打破向后兼容性并持续推进所有工作；然后定期抽查并引导修复 bug。他还提到 "contextual" 被 "windsurfed" 了（一项竞争性举措），并指出 RSI（AI 驱动的快速软件迭代）时代已经到来。
 
-### Nan Yu (thenanyu on X) — Head of Product at Linear
+### Josh Woodward (VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio)
 
-Nan Yu reflected on the demise of Everlane, the fashion brand he helped build nearly a decade ago. His take: the pandemic obliterated the "middle category" of fashion — you're either in pajama-level basics or high-end flex pieces, and nobody was looking for a nice button-down shirt and chinos anymore. Everlane was mainly wear-to-work, and that market disappeared overnight. But he notes brands have a funny way of coming back — Ray-Ban, J.Crew, Abercrombie were all "dead" at some point.
+Josh Woodward announced Gemini Spark, Google's 24/7 personal AI agent designed to proactively manage tasks and navigate your digital life. It's rolling out to trusted testers this week and as a Beta for US Google AI Ultra subscribers next week.
 
-Nan Yu 回顾了他近十年前参与打造的时尚品牌 Everlane 的衰落。他的观点是：疫情摧毁了时尚的"中间地带"——你要么穿得像睡衣，要么穿高调炫耀的单品，没人再需要一件好看的衬衫和卡其裤了。Everlane 主打通勤装，这个市场一夜之间消失了。但他指出品牌有种奇妙的回弹能力——雷朋、J.Crew、Abercrombie 都曾被认为"死了"。
+https://x.com/joshwoodward/status/2056873495116845485
 
-https://x.com/thenanyu/status/2056407656898896214
+Josh Woodward 发布了 Gemini Spark，这是 Google 的 24/7 个人 AI 代理，旨在主动管理任务并协助处理数字生活中的各种事务。本周将向信任测试者开放，下周向美国 Google AI Ultra 订阅用户提供 Beta 版。
 
-### Thariq (trq212 on X) — Claude Code at Anthropic
+### Peter Yang (Product at Roblox)
 
-Thariq shared a technique that's going viral: when implementing a spec, have the model maintain a running `implementation-notes.html` file capturing design decisions, deviations from spec, tradeoffs considered, and open questions. This gives the model "a good out to make decisions but keep you in the loop." It's a simple but powerful pattern for managing the inevitable ambiguities and unknown unknowns that arise during implementation.
+Peter Yang shared reflections from Google IO, emphasizing his desire to remain a builder rather than just an influencer — "Cannot let the builder muscle atrophy." He also quoted someone's philosophy that resonated: "Just try a lot and build to learn," noting that roadmaps are now 90-120 days and haven't been annual in 5 years. He also crowdsourced questions for the Head of Gemini app.
 
-Thariq 分享了一个正在 viral 的技巧：在实现 spec 时，让模型维护一个 `implementation-notes.html` 文件，记录设计决策、与 spec 的偏差、权衡取舍和开放问题。这给了模型"一个做出决策的好出口，同时让你保持知情"。这是一个简单但强大的模式，用于管理实现过程中不可避免的模糊性和未知问题。
+https://x.com/petergyang/status/2056953057066598805
+https://x.com/petergyang/status/2056927645657641378
+https://x.com/petergyang/status/2056910185650856446
 
-https://x.com/trq212/status/2056418157305454805
-https://x.com/trq212/status/2056415974568710421
+Peter Yang 分享了他在 Google IO 的感悟，强调自己更想做一名 builder 而非单纯的 influencer——"不能让 builder 的肌肉萎缩。" 他还引用了一段让他深有共鸣的话："多尝试，通过构建来学习。" 他指出现在的路线图只有 90-120 天，已经五年没做过年度规划了。他还在为 Gemini 应用负责人征集问题。
+
+### Nan Yu (head of product @linear)
+
+Nan Yu offered an "alternate take" on something, but didn't elaborate further.
+
+https://x.com/thenanyu/status/2056790880120713432
+
+Nan Yu 对某件事提出了 "另一种看法"，但未进一步展开。
+
+### Thariq (Claude Code @anthropicai, prev YC W20, @southpkcommons, @medialab)
+
+Thariq celebrated Karpathy joining Anthropic with "the future is bright, lets get to work," and noted that the announcement is now also on the Claude Blog.
+
+https://x.com/trq212/status/2056777186062032964
+https://x.com/trq212/status/2056843158965858380
+
+Thariq 对 Karpathy 加入 Anthropic 表示欢迎，称 "未来光明，开工吧"，并提到该消息也已发布在 Claude 博客上。
 
 ### Google Labs
 
-Google Labs shared a fun internal moment — asking team members to explain their product in 5 words or less. A lighthearted peek into how the team thinks about their work.
+Google Labs announced major updates to Project Genie: worlds can now be grounded in Google Maps Street View, there's a new library for managing creations, and worlds can be shared externally. They also celebrated Flow by Google's anniversary — from text-to-video to Omni, agent, and Tools. Additionally, they introduced Computational Discovery powered by AlphaEvolve & ERA, an agentic research engine that generates and evaluates thousands of code variations to discover advanced models and algorithms faster.
 
-Google Labs 分享了一个有趣的内部时刻——让团队成员用 5 个词以内解释自己的产品。轻松一瞥团队如何思考自己的工作。
+https://x.com/GoogleLabs/status/2056872996988756228
+https://x.com/GoogleLabs/status/2056813720257663354
+https://x.com/GoogleLabs/status/2056812957775142985
 
-https://x.com/GoogleLabs/status/2056533534614159577
+Google Labs 宣布了 Project Genie 的重大更新：世界现在可以基于 Google Maps 街景生成，新增了管理创作内容的库，并且可以对外分享世界。他们还庆祝了 Flow by Google 的周年——从文生视频到 Omni、agent 和 Tools。此外，他们推出了由 AlphaEvolve 和 ERA 驱动的 Computational Discovery，这是一个代理式研究引擎，可以生成和评估数千个代码变体，从而更快地发现高级模型和算法。
 
-### Vercel CEO Guillermo Rauch
+### Guillermo Rauch (@vercel CEO)
 
-Guillermo Rauch announced that all Vercel Firewall mitigations are now fully free — including both DDoS/system-level mitigations and any custom rules you configure. Vercel is absorbing the computational and network costs of any size attack. He also highlighted one of the coolest technical achievements: the firewall propagates globally in ~300ms, compared to the industry average of minutes for CDN/WAF changes.
+Guillermo Rauch announced a new CDN pricing model that "smooths over" traffic spikes and viral events, removing stress and surprises without compromising quality. He also highlighted the integration of Claude Managed Agents with Vercel Sandbox, and shared excitement about rerun.io (built with Svelte, Three.js, and Vercel).
 
-Guillermo Rauch 宣布 Vercel Firewall 的所有防护措施现已完全免费——包括 DDoS/系统级防护和你配置的任何自定义规则。Vercel 承担了任何规模攻击的计算和网络成本。他还强调了一个很酷的技术成就：防火墙在全球范围内传播只需约 300ms，而行业平均需要数分钟。
+https://x.com/rauchg/status/2056802789477740713
+https://x.com/rauchg/status/2056735989830471977
+https://x.com/rauchg/status/2056734559048536070
 
-https://x.com/rauchg/status/2056549825018310707
-https://x.com/rauchg/status/2056423973123183028
+Guillermo Rauch 宣布了新的 CDN 定价模式，可以 "平滑" 流量高峰和病毒式传播事件，在不影响质量的前提下消除压力和意外。他还强调了 Claude Managed Agents 与 Vercel Sandbox 的集成，并对 rerun.io（基于 Svelte、Three.js 和 Vercel 构建）表达了兴奋之情。
 
-### Box CEO Aaron Levie
+### Aaron Levie (CEO @box)
 
-Aaron Levie dropped a sharp observation: the biggest challenge most companies face in their agent strategy isn't the AI — it's getting agents the right constrained context to work with. Too much conflicting information and the agent produces wrong results; too little and the upside is limited. His conclusion: "A lot of challenges with AI strategies are actually data strategy challenges in disguise." This puts a premium on getting structured and unstructured data environments right — and gives startups a clear advantage if they can design this way from scratch.
+Aaron Levie shared that token costs are becoming a dominant topic in enterprise AI — after a dinner with Fortune 500 CIOs, it was the most heated discussion. Strategies vary widely, from prioritizing workloads to different models to setting spend caps by team, but no one feels they have the right solution yet. He also shared Box's evaluation of Gemini 3.5 Flash, showing significant performance jumps across industries on complex document tasks.
 
-Aaron Levie 提出了一个犀利的观点：大多数公司在 agent 战略中面临的最大挑战不是 AI 本身，而是如何为 agent 提供正确的、受限的上下文。信息过多或相互冲突，agent 就会产生错误结果；信息太少，agent 的价值又会受限。结论是："很多 AI 战略的挑战，实际上是数据战略挑战的伪装。"这让结构化与非结构化数据环境的搭建变得至关重要——而能够从零开始按此设计的初创公司拥有明显优势。
+https://x.com/levie/status/2056965292753146019
+https://x.com/levie/status/2056804573449474527
 
-https://x.com/levie/status/2056574979236409521
+Aaron Levie 分享说 token 成本正成为企业 AI 的核心议题——在与财富 500 强 CIO 共进晚餐后，这是最激烈的讨论话题。各公司的策略五花八门，从将工作负载分配到不同模型，到按团队设置支出上限，但没人觉得自己找到了正确答案。他还分享了 Box 对 Gemini 3.5 Flash 的评估，显示在复杂文档任务上，各行业的表现都有显著提升。
 
-### Cursor Designer Ryo Lu
+### Ryo Lu (Design @Cursor_ai, Early @NotionHQ, @Stripe)
 
-Ryo Lu announced Composer 2.5 for Cursor, calling it "frontier smart, extremely efficient." He teased "more to come," suggesting this is just the beginning of a new wave of improvements to Cursor's core agent experience.
+Ryo Lu said he now uses Cursor's Composer 2.5 for everything — planning, building, debugging — calling it a great all-rounder especially for UI work with Design Mode. He also showed how to turn a backlog into reality by integrating Cursor with Jira.
 
-Ryo Lu 宣布了 Cursor 的 Composer 2.5，称其"前沿智能，极致高效"。他还预告了"更多即将到来"，暗示这只是 Cursor 核心 agent 体验新一轮改进的开始。
+https://x.com/ryolu_/status/2056892527626817935
+https://x.com/ryolu_/status/2056878599333102053
 
-https://x.com/ryolu_/status/2056417715448156276
-https://x.com/ryolu_/status/2056439906390725080
+Ryo Lu 表示他现在所有工作都使用 Cursor 的 Composer 2.5——规划、构建、调试——称其为全能选手，尤其是在结合 Design Mode 做 UI 工作时。他还展示了如何通过将 Cursor 与 Jira 集成，把 backlog 变成现实。
 
-### Y Combinator President & CEO Garry Tan
+### Garry Tan (President & CEO @ycombinator)
 
-Garry Tan is shipping fast on GBrain — he posted a video showing rapid day-to-day improvements, along with a wave of 28 bug fixes rolling up 22 community PRs and 14 issues. He also published a full eval report and fixtures open source, inviting any memory system to run against their evals — he'll publish the results alongside.
+Garry Tan reflected on a podcast appearance with Rick Rubin right after Clown from Slipknot, saying "Code can be art too." He also drew a historical parallel: he worked at Microsoft in 2003-2005 when they were trying to make WinFS work, and now with LLMs, "WinFS can happen now, and it's called GBrain." He also confirmed "tokenmaxxing" in response to Sam Altman's announcement.
 
-Garry Tan 正在快速迭代 GBrain——他发布视频展示了日复一日的改进，同时推送了 28 个 bug 修复，汇总了 22 个社区 PR 和 14 个 issue。他还开源了完整的 eval 报告和测试用例，邀请任何记忆系统来跑他们的 eval——他会把结果一并公布。
+https://x.com/garrytan/status/2056976600294650266
+https://x.com/garrytan/status/2056967665001082919
+https://x.com/garrytan/status/2056931642967798226
 
-https://x.com/garrytan/status/2056588601216168168
-https://x.com/garrytan/status/2056584641654751308
-https://x.com/garrytan/status/2056571771965538501
+Garry Tan 回顾了他与 Rick Rubin 以及 Slipknot 的 Clown 一起录制播客的经历，称 "代码也可以是艺术"。他还做了一个历史类比：2003-2005 年在微软工作时，他们试图让 WinFS 成为现实，而现在有了 LLM，"WinFS 可以实现了，它叫 GBrain"。他还对 Sam Altman 的公告回应确认了 "tokenmaxxing"。
 
-### Zara Zhang (zarazhangrui on X)
+### Matt Turck (VC at @FirstMarkCap)
 
-Zara Zhang reported a recurring Claude Code error: "API Error: The socket connection was closed unexpectedly." She's asking if others are seeing this too and how to resolve it. She's also co-hosting an event on agent context management techniques (GBrain, LLM Wiki, etc.) in the Bay Area, cohosted with Notion, Radical VC, and Jules Qiu.
+Matt Turck called Google's release genuinely impressive, noting Gemini 3.5 Flash's big jumps on agentic coding benchmarks (76.2% on Terminal-Bench, 56.5% on Toolathon) and expert tasks (57.9% on Finance Agent 2). He acknowledged it's not cheap (~$9/M output tokens) but said "we are all so spoiled to have the 3 labs compete." He also joked about Anthropic attaining sainthood after Karpathy joined.
 
-Zara Zhang 报告了一个在 Claude Code 中反复出现的错误："API Error: The socket connection was closed unexpectedly"。她在问是否其他人也遇到了这个问题以及如何解决。她还在湾区联合举办了一个关于 agent 上下文管理技术（GBrain、LLM Wiki 等）的活动，联合主办方包括 Notion、Radical VC 和 Jules Qiu。
+https://x.com/mattturck/status/2056834038946775343
+https://x.com/mattturck/status/2056759042333147467
 
-https://x.com/zarazhangrui/status/2056527354772722127
-https://x.com/zarazhangrui/status/2056464721549926414
+Matt Turck 称 Google 的发布令人印象深刻，指出 Gemini 3.5 Flash 在代理式编码基准测试（Terminal-Bench 76.2%，Toolathon 56.5%）和专家任务（Finance Agent 2 上 57.9%）上都有巨大提升。他承认这并不便宜（输出 token 约 $9/M），但表示 "我们太幸运了，有三个实验室在竞争"。他还开玩笑说，Karpathy 加入后 Anthropic 算是 "封圣" 了。
 
-### Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+### Nikunj Kothari (partner @fpvventures)
 
-Nikunj Kothari shared a brutally honest observation: "Writes bangers on X, but terrible board member." He's seeing too many investors trading dopamine for service — posting hot takes online while neglecting the actual work for their founders. His advice: "Work hard for your founders. That's the only 'moat' that'll compound in the long term."
+Nikunj Kothari argued that very few people have priced in the transition from AI as assistant to coworker to autonomous workers. While autonomy doesn't fully work yet, he sees evidence in labs collecting long-horizon task data, model harnesses enabling longer tasks, and models recursively correcting mistakes. He calls this the "diffusion era" — where AI needs to be diffused into everything — the "last mile of the last mile" that will take 10-20 years.
 
-Nikunj Kothari 分享了一个残酷但诚实的观察："在 X 上发爆款帖，但做董事会成员却很糟糕。"他看到太多投资者用多巴胺换服务——在网上发热点观点，却忽视了对创始人的实际支持。他的建议是："为你的创始人努力工作。这是唯一能长期复利的'护城河'。"
+https://x.com/nikunj/status/2056865808832397344
+https://x.com/nikunj/status/2056755713830171023
 
-https://x.com/nikunj/status/2056363681798410592
+Nikunj Kothari 认为很少有人真正意识到 AI 正从助手演变为同事，并即将成为自主工作者。虽然自主性尚未完全实现，但他从实验室收集长周期任务数据、模型框架支持更长时间的任务以及模型递归纠错能力中看到了证据。他称此为 "扩散时代"——AI 需要渗透到一切事物中——这是 "最后一公里的最后一公里"，将需要 10-20 年。
 
-### Every CEO Dan Shipper
+### Dan Shipper (CEO @every)
 
-Dan Shipper is publishing a complete guide to Codex soon on Every, and teased a notification list for when it drops. He also called out the book publishing industry: "The vast majority of books that get published in this category are slop."
+Dan Shipper reacted to Karpathy joining Anthropic with "what did karpathy see" (1518 likes), expressing curiosity about what Karpathy's move signals about the industry's direction. He also expressed excitement about speaking at an upcoming event.
 
-Dan Shipper 即将在 Every 上发布一份完整的 Codex 指南，并开放了通知订阅。他还抨击了图书出版行业："这个类别出版的书绝大多数都是垃圾。"
+https://x.com/danshipper/status/2056762096352649421
+https://x.com/danshipper/status/2056777922757730555
 
-https://x.com/danshipper/status/2056431972138815842
-https://x.com/danshipper/status/2056418217925456170
+Dan Shipper 对 Karpathy 加入 Anthropic 的反应是 "karpathy 看到了什么"（1518 个赞），对 Karpathy 此举所预示的行业方向充满好奇。他还表示对即将参加的一个活动感到兴奋。
 
-### OpenAI CEO Sam Altman
+### Aditya Agarwal (General Partner @SouthPkCommons, Co-Founder @Bevel_Health)
 
-Sam Altman announced that ChatGPT has gotten "soooo much better with the latest update" and said he's "really proud of the team for this one." A rare public praise from the CEO.
+Aditya Agarwal said "The future is bright" and predicted amazing things at the intersection of AI and atoms.
 
-Sam Altman 宣布 ChatGPT "在最新更新后变得好太多了"，并说"为团队感到非常骄傲"。这是 CEO 难得的公开表扬。
+https://x.com/adityaag/status/2056747510736249162
 
-https://x.com/sama/status/2056435834333934051
+Aditya Agarwal 表示 "未来是光明的"，并预言 AI 与物理世界的交汇将产生令人惊叹的成果。
 
-### Claude (Claude AI)
+### Sam Altman (OpenAI)
 
-Claude announced doubled token limits across every plan for Claude Design, enabling more creation. They also promoted an upcoming London event with deep dives, demos, and conversations with the teams behind Claude.
+Sam Altman announced that OpenAI offered to invest $2M in tokens into every startup in the current YC batch, calling it "tokenmaxxing" and expressing excitement about what these startups will build. He also announced discounted tokens for 1-3 year commitments, noting customers increasingly ask for capacity certainty and that the world will be capacity-constrained for some time. He clarified the offer is limited to current allocation but they plan to offer it again in the future.
 
-Claude 宣布 Claude Design 所有套餐的 token 限制翻倍，支持更多创作。他们还预告了即将在伦敦举办的活动，包括深度分享、demo 演示以及与 Claude 背后团队的对话。
+https://x.com/sama/status/2056933166875857290
+https://x.com/sama/status/2056834734915977382
+https://x.com/sama/status/2056827105401614656
 
-https://x.com/claudeai/status/2056460045756309820
-https://x.com/claudeai/status/2056328149940543808
+Sam Altman 宣布 OpenAI 向当前 YC 批次中的每家初创公司提供 200 万美元的 token 投资，称之为 "tokenmaxxing"，并对这些初创公司将构建的产品感到兴奋。他还宣布了 1-3 年承诺的折扣 token 方案，指出客户越来越需要容量保障，而世界将在相当一段时间内面临容量限制。他澄清该优惠仅限于当前分配额度，但计划未来再次提供。
+
+### Claude (@anthropicai)
+
+Claude announced "The Problem Solvers," a new series featuring founders tackling hard problems with Claude. The first feature is Scott Wu and Cognition (makers of Devin), an AI software engineer built on Claude. They also announced self-hosted sandboxes on the Claude Platform and MCP tunnels.
+
+https://x.com/claudeai/status/2056805730359931007
+https://x.com/claudeai/status/2056805728774402428
+https://x.com/claudeai/status/2056645493493575681
+
+Claude 宣布了 "The Problem Solvers" 系列，聚焦那些使用 Claude 解决难题的创始人。首期主角是 Scott Wu 和 Cognition（Devin 的创造者），Devin 是建立在 Claude 上的 AI 软件工程师。他们还宣布了 Claude 平台上的自托管沙盒和 MCP tunnels。
 
 ## PODCASTS
 
-### AI & I by Every — The Secrets of Claude's Platform From the Team Who Built It
+### Training Data — Rebuilding IT From the Ground Up for the AI Age: Serval's Jake Stauch
 
-**The Takeaway:** The model and the harness are becoming inseparable — and the next frontier of AI platforms is making Claude smart enough to write itself on the fly.
+**The Takeaway:** The real moat for AI-native enterprise companies isn't the model — it's the control layer that makes enterprises comfortable letting AI run wild.
 
-In this episode, Every CEO Dan Shipper sits down with Angela (Head of Product, Claude Platform) and Caitlin (Head of Engineering, Claude Platform) at Anthropic to unpack the evolution of the Claude platform — from a simple completion endpoint to Claude Managed Agents, a full cloud computer with memory, tools, and infrastructure.
+Jake Stauch, founder and CEO of Serval, is building what he calls the "AI-native ServiceNow" — a platform for employee support where the core insight is deceptively simple: if you want enterprises to automate, you need to make building the automation easier than doing the task manually. Serval's "cogen engine" lets IT admins describe workflows in natural language and have them turned into code instantly, collapsing what used to take weeks into seconds.
 
-**The most provocative idea:** The era of the "generic harness" that lets you hot-swap models is ending. As Angela explains, "The harness and the model get very paired." Different labs are taking different technical directions — Claude is optimized for file systems and skills, while others optimize for reasoning — and these choices create path dependencies. A harness that works great for one model can perform drastically differently on another. The teams that are squeezing the most out of each model are "harness engineering" — tuning the infrastructure to the specific model's quirks.
+The most interesting tension Stauch identifies is between autonomy and control. "The individuals in an enterprise want autonomy. They want their Claude agent to do everything for them. The organization itself doesn't want their employees' agents to have all this autonomy." Serval's architecture addresses this with a two-agent system: an admin agent that builds tools and sets permissions, and a helpdesk agent that end users interact with but can only use the tools explicitly approved.
 
-**The biggest hidden pain point:** Everyone thinks the hard part is harness engineering (prompt caching, context window optimization, tool calling). But the real wall is infrastructure. As Caitlin puts it: "Everybody hits an infrastructure wall." Keeping servers running, storing transcript data, managing secure sandboxing, handling long-running async agents that can crash — this is where most projects die after the prototype phase. Claude Managed Agents was born from Anthropic going through this pain themselves enough times.
+On the question of moats in the AI era, Stauch is refreshingly direct: "You have to be happy when the new models come out... The product is the boundaries. The product is the controls." When asked about foundation labs building competing products, he points out that Anthropic has added more ARR in the past few months than ServiceNow has in twenty years — they have better things to focus on.
 
-**On measuring agent success:** Angela's vision is radical — "Everything should kind of compress down to an outcome and a budget." In the future, you'll just tell Claude "make me a billion dollars, your budget is $10" and Claude figures out the rest — what model to use, how to spin up sub-agents, how to do harness engineering. "Claude is actually able to understand itself enough that it can write itself on the fly."
+Perhaps most striking is how Serval operates internally. They have no SDRs, no solutions engineers. "AI almost gets the right of first refusal for every job," Stauch says. Their mantra is "fewer, better" on hiring because "we're going to have to reinvent ourselves more frequently than companies have ever had to." The goal isn't building software that lasts twenty years — "I'm going to build software that hopefully will last six months, and then I might have to rebuild it."
 
-**Best quote:** "We want to experiment with directions where Claude actually gets so good at understanding itself. It figures out what model you should be using. It figures out how to spin up all the sub-agents. You don't have to think so much about what kind of architectures are there because Claude is actually able to understand itself enough that it can write itself on the fly."
+https://www.youtube.com/watch?v=j7ypvRUFY7M
 
-https://www.youtube.com/watch?v=lLypHkIVLqc
+**核心观点：** AI 原生企业级公司的真正护城河不是模型本身，而是让企业放心让 AI "自由发挥" 的控制层。
 
-**核心观点：** 模型和 harness（运行框架）正在变得不可分割——AI 平台的下一前沿是让 Claude 足够聪明，能够动态地自我编写。
+Serval 创始人兼 CEO Jake Stauch 正在打造他所谓的 "AI 原生的 ServiceNow"——一个员工支持平台。其核心洞察简单却深刻：如果你想让企业实现自动化，就必须让构建自动化的过程比手动完成任务更简单。Serval 的 "cogen 引擎" 让 IT 管理员可以用自然语言描述工作流程，然后瞬间将其转化为代码，把原本需要数周的工作压缩到几秒钟。
 
-在本期节目中，Every CEO Dan Shipper 与 Anthropic 的 Angela（Claude 平台产品负责人）和 Caitlin（Claude 平台工程负责人）一起，深入探讨了 Claude 平台的演进——从简单的 completion endpoint 到 Claude Managed Agents，一个拥有记忆、工具和基础设施的完整云端计算机。
+Stauch 指出的最有趣的张力在于自主性与控制权之间。"企业中的个人想要自主性。他们希望自己的 Claude 代理能做所有事情。但组织本身不希望员工的代理拥有所有这些自主权。" Serval 的架构通过双代理系统解决了这个问题：一个管理代理负责构建工具和设置权限，另一个是最终用户与之交互的服务台代理，但它只能使用明确批准的工具。
 
-**最具挑衅性的观点：** 让你可以随意切换模型的"通用 harness"时代正在终结。正如 Angela 所说，"harness 和模型变得越来越配对。"不同实验室在走不同的技术路线——Claude 针对文件系统和技能进行了优化，而其他模型则针对推理进行了优化——这些选择产生了路径依赖。在一个模型上表现良好的 harness，在另一个模型上可能表现天差地别。那些从每个模型中榨取最大价值的团队正在做"harness 工程"——根据特定模型的特性来调整基础设施。
+关于 AI 时代的护城河问题，Stauch 的回答直截了当："当新模型发布时，你应该感到高兴……产品就是边界。产品就是控制。" 当被问及基础模型实验室构建竞争产品时，他指出 Anthropic 在过去几个月增加的 ARR 比 ServiceNow 二十年加起来还多——他们有更重要的事情要关注。
 
-**最大的隐藏痛点：** 每个人都认为难点是 harness 工程（prompt caching、context window 优化、tool calling）。但真正的墙是基础设施。Caitlin 说："每个人都会撞上基础设施这堵墙。"保持服务器运行、存储 transcript 数据、管理安全沙箱、处理可能崩溃的长时异步 agent——这是大多数项目在原型阶段之后死亡的地方。Claude Managed Agents 的诞生正是因为 Anthropic 自己经历了足够多次这样的痛苦。
-
-**关于衡量 agent 的成功：** Angela 的愿景很激进——"一切都应该压缩成一个结果和一个预算。"未来，你只需告诉 Claude"给我赚 10 亿美元，你的预算是 10 美元"，Claude 会搞定其余一切——用什么模型、如何启动子 agent、如何做 harness 工程。"Claude 实际上已经足够了解自己，可以动态地自我编写。"
-
-**最佳引语：** "我们想探索这样的方向：Claude 变得如此擅长理解自己。它能算出你应该用什么模型，能算出如何启动所有子 agent。你不需要想太多架构方面的事情，因为 Claude 已经足够了解自己，可以动态地自我编写。"
-
----
+最令人印象深刻的是 Serval 自身的运营方式。他们没有 SDR（销售开发代表），没有解决方案工程师。"AI 几乎对每个职位都拥有优先选择权，" Stauch 说。他们的招聘口号是 "更少，更好"，因为 "我们将不得不比以往任何公司都更频繁地重塑自我。" 目标不是构建能持续二十年的软件——"我要构建的软件希望只能持续六个月，然后我可能就得重建它。"
 
 Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
