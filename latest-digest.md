@@ -1,202 +1,322 @@
-AI Builders Digest — Friday, May 22, 2026
+AI Builders Digest — Saturday, May 23, 2026
 
-## X/Twitter
+## X/TWITTER
 
-**Swyx** — Co-founder of DX Tips, Cognition, Temporal, AI Engineer, and Latent Space
+**Sam Altman (OpenAI CEO)**
 
-Swyx shared that his team did a bake-off of Exa vs. its competitors, and the team unanimously converged on Exa in just 1.5 hours. He also reflected on Sam Altman's idea of "building a business that gets better when models get better," noting that this is essentially what he calls "Agent Labs" — and he's seeing a direct correlation between model performance and agent lab revenue, with a discontinuity in Q4 2025.
+Sam Altman asked the community what problem they most hope AI will solve in the future, adding "maybe we can help!" — a characteristically open-ended invitation that generated thousands of responses. He also announced that the new Codex ships today, signaling continued rapid iteration on OpenAI's coding agent.
 
-https://x.com/swyx/status/2057180080078791036
-https://x.com/swyx/status/2057119153337545096
+https://x.com/sama/status/2057614780727480741
 
-Swyx 分享说，他的团队做了一次 Exa 与竞品的对比测试，结果仅用 1.5 小时，团队就一致认定 Exa 胜出。他还回顾了 Sam Altman 提出的"建立一个随着模型变强而变得更好的企业"的理念，认为这基本上就是他所说的"Agent Labs"——他观察到模型性能与 agent lab 收入之间存在直接关联，并在 2025 年 Q4 出现了不连续性。
+https://x.com/sama/status/2057559714788258003
 
-https://x.com/swyx/status/2057180080078791036
-https://x.com/swyx/status/2057119153337545096
+---
 
-**Josh Woodward** — VP at Google, Google Labs, Gemini App, Google AI Studio
+Sam Altman（OpenAI CEO）
 
-No notable posts beyond brief replies acknowledging positive feedback on Google products.
+Sam Altman 向社区提问：你最希望 AI 未来解决什么问题？并补充道"也许我们能帮上忙"——这个标志性的开放式提问引发了数千条回复。他还宣布新版 Codex 今日发布，表明 OpenAI 的编码 agent 仍在快速迭代中。
 
-Josh Woodward 除了简短回复用户对 Google 产品的正面反馈外，没有发布值得注意的内容。
+https://x.com/sama/status/2057614780727480741
 
-**Kevin Weil** — Board member at Cisco and Nature Conservancy, LTC in US Army Reserve, former CPO+Science at OpenAI, President at Planet, Head of Product at Instagram/Twitter
+https://x.com/sama/status/2057559714788258003
 
-Kevin Weil highlighted a new milestone in AI and mathematics, calling it "the next in a series of firsts" for the field. This was a quote-tweet referencing a general-purpose model solving a major open problem in mathematics.
+---
 
-https://x.com/kevinweil/status/2057206749552066805
+**Box CEO Aaron Levie**
 
-Kevin Weil 强调了 AI 与数学领域的一个新里程碑，称其为该领域"一系列首创中的下一个"。这是对一条推文的引用转发，那条推文提到一个通用模型解决了一个重要的数学开放问题。
+Aaron Levie shared a sharp analysis of the AI cost landscape: we've moved from cheap chat tools with small context windows to expensive agentic models with giant context windows and long-running work capabilities. Inference costs have jumped by an order of magnitude because the models are that much better. He argues the stratification of AI costs is widening — frontier use cases (coding, science, finance) get the expensive models, while simpler tasks get cheaper ones. Enterprises will need new finance teams and technology solutions to manage this complexity. The labs and platforms that help customers optimize pricing per task will be best positioned.
 
-https://x.com/kevinweil/status/2057206749552066805
+https://x.com/levie/status/2057663408376516703
 
-**Peter Yang** — Product at Roblox, creator of practical AI tutorials
+---
 
-Peter Yang suggested that not working at a company that does layoffs and performance stack rankings every few months might be better for mental health. A succinct take on the current tech industry climate.
+Box CEO Aaron Levie
 
-https://x.com/petergyang/status/2057281238722072912
+Aaron Levie 对 AI 成本格局做出了犀利的分析：我们已经从廉价、小上下文窗口的聊天工具，转向了昂贵、拥有巨大上下文窗口且能处理长时间运行工作的 agent 模型。推理成本提升了一个数量级，因为模型本身好太多了。他认为 AI 成本的层级分化正在加剧——前沿用例（编程、科学、金融）使用昂贵的模型，而简单任务则用便宜的。企业将需要新的财务团队和技术方案来管理这种复杂性。能够帮助客户按任务优化定价的实验室和平台将占据最佳位置。
 
-Peter Yang 表示，不在一个每隔几个月就裁员和进行绩效排名考核的公司工作，可能对心理健康更好。这是对当前科技行业环境的简洁评论。
+https://x.com/levie/status/2057663408376516703
 
-https://x.com/petergyang/status/2057281238722072912
+---
 
-**Google Labs** — Google's home for latest AI tools and experiments
+**Replit CEO Amjad Masad**
 
-Google Labs announced that Project Genie is now fully available to all Google AI Ultra subscribers globally (18+). They also showcased Genie's new capability: users can now go from playing games to designing games in minutes — just choose characters, set the scene, and let Genie handle the rest.
+Amjad Masad announced that Replit is now offering credit rewards to developers who monetize their apps — a move to incentivize the ecosystem. He also made a strong product philosophy statement: "We're always excited to talk to customers but you shouldn't be forced to talk to us to buy the product," reinforcing Replit's self-serve ethos.
 
-https://x.com/GoogleLabs/status/2057179491693470166
-https://x.com/GoogleLabs/status/2057218835074437573
+https://x.com/amasad/status/2057616724757827826
 
-Google Labs 宣布，Project Genie 现已面向全球所有 Google AI Ultra 订阅用户（18 岁以上）全面开放。他们还展示了 Genie 的新功能：用户现在可以在几分钟内从玩游戏转变为设计游戏——只需选择角色、设定场景，剩下的交给 Genie。
+https://x.com/amasad/status/2057504360217891018
 
-https://x.com/GoogleLabs/status/2057179491693470166
-https://x.com/GoogleLabs/status/2057218835074437573
+---
 
-**Guillermo Rauch** — CEO of Vercel
+Replit CEO Amjad Masad
 
-Guillermo Rauch highlighted a development that will "bring AI to 42% of the web," covering every model, provider, and modality (text, image, video, audio). This appears to reference a significant new integration or platform expansion from Vercel.
+Amjad Masad 宣布，Replit 现在为将其应用变现的开发者提供积分奖励——这是激励生态系统的举措。他还发表了一个强烈的产品理念声明："我们一直很乐意与客户交流，但你不应该被迫与我们交谈才能购买产品"，再次强调了 Replit 的自助服务理念。
 
-https://x.com/rauchg/status/2057212335811620987
+https://x.com/amasad/status/2057616724757827826
 
-Guillermo Rauch 强调了一项进展，该进展将"把 AI 带到 42% 的互联网"，涵盖所有模型、供应商和模态（文本、图像、视频、音频）。这似乎指的是 Vercel 一项重要的新集成或平台扩展。
+https://x.com/amasad/status/2057504360217891018
 
-https://x.com/rauchg/status/2057212335811620987
+---
 
-**Aaron Levie** — CEO of Box
+**Y Combinator President & CEO Garry Tan**
 
-Aaron Levie wrote a substantial thread on the role of Full-Stack AI Engineers (FDEs). He argues this job category will persist as long as AI keeps changing rapidly. Unlike cloud adoption — which affected a concentrated set of users and rarely required fundamental workflow changes — agent implementation is both highly technical and directly impacts employee workflows, requiring significant change management. The pace of change is also much faster than cloud was, meaning every model change introduces new possibilities or makes existing scaffolding redundant. This is why vendors who've seen implementations hundreds of times are often better positioned to help, even with internal customer support.
+Garry Tan shared a podcast episode where he and Diana Hu discuss how one engineer can become a 1000x founder. He also promoted Flock Safety, saying San Francisco is safer because of it. And in a characteristically bold tweet, he declared: "Everyone should have an agent with a GBrain."
 
-https://x.com/levie/status/2057315272156135501
+https://x.com/garrytan/status/2057701084031004928
 
-Aaron Levie 就全栈 AI 工程师（FDE）的角色发表了一篇内容充实的推文串。他认为，只要 AI 持续快速变化，这个职位类别就会一直存在。与云计算采用不同——后者只影响相对集中的用户群体，且很少需要从根本上改变员工的工作流程——agent 的部署既高度技术化，又直接影响员工的工作流程，需要大量的变革管理。而且变化的节奏比云计算时代快得多，每次模型更新要么带来新的可能性，要么让现有的脚手架变得冗余。这就是为什么见过成百上千次实施案例的供应商或合作伙伴，即使在有客户内部支持的情况下，也往往能更好地完成工作。
+https://x.com/garrytan/status/2057639198782521837
 
-https://x.com/levie/status/2057315272156135501
+https://x.com/garrytan/status/2057636167525498961
 
-**Garry Tan** — President & CEO of Y Combinator
+---
 
-Garry Tan gave a strong endorsement of Exa, calling it the search engine he trusts for all his agents — used at YC and in his OpenClaw and Hermes agents. He declared there's "no other option that is as fast, as reliable, and as complete." He also shared a broader concern that the US will cede its AI leadership if it can't solve the "mass smokescreen" in media from forces that want to destroy America. Additionally, he shared a fun concept: "idea fusion with LSD (lateral synaptic drift)."
+Y Combinator 总裁兼 CEO Garry Tan
 
-https://x.com/garrytan/status/2057202833251000503
-https://x.com/garrytan/status/2057168328226230520
-https://x.com/garrytan/status/2057238298805129383
+Garry Tan 分享了一期播客，他与 Diana Hu 讨论了"一个工程师如何成为 1000 倍创始人"。他还推广了 Flock Safety，称旧金山因此变得更安全。此外，他还发表了一条标志性的大胆推文："每个人都应该拥有一个带 GBrain 的 agent。"
 
-Garry Tan 对 Exa 给予了强烈背书，称其为他在所有 agent 中信任的搜索引擎——在 YC 以及他自己的 OpenClaw 和 Hermes agents 中都在使用。他宣称"没有其他选项能像它一样快速、可靠和完整"。他还表达了一个更广泛的担忧：如果美国不能解决媒体中来自试图摧毁美国的势力的"大规模烟雾弹"问题，它将失去 AI 领导地位。此外，他还分享了一个有趣的概念："带着 LSD（侧向突触漂移）进行创意融合"。
+https://x.com/garrytan/status/2057701084031004928
 
-https://x.com/garrytan/status/2057202833251000503
-https://x.com/garrytan/status/2057168328226230520
-https://x.com/garrytan/status/2057238298805129383
+https://x.com/garrytan/status/2057639198782521837
 
-**Matt Turck** — VC at FirstMark Capital, host of MAD Podcast
+https://x.com/garrytan/status/2057636167525498961
 
-Matt Turck posted a Succession reference: "When Kendall buys Vaulter" — a humorous take on a current event in the AI/tech space.
+---
 
-https://x.com/mattturck/status/2057090887268643187
+**South Park Commons GP Aditya Agarwal**
 
-Matt Turck 发了一条《继承之战》的梗："当 Kendall 买下 Vaulter 的时候"——对 AI/科技领域当前某个事件的幽默评论。
+Aditya Agarwal shared 4 brutally honest thoughts on early-stage hiring: (1) If an engineer is choosing between a pre-Series B startup and a BigCo/BigLab, stop talking to them — they're not ready for a startup. (2) If someone won't take a 70% cash pay cut, stop talking — they'll be unhappy. (3) You learn a lot during negotiation — don't be afraid to walk away. (4) Startups have zero work-life balance. If you're not willing to grind, you're not in the right headspace.
 
-https://x.com/mattturck/status/2057090887268643187
+https://x.com/adityaag/status/2057502381038846306
 
-**Zara Zhang** — Builder, Harvard '17
+---
 
-Zara Zhang shared two original insights. First, in an AI-native team, ICs should start thinking like managers (delegating to agents, setting standards, verifying output) and managers should start thinking like ICs (being more hands-on builders rather than just doing people management). Second, she shared a slide from Google I/O about the T-shaped skill model for AI-era developers: go deeper in domain expertise, go wider in adjacent skills/fields, and learn to use AI well on top.
+South Park Commons GP Aditya Agarwal
 
-https://x.com/zarazhangrui/status/2057324988009685208
-https://x.com/zarazhangrui/status/2057267931025957348
+Aditya Agarwal 分享了对早期招聘的 4 条极其诚实的看法：(1) 如果一个工程师在 pre-Series B 初创公司和 BigCo/BigLab 之间犹豫，别聊了——他们还没准备好做初创公司。(2) 如果有人不愿意接受比 BigCo/BigLab 低 70% 的现金薪酬，别聊了——他们不会开心的。(3) 在谈判和收尾过程中你能学到很多——不要害怕放弃。(4) 初创公司没有工作生活平衡。如果你不愿意拼命，你的心态就不对。
 
-Zara Zhang 分享了两条原创见解。首先，在 AI 原生团队中，IC 应该开始像管理者一样思考（将任务委派给 agent、设定标准、验证输出），而管理者应该开始像 IC 一样思考（成为更亲力亲为的构建者，而不仅仅是做人员管理）。其次，她分享了 Google I/O 上关于 AI 时代开发者 T 型技能模型的一张幻灯片：在领域专长上挖得更深，在相邻技能和领域上拓得更宽，并在此基础上学好用好 AI。
+https://x.com/adityaag/status/2057502381038846306
 
-https://x.com/zarazhangrui/status/2057324988009685208
-https://x.com/zarazhangrui/status/2057267931025957348
+---
 
-**Nikunj Kothari** — Partner at FPV Ventures, investing in seed/A
+**Google VP Josh Woodward**
 
-Nikunj Kothari shared a raw and honest reflection on the difficulty of being a founder: "chewing glass every day." He noted that if you fail, no one cares; if you succeed, you're given way more problems. He emphasized the importance of solving problems you're deeply passionate about — ones you'd work on even if the world were against you. He also shared a Claude-generated summary of SpaceX's 308-page S-1 filing.
+Josh Woodward celebrated Google Labs' IO announcements, highlighting user love for the new Neural Expressive design across iOS, Android, and Web. He called the IO ride "what a ride."
 
-https://x.com/nikunj/status/2057134939875991973
-https://x.com/nikunj/status/2057242868293816569
+https://x.com/joshwoodward/status/2057564491064483930
 
-Nikunj Kothari 分享了一段关于做创始人有多难的真诚反思："每天都在嚼玻璃。"他指出，如果你失败了，没人在乎；如果你成功了，你会面临更多问题。他强调，要解决你真正充满热情的问题——那些即使全世界都反对你，你也会去做的事情。他还分享了一份由 Claude 生成的 SpaceX 308 页 S-1 文件的摘要。
+https://x.com/joshwoodward/status/2057559267952214073
 
-https://x.com/nikunj/status/2057134939875991973
-https://x.com/nikunj/status/2057242868293816569
+---
 
-**Peter Steinberger** — Creator of OpenClaw, former iOS developer
+Google VP Josh Woodward
 
-Peter Steinberger gave a strong recommendation for Cotypist, calling it "autocomplete everywhere" — a tool that provides AI-powered autocomplete across any application.
+Josh Woodward 庆祝了 Google Labs 在 IO 大会上的发布，并提到用户对跨 iOS、Android 和 Web 的新 Neural Expressive 设计反响热烈。他称这次 IO 之旅"太精彩了"。
 
-https://x.com/steipete/status/2057040636449116222
+https://x.com/joshwoodward/status/2057564491064483930
 
-Peter Steinberger 强力推荐了 Cotypist，称其为"无处不在的自动补全"——一个在任何应用程序中提供 AI 驱动的自动补全功能的工具。
+https://x.com/joshwoodward/status/2057559267952214073
 
-https://x.com/steipete/status/2057040636449116222
+---
 
-**Dan Shipper** — CEO of Every
+**Google Labs**
 
-Dan Shipper shared highlights from his podcast with Stainless CEO Alex Rattray, recorded before Anthropic's reported $300M acquisition of the startup. Key takeaways: design MCP servers to be lean and precise with small tool sets; use "dynamic mode" for larger APIs (list endpoints, learn about one, execute); MCP servers can serve as business copilots connecting tools like Notion and HubSpot; build a shared company "brain" by having Claude Code save useful inputs into GitHub over time; and the future of MCP is code execution — just two tools: a code execution tool and a doc search tool.
+Google Labs shared a thread about their IO experiments: a vibe-designed website from Stitch by Google featuring Labs experiments as mini-games with an 8-bit "Labster" character, and taking Labster to the Grand Canyon with Project Genie. They invited users to discover experiments and share what they create.
 
-https://x.com/danshipper/status/2057122805657821240
+https://x.com/GoogleLabs/status/2057492242911404443
 
-Dan Shipper 分享了他与 Stainless CEO Alex Rattray 播客节目的亮点。这期节目录制于 Anthropic 以 3 亿美元收购该初创公司之前。关键要点：设计 MCP 服务器要精简精准，工具集要小；对于大型 API 使用"动态模式"（列出端点、了解一个、执行它）；MCP 服务器可以作为连接 Notion 和 HubSpot 等工具的业务副驾驶；通过让 Claude Code 将有用的输入随时间保存到 GitHub 来构建共享的公司"大脑"；以及 MCP 的未来在于代码执行——只需两个工具：一个代码执行工具和一个文档搜索工具。
+https://x.com/GoogleLabs/status/2057492241472729543
 
-https://x.com/danshipper/status/2057122805657821240
+https://x.com/GoogleLabs/status/2057492239656562792
 
-**Aditya Agarwal** — General Partner at South Park Commons, Co-Founder of Bevel Health
+---
 
-Aditya Agarwal expressed pride in Feross's journey at South Park Commons, noting that it was amazing to have him go through the "-1 journey" there. He called a referenced development "a really big deal."
+Google Labs
 
-https://x.com/adityaag/status/2057141903334990327
-https://x.com/adityaag/status/2057187787242426555
+Google Labs 发布了一条关于 IO 实验的推文串：一个由 Stitch by Google 打造的"氛围感设计"网站，将 Labs 实验作为迷你游戏呈现，包含一个 8 位的"Labster"角色，并通过 Project Genie 将 Labster 带到了大峡谷。他们邀请用户探索这些实验并分享自己的创作。
 
-Aditya Agarwal 对 Feross 在南公园公地（South Park Commons）的成长历程表示自豪，称能让他在这里经历"从-1到0的旅程"非常棒。他将一个引用的进展称为"一件真正的大事"。
+https://x.com/GoogleLabs/status/2057492242911404443
 
-https://x.com/adityaag/status/2057141903334990327
-https://x.com/adityaag/status/2057187787242426555
+https://x.com/GoogleLabs/status/2057492241472729543
 
-**Sam Altman** — CEO of OpenAI
+https://x.com/GoogleLabs/status/2057492239656562792
 
-Sam Altman shared two significant announcements. First, a general-purpose model solved a major open problem in mathematics — a milestone he called "kinda big," though he admitted having complicated feelings about it. Second, he outlined the three things OpenAI is most excited about: AGI accelerating research, AGI accelerating companies, and personal AGI accelerating everyone in achieving their goals. He also noted that OpenAI is now offering to invest $2M in OpenAI credits into every YC company.
+---
 
-https://x.com/sama/status/2057203171198636251
-https://x.com/sama/status/2057218997503086888
+**Cursor Designer Ryo Lu**
 
-Sam Altman 分享了两项重要公告。首先，一个通用模型解决了一个重要的数学开放问题——他称之为"挺大的"里程碑，尽管他承认对此有复杂的感受。其次，他概述了 OpenAI 最兴奋的三件事：AGI 加速研究、AGI 加速公司发展、以及个人 AGI 加速每个人实现目标。他还提到，OpenAI 现在正在向每家 YC 公司提供 200 万美元的 OpenAI 积分投资。
+Ryo Lu announced that building software is more fun together, promoting Cursor's new model, interface, SDK, and automations for teams.
 
-https://x.com/sama/status/2057203171198636251
-https://x.com/sama/status/2057218997503086888
+https://x.com/ryolu_/status/2057500107235557675
 
-## Podcasts
+---
 
-**AI & I by Every** — Inside Stainless: The Developer Tools Startup Anthropic Just Bought for $300 Million
+Cursor 设计师 Ryo Lu
 
-*The Takeaway: MCP servers as currently designed won't scale — the future is code execution, where AI models write API code directly instead of navigating hundreds of tool definitions.*
+Ryo Lu 宣布"一起构建软件更有趣"，推广了 Cursor 的新模型、界面、SDK 和面向团队的自动化功能。
 
-Dan Shipper hosts Alex Rattray, founder and CEO of Stainless — the API and SDK company whose biggest customers included OpenAI and Google, and which Anthropic just acquired for a reported $300 million. This conversation, recorded before the acquisition, lays out Rattray's vision for how AI agents should actually interact with APIs, and it's a sharp critique of the current MCP paradigm.
+https://x.com/ryolu_/status/2057500107235557675
 
-Rattray argues that MCP servers today face a fundamental scaling problem. If you try to expose every endpoint of a large API like Stripe's as individual tools, you burn through your entire context budget just describing them. The model can't hold hundreds of tool definitions in its head while also reasoning about the task. The workaround — handcrafting a small number of specialized tools — doesn't generalize either, because every business has dozens of SaaS tools and thousands of possible operations.
+---
 
-His proposed solution is radical in its simplicity: give the model just two tools — one to execute code, and one to search documentation. The model writes TypeScript against the API's SDK, runs it in a sandbox, and gets back only the results it needs. "You have very, very limited impact on the context window up front," Rattray explains. "The model will go look for somebody named Dan, double-check the purchase, write three nested for loops, and then at the end console.log 'Found Dan.' The context hit coming back is like 10 lines of text."
+**Swyx (Latent Space, Cognition, Temporal)**
 
-This approach also solves the reliability problem. With a typed SDK and static type checking, the execution environment can catch hallucinations before they cause damage — something raw HTTP calls can't do. And security becomes manageable because the sandbox only allows connections to specific API endpoints.
+Swyx declared that a specific local-first stack has "won the battle" for building fast apps fast. He also tweeted "--dangerously-skip-git" — a likely reference to a new tool or workflow pattern he's exploring.
 
-Rattray is already using this philosophy in practice at Stainless, running Claude Code as a persistent "company brain" that saves useful SQL queries and customer insights into a Git repo for future reference. He envisions a world where one-off AI actions naturally graduate into permanent production software — where the same code execution sandbox that solved a problem once can commit that solution to the repo and automate it forever.
+https://x.com/swyx/status/2057576893621150020
 
-https://youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+https://x.com/swyx/status/2057633220221624596
 
-**AI & I by Every** — Inside Stainless: Anthropic 刚以 3 亿美元收购的开发者工具初创公司
+---
 
-*核心观点：当前设计的 MCP 服务器无法规模化——未来在于代码执行，AI 模型直接编写 API 代码，而不是在数百个工具定义中导航。*
+Swyx (Latent Space, Cognition, Temporal)
 
-Dan Shipper 主持了与 Stainless 创始人兼 CEO Alex Rattray 的对话。Stainless 是一家 API 和 SDK 公司，其最大客户包括 OpenAI 和 Google，Anthropic 刚刚以 3 亿美元收购了它。这次对话录制于收购之前，阐述了 Rattray 关于 AI agent 应如何与 API 交互的愿景，并且对当前的 MCP 范式提出了尖锐的批评。
+Swyx 宣称某个特定的 local-first 技术栈已经"赢得了快速构建快速应用的战斗"。他还发了一条推文"--dangerously-skip-git"——这很可能指的是他正在探索的新工具或工作流模式。
 
-Rattray 认为，今天的 MCP 服务器面临一个根本性的规模化问题。如果你试图将像 Stripe 这样的大型 API 的每个端点都暴露为单独的工具，仅描述它们就会耗尽你的整个上下文预算。模型无法在推理任务的同时，在脑海中容纳数百个工具定义。而变通方案——手工制作少量专用工具——也无法通用化，因为每个企业都有几十个 SaaS 工具和数千种可能的操作。
+https://x.com/swyx/status/2057576893621150020
 
-他提出的解决方案在简洁性上堪称激进：只给模型两个工具——一个用于执行代码，一个用于搜索文档。模型针对 API 的 SDK 编写 TypeScript，在沙箱中运行，然后只取回它需要的结果。"你对上下文窗口的前端影响非常非常有限，"Rattray 解释道。"模型会去找一个叫 Dan 的人，核实购买记录，写三个嵌套的 for 循环，然后在最后 console.log 输出 '找到 Dan 了'。返回的上下文影响就像 10 行文本。"
+https://x.com/swyx/status/2057633220221624596
 
-这种方法也解决了可靠性问题。使用类型化的 SDK 和静态类型检查，执行环境可以在幻觉造成损害之前捕获它们——这是原始 HTTP 调用无法做到的。而安全性也变得可控，因为沙箱只允许连接到特定的 API 端点。
+---
 
-Rattray 已经在 Stainless 实际应用这一理念，将 Claude Code 作为一个持续的"公司大脑"运行，将有用的 SQL 查询和客户洞察保存到 Git 仓库中供将来参考。他设想了一个世界，一次性的 AI 操作可以自然地升级为永久的生产软件——同一个解决过问题的代码执行沙箱，可以将该解决方案提交到仓库并永久自动化。
+**Peter Yang (Roblox)**
 
-https://youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Peter Yang called Codex automation a "game changer" and shared that he's trying out a new tool (link in tweet).
+
+https://x.com/petergyang/status/2057674020481593710
+
+https://x.com/petergyang/status/2057527562642071792
+
+---
+
+Peter Yang (Roblox)
+
+Peter Yang 称 Codex 自动化是"游戏规则改变者"，并分享说他正在试用一个新工具（链接在推文中）。
+
+https://x.com/petergyang/status/2057674020481593710
+
+https://x.com/petergyang/status/2057527562642071792
+
+---
+
+**FirstMark VC Matt Turck**
+
+Matt Turck shared his MAD Podcast conversation with OpenAI's Yann Dubois, who co-leads the Post-Training Frontiers team. The episode covers why AI progress suddenly feels real, model reliability, GPT-5.5, RL scaling, and more. Full summary in the Podcasts section below.
+
+https://x.com/mattturck/status/2057498130795385188
+
+---
+
+FirstMark VC Matt Turck
+
+Matt Turck 分享了他与 OpenAI 的 Yann Dubois 的 MAD Podcast 对话，Yann 共同领导 Post-Training Frontiers 团队。这期节目涵盖了为什么 AI 进步突然感觉真实、模型可靠性、GPT-5.5、RL 扩展等话题。完整摘要见下方播客部分。
+
+https://x.com/mattturck/status/2057498130795385188
+
+---
+
+**Zara Zhang (Builder, Harvard '17)**
+
+Zara Zhang open-sourced the Claude Code Lark/Feishu Bridge — a tool that lets you talk to Claude Code in Lark/Feishu like a colleague. Features include: using Claude Code on your phone via Lark chat, managing multiple sessions as group chats, reading Lark context (chats, docs, meeting transcripts), writing Lark Docs, forwarding messages for Claude to handle, and receiving interactive cards. Open-source on GitHub.
+
+https://x.com/zarazhangrui/status/2057710284920520906
+
+---
+
+Zara Zhang (Builder, Harvard '17)
+
+Zara Zhang 开源了 Claude Code Lark/飞书 Bridge——一个让你像跟同事聊天一样在 Lark/飞书里与 Claude Code 对话的工具。功能包括：通过 Lark 聊天在手机上使用 Claude Code，将多个会话管理为群聊，读取 Lark 上下文（聊天、文档、会议记录），编写 Lark 文档，转发消息让 Claude 处理，以及接收交互式卡片。已开源在 GitHub 上。
+
+https://x.com/zarazhangrui/status/2057710284920520906
+
+---
+
+**FPV Ventures Partner Nikunj Kothari**
+
+Nikunj Kothari highlighted that ex-founders are the driving force scaling iconic companies like Ramp, Mercor, Figma, Anthropic, and Cognition. He invited ex-founders to their next event.
+
+https://x.com/nikunj/status/2057462304149778588
+
+---
+
+FPV Ventures 合伙人 Nikunj Kothari
+
+Nikunj Kothari 强调，前创始人是推动 Ramp、Mercor、Figma、Anthropic 和 Cognition 等标志性公司规模化发展的关键力量。他邀请前创始人参加他们的下一场活动。
+
+https://x.com/nikunj/status/2057462304149778588
+
+---
+
+**Every CEO Dan Shipper**
+
+Dan Shipper shared a nostalgic moment: ~20 years ago he submitted a story that hit the top of Digg, and it feels good to be back.
+
+https://x.com/danshipper/status/2057631479052517507
+
+---
+
+Every CEO Dan Shipper
+
+Dan Shipper 分享了一个怀旧时刻：大约 20 年前，他提交的一个故事登上了 Digg 榜首，现在回归感觉真好。
+
+https://x.com/danshipper/status/2057631479052517507
+
+---
+
+**Claude (Anthropic)**
+
+Claude asked the community what they're making with Claude Design, sharing examples from users.
+
+https://x.com/claudeai/status/2057487475983929388
+
+---
+
+Claude (Anthropic)
+
+Claude 询问社区他们正在用 Claude Design 做什么，并分享了用户的示例。
+
+https://x.com/claudeai/status/2057487475983929388
+
+---
+
+## PODCASTS
+
+**The MAD Podcast with Matt Turck — OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real**
+
+**The Takeaway:** We've crossed a reliability threshold where AI models can be trusted to do real work — and the shift from verifiable rewards (math, coding competitions) to messy real-world reinforcement learning is why everything suddenly feels different.
+
+Yann Dubois co-leads the Post-Training Frontiers team at OpenAI, the group responsible for integrating improvements across the entire model and running the final training runs for models like GPT-5.5. Before OpenAI, he co-authored Stanford Alpaca, which kicked off the modern post-training research community.
+
+The conversation covers the three reasons AI progress suddenly feels real: crossing a reliability threshold (models now trustworthy enough to do real work), the acceleration loop where better models train themselves, and the shift from reinforcement learning on verifiable rewards (math, coding competitions) to optimizing for real-world utility. Dubois explains that GPT-5.5's efficiency gains come from models learning to "think less" — like an expert who knows which direction to go rather than an undergrad exploring 10 dead ends. The model also learns to backtrack when it's on the wrong path.
+
+On pre-training scaling: "I actually also thought maybe two years ago that pre-training was kind of hitting a wall... There were a lot of conversations about hitting data walls, and it seems like we did not quite hit it." Larger models actually think more efficiently — they generate fewer thinking tokens because more computation happens in the weights themselves.
+
+On reinforcement learning's current frontier: Dubois describes the "attribution problem" — with long agentic rollouts, you only know if the answer was correct at the very end, making it hard to reward intermediate steps. The simplest methods (like GRPO) that can scale with compute tend to win. On hallucination: SFT (supervised fine-tuning) can actually reward hallucination because you're asking the model to cite papers it doesn't know exist, while RL naturally kills that behavior because the model rarely samples a correct answer for something it doesn't know.
+
+On continual learning: "Three years ago when ChatGPT came out... I thought OpenAI is going to do that in the next six months... And three years later, I don't think we're there yet." He calls this one of the most important unsolved problems — models start more useful than new employees on day zero, but humans learn rapidly while models stay flat.
+
+On the startup opportunity: "There will always be a lot of space left for this last mile in different verticals. And I would highly encourage people to continue working on that."
+
+https://www.youtube.com/watch?v=DhD1zZ8w8Mw
+
+---
+
+**The MAD Podcast with Matt Turck — OpenAI 的 Yann Dubois：为什么 AI 进步突然感觉如此真实**
+
+**核心观点：** 我们已经跨越了一个可靠性门槛，AI 模型可以被信任去完成真正的工作——从可验证奖励（数学、编程竞赛）到混乱现实世界的强化学习的转变，是所有事情突然感觉不同的原因。
+
+Yann Dubois 共同领导 OpenAI 的 Post-Training Frontiers 团队，该团队负责整合整个模型的改进，并运行 GPT-5.5 等模型的最终训练。在加入 OpenAI 之前，他共同撰写了 Stanford Alpaca，这开启了现代 post-training 研究社区。
+
+对话涵盖了 AI 进步突然感觉真实的三个原因：跨越可靠性门槛（模型现在足够可信，可以完成真正的工作）、更好模型自我训练的加速循环，以及从可验证奖励（数学、编程竞赛）的强化学习转向优化现实世界效用。Dubois 解释说，GPT-5.5 的效率提升来自于模型学会了"少思考"——就像一个知道该往哪个方向走的专家，而不是一个探索 10 条死路的大学生。模型还学会了在走错路时回溯。
+
+关于预训练扩展："实际上，大约两年前我也认为预训练正在碰壁……有很多关于触及数据墙的讨论，但似乎我们并没有完全碰到它。"更大的模型实际上思考效率更高——它们生成更少的思考 token，因为更多的计算发生在权重本身。
+
+关于强化学习的当前前沿：Dubois 描述了"归因问题"——在长时间的 agent  rollout 中，你只在最后才知道答案是否正确，这使得奖励中间步骤变得困难。最简单的、可以随计算量扩展的方法（如 GRPO）往往会胜出。关于幻觉：SFT（监督微调）实际上可能会奖励幻觉，因为你要求模型引用它不知道存在的论文，而 RL 自然消除了这种行为，因为模型很少为它不知道的事情采样到正确答案。
+
+关于持续学习："三年前 ChatGPT 问世时……我以为 OpenAI 会在接下来的六个月内做到这一点……但三年后，我认为我们还没有达到。"他称这是最重要的未解决问题之一——模型在初始时比新员工更有用，但人类学习迅速，而模型保持平稳。
+
+关于创业机会："不同垂直领域的最后一英里总会留下大量空间。我强烈鼓励人们继续在这方面努力。"
+
+https://www.youtube.com/watch?v=DhD1zZ8w8Mw
 
 ---
 
