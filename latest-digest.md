@@ -1,322 +1,172 @@
-AI Builders Digest — Saturday, May 23, 2026
+AI Builders Digest — Sunday, May 24, 2026
 
-## X/TWITTER
+## X / TWITTER
 
-**Sam Altman (OpenAI CEO)**
+### Swyx (swyx on X) — AI Engineer, DX Tips, Cognition, Temporal
 
-Sam Altman asked the community what problem they most hope AI will solve in the future, adding "maybe we can help!" — a characteristically open-ended invitation that generated thousands of responses. He also announced that the new Codex ships today, signaling continued rapid iteration on OpenAI's coding agent.
+Swyx co-signed a mental framework about transformers' learning limitations, arguing that throwing more parameters at an inefficient paradigm will be outclassed by systems that can hypothesize and seek truth rather than backfit a "house of cards." He also introduced **Kakuna**, a new agent focused on codebase hardening and anti-entropy — think of it as the "boring stuff" agent that comes back with an audit of its own work. Swyx's philosophy: build a "mullet factory" — party in the front (ship unique, lovable features), dark in the back (timeless production principles).
 
-https://x.com/sama/status/2057614780727480741
+https://x.com/swyx/status/2058073815301972368
+https://x.com/swyx/status/2057876022553690327
 
-https://x.com/sama/status/2057559714788258003
+Swyx 点赞了一个关于 transformer 学习局限性的思维框架。他认为，把更多参数和算力砸在一个已被证明低效的范式上，最终会被那些能够提出假设并追求真理的系统超越——而不是事后硬凑一个"纸牌屋"。他还介绍了 **Kakuna**，一个专注于代码库加固和反熵的新 agent——你可以把它理解成专门处理"无聊工作"的 agent，做完活还会给你一份自我审计报告。Swyx 的哲学是：打造"mullet factory"——前面是派对（快速发布独特、可爱的功能），后面是暗房（永恒的生产原则）。
 
----
+https://x.com/swyx/status/2058073815301972368
+https://x.com/swyx/status/2057876022553690327
 
-Sam Altman（OpenAI CEO）
+### Kevin Weil — BoD @Cisco/@nature_org, former CPO @OpenAI
 
-Sam Altman 向社区提问：你最希望 AI 未来解决什么问题？并补充道"也许我们能帮上忙"——这个标志性的开放式提问引发了数千条回复。他还宣布新版 Codex 今日发布，表明 OpenAI 的编码 agent 仍在快速迭代中。
+Kevin shared a quote he loves: "Make no little plans." A short but resonant post about ambition and scale.
 
-https://x.com/sama/status/2057614780727480741
+https://x.com/kevinweil/status/2057987544663364045
 
-https://x.com/sama/status/2057559714788258003
+Kevin 分享了一句他非常喜欢的话："不要制定小计划。" 一条简短但充满力量感的状态，关于野心和格局。
 
----
+https://x.com/kevinweil/status/2057987544663364045
 
-**Box CEO Aaron Levie**
+### Peter Yang — Product at Roblox, AI tutorials
 
-Aaron Levie shared a sharp analysis of the AI cost landscape: we've moved from cheap chat tools with small context windows to expensive agentic models with giant context windows and long-running work capabilities. Inference costs have jumped by an order of magnitude because the models are that much better. He argues the stratification of AI costs is widening — frontier use cases (coding, science, finance) get the expensive models, while simpler tasks get cheaper ones. Enterprises will need new finance teams and technology solutions to manage this complexity. The labs and platforms that help customers optimize pricing per task will be best positioned.
+Peter published a thread on **6 things employees can do to take back control** amid mass layoffs: read the signals, learn Codex or Claude Code, build side projects, develop a GitHub history, become top 10% at your craft, and let the market determine your value. He also teased an upcoming series where he interviews solo founders and engineers about their AI stacks and how they manage multiple agents.
 
-https://x.com/levie/status/2057663408376516703
+https://x.com/petergyang/status/2057830781352034322
+https://x.com/petergyang/status/2057989910125310459
 
----
+Peter 发布了一条关于"大规模裁员潮中员工如何夺回主动权"的推文，给出了 6 条建议：读懂信号、学会用 Codex 或 Claude Code、做 side project、积累 GitHub 历史、成为领域前 10%、让市场决定你的价值。他还预告了一个新系列，将采访独立创业者和工程师，聊他们的 AI 技术栈以及如何管理多个 agent。
 
-Box CEO Aaron Levie
+https://x.com/petergyang/status/2057830781352034322
+https://x.com/petergyang/status/2057989910125310459
 
-Aaron Levie 对 AI 成本格局做出了犀利的分析：我们已经从廉价、小上下文窗口的聊天工具，转向了昂贵、拥有巨大上下文窗口且能处理长时间运行工作的 agent 模型。推理成本提升了一个数量级，因为模型本身好太多了。他认为 AI 成本的层级分化正在加剧——前沿用例（编程、科学、金融）使用昂贵的模型，而简单任务则用便宜的。企业将需要新的财务团队和技术方案来管理这种复杂性。能够帮助客户按任务优化定价的实验室和平台将占据最佳位置。
+### Google Labs
 
-https://x.com/levie/status/2057663408376516703
+Google Labs refreshed their website (labs.google) to make it easier to find the latest innovations from I/O. They also asked their product teams: "What's the most underrated or surprising feature from your product?" — and shared the team's answers.
 
----
+https://x.com/GoogleLabs/status/2057884277384360416
+https://x.com/GoogleLabs/status/2057863565328134604
 
-**Replit CEO Amjad Masad**
+Google Labs 更新了官网 (labs.google)，让用户更容易找到他们在 I/O 大会上发布的最新创新。他们还问了自己的产品团队："你们产品中最被低估或最让人意外的功能是什么？"——并分享了团队的回答。
 
-Amjad Masad announced that Replit is now offering credit rewards to developers who monetize their apps — a move to incentivize the ecosystem. He also made a strong product philosophy statement: "We're always excited to talk to customers but you shouldn't be forced to talk to us to buy the product," reinforcing Replit's self-serve ethos.
+https://x.com/GoogleLabs/status/2057884277384360416
+https://x.com/GoogleLabs/status/2057863565328134604
 
-https://x.com/amasad/status/2057616724757827826
+### Box CEO Aaron Levie (levie on X)
 
-https://x.com/amasad/status/2057504360217891018
+Aaron argues that AI makes it far easier to create and find security issues, which means the new bottleneck is our ability to review, respond to, and fix them. Far from eliminating the need for engineers, we're about to enter a **security engineer boom** — a classic Jevons paradox where increased efficiency leads to more demand, not less.
 
----
+https://x.com/levie/status/2058006473620463985
 
-Replit CEO Amjad Masad
+Aaron 认为，AI 让创建和发现安全问题变得极其容易，这意味着新的瓶颈变成了我们审查、响应和修复这些问题的能力。工程师不会被淘汰——相反，我们将迎来一场**安全工程师的繁荣**。这是典型的杰文斯悖论：效率提升反而带来了更多需求，而不是更少。
 
-Amjad Masad 宣布，Replit 现在为将其应用变现的开发者提供积分奖励——这是激励生态系统的举措。他还发表了一个强烈的产品理念声明："我们一直很乐意与客户交流，但你不应该被迫与我们交谈才能购买产品"，再次强调了 Replit 的自助服务理念。
+https://x.com/levie/status/2058006473620463985
 
-https://x.com/amasad/status/2057616724757827826
+### Y Combinator President/CEO Garry Tan
 
-https://x.com/amasad/status/2057504360217891018
+Garry shipped **GBrain v0.40.0**, his open-source personal AI, now with a voice agent powered by Gemini Live. "Mars is a friend, Venus is your EA." He also shared a contrarian take on Geoffrey Moore's "crossing the chasm" framework: when the alternative is literally nothing (the "bar is zero"), buyers act like visionaries, not skeptics. They'll tolerate a 60% solution. For founders, the question is: is your customer's alternative literally nothing? If yes, ship it in whatever form you have.
 
----
+https://x.com/garrytan/status/2058053659527913566
+https://x.com/garrytan/status/2058043367704195271
 
-**Y Combinator President & CEO Garry Tan**
+Garry 发布了 **GBrain v0.40.0**，他的开源个人 AI 现在加入了由 Gemini Live 驱动的语音 agent。"Mars 是你的朋友，Venus 是你的行政助理。"他还对 Geoffrey Moore 的"跨越鸿沟"理论提出了一个反常识的观点：当用户的替代方案是"什么都没有"时（即"基准为零"），买家会像远见者一样行动，而不是怀疑者。他们会接受一个 60% 的解决方案。对创业者来说，核心问题是：你的客户目前是不是根本没有替代方案？如果是，那就把你现有的东西发出去。
 
-Garry Tan shared a podcast episode where he and Diana Hu discuss how one engineer can become a 1000x founder. He also promoted Flock Safety, saying San Francisco is safer because of it. And in a characteristically bold tweet, he declared: "Everyone should have an agent with a GBrain."
+https://x.com/garrytan/status/2058053659527913566
+https://x.com/garrytan/status/2058043367704195271
 
-https://x.com/garrytan/status/2057701084031004928
+### Matt Turck — VC at FirstMark Capital
 
-https://x.com/garrytan/status/2057639198782521837
+Matt highlighted that while AI progress looks wild from the outside, behind the scenes at OpenAI, it's continuous progress compounding — steady, incremental improvement rather than sudden breakthroughs.
 
-https://x.com/garrytan/status/2057636167525498961
+https://x.com/mattturck/status/2057913362608972256
 
----
+Matt 指出，虽然外界看 AI 的进展感觉像是一场狂飙，但在 OpenAI 内部，这其实是持续进步在复利——稳定、渐进的改进，而不是突然的突破。
 
-Y Combinator 总裁兼 CEO Garry Tan
+https://x.com/mattturck/status/2057913362608972256
 
-Garry Tan 分享了一期播客，他与 Diana Hu 讨论了"一个工程师如何成为 1000 倍创始人"。他还推广了 Flock Safety，称旧金山因此变得更安全。此外，他还发表了一条标志性的大胆推文："每个人都应该拥有一个带 GBrain 的 agent。"
+### Nikunj Kothari — Partner at FPV Ventures
 
-https://x.com/garrytan/status/2057701084031004928
+Nikunj signed a Series A lead and noted it's **not AI** — a reminder that there's still a vibrant non-AI startup ecosystem. He also posted: "This time is too important to NOT be doing your life's best work."
 
-https://x.com/garrytan/status/2057639198782521837
+https://x.com/nikunj/status/2057947701762019751
+https://x.com/nikunj/status/2057819563258216957
 
-https://x.com/garrytan/status/2057636167525498961
+Nikunj 领投了一家公司的 A 轮，并特别说明**不是 AI 公司**——提醒大家非 AI 的创业生态依然活跃。他还发了一条状态："这个时代太重要了，你不能不去做你一生中最好的工作。"
 
----
+https://x.com/nikunj/status/2057947701762019751
+https://x.com/nikunj/status/2057819563258216957
 
-**South Park Commons GP Aditya Agarwal**
+### Peter Steinberger — ClawFather, OpenClaw
 
-Aditya Agarwal shared 4 brutally honest thoughts on early-stage hiring: (1) If an engineer is choosing between a pre-Series B startup and a BigCo/BigLab, stop talking to them — they're not ready for a startup. (2) If someone won't take a 70% cash pay cut, stop talking — they'll be unhappy. (3) You learn a lot during negotiation — don't be afraid to walk away. (4) Startups have zero work-life balance. If you're not willing to grind, you're not in the right headspace.
+Peter noted that GitHub is shipping a native 10 PR per person limit — something they had been enforcing with bots. A small but meaningful signal that platforms are building agent-native guardrails.
 
-https://x.com/adityaag/status/2057502381038846306
+https://x.com/steipete/status/2057946259709628781
 
----
+Peter 提到 GitHub 正在原生支持每人 10 个 PR 的限制——而他们之前是用 bot 来强制执行的。这是一个小而重要的信号：平台正在构建原生的 agent 护栏。
 
-South Park Commons GP Aditya Agarwal
+https://x.com/steipete/status/2057946259709628781
 
-Aditya Agarwal 分享了对早期招聘的 4 条极其诚实的看法：(1) 如果一个工程师在 pre-Series B 初创公司和 BigCo/BigLab 之间犹豫，别聊了——他们还没准备好做初创公司。(2) 如果有人不愿意接受比 BigCo/BigLab 低 70% 的现金薪酬，别聊了——他们不会开心的。(3) 在谈判和收尾过程中你能学到很多——不要害怕放弃。(4) 初创公司没有工作生活平衡。如果你不愿意拼命，你的心态就不对。
+### Dan Shipper — CEO of Every
 
-https://x.com/adityaag/status/2057502381038846306
+Dan shared that he'll be speaking about his piece "After Automation" at an event. He also spoke at another event and called it "so fun."
 
----
+https://x.com/danshipper/status/2057885219936473195
+https://x.com/danshipper/status/2057847013325086870
 
-**Google VP Josh Woodward**
+Dan 分享说他将在某个活动上讲述他的文章《自动化之后》。他还参加了另一个活动，并表示"太好玩了"。
 
-Josh Woodward celebrated Google Labs' IO announcements, highlighting user love for the new Neural Expressive design across iOS, Android, and Web. He called the IO ride "what a ride."
+https://x.com/danshipper/status/2057885219936473195
+https://x.com/danshipper/status/2057847013325086870
 
-https://x.com/joshwoodward/status/2057564491064483930
+### Claude (by Anthropic)
 
-https://x.com/joshwoodward/status/2057559267952214073
+Claude featured **Genspark.ai** co-founder and CTO Kay Zhu in their "Problem Solvers" series. Kay's take: in a market moving this fast where anyone can build, the team is what makes the difference.
 
----
+https://x.com/claudeai/status/2057854403558653983
 
-Google VP Josh Woodward
+Claude 在"Problem Solvers"系列中介绍了 **Genspark.ai** 的联合创始人兼 CTO Kay Zhu。Kay 的观点是：在这个变化如此之快、任何人都能参与构建的市场中，团队才是真正的差异化因素。
 
-Josh Woodward 庆祝了 Google Labs 在 IO 大会上的发布，并提到用户对跨 iOS、Android 和 Web 的新 Neural Expressive 设计反响热烈。他称这次 IO 之旅"太精彩了"。
-
-https://x.com/joshwoodward/status/2057564491064483930
-
-https://x.com/joshwoodward/status/2057559267952214073
-
----
-
-**Google Labs**
-
-Google Labs shared a thread about their IO experiments: a vibe-designed website from Stitch by Google featuring Labs experiments as mini-games with an 8-bit "Labster" character, and taking Labster to the Grand Canyon with Project Genie. They invited users to discover experiments and share what they create.
-
-https://x.com/GoogleLabs/status/2057492242911404443
-
-https://x.com/GoogleLabs/status/2057492241472729543
-
-https://x.com/GoogleLabs/status/2057492239656562792
-
----
-
-Google Labs
-
-Google Labs 发布了一条关于 IO 实验的推文串：一个由 Stitch by Google 打造的"氛围感设计"网站，将 Labs 实验作为迷你游戏呈现，包含一个 8 位的"Labster"角色，并通过 Project Genie 将 Labster 带到了大峡谷。他们邀请用户探索这些实验并分享自己的创作。
-
-https://x.com/GoogleLabs/status/2057492242911404443
-
-https://x.com/GoogleLabs/status/2057492241472729543
-
-https://x.com/GoogleLabs/status/2057492239656562792
-
----
-
-**Cursor Designer Ryo Lu**
-
-Ryo Lu announced that building software is more fun together, promoting Cursor's new model, interface, SDK, and automations for teams.
-
-https://x.com/ryolu_/status/2057500107235557675
-
----
-
-Cursor 设计师 Ryo Lu
-
-Ryo Lu 宣布"一起构建软件更有趣"，推广了 Cursor 的新模型、界面、SDK 和面向团队的自动化功能。
-
-https://x.com/ryolu_/status/2057500107235557675
-
----
-
-**Swyx (Latent Space, Cognition, Temporal)**
-
-Swyx declared that a specific local-first stack has "won the battle" for building fast apps fast. He also tweeted "--dangerously-skip-git" — a likely reference to a new tool or workflow pattern he's exploring.
-
-https://x.com/swyx/status/2057576893621150020
-
-https://x.com/swyx/status/2057633220221624596
-
----
-
-Swyx (Latent Space, Cognition, Temporal)
-
-Swyx 宣称某个特定的 local-first 技术栈已经"赢得了快速构建快速应用的战斗"。他还发了一条推文"--dangerously-skip-git"——这很可能指的是他正在探索的新工具或工作流模式。
-
-https://x.com/swyx/status/2057576893621150020
-
-https://x.com/swyx/status/2057633220221624596
-
----
-
-**Peter Yang (Roblox)**
-
-Peter Yang called Codex automation a "game changer" and shared that he's trying out a new tool (link in tweet).
-
-https://x.com/petergyang/status/2057674020481593710
-
-https://x.com/petergyang/status/2057527562642071792
-
----
-
-Peter Yang (Roblox)
-
-Peter Yang 称 Codex 自动化是"游戏规则改变者"，并分享说他正在试用一个新工具（链接在推文中）。
-
-https://x.com/petergyang/status/2057674020481593710
-
-https://x.com/petergyang/status/2057527562642071792
-
----
-
-**FirstMark VC Matt Turck**
-
-Matt Turck shared his MAD Podcast conversation with OpenAI's Yann Dubois, who co-leads the Post-Training Frontiers team. The episode covers why AI progress suddenly feels real, model reliability, GPT-5.5, RL scaling, and more. Full summary in the Podcasts section below.
-
-https://x.com/mattturck/status/2057498130795385188
-
----
-
-FirstMark VC Matt Turck
-
-Matt Turck 分享了他与 OpenAI 的 Yann Dubois 的 MAD Podcast 对话，Yann 共同领导 Post-Training Frontiers 团队。这期节目涵盖了为什么 AI 进步突然感觉真实、模型可靠性、GPT-5.5、RL 扩展等话题。完整摘要见下方播客部分。
-
-https://x.com/mattturck/status/2057498130795385188
-
----
-
-**Zara Zhang (Builder, Harvard '17)**
-
-Zara Zhang open-sourced the Claude Code Lark/Feishu Bridge — a tool that lets you talk to Claude Code in Lark/Feishu like a colleague. Features include: using Claude Code on your phone via Lark chat, managing multiple sessions as group chats, reading Lark context (chats, docs, meeting transcripts), writing Lark Docs, forwarding messages for Claude to handle, and receiving interactive cards. Open-source on GitHub.
-
-https://x.com/zarazhangrui/status/2057710284920520906
-
----
-
-Zara Zhang (Builder, Harvard '17)
-
-Zara Zhang 开源了 Claude Code Lark/飞书 Bridge——一个让你像跟同事聊天一样在 Lark/飞书里与 Claude Code 对话的工具。功能包括：通过 Lark 聊天在手机上使用 Claude Code，将多个会话管理为群聊，读取 Lark 上下文（聊天、文档、会议记录），编写 Lark 文档，转发消息让 Claude 处理，以及接收交互式卡片。已开源在 GitHub 上。
-
-https://x.com/zarazhangrui/status/2057710284920520906
-
----
-
-**FPV Ventures Partner Nikunj Kothari**
-
-Nikunj Kothari highlighted that ex-founders are the driving force scaling iconic companies like Ramp, Mercor, Figma, Anthropic, and Cognition. He invited ex-founders to their next event.
-
-https://x.com/nikunj/status/2057462304149778588
-
----
-
-FPV Ventures 合伙人 Nikunj Kothari
-
-Nikunj Kothari 强调，前创始人是推动 Ramp、Mercor、Figma、Anthropic 和 Cognition 等标志性公司规模化发展的关键力量。他邀请前创始人参加他们的下一场活动。
-
-https://x.com/nikunj/status/2057462304149778588
-
----
-
-**Every CEO Dan Shipper**
-
-Dan Shipper shared a nostalgic moment: ~20 years ago he submitted a story that hit the top of Digg, and it feels good to be back.
-
-https://x.com/danshipper/status/2057631479052517507
-
----
-
-Every CEO Dan Shipper
-
-Dan Shipper 分享了一个怀旧时刻：大约 20 年前，他提交的一个故事登上了 Digg 榜首，现在回归感觉真好。
-
-https://x.com/danshipper/status/2057631479052517507
-
----
-
-**Claude (Anthropic)**
-
-Claude asked the community what they're making with Claude Design, sharing examples from users.
-
-https://x.com/claudeai/status/2057487475983929388
-
----
-
-Claude (Anthropic)
-
-Claude 询问社区他们正在用 Claude Design 做什么，并分享了用户的示例。
-
-https://x.com/claudeai/status/2057487475983929388
-
----
+https://x.com/claudeai/status/2057854403558653983
 
 ## PODCASTS
 
-**The MAD Podcast with Matt Turck — OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real**
+### Unsupervised Learning — Ep 87: Gemini Co-Lead on World Models, RL's Next Domains & Continual Learning
 
-**The Takeaway:** We've crossed a reliability threshold where AI models can be trusted to do real work — and the shift from verifiable rewards (math, coding competitions) to messy real-world reinforcement learning is why everything suddenly feels different.
+**The Takeaway:** The "GPT moment" for video hasn't arrived yet — and cracking pure visual understanding without language labels remains one of deep learning's holy grails. But Omni is a major step toward world models that can simulate, render, and be controlled through natural language.
 
-Yann Dubois co-leads the Post-Training Frontiers team at OpenAI, the group responsible for integrating improvements across the entire model and running the final training runs for models like GPT-5.5. Before OpenAI, he co-authored Stanford Alpaca, which kicked off the modern post-training research community.
+Oriol Vinyals, co-lead of Gemini alongside Noam Shazeer and Jeff Dean, sat down with host Jacob Efron right after Google I/O. If you want to understand where Google DeepMind thinks the frontier is heading — world models, continual learning, RL beyond coding and math — this is the episode.
 
-The conversation covers the three reasons AI progress suddenly feels real: crossing a reliability threshold (models now trustworthy enough to do real work), the acceleration loop where better models train themselves, and the shift from reinforcement learning on verifiable rewards (math, coding competitions) to optimizing for real-world utility. Dubois explains that GPT-5.5's efficiency gains come from models learning to "think less" — like an expert who knows which direction to go rather than an undergrad exploring 10 dead ends. The model also learns to backtrack when it's on the wrong path.
+Vinyals draws a sharp distinction between today's multimodal models and a true "world model." Current models mix all modalities (text, images, video) and benefit from cross-modal transfer learning. But the dream — training on all video data without text and still extracting the rules of gravity, cause and effect, and the conceptual structure of the world — remains unsolved. "That pure transfer is one of the core quests of machine learning for the last decade plus," Vinyals says.
 
-On pre-training scaling: "I actually also thought maybe two years ago that pre-training was kind of hitting a wall... There were a lot of conversations about hitting data walls, and it seems like we did not quite hit it." Larger models actually think more efficiently — they generate fewer thinking tokens because more computation happens in the weights themselves.
+On Omni specifically: it's not just a video generator. It's a **renderer of the world that you can change through language**. You can animate an image, specify movements, edit the output — and that opens the door to simulation for robotics and self-driving. But Vinyals is candid about the gap: "The precision of even grasping an object... the visuals, the exact forces, how things would move — it needs to be very, very accurate."
 
-On reinforcement learning's current frontier: Dubois describes the "attribution problem" — with long agentic rollouts, you only know if the answer was correct at the very end, making it hard to reward intermediate steps. The simplest methods (like GRPO) that can scale with compute tend to win. On hallucination: SFT (supervised fine-tuning) can actually reward hallucination because you're asking the model to cite papers it doesn't know exist, while RL naturally kills that behavior because the model rarely samples a correct answer for something it doesn't know.
+On **continual learning**: Vinyals believes the most practical near-term path isn't retraining weights per user (too expensive to serve), but using a **file-system-based memory** where agents write thoughts to files, structure them into directories, and retrieve them. "We'll see better evaluations and ways in which these models accumulate knowledge as they interact. I think that's probably paradigm-shifting as well, similar to how we saw reasoning a year and a half or so ago."
 
-On continual learning: "Three years ago when ChatGPT came out... I thought OpenAI is going to do that in the next six months... And three years later, I don't think we're there yet." He calls this one of the most important unsolved problems — models start more useful than new employees on day zero, but humans learn rapidly while models stay flat.
+On **RL's next domains**: Vinyals points out that in LLMs, we're data-limited — unlike Go, where every move creates a new, unique state for free. "The source of infinite complexity is not so clear" for LLMs. But he's optimistic about models learning to judge their own outputs (since evaluating is easier than creating), which could unlock RL on subjective domains like "is this game engaging?"
 
-On the startup opportunity: "There will always be a lot of space left for this last mile in different verticals. And I would highly encourage people to continue working on that."
+On **AGI**: Vinyals says if you showed someone in 2019 today's models, they'd call it AGI. "I think in some way AGI is here." But the missing piece? True learning from experience. "Everyone will have their own test or bias onto what the models still feel like capability gaps exist."
 
-https://www.youtube.com/watch?v=DhD1zZ8w8Mw
+On the **Bitter Lesson**: Vinyals thinks the complex scaffolding we build around models today (multi-agent systems, delegation, long-running agents) will eventually be written by the model itself on the fly. "In the limit, the system itself is a piece of code that the model could write."
 
----
+One memorable quote: "At the point a model writes English better than you... it's an interesting realization that even if you could improve that capability and there's no ceiling, it might not even be that we need to see that ceiling."
 
-**The MAD Podcast with Matt Turck — OpenAI 的 Yann Dubois：为什么 AI 进步突然感觉如此真实**
+https://www.youtube.com/watch?v=NQczevdpxq0
 
-**核心观点：** 我们已经跨越了一个可靠性门槛，AI 模型可以被信任去完成真正的工作——从可验证奖励（数学、编程竞赛）到混乱现实世界的强化学习的转变，是所有事情突然感觉不同的原因。
+**核心观点：** 视频领域的"GPT 时刻"尚未到来——破解纯视觉理解（不依赖文字标签）仍然是深度学习领域的圣杯之一。但 Omni 是迈向"世界模型"的重要一步，这种模型能够模拟、渲染世界，并通过自然语言进行控制。
 
-Yann Dubois 共同领导 OpenAI 的 Post-Training Frontiers 团队，该团队负责整合整个模型的改进，并运行 GPT-5.5 等模型的最终训练。在加入 OpenAI 之前，他共同撰写了 Stanford Alpaca，这开启了现代 post-training 研究社区。
+Gemini 联合负责人 Oriol Vinyals（与 Noam Shazeer 和 Jeff Dean 共同领导）在 Google I/O 之后接受了主持人 Jacob Efron 的专访。如果你想了解 Google DeepMind 认为前沿正在向何处发展——世界模型、持续学习、超越编程和数学的强化学习——这期节目不容错过。
 
-对话涵盖了 AI 进步突然感觉真实的三个原因：跨越可靠性门槛（模型现在足够可信，可以完成真正的工作）、更好模型自我训练的加速循环，以及从可验证奖励（数学、编程竞赛）的强化学习转向优化现实世界效用。Dubois 解释说，GPT-5.5 的效率提升来自于模型学会了"少思考"——就像一个知道该往哪个方向走的专家，而不是一个探索 10 条死路的大学生。模型还学会了在走错路时回溯。
+Vinyals 清晰地划分了当今多模态模型与真正"世界模型"之间的区别。当前的模型混合了所有模态（文本、图像、视频），并受益于跨模态迁移学习。但那个终极梦想——仅靠训练所有视频数据，不借助任何文本，就能提取出重力法则、因果关系和世界的概念结构——仍未实现。Vinyals 说："这种纯迁移学习是过去十多年来机器学习的核心追求之一。"
 
-关于预训练扩展："实际上，大约两年前我也认为预训练正在碰壁……有很多关于触及数据墙的讨论，但似乎我们并没有完全碰到它。"更大的模型实际上思考效率更高——它们生成更少的思考 token，因为更多的计算发生在权重本身。
+具体到 Omni：它不仅仅是一个视频生成器。它是一个**可以通过语言改变的世界渲染器**。你可以让一张图片动起来，指定运动轨迹，编辑输出结果——这为机器人技术和自动驾驶的模拟打开了大门。但 Vinyals 对差距也很坦诚："即使是抓取一个物体的精度……视觉效果、精确的受力、物体如何运动——这些都需要非常、非常精确。"
 
-关于强化学习的当前前沿：Dubois 描述了"归因问题"——在长时间的 agent  rollout 中，你只在最后才知道答案是否正确，这使得奖励中间步骤变得困难。最简单的、可以随计算量扩展的方法（如 GRPO）往往会胜出。关于幻觉：SFT（监督微调）实际上可能会奖励幻觉，因为你要求模型引用它不知道存在的论文，而 RL 自然消除了这种行为，因为模型很少为它不知道的事情采样到正确答案。
+关于**持续学习**：Vinyals 认为，短期内最实用的路径不是为每个用户重新训练权重（服务成本太高），而是使用**基于文件系统的记忆**——agent 把想法写入文件，组织成目录，然后检索。他说："我们会看到更好的评估方法，以及模型在交互中积累知识的方式。我认为这可能会像一年半以前的推理能力一样，带来范式转变。"
 
-关于持续学习："三年前 ChatGPT 问世时……我以为 OpenAI 会在接下来的六个月内做到这一点……但三年后，我认为我们还没有达到。"他称这是最重要的未解决问题之一——模型在初始时比新员工更有用，但人类学习迅速，而模型保持平稳。
+关于**强化学习的下一个领域**：Vinyals 指出，在 LLM 中，我们受限于数据——不像围棋，每一步都会免费创造一个新的、独一无二的状态。对 LLM 来说，"无限复杂性的来源并不明确"。但他对模型学会自我判断输出持乐观态度（因为评估比创造更容易），这可能会解锁在主观领域（如"这个游戏好玩吗？"）上的强化学习。
 
-关于创业机会："不同垂直领域的最后一英里总会留下大量空间。我强烈鼓励人们继续在这方面努力。"
+关于**AGI**：Vinyals 说，如果你在 2019 年给某人展示今天的模型，他们会说这就是 AGI。"我认为在某种程度上，AGI 已经来了。"但缺失的那一块是什么？真正的从经验中学习。"每个人对于模型仍然存在哪些能力差距，都有自己的测试标准或偏见。"
 
-https://www.youtube.com/watch?v=DhD1zZ8w8Mw
+关于**苦涩的教训**：Vinyals 认为，我们今天围绕模型构建的复杂脚手架（多 agent 系统、任务委派、长时间运行的 agent）最终将由模型本身实时编写。"在极限情况下，系统本身就是一个模型可以编写的代码段。"
+
+一句令人印象深刻的原话："当模型写英文写得比你还好的时候……这是一个有趣的认知——即使你可以继续提升这个能力，而且没有天花板，我们可能也根本不需要看到那个天花板。"
+
+https://www.youtube.com/watch?v=NQczevdpxq0
 
 ---
 
