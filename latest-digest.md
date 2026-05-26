@@ -1,156 +1,162 @@
-AI Builders Digest — Monday, May 25, 2026
+AI Builders Digest — Tuesday, May 26, 2026
 
-## X/TWITTER
+## X / TWITTER
 
-### Thariq (Claude Code @ Anthropic; previously YC W20, South Park Commons, MIT Media Lab)
+**Roblox Product Lead Peter Yang**
 
-Thariq shared a practical tip that resonated widely: you can literally prompt Claude Code with "please save me money" and it will actually analyze your infrastructure and suggest cost-saving measures. He demonstrated this by cleaning up leftover services from his old startup OMMultiverse, showing the agent can navigate a large legacy codebase and identify savings opportunities without manual effort.
+Peter Yang shared highlights from his latest podcast episode with Ryan Carson, who is running his startup solo using AI agents. Carson uses OpenClaw as his AI chief of staff for email triage, scheduling, and sales outreach, and Codex/Devin as his engineering team. His key philosophy: "Spend a lot of time upfront setting up your skills + documentation. Then you've suddenly unlocked the work of 10 people." Carson also noted he's raised $2M but won't hire anyone for a while — an agent is faster to onboard and retains all training.
 
-https://x.com/trq212/status/2058377974882210096
-https://x.com/trq212/status/2058380417716125966
+https://x.com/petergyang/status/2058555226479866312
+https://x.com/petergyang/status/2058609058714968194
 
-Thariq 分享了一个非常实用的技巧：你可以直接对 Claude Code 说"请帮我省钱"，它真的会分析你的基础设施并提出成本优化建议。他用自己的老项目 OMMultiverse 做了演示——AI 能自主穿梭于庞大的遗留代码库，识别出可以节约成本的地方，完全不需要人工排查。
+Roblox产品负责人Peter Yang分享了他最新一期播客的亮点，嘉宾Ryan Carson正在完全靠AI agents独自运营他的创业公司。Carson用OpenClaw作为AI行政主管处理邮件分类、日程安排和销售拓展，用Codex和Devin作为工程团队。他的核心理念是："花大量时间提前设置好你的技能和文档，然后就突然解锁了10个人的工作量。"Carson还提到他已融资200万美元但暂时不会雇佣任何人——AI agent上手更快，且能保留所有训练成果。
 
-https://x.com/trq212/status/2058377974882210096
-https://x.com/trq212/status/2058380417716125966
+https://x.com/petergyang/status/2058555226479866312
+https://x.com/petergyang/status/2058609058714968194
 
----
+**Google Product Leader Madhu Guru**
 
-### Replit CEO Amjad Masad
+Madhu Guru warns that CEOs experiencing AI FOMO often set vague, sweeping AI mandates without getting hands-on themselves. This leads to performative demos from employees trying to meet coarse goals. "Next thing you know it's been two years with no real progress and a startup with hands-on leadership is disrupting you."
 
-Amjad shared a compelling testimonial from a developer who built their MVP on Replit's Dial platform over a single weekend and got it approved by Apple on the first try — something that had never happened to them before. The developer noted that while they thought Cursor was fast, Replit Dial "completely blew me away." Amjad also hinted at something "epic" coming, without revealing details.
+https://x.com/realmadhuguru/status/2058591611245011157
 
-https://x.com/amasad/status/2058418731840159953
-https://x.com/amasad/status/2058417703958773965
-https://x.com/amasad/status/2058292230700372356
+Google产品负责人Madhu Guru警告说，那些有AI焦虑症的CEO往往在不亲自下场的情况下就设定模糊的AI指令。这导致员工为了应付粗略目标而做出表演性质的demo。"转眼两年过去了，没有任何实质进展，一家有实干精神领导层的创业公司正在颠覆你。"
 
-Amjad 分享了一位开发者的证言：对方用 Replit Dial 平台在一个周末就完成了 MVP 开发，并且苹果一次审核就通过了——这是他们从未有过的事。这位开发者说，原本以为 Cursor 已经很快了，但 Replit Dial "彻底震撼了我"。此外，Amjad 还暗示有"史诗级"的新东西即将到来，但未透露细节。
+https://x.com/realmadhuguru/status/2058591611245011157
 
-https://x.com/amasad/status/2058418731840159953
-https://x.com/amasad/status/2058417703958773965
-https://x.com/amasad/status/2058292230700372356
+**Claude Code at Anthropic — Thariq**
 
----
+Thariq shared his key takeaway from the Bun rewrite: legacy codebases will be incredibly valuable as a source for "distilling" code into new forms. Every game should be cross-platform, all legacy software should work on the web. He added that models aren't quite there yet for this — Bun is extremely verifiable with great test coverage — but they will get there.
 
-### Vercel CEO Guillermo Rauch
+https://x.com/trq212/status/2058576195000660319
+https://x.com/trq212/status/2058576196481200223
 
-Guillermo ran an interesting crowdsourced experiment: he asked his 1,400+ followers to share the AI product they're most proud of and which model/agent they used. The results show OpenAI is catching up to Anthropic in developer mindshare, "Codex" got more mentions than "Claude Code," but Anthropic models still dominate by individual mentions. He also posted a simple "gm 🏃‍♂️" that got 385 likes — a testament to his engaged audience.
+Thariq分享了他从Bun重写项目中得到的核心启示：遗留代码库作为"蒸馏"代码为新形式的来源将极具价值。每个游戏都应该是跨平台的，所有遗留软件都应该能在网页上运行。他还补充说，模型目前还做不到这一点——Bun的可验证性极强，测试覆盖率也很高——但它们终将做到。
 
-https://x.com/rauchg/status/2058353051073970416
-https://x.com/rauchg/status/2058245330836271263
-https://x.com/rauchg/status/2058239837195628941
+https://x.com/trq212/status/2058576195000660319
+https://x.com/trq212/status/2058576196481200223
 
-Guillermo 做了一次有趣的众包实验：他让 1400 多位粉丝分享自己最引以为豪的 AI 产品以及使用的模型/Agent。结果显示，OpenAI 正在开发者心智上追赶 Anthropic，"Codex"的提及次数超过了"Claude Code"，但按模型个体统计，Anthropic 仍然领先。他还发了一条简单的"gm 🏃‍♂️"，收获了 385 个赞——足见其粉丝的活跃度。
+**Vercel CEO Guillermo Rauch**
 
-https://x.com/rauchg/status/2058353051073970416
-https://x.com/rauchg/status/2058245330836271263
-https://x.com/rauchg/status/2058239837195628941
+Guillermo Rauch shared a concise brand-building philosophy: "How do you build a great brand? Build a great product." He also posted a link and shared his enthusiasm for Brazilian Jiu-Jitsu, calling it "the peak athletic pursuit."
 
----
+https://x.com/rauchg/status/2058750970998505505
 
-### Box CEO Aaron Levie
+Vercel CEO Guillermo Rauch分享了一个简洁的品牌建设理念："如何打造一个伟大的品牌？打造一个伟大的产品。"他还发了一个链接，并表达了对巴西柔术的热情，称其为"运动的巅峰追求"。
 
-Aaron shared a sharp take on AI and jobs, arguing that people consistently confuse "task completion" with "job elimination." Even as AI automates many tasks within a role, the job itself expands — you do more of those tasks, at higher quality, or move on to what hasn't been automated yet. The result: jobs become valuable in new ways, and new audiences emerge. A small business that couldn't afford a full marketing agency can now hire one marketer who, with AI agents, delivers agency-level output. "Don't fall into the trap of confusing tasks with jobs."
+https://x.com/rauchg/status/2058750970998505505
 
-https://x.com/levie/status/2058223867815227756
+**Box CEO Aaron Levie**
 
-Aaron 分享了一个关于 AI 与就业的精辟观点：人们一直在混淆"完成任务"和"消灭岗位"。即使 AI 能自动化某个职位上的许多任务，这个职位本身也会随之扩展——要么做更多同类工作，要么做得更高质量，要么转向尚未被自动化的工作。结果是：工作以新的方式变得更有价值，新的受众也随之出现。一家原本请不起整家营销公司的小企业，现在可以雇一个营销人员，借助 AI Agent 输出整个 agency 级别的成果。"别掉进把任务和岗位混为一谈的陷阱。"
+Aaron Levie posted a highly viral thread on "CEO AI psychosis." His argument: CEOs are too distant from the last mile of work that generates real value with AI. They see happy-path demos (a prototype, a generated contract) but miss the 10–20 additional steps needed for sustainable results — code review, production issues, contract verification, integration with legacy systems. His advice: use AI a ton yourself to understand both the upside and the real work involved.
 
-https://x.com/levie/status/2058223867815227756
+https://x.com/levie/status/2058582370253701432
 
----
+Box CEO Aaron Levie发布了一条爆火的长帖，讨论"CEO AI精神病"。他的观点是：CEO离产生AI真正价值的最后一公里工作太远了。他们看到的是完美路径下的demo（一个原型、一份生成的合同），却忽略了实现可持续结果所需的10到20个额外步骤——代码审查、生产环境问题、合同验证、与遗留系统的集成。他的建议是：自己大量使用AI，才能真正理解它的潜力和背后的实际工作。
 
-### Y Combinator President & CEO Garry Tan
+https://x.com/levie/status/2058582370253701432
 
-Garry released new benchmarks for his personal AI system "gbrain," showing it beats MemPalace by 1% on LongMemEval and outperforms Vector RAG by 38% — positioning it as SOTA for reranking and embedding cost, speed, and retrieval success. He also shared that he fine-tuned his own Qwen3.5-397B model in just a few hours using Thinking Machines, calling fast multimodal AI "mind-blowing" for personal use cases. Separately, he launched Garry's List Action, committing $50K to fight policies that push startups out of San Francisco, and is looking for 9 more people to match him.
+**Y Combinator CEO Garry Tan**
 
-https://x.com/garrytan/status/2058448209027141709
-https://x.com/garrytan/status/2058378310254793013
-https://x.com/garrytan/status/2058251537298980992
+Garry Tan shared several quick observations: "High agency high taste is the unlock these days," "When all your friends are building on the edge," and "I'm having the time of my life frankly."
 
-Garry 发布了个人 AI 系统"gbrain"的最新评测结果：在 LongMemEval 上比 MemPalace 高 1%，比 Vector RAG 高 38%——在重排序和嵌入的成本、速度、检索成功率方面达到 SOTA。他还透露，自己用 Thinking Machines 仅花了几小时就微调了一个 Qwen3.5-397B 模型，称快速多模态 AI 在个人场景中"令人震撼"。此外，他发起 Garry's List Action，自掏 5 万美元对抗将创业公司赶出旧金山的政策，并寻找 9 个人匹配他的捐款。
+https://x.com/garrytan/status/2058769355916411099
+https://x.com/garrytan/status/2058767163666887136
+https://x.com/garrytan/status/2058767083777949930
 
-https://x.com/garrytan/status/2058448209027141709
-https://x.com/garrytan/status/2058378310254793013
-https://x.com/garrytan/status/2058251537298980992
+Y Combinator CEO Garry Tan分享了几条简短观察："高能动性加高品味是如今的制胜法宝"、"当你所有的朋友都在前沿建造时"、"老实说，我正享受人生中最快乐的时光。"
 
----
+https://x.com/garrytan/status/2058769355916411099
+https://x.com/garrytan/status/2058767163666887136
+https://x.com/garrytan/status/2058767083777949930
 
-### FPV Ventures Partner Nikunj Kothari
+**FirstMark VC Matt Turck**
 
-Nikunj noted that B2B companies are finally waking up to an opportunity he wrote about nearly a year ago: using narratives and vibes strategically to stand out in a crowded market. He warned that waiting another year to act on this insight would be a mistake.
+Matt Turck highlighted a provocative quote from OpenAI's Yann Dubois: "I think if we froze the models that we have right now and you really worked on the harness... I think people would really feel the AGI in every single domain." The implication: AGI might already be here in capability, just not in packaging.
 
-https://x.com/nikunj/status/2058203594672021769
+https://x.com/mattturck/status/2058659995311358332
 
-Nikunj 注意到，B2B 公司终于开始重视他近一年前写的一个观点：在拥挤的市场中，策略性地运用叙事和氛围感来脱颖而出。他警告说，再等一年才行动将是错误的。
+FirstMark VC Matt Turck引用了OpenAI的Yann Dubois一句颇具争议的话："我认为如果我们冻结现有的模型，然后真正在'操控框架'上下功夫……人们会在每一个领域都感受到AGI。"言下之意：AGI的能力或许已经存在，只是还没有被包装好。
 
-https://x.com/nikunj/status/2058203594672021769
+https://x.com/mattturck/status/2058659995311358332
 
----
+**Builder Zara Zhang**
 
-### Peter Steinberger (Creator of OpenClaw)
+Zara Zhang shared a life-changing Mac app discovery: Amphetamine, which keeps your Mac awake even with the lid closed — much more reliable than the terminal caffeinate command. She also noted that an engineering manager friend voluntarily transitioned to IC and has never been happier, finally able to build again. And she pointed out that OpenAI's Codex is open source.
 
-Peter shipped a free GitHub dashboard that shows repos, open issues/PRs, latest releases, and commit counts since last release — something he always wanted for himself. He also shared a clever workflow tip: tell Codex to maintain a "scratch-log" while working on large refactors, documenting decisions, tradeoffs, and review fixes. This creates an audit trail so you can later understand what tradeoffs the agent made and what you forgot to specify. He also casually noted that Codex "made a smiley" in its output, which got 275 likes.
+https://x.com/zarazhangrui/status/2058643577421631538
+https://x.com/zarazhangrui/status/2058640897236140034
+https://x.com/zarazhangrui/status/2058604604422815832
 
-https://x.com/steipete/status/2058381186884411473
-https://x.com/steipete/status/2058332234247987379
-https://x.com/steipete/status/2058308112134635528
+Zara Zhang分享了一个改变她生活的Mac应用发现：Amphetamine，即使合上盖子也能保持Mac唤醒——比终端里的caffeinate命令可靠得多。她还提到，一位做工程经理的朋友自愿转为IC（独立贡献者），终于能重新动手做产品了，从未如此快乐。她还指出OpenAI的Codex是开源的。
 
-Peter 发布了一个免费的 GitHub 仪表盘，可以查看仓库、打开的 Issues/PRs、最新版本以及自上次发布以来的提交数——这是他一直想要的东西。他还分享了一个巧妙的工作流技巧：让 Codex 在进行大型重构时维护一个"scratch-log"，记录决策、权衡和审查修复。这样你就有了一个审计追踪，之后可以了解 Agent 做了哪些权衡、你忘了指定什么。他还随口提到 Codex 的输出中"画了个笑脸"，这条获得了 275 个赞。
+https://x.com/zarazhangrui/status/2058643577421631538
+https://x.com/zarazhangrui/status/2058640897236140034
+https://x.com/zarazhangrui/status/2058604604422815832
 
-https://x.com/steipete/status/2058381186884411473
-https://x.com/steipete/status/2058332234247987379
-https://x.com/steipete/status/2058308112134635528
+**FPV Ventures Partner Nikunj Kothari**
 
----
+Nikunj Kothari shared a powerful technique: using Claude Code to reverse-engineer website APIs by sniffing network requests via browser_harness or Playwright. He clicks around on the data he wants, Claude Code reads the logs to figure out API structure and auth, and then he builds automated jobs. He predicts every website will soon need to be "headless," and we'll need tools.txt for agents to discover available tools — similar to llms.txt for data.
 
-### South Park Commons GP & Bevel Health Co-Founder Aditya Agarwal
+https://x.com/nikunj/status/2058783316753686558
 
-Aditya shared a striking perspective on just how fast the AI landscape has shifted: only six months ago (November 2025), we were mostly just chatting with LLMs and feeling amazed. Now, in May 2026, these LLMs have produced more code than humans have written in all of history. The shift from conversational AI to code-generating AI has been that dramatic.
+FPV Ventures合伙人Nikunj Kothari分享了一个强大的技巧：使用Claude Code通过browser_harness或Playwright嗅探网络请求来逆向工程网站的API。他点击想要的数据，Claude Code读取日志来解析API结构和认证方式，然后他构建自动化任务。他预测每个网站很快都需要变成"无头"的，我们需要一个tools.txt供agent发现可用工具——类似于llms.txt对数据的作用。
 
-https://x.com/adityaag/status/2058233900464238801
+https://x.com/nikunj/status/2058783316753686558
 
-Aditya 分享了一个令人震撼的对比：仅仅六个月前（2025 年 11 月），我们大多数人还在跟 LLM 聊天，并为此感到惊叹。而现在，2026 年 5 月，这些 LLM 产出的代码量已经超过了人类历史上写过的所有代码总和。从对话式 AI 到代码生成式 AI 的转变，就是这么剧烈。
+**Every CEO Dan Shipper**
 
-https://x.com/adityaag/status/2058233900464238801
+Dan Shipper promoted a "fantastic breakdown of After Automation" on the AI Daily Brief podcast by Nathan Labenz (nlw). He also asked for feedback on what Every is, and promoted an article he published.
 
----
+https://x.com/danshipper/status/2058723492355252490
+https://x.com/danshipper/status/2058682096432861371
+https://x.com/danshipper/status/2058677513040138432
+
+Every CEO Dan Shipper推荐了AI Daily Brief播客上Nathan Labenz对After Automation的精彩解读。他还询问大家对Every的看法，并推广了他发布的一篇文章。
+
+https://x.com/danshipper/status/2058723492355252490
+https://x.com/danshipper/status/2058682096432861371
+https://x.com/danshipper/status/2058677513040138432
 
 ## PODCASTS
 
-### No Priors — "The Story Behind Cerebras' $63 Billion IPO with Founder and CEO Andrew Feldman"
+**Unsupervised Learning — Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong**
 
-**The Takeaway:** Speed isn't a feature improvement — it's a business model transformation. Cerebras proved that when you're 15-20x faster than GPUs for AI inference, you don't just win existing workloads; you unlock entirely new categories of business that couldn't exist before.
+**The Takeaway:** LLMs are a dead end for human-level intelligence — the path forward is world models that predict consequences of actions in abstract representation space, not pixel-by-pixel generation.
 
-Andrew Feldman, cofounder and CEO of Cerebras, joined No Priors fresh off his company's IPO — now valued at $63 billion. Cerebras builds AI computers using wafer-scale chips (a single chip the size of a dinner plate, vs. everyone else's postage-stamp-sized GPUs). For years, the industry told them this architecture was impossible. They were wrong.
+Yann LeCun, Turing Award winner and one of AI's godfathers, recently left Meta after 12 years to found Ami Labs (Advanced Machine Intelligence). This podcast with host Jacob Efron is his most candid explanation yet of why he walked away, what he thinks the industry gets wrong, and why he's betting his career on an architecture most of Silicon Valley is ignoring.
 
-The most striking part of the conversation is Feldman's framing of speed as a structural market shift. "Netflix used to deliver DVDs in envelopes. When the Internet got fast, they became a movie studio. That's what happens with speed." He draws the parallel to AI: right now, fast inference is replacing obvious things like coding and design. But the real transformation comes when businesses reorganize around speed itself — just like the PC didn't just replace typewriters, it enabled the cloud, SaaS, and entirely new business models.
+LeCun's central argument is deceptively simple: LLMs are great tools — he uses them himself — but they are not a path to human-like intelligence. Why? Because they cannot predict the consequences of their actions or plan through search. "LLMs do not have the ability to predict the consequences of their actions, and they do not have any planning abilities, because inference is by predicting the next token. It's not by search."
 
-Feldman is refreshingly honest about the long slog. Cerebras was technically fast years ago, but "when AI is a novelty, nobody cares that you're fast because it's not being used." They survived a brutal period (2017-2019) spending $8M/month with nothing to show, holding board meetings every six weeks saying "I can't build it." The turning point was a $1B order from sovereign wealth fund G42, which gave them the scale to battle-test and transform their supply chain — so when OpenAI and AWS came calling, they were ready.
+His alternative is the JEPA (Joint Embedding Predictive Architecture) family of models, which learn by making predictions in abstract representation space rather than generating pixels. "If you have a water bottle in front of me... if I push at the bottom, it's gonna slide on the table. If I push near the top, it's probably gonna flip. We can't predict exactly how the bottle will fall at a pixel level. And so our mental model of the world predicts, but at an abstract level of representation." This is exactly what JEPA does.
 
-On AI coding tools, Feldman offers a nuanced take: "Eight months ago, we weren't spending $1,000 in engineering on tokens. Now we're at $25-30K and it's ripping." But he notes the benefit isn't universal — it's transformative for a small number of engineers who've adapted their entire workflow to governing agents (running 8-10 agents 24/7, with dedicated QA agents, thinking about how to prompt for weaknesses). Those people have gone from 10x to 100x engineers. The rest are "limping along," himself included as CEO.
+On his departure from Meta: "The company refocused all of its effort on LLM despite support from Mark and Andrew Bosworth... all the layers below didn't see the point." He describes a classic innovator's dilemma — Meta's GenAI organization became so focused on catching up with the industry that exploratory research was deprioritized.
 
-His advice on knowing when to quit: lay out clear hypotheses about what it takes to win, and if they all come back negative, it's time. But guard against the slippery slope — have other seasoned CEOs hold you accountable to your own earlier thresholds. "If you don't love being a David," he says, "it's a very long road."
+LeCun is remarkably blunt about his Turing Award co-recipients. On Geoff Hinton's 2023 epiphany about GPT-4's capabilities: "He did a quick calculation... GPT-4 is really close to this. I do not believe in this claim at all." On safety: "LLMs are intrinsically unsafe. I don't think they can be made reliable and safe. They cannot be made reliable because you can't stop them from hallucinating."
 
-**Memorable quote:** "How big is the market for slow search? It's zero. How big is the market for dial-up Internet? It's zero. That's how big the market for slow inference will be."
+Perhaps his most provocative prediction: "Five years, complete world domination" for JEPA-based architectures. He compares today's frontier labs to Sun Microsystems and HP-UX in 1996 — dominant now, but about to be wiped out by an open platform. "OpenAI, Anthropic, etcetera, today are the Sun Microsystem and HP-UX of yesterday."
 
-https://www.youtube.com/watch?v=jeop9wfb9jU
+The episode also covers his side project Tapestry, a federated learning platform for sovereign AI — allowing countries outside the US and China to train models without sharing their data. "What you need is a wide diversity of AI assistants... most countries that are neither the US nor China want sovereignty."
 
-**核心观点：** 速度不是功能的改进——它是商业模式的变革。Cerebras 证明了，当你在 AI 推理上比 GPU 快 15-20 倍时，你不仅赢得了现有工作负载，还解锁了以前不可能存在的全新业务类别。
+https://www.youtube.com/@RedpointAI
 
-Cerebras 联合创始人兼 CEO Andrew Feldman 在公司刚完成 IPO（如今市值 630 亿美元）后做客 No Priors。Cerebras 使用晶圆级芯片（一块餐盘大小的单芯片，而其他人做的都是邮票大小的 GPU）来构建 AI 计算机。多年来，整个行业告诉他们这种架构是不可能的。他们错了。
+**核心观点：** LLM是通往人类级智能的死胡同——正确的方向是世界模型，在抽象表征空间中预测行为的后果，而不是逐像素生成。
 
-这场对话最精彩的部分是 Feldman 将"速度"定位为结构性市场转变。"Netflix 以前用信封寄 DVD。当互联网变快后，他们变成了电影制片厂。这就是速度带来的变化。"他将此类比到 AI：目前，快速推理正在取代编码和设计这些显而易见的东西。但真正的变革发生在企业围绕速度本身进行重组时——就像 PC 不只是取代了打字机，它催生了云、SaaS 和全新的商业模式。
+图灵奖得主、AI教父之一Yann LeCun在效力Meta 12年后，最近离职创办了Ami Labs（高级机器智能公司）。在这期与主持人Jacob Efron的访谈中，他前所未有地坦诚解释了离开的原因、他认为整个行业错在哪里，以及为什么他要把职业生涯押注在一个大多数硅谷人都在忽视的架构上。
 
-Feldman 对漫长的艰难时期坦诚得令人耳目一新。Cerebras 在技术上早几年就很快了，但"当 AI 还是个新鲜事物时，没人关心你快不快，因为大家根本不用它。"他们熬过了残酷的 2017-2019 年，每月烧 800 万美元却毫无成果，每隔六周开董事会说"我做不出来"。转折点是主权财富基金 G42 的 10 亿美元订单，这给了他们足够的规模来实战测试并改造供应链——所以当 OpenAI 和 AWS 找上门时，他们已经准备好了。
+LeCun的核心论点看似简单：LLM是很好的工具——他自己也在用——但它们不是通往类人智能的道路。为什么？因为它们无法预测自身行为的后果，也无法通过搜索进行规划。"LLM不具备预测自身行为后果的能力，也没有任何规划能力，因为推理是通过预测下一个token来完成的，而不是通过搜索。"
 
-关于 AI 编码工具，Feldman 给出了一个微妙的判断："八个月前，我们在 token 上的工程支出不到 1000 美元。现在大约是 2.5 到 3 万美元，而且还在飙升。"但他指出，这种好处并非人人均等——它对少数完全调整了工作流程的工程师来说是变革性的（这些人 24/7 运行 8-10 个 Agent，有专门的 QA Agent，会思考如何针对模型的弱点进行提示）。这些人从 10x 工程师变成了 100x 工程师。其余的人（包括他自己作为 CEO）还在"蹒跚前行"。
+他的替代方案是JEPA（联合嵌入预测架构）系列模型，这种模型通过在抽象表征空间中进行预测来学习，而不是生成像素。"如果我面前有一个水瓶……如果我推底部，它会在桌上滑动。如果我推靠近顶部的位置，它可能会翻倒。我们无法在像素级别精确预测瓶子会如何倒下。所以我们的大脑世界模型是在抽象表征层面进行预测的。"这正是JEPA所做的。
 
-关于何时该放弃的建议：列出你相信能赢的明确假设，如果它们全都落空，那就是时候了。但要警惕"温水煮青蛙"——找其他经验丰富的 CEO 来提醒你当初自己设定的底线。"如果你不喜欢做大卫，"他说，"这条路会非常漫长。"
+关于离开Meta：他说"尽管有Mark和Andrew Bosworth的支持，公司还是把所有精力都集中在LLM上……下面的所有层级都看不到这件事的价值。"他描述了经典的创新者困境——Meta的GenAI组织过于专注于追赶行业，以至于探索性研究被降级了。
 
-**金句：** "慢速搜索的市场有多大？是零。拨号上网的市场有多大？也是零。慢速推理的市场就会是那样。"
+LeCun对同获图灵奖的同行们直言不讳。关于Geoff Hinton在2023年对GPT-4能力的顿悟："他做了一个快速计算……GPT-4已经很接近了。我完全不认同这个说法。"关于安全性："LLM本质上就是不安全的。我不认为它们可以变得可靠和安全。它们无法变得可靠，因为你无法阻止它们产生幻觉。"
 
-https://www.youtube.com/watch?v=jeop9wfb9jU
+也许他最引人注目的预测是关于JEPA架构的："五年内，全面统治世界。"他将今天的前沿实验室比作1996年的Sun Microsystems和HP-UX——现在占据主导地位，但即将被开放平台颠覆。"今天的OpenAI、Anthropic等公司，就是昨天的Sun Microsystems和HP-UX。"
+
+这期节目还涵盖了他的副项目Tapestry，一个用于主权AI的联邦学习平台——允许美国和中国以外的国家在不共享数据的情况下训练模型。"我们需要多样化的AI助手……大多数既不是美国也不是中国的国家都想要主权。"
+
+https://www.youtube.com/@RedpointAI
 
 ---
 
