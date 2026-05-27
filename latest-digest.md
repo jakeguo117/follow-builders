@@ -1,162 +1,79 @@
-AI Builders Digest — Tuesday, May 26, 2026
+AI Builders Digest — Wednesday, May 27, 2026
 
 ## X / TWITTER
 
-**Roblox Product Lead Peter Yang**
+**Peter Yang** — Product at Roblox; writes practical AI tutorials
 
-Peter Yang shared highlights from his latest podcast episode with Ryan Carson, who is running his startup solo using AI agents. Carson uses OpenClaw as his AI chief of staff for email triage, scheduling, and sales outreach, and Codex/Devin as his engineering team. His key philosophy: "Spend a lot of time upfront setting up your skills + documentation. Then you've suddenly unlocked the work of 10 people." Carson also noted he's raised $2M but won't hire anyone for a while — an agent is faster to onboard and retains all training.
+Peter Yang分享了他使用不同AI模型的对比观察：Codex表现出色，尤其在通过浏览来测试自己工作成果的能力上令人印象深刻；但在任何涉及设计或前端任务时，Claude依然是赢家。他还用了一个生动的比喻来解释"tokenmaxxing"——就像在自助餐里拼命吃蟹腿一样，不限量的AI套餐不会永远持续下去，所以趁现在赶紧用。此外，他引用了Ryan Carson的核心教训：过去我们常说做MVP要做最低限度的事情，别花时间在系统上，但现在完全反过来了——你必须花大量时间搭建文档体系，把这些都做成cron job加skill file，突然间你就能完成十个人的工作量。
 
-https://x.com/petergyang/status/2058555226479866312
-https://x.com/petergyang/status/2058609058714968194
+https://x.com/petergyang/status/2059099566377693305
+https://x.com/petergyang/status/2059070818798465330
+https://x.com/petergyang/status/2059029752858775581
 
-Roblox产品负责人Peter Yang分享了他最新一期播客的亮点，嘉宾Ryan Carson正在完全靠AI agents独自运营他的创业公司。Carson用OpenClaw作为AI行政主管处理邮件分类、日程安排和销售拓展，用Codex和Devin作为工程团队。他的核心理念是："花大量时间提前设置好你的技能和文档，然后就突然解锁了10个人的工作量。"Carson还提到他已融资200万美元但暂时不会雇佣任何人——AI agent上手更快，且能保留所有训练成果。
+**Amanda Askell** — Philosopher & ethicist at Anthropic
 
-https://x.com/petergyang/status/2058555226479866312
-https://x.com/petergyang/status/2058609058714968194
+Amanda Askell澄清了一个重要事实：她已经超过5年没有写过个人博客文章了，所以如果看到任何声称是她写的博文，都是假的。她表示如果将来情况有变会更新，也许她确实应该重新开始写博客了。
 
-**Google Product Leader Madhu Guru**
+https://x.com/AmandaAskell/status/2058994218484338726
 
-Madhu Guru warns that CEOs experiencing AI FOMO often set vague, sweeping AI mandates without getting hands-on themselves. This leads to performative demos from employees trying to meet coarse goals. "Next thing you know it's been two years with no real progress and a startup with hands-on leadership is disrupting you."
+**Aaron Levie** — CEO of Box
 
-https://x.com/realmadhuguru/status/2058591611245011157
+Aaron Levie引用了高盛CEO对AI与就业问题的乐观看法，并展开了自己的思考。他指出，如果回顾几十年前的工作方式，看到如今一切变得多么快速和容易，你肯定会认为工作岗位早就没有了。但实际情况是，我们不断对一切提出更高的要求——自动化并没有简单地让某个任务变得更便宜，而是让整个产品或服务的标准被拉高了。因为市场上有玩家利用自动化做得更多，所有人的期望都被抬升了。我们得到了更多的金融分析、更全面的法律建议、更定制化的金融服务、更细分的软件产品、更深入的医疗建议——这个过程会一直持续下去。
 
-Google产品负责人Madhu Guru警告说，那些有AI焦虑症的CEO往往在不亲自下场的情况下就设定模糊的AI指令。这导致员工为了应付粗略目标而做出表演性质的demo。"转眼两年过去了，没有任何实质进展，一家有实干精神领导层的创业公司正在颠覆你。"
+https://x.com/levie/status/2059025559896883489
 
-https://x.com/realmadhuguru/status/2058591611245011157
+**Garry Tan** — President & CEO of Y Combinator
 
-**Claude Code at Anthropic — Thariq**
+Garry Tan连续分享了对AI agent工作流的思考。他认为这将是常态——prompters of the world unite。他分享了一个关键的eval方法：告诉agent，根据我们对正在做什么、为什么做以及发生了什么事的讨论，用三个不同的前沿模型来审视它的skill file调用代码的效果，并打分——为什么不是10分？怎样才能做到？运行几次后，你会惊讶于它变得多快多好。而且因为这一切都在skill file加代码加eval（LLM as judge）和单元测试中，效果会永久保持。他相信，终极的黄金时代将是这种技术被1000倍地构建和部署。
 
-Thariq shared his key takeaway from the Bun rewrite: legacy codebases will be incredibly valuable as a source for "distilling" code into new forms. Every game should be cross-platform, all legacy software should work on the web. He added that models aren't quite there yet for this — Bun is extremely verifiable with great test coverage — but they will get there.
+https://x.com/garrytan/status/2059155926939299968
+https://x.com/garrytan/status/2059151927011909800
+https://x.com/garrytan/status/2059148823403082154
 
-https://x.com/trq212/status/2058576195000660319
-https://x.com/trq212/status/2058576196481200223
+**Nikunj Kothari** — Partner at FPV Ventures
 
-Thariq分享了他从Bun重写项目中得到的核心启示：遗留代码库作为"蒸馏"代码为新形式的来源将极具价值。每个游戏都应该是跨平台的，所有遗留软件都应该能在网页上运行。他还补充说，模型目前还做不到这一点——Bun的可验证性极强，测试覆盖率也很高——但它们终将做到。
+Nikunj Kothari直言不讳地回应了那些问他"你不是VC吗，为什么在动手搭建？"的人。他的观点很明确：这个领域发展太快了，唯一能让你保持在最前沿的方式就是亲自搭建。每隔几个月就需要重新思考之前的假设。而且，探索这些模型的边界、发现尚未被记录的新能力，本身就非常有趣。他认为，手里握着外星级别的超级智能，却还愿意花几个小时用老方法做事，仅仅因为舒服——这简直荒谬。Automate or get automated，这是我们必须学习的苦涩教训。
 
-https://x.com/trq212/status/2058576195000660319
-https://x.com/trq212/status/2058576196481200223
+https://x.com/nikunj/status/2058927145519562867
 
-**Vercel CEO Guillermo Rauch**
+**Peter Steinberger** — Creator of OpenClaw
 
-Guillermo Rauch shared a concise brand-building philosophy: "How do you build a great brand? Build a great product." He also posted a link and shared his enthusiasm for Brazilian Jiu-Jitsu, calling it "the peak athletic pursuit."
+Peter Steinberger分享了OpenClaw在依赖清理方面的进展：移除了Sharp和Jimp，用photon替代——一个运行编译后Rust代码的小型WebAssembly，用于图像处理。从140MB降到了2MB。他还给社区提出建议：在写skill的时候，要让你的agent注意token效率，放松语法要求。他观察到太多skill在描述里写成了书，而这些内容会被加载到每一次上下文中。他写了一个skill来找出最严重的违规者。此外，他引用了关于安全与"clankers"的讨论。
 
-https://x.com/rauchg/status/2058750970998505505
+https://x.com/steipete/status/2058922222790525272
+https://x.com/steipete/status/2058917897590673525
+https://x.com/steipete/status/2058884046940225918
 
-Vercel CEO Guillermo Rauch分享了一个简洁的品牌建设理念："如何打造一个伟大的品牌？打造一个伟大的产品。"他还发了一个链接，并表达了对巴西柔术的热情，称其为"运动的巅峰追求"。
+**Dan Shipper** — CEO of Every
 
-https://x.com/rauchg/status/2058750970998505505
+Dan Shipper分享了几条内容：他推荐了Every团队内部对"After Automation"一文的回应；他还注意到教皇最近发表的关于人类面临选择的言论——要么建造新的巴别塔，要么建造神与人共居的城市——与Every在2024年发表的文章不谋而合。
 
-**Box CEO Aaron Levie**
+https://x.com/danshipper/status/2059014616059879501
+https://x.com/danshipper/status/2058962119287038145
 
-Aaron Levie posted a highly viral thread on "CEO AI psychosis." His argument: CEOs are too distant from the last mile of work that generates real value with AI. They see happy-path demos (a prototype, a generated contract) but miss the 10–20 additional steps needed for sustainable results — code review, production issues, contract verification, integration with legacy systems. His advice: use AI a ton yourself to understand both the upside and the real work involved.
+## OFFICIAL BLOGS
 
-https://x.com/levie/status/2058582370253701432
-
-Box CEO Aaron Levie发布了一条爆火的长帖，讨论"CEO AI精神病"。他的观点是：CEO离产生AI真正价值的最后一公里工作太远了。他们看到的是完美路径下的demo（一个原型、一份生成的合同），却忽略了实现可持续结果所需的10到20个额外步骤——代码审查、生产环境问题、合同验证、与遗留系统的集成。他的建议是：自己大量使用AI，才能真正理解它的潜力和背后的实际工作。
-
-https://x.com/levie/status/2058582370253701432
-
-**Y Combinator CEO Garry Tan**
-
-Garry Tan shared several quick observations: "High agency high taste is the unlock these days," "When all your friends are building on the edge," and "I'm having the time of my life frankly."
-
-https://x.com/garrytan/status/2058769355916411099
-https://x.com/garrytan/status/2058767163666887136
-https://x.com/garrytan/status/2058767083777949930
-
-Y Combinator CEO Garry Tan分享了几条简短观察："高能动性加高品味是如今的制胜法宝"、"当你所有的朋友都在前沿建造时"、"老实说，我正享受人生中最快乐的时光。"
-
-https://x.com/garrytan/status/2058769355916411099
-https://x.com/garrytan/status/2058767163666887136
-https://x.com/garrytan/status/2058767083777949930
-
-**FirstMark VC Matt Turck**
-
-Matt Turck highlighted a provocative quote from OpenAI's Yann Dubois: "I think if we froze the models that we have right now and you really worked on the harness... I think people would really feel the AGI in every single domain." The implication: AGI might already be here in capability, just not in packaging.
-
-https://x.com/mattturck/status/2058659995311358332
-
-FirstMark VC Matt Turck引用了OpenAI的Yann Dubois一句颇具争议的话："我认为如果我们冻结现有的模型，然后真正在'操控框架'上下功夫……人们会在每一个领域都感受到AGI。"言下之意：AGI的能力或许已经存在，只是还没有被包装好。
-
-https://x.com/mattturck/status/2058659995311358332
-
-**Builder Zara Zhang**
-
-Zara Zhang shared a life-changing Mac app discovery: Amphetamine, which keeps your Mac awake even with the lid closed — much more reliable than the terminal caffeinate command. She also noted that an engineering manager friend voluntarily transitioned to IC and has never been happier, finally able to build again. And she pointed out that OpenAI's Codex is open source.
-
-https://x.com/zarazhangrui/status/2058643577421631538
-https://x.com/zarazhangrui/status/2058640897236140034
-https://x.com/zarazhangrui/status/2058604604422815832
-
-Zara Zhang分享了一个改变她生活的Mac应用发现：Amphetamine，即使合上盖子也能保持Mac唤醒——比终端里的caffeinate命令可靠得多。她还提到，一位做工程经理的朋友自愿转为IC（独立贡献者），终于能重新动手做产品了，从未如此快乐。她还指出OpenAI的Codex是开源的。
-
-https://x.com/zarazhangrui/status/2058643577421631538
-https://x.com/zarazhangrui/status/2058640897236140034
-https://x.com/zarazhangrui/status/2058604604422815832
-
-**FPV Ventures Partner Nikunj Kothari**
-
-Nikunj Kothari shared a powerful technique: using Claude Code to reverse-engineer website APIs by sniffing network requests via browser_harness or Playwright. He clicks around on the data he wants, Claude Code reads the logs to figure out API structure and auth, and then he builds automated jobs. He predicts every website will soon need to be "headless," and we'll need tools.txt for agents to discover available tools — similar to llms.txt for data.
-
-https://x.com/nikunj/status/2058783316753686558
-
-FPV Ventures合伙人Nikunj Kothari分享了一个强大的技巧：使用Claude Code通过browser_harness或Playwright嗅探网络请求来逆向工程网站的API。他点击想要的数据，Claude Code读取日志来解析API结构和认证方式，然后他构建自动化任务。他预测每个网站很快都需要变成"无头"的，我们需要一个tools.txt供agent发现可用工具——类似于llms.txt对数据的作用。
-
-https://x.com/nikunj/status/2058783316753686558
-
-**Every CEO Dan Shipper**
-
-Dan Shipper promoted a "fantastic breakdown of After Automation" on the AI Daily Brief podcast by Nathan Labenz (nlw). He also asked for feedback on what Every is, and promoted an article he published.
-
-https://x.com/danshipper/status/2058723492355252490
-https://x.com/danshipper/status/2058682096432861371
-https://x.com/danshipper/status/2058677513040138432
-
-Every CEO Dan Shipper推荐了AI Daily Brief播客上Nathan Labenz对After Automation的精彩解读。他还询问大家对Every的看法，并推广了他发布的一篇文章。
-
-https://x.com/danshipper/status/2058723492355252490
-https://x.com/danshipper/status/2058682096432861371
-https://x.com/danshipper/status/2058677513040138432
+（本周无新的官方博客内容）
 
 ## PODCASTS
 
-**Unsupervised Learning — Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong**
+**The MAD Podcast with Matt Turck** — Why AWS and Azure Cannot Run Autonomous AI – Ivan Burazin (Daytona)
 
-**The Takeaway:** LLMs are a dead end for human-level intelligence — the path forward is world models that predict consequences of actions in abstract representation space, not pixel-by-pixel generation.
+**The Takeaway:** 每一个AI agent都需要一台属于自己的电脑——这个"沙箱"不是可选项，而是基础设施层的必需品，而现有的云服务（AWS、Azure）从根本上就不适合这个新世界。
 
-Yann LeCun, Turing Award winner and one of AI's godfathers, recently left Meta after 12 years to found Ami Labs (Advanced Machine Intelligence). This podcast with host Jacob Efron is his most candid explanation yet of why he walked away, what he thinks the industry gets wrong, and why he's betting his career on an architecture most of Silicon Valley is ignoring.
+Ivan Burazin是Daytona的CEO，Daytona是当前最受关注的agent基础设施创业公司之一。如果你最近在各种AI agent讨论中频繁听到"sandbox"这个词，但不太确定它到底意味着什么，这期节目就是最好的入门指南。
 
-LeCun's central argument is deceptively simple: LLMs are great tools — he uses them himself — but they are not a path to human-like intelligence. Why? Because they cannot predict the consequences of their actions or plan through search. "LLMs do not have the ability to predict the consequences of their actions, and they do not have any planning abilities, because inference is by predicting the next token. It's not by search."
+Ivan的核心观点非常直接：他把agent视为"数字化知识工作者"。一个知识工作者要完成复杂的工作，就需要一台电脑。对于agent来说，这台电脑就是sandbox。他讲了一个生动的例子——有一次他让Claude去银行取数据，Claude回答说"好的，登录然后把权限给我"。他当场就意识到，这完全行不通。所以解决方案是给agent一台独立的机器，甚至给它一个独立的手机号来做2FA认证。这台机器有自己的账户、权限限制——可以查看数据但不能花钱——就像一个真正的数字员工。
 
-His alternative is the JEPA (Joint Embedding Predictive Architecture) family of models, which learn by making predictions in abstract representation space rather than generating pixels. "If you have a water bottle in front of me... if I push at the bottom, it's gonna slide on the table. If I push near the top, it's probably gonna flip. We can't predict exactly how the bottle will fall at a pixel level. And so our mental model of the world predicts, but at an abstract level of representation." This is exactly what JEPA does.
+最反直觉的观点在于：为什么AWS和Azure做不了这个？Ivan解释，现有云服务的基础架构是为"无状态"应用设计的——网站部署上去后，你不希望它在运行中随意变化。但agent需要的是有状态、可持久化、可随时fork和snapshot的环境。他用了一个精妙的比喻：卡车和跑车都有四个轮子和引擎，但底盘、重量平衡、设计目标完全不同。你不能用造卡车的方式去造跑车。Daytona不得不抛弃Kubernetes，自己写调度器，因为现有的编排工具根本不是为了这种超快启动、长时间运行、高并发的agent工作负载而设计的。
 
-On his departure from Meta: "The company refocused all of its effort on LLM despite support from Mark and Andrew Bosworth... all the layers below didn't see the point." He describes a classic innovator's dilemma — Meta's GenAI organization became so focused on catching up with the industry that exploratory research was deprioritized.
+技术上，Daytona可以在60毫秒内启动一个sandbox，70秒内启动50,000个。他们支持多种隔离方案——从Firecracker micro VM到容器到完整的QEMU——根据用户需求自动选择最合适的。他们还实现了live migration，让sandbox可以在底层服务器维护时无缝迁移，而不中断运行。
 
-LeCun is remarkably blunt about his Turing Award co-recipients. On Geoff Hinton's 2023 epiphany about GPT-4's capabilities: "He did a quick calculation... GPT-4 is really close to this. I do not believe in this claim at all." On safety: "LLMs are intrinsically unsafe. I don't think they can be made reliable and safe. They cannot be made reliable because you can't stop them from hallucinating."
+Ivan还分享了他对agent stack的整体看法：模型是大脑，工具（MCP、sandbox等）是手，memory是短期记忆，orchestration是管理。他认为当前最未被解决的问题是模型的学习能力——模型目前不会在工作中学习，你纠正它五次，第六次它可能还会犯同样的错误。这需要根本性的改变，可能是持续的RL训练，也可能是模型架构本身的变革。
 
-Perhaps his most provocative prediction: "Five years, complete world domination" for JEPA-based architectures. He compares today's frontier labs to Sun Microsystems and HP-UX in 1996 — dominant now, but about to be wiped out by an open platform. "OpenAI, Anthropic, etcetera, today are the Sun Microsystem and HP-UX of yesterday."
+在go-to-market方面，Ivan的分享同样精彩。他从一个极度害羞、有舞台恐惧症的人，到被迫主持自己的大会，再到把活动营销做成Daytona的核心获客引擎。他的哲学是：如果产品和其他人一样好，那什么能让你胜出？答案是awareness（知名度）和preference（偏好）。他坚持认为，客户支持的核心不是解决所有问题，而是快速响应——让客户知道他们的"问题"已经转移到了你身上，他们可以安心了。
 
-The episode also covers his side project Tapestry, a federated learning platform for sovereign AI — allowing countries outside the US and China to train models without sharing their data. "What you need is a wide diversity of AI assistants... most countries that are neither the US nor China want sovereignty."
-
-https://www.youtube.com/@RedpointAI
-
-**核心观点：** LLM是通往人类级智能的死胡同——正确的方向是世界模型，在抽象表征空间中预测行为的后果，而不是逐像素生成。
-
-图灵奖得主、AI教父之一Yann LeCun在效力Meta 12年后，最近离职创办了Ami Labs（高级机器智能公司）。在这期与主持人Jacob Efron的访谈中，他前所未有地坦诚解释了离开的原因、他认为整个行业错在哪里，以及为什么他要把职业生涯押注在一个大多数硅谷人都在忽视的架构上。
-
-LeCun的核心论点看似简单：LLM是很好的工具——他自己也在用——但它们不是通往类人智能的道路。为什么？因为它们无法预测自身行为的后果，也无法通过搜索进行规划。"LLM不具备预测自身行为后果的能力，也没有任何规划能力，因为推理是通过预测下一个token来完成的，而不是通过搜索。"
-
-他的替代方案是JEPA（联合嵌入预测架构）系列模型，这种模型通过在抽象表征空间中进行预测来学习，而不是生成像素。"如果我面前有一个水瓶……如果我推底部，它会在桌上滑动。如果我推靠近顶部的位置，它可能会翻倒。我们无法在像素级别精确预测瓶子会如何倒下。所以我们的大脑世界模型是在抽象表征层面进行预测的。"这正是JEPA所做的。
-
-关于离开Meta：他说"尽管有Mark和Andrew Bosworth的支持，公司还是把所有精力都集中在LLM上……下面的所有层级都看不到这件事的价值。"他描述了经典的创新者困境——Meta的GenAI组织过于专注于追赶行业，以至于探索性研究被降级了。
-
-LeCun对同获图灵奖的同行们直言不讳。关于Geoff Hinton在2023年对GPT-4能力的顿悟："他做了一个快速计算……GPT-4已经很接近了。我完全不认同这个说法。"关于安全性："LLM本质上就是不安全的。我不认为它们可以变得可靠和安全。它们无法变得可靠，因为你无法阻止它们产生幻觉。"
-
-也许他最引人注目的预测是关于JEPA架构的："五年内，全面统治世界。"他将今天的前沿实验室比作1996年的Sun Microsystems和HP-UX——现在占据主导地位，但即将被开放平台颠覆。"今天的OpenAI、Anthropic等公司，就是昨天的Sun Microsystems和HP-UX。"
-
-这期节目还涵盖了他的副项目Tapestry，一个用于主权AI的联邦学习平台——允许美国和中国以外的国家在不共享数据的情况下训练模型。"我们需要多样化的AI助手……大多数既不是美国也不是中国的国家都想要主权。"
-
-https://www.youtube.com/@RedpointAI
+https://www.youtube.com/watch?v=kMXJrzAa5fM
 
 ---
 
