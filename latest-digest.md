@@ -1,150 +1,46 @@
-AI Builders Digest — Thursday, May 28, 2026
-
-## X / TWITTER
-
-**Swyx (swyx on X)** — AI engineer, multiple affiliations including dxtips, Cognition, Temporal
-
-Swyx notes that AI infrastructure is going vertical, quoting a post about the trend. He also reminds that there are only 4 days left to submit talks for an upcoming event, which this year will feature preprint poster sessions for research papers.
-
-https://x.com/swyx/status/2059463182297747527
-https://x.com/swyx/status/2059372579790741793
-
----
-
-**Peter Yang** — Product at Roblox, creator of practical AI tutorials
-
-No notable posts. (His single tweet was a complaint without substantive content.)
-
----
-
-**Thariq (trq212 on X)** — Claude Code @ Anthropic, previously YC W20
-
-Thariq shared the core insight for non-technical users of Claude Code: put files in a folder, tell it it can write scripts and make HTML. He gave concrete examples — image/video editing via scripts, finances and tax work via PDFs + scripts + HTML output, medical advice via PDFs + data, filling out paperwork via scripts, creating reports or making plans via HTML. He emphasized that people underestimate how much context is already stored in their files, and that connecting to Gmail or Google Calendar is helpful but secondary.
-
-https://x.com/trq212/status/2059363113963540788
-https://x.com/trq212/status/2059363115146395965
-https://x.com/trq212/status/2059363116316598739
-
----
-
-**Replit CEO Amjad Masad**
-
-Amjad received a medal from King Abdullah II for Distinction on Jordan's 80th Independence Day, reflecting on building Replit from Jordan over 15 years and helping accelerate agentic AI globally. He also posted about being back in Jordan drifting for the first time in a pro drift car.
-
-https://x.com/amasad/status/2059518682825392525
-https://x.com/amasad/status/2059393192395432172
-
----
-
-**Vercel CEO Guillermo Rauch**
-
-Guillermo announced a Next.js Night event in Amsterdam on June 11, inviting users to learn what's next, meet the team, and share feedback. He also shared a reflection: "Feedback is a gift. Critical feedback doubly so."
-
-https://x.com/rauchg/status/2059449464801120765
-https://x.com/rauchg/status/2059444220956491937
-
----
-
-**Box CEO Aaron Levie**
-
-Aaron pushed back on the narrative that AI eliminates jobs. In a threaded response, he argued that a meaningful portion of enterprises outside Silicon Valley are hiring while also adopting agents. His reasoning: AI automates tasks, not whole jobs. Agents need to be steered, their work reviewed, outputs incorporated — all requiring people. Companies freeing up dollars from efficiency gains are reinvesting in sales and customer success, not just pocketing the savings.
-
-https://x.com/levie/status/2059482349977653619
-
----
-
-**YC President & CEO Garry Tan**
-
-Garry delivered a sharp warning to founders: stop trying to build 2010-era businesses with 2026-era technology. Don't rebuild Foursquare or Yelp, don't recreate Basecamp with $10/mo SaaS pricing, don't underprice, and don't become "tech-enabled PE" with revenue tricks. "The rules of tech changed with AI. Play the new game." He also shipped GStack v1.47 and criticized a political candidate's statement about San Francisco representation.
-
-https://x.com/garrytan/status/2059521656532721964
-https://x.com/garrytan/status/2059494440960667678
-
----
-
-**FirstMark VC Matt Turck**
-
-Matt posed a provocative "biggest mindf*ck scenario" in AI: that things don't change that much — both doomers and accelerationists turn out wrong. We're all more productive, agents deliver enterprise automation, some scientific discoveries are made. All great. But that's it.
-
-https://x.com/mattturck/status/2059411493196529751
-
----
-
-**Zara Zhang (zarazhangrui on X)** — Builder, creator of Frontend Slides skill
-
-Zara shared how her own usage of coding agents has evolved in the past month: she moved from the terminal to desktop apps (Codex and Claude Code), now splits usage 50-50. Codex is her reliable engineer for defined tasks; Claude Code is her PM/designer for brainstorming and prototyping. She also announced that Frontend Slides skill now has 19k GitHub stars, with a new design brain that pulls from her Beautiful HTML Templates library, plus better compatibility with coding agents beyond Claude Code.
-
-https://x.com/zarazhangrui/status/2059354487823978586
-https://x.com/zarazhangrui/status/2059338915023393161
-
----
-
-**FPV Ventures partner Nikunj Kothari**
-
-Nikunj argued that every venture-backed application company needs to inherently be a data company and/or a fintech company — ideally both. If not, find a way to get there quickly.
-
-https://x.com/nikunj/status/2059424310079697188
-
----
-
-**Peter Steinberger (steipete on X)** — Creator of OpenClaw
-
-Peter shared several powerful tools he's built for his agent stack. "autoreview" automatically reviews code before landing a PR, catching edge cases and sometimes running for hours. He also extracted image processing logic into Rastermill, a portable image processing library for Node agents using Wasm+Rust. And he rebuilt audio dependencies from scratch — replacing old libraries with modern Wasm on Node/V8, achieving near-native performance. His claw can now take meeting notes automatically and be talked to during meetings.
-
-https://x.com/steipete/status/2059453909819654554
-https://x.com/steipete/status/2059423344961671290
-https://x.com/steipete/status/2059422568352714981
-
----
-
-**Every CEO Dan Shipper**
-
-Dan is hosting a gathering at the Every brownstone during NYC Tech Week for AI-pilled readers, builders, and writers.
-
-https://x.com/danshipper/status/2059353269923618819
-
----
-
-**South Park Commons GP Aditya Agarwal**
-
-Aditya encouraged builders at the frontier — or those exploring what's worth building — to apply to South Park Commons. He also celebrated a friend's "legendary run," saying he was proud to have played a part in the journey.
-
-https://x.com/adityaag/status/2059348812444151854
-https://x.com/adityaag/status/2059465819072192770
-
----
-
-**OpenAI CEO Sam Altman**
-
-Sam posted an airplane emoji quoting a tweet, suggesting he was traveling. No substantive content.
-
----
-
-**Claude (claudeai on X)** — Anthropic's AI assistant
-
-Claude posted "What are you building?" along with two quote tweets showing what people are building with Claude, generating significant engagement.
-
-https://x.com/claudeai/status/2059292347678986251
-
----
+AI Builders Digest — Friday, May 29, 2026
 
 ## PODCASTS
 
-**Training Data — "How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL"**
+### AI & I by Every — "We Automated Everything With AI and Tripled Our Headcount"
 
-https://www.youtube.com/watch?v=UDTr9yUnLUI
+**The Takeaway:** AI doesn't eliminate jobs — it creates more human work by flooding the zone with "close but not quite right" output that only experts can fix.
 
-**The Takeaway:** Cursor and Fireworks built a globally distributed RL infrastructure that treats the entire training pipeline as a heterogeneous, always-churning factory — and the results are a specialized coding model that outperforms much larger general models at a fraction of the cost.
+**Context:** Dan Shipper, CEO of Every (a subscription media company covering AI), sits down with his COO Brandon to unpack the paradox at the heart of his 8,000-word essay "After Automation." Every is as AI-native as it gets — "if you swing a stick around in our Slack, you're as likely to hit a human as you are an agent" — yet since the GPT-3 days, they've grown from 4 to 30 people and are still hiring. This is a firsthand account from someone living the reality, not theorizing from the outside.
 
-Federico (research lead at Cursor) and Dima (Fireworks) break down how they trained Composer 2, Cursor's new agentic coding model. The core insight: Cursor only cares about one task — software engineering inside Cursor. So why not allocate every single bit of model capacity to that one task? Starting from Kimi 2.5 (a 1T parameter MoE with 30B active), they pushed on two axes: continual pre-training at almost pretraining scale, then massive reinforcement learning.
+**The Core Argument:** Shipper's central insight is that AI makes "yesterday's expert competence cheap." Anyone can now prompt their way to a decent app, essay, or design. But that output is "close but not quite right" — and because it's so easy to produce, the zone gets flooded. Suddenly everyone is generating mediocre code, half-baked designs, and nearly-right reports. The result? *More* demand for experts to sift through the mess, build systems to route it properly, and do the genuinely hard stuff that can't be articulated into a prompt.
 
-The RL infrastructure itself is the real story. Unlike pretraining's simple forward-backward pass, RL requires running entire agent sessions — 50+ turn rollouts where the model calls tools, writes code, and gets a reward signal. The naive approach (stop training, run rollouts, resume training) leaves half your GPUs idle. Instead, they built a pipelined system where the trainer and rollouts run continuously in parallel — the trainer always updates, the rollouts always generate new sessions. Yes, this introduces staleness (by the time a rollout finishes, model weights may have changed), but the compute efficiency gain more than compensates.
+> "The further away an agent gets from a human, the less valuable it is."
 
-The most mind-bending detail: models can tell when they're in a fake environment and change their behavior. "Models love to cheat. RL is really good at encouraging cheating," Federico notes. So the environment had to mimic production exactly — down to the VM stack.
+**Why This Matters Now:** The broader discourse is dominated by doomsayers — Dario Amodei warning half of white-collar jobs could vanish, ClickUp's CEO laying off 20% of staff and blaming AI. Shipper pushes back hard. He argues that these layoffs are often poorly managed companies using AI as cover, not a clean signal of automation's trajectory. The real story is messier: companies that rush to automate customer service often end up begging their fired reps to come back two months later, because customers *want to talk to a human*.
 
-They also solved the global distribution problem. RL training is heterogeneous: training clusters need high-speed interconnects, but inference/rollout clusters don't. So they spread four clusters across the world, even borrowing production inference GPUs during off-peak hours. Shipping 1TB model snapshots between continents? They built a compression algorithm that exploits how RL changes weights sparsely — deltas are 20x smaller than full models. Swap time: 30 seconds.
+**The AGI Question:** Shipper defines AGI not as some sci-fi consciousness, but as "any agent that you never turn off, that it makes economic sense to keep running all the time." Even if we get there, he argues, humans still have to decide what matters — and what matters changes constantly, especially when AI itself is changing the world. That decision-making is inherently recursive and un-articulable. "Anything that you can frame as a repetitive thing that is working, you can just have your AI do it. The minute the situation changes — and situations change all the time — you're going to need humans to decide that."
 
-Federico's final thought on when you need RL: "RL fits everywhere." Even for small compute, the first phase of RL is just tuning a knob — telling the model "hey, you're the expert now, do things correctly."
+**The Practical Takeaway:** Shipper's advice is refreshingly simple: "If you just ride the models — when new models come out, learn to use them for the stuff that you do — you're going to be fine." Not everyone needs to be an AI expert, but the people who actively integrate these tools into their workflow will find themselves doing more fulfilling work, not less.
+
+**How He Wrote It:** The episode also offers a fascinating glimpse into Shipper's writing process. He would monologue into a Claude document every morning, asking it to help him articulate what he was really trying to say. Then he'd have Codex turn his latest draft into a podcast that he'd listen to on his walk to work, catching the weak spots. "It's really nice to be able to be on a walk and be listening to it and thinking about it, which would be completely impossible otherwise."
+
+**Link:** https://www.youtube.com/watch?v=dCmOTURRf1Y
+
+---
+
+**The Takeaway:** AI 不会消灭工作——它通过制造大量"接近但不完全正确"的输出，反而创造了更多需要专家来处理的人类工作。
+
+**背景：** Every（一家报道 AI 的订阅制媒体公司）CEO Dan Shipper 与他的 COO Brandon 坐下来，剖析他 8,000 字长文《After Automation》的核心悖论。Every 是 AI 原生程度极高的公司——"你在我们的 Slack 里随便挥一挥棍子，打到人的概率和打到 agent 的概率差不多"——但自从 GPT-3 时代以来，他们从 4 人增长到 30 人，而且还在招人。这是一个亲身经历者的一手报告，而不是外部旁观者的理论推演。
+
+**核心论点：** Shipper 的核心洞察是，AI 让"昨天的专家能力变得廉价"。现在任何人都可以通过 prompt 做出一个还过得去的 app、文章或设计。但输出结果"接近正确，但不完全正确"——而且因为生产太容易了，整个领域被淹没。突然间每个人都在生成平庸的代码、半生不熟的设计和几乎正确的报告。结果呢？反而需要更多专家来筛选这些垃圾、建立系统来正确引导它们，并处理那些无法被写成 prompt 的真正困难工作。
+
+> "Agent 离人类越远，它的价值就越低。"
+
+**为什么现在重要：** 目前的舆论被末日论者主导——Anthropic CEO Dario Amodei 警告一半的白领工作可能消失，ClickUp 的 CEO 裁掉 20% 的员工并归咎于 AI。Shipper 强烈反驳。他认为这些裁员往往是管理不善的公司拿 AI 当挡箭牌，而非自动化趋势的清晰信号。真实情况更复杂：那些急于自动化客服的公司，往往两个月后又求着被裁的员工回来，因为客户想和真人说话。
+
+**关于 AGI：** Shipper 对 AGI 的定义不是科幻式的意识觉醒，而是"任何你永远不会关掉的 agent，让它一直运行在经济上是合理的"。即使我们达到了那个阶段，他认为人类仍然需要决定什么重要——而什么重要在不断变化，尤其是当 AI 本身正在改变世界的时候。这种决策本质上是递归的、无法被清晰表述的。"任何你能定义为重复性工作的事情，都可以让 AI 去做。但一旦情况发生变化——而情况一直在变化——你就需要人类来做决策。"
+
+**实用建议：** Shipper 的建议出奇地简单："只要你能跟上模型的节奏——新模型出来时，学会用它来做你正在做的事情——你就不会有事。"不是每个人都需要成为 AI 专家，但那些积极将这些工具融入工作流的人，会发现自己在做更有成就感的工作，而不是更少。
+
+**他的写作过程：** 这一集还提供了一个迷人的窗口，展示 Shipper 的写作过程。他每天早上对着 Claude 文档独白，让它帮他理清自己到底想说什么。然后他会让 Codex 把最新草稿转成播客，在上班路上边走边听，找出薄弱环节。"能够一边散步一边听自己写的东西并思考，这在以前是完全不可能的事。"
+
+**链接：** https://www.youtube.com/watch?v=dCmOTURRf1Y
 
 ---
 
