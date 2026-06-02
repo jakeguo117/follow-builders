@@ -1,151 +1,210 @@
-AI Builders Digest — Monday, June 1, 2026
+AI Builders Digest — June 2, 2026
 
 ## X / TWITTER
 
-**OpenAI Codex & ChatGPT lead Thibault Sottiaux**
+### Swyx (swyx on X) — Builder, DX Tips, Cognition, Temporal, AI Engineer, Latent Space
 
-Thibault explained OpenAI's model versioning strategy: moving from GPT-5.0 to GPT-5.5 means incremental improvements in capabilities and token efficiency (which translates to speed). GPT-5.5 is their best model yet — a simple strategy they plan to continue.
+Swyx points to a massive vibe shift: in February 2025, PyTorch creator Soumith Chintala talked about his dream of personal, local, private agents, and most people didn't believe him. Fast forward to June 2026, and PewDiePie has released his vibecoded OpenCode wrapper — a complete personal AI productivity suite covering email, docs, and calendar. It hit the top of Hacker News, easily surpassed 1M views, and racked up 10K+ stars in a single day. Swyx's blunt take: if your Knowledge Work Agents startup can't beat what PewDiePie built in a day, pack up and go home.
 
-He also asked the community what's been annoying in Codex that hasn't been fixed, and announced they're resetting usage limits after hitting 5 million users.
+He also observes that every evals/analytics startup is going through a one-time generational upgrade into a continual learning platform in 2026. Many will fail, but the tasteful ones win.
 
-https://x.com/thsottiaux/status/2060627747760984429
-https://x.com/thsottiaux/status/2060960564676034726
-https://x.com/thsottiaux/status/2060964284117782996
+https://x.com/swyx/status/2061256096719970337
+https://x.com/swyx/status/2061206120233054327
 
-OpenAI Codex 和 ChatGPT 负责人 Thibault Sottiaux 解释了 OpenAI 的模型版本策略：从 GPT-5.0 逐步升级到 GPT-5.5，每一次版本号递增都代表着能力和 token 效率（进而转化为速度）的提升。GPT-5.5 是他们迄今为止最好的模型——这是一个他们计划继续执行的简单策略。
+Swyx 指出了一波巨大的"氛围转变"：2025 年 2 月，PyTorch 创始人 Soumith Chintala 谈到他梦想中的个人化、本地化、私有的 agent，当时大多数人都不相信。到了 2026 年 6 月，PewDiePie 发布了他的 vibecoded OpenCode 封装——一个完整的个人 AI 生产力套件，涵盖邮件、文档和日历。它登上了 Hacker News 榜首，轻松获得超过 100 万次观看，并在一天内收获了超过 10,000 个 GitHub Star。Swyx 直言不讳：如果你的 Knowledge Work Agents 创业公司连 PewDiePie 一天做出来的东西都打不过，那还是收拾东西回家吧。
 
-他还向社区征集了 Codex 中那些长期未被修复的烦人问题，并宣布在达到 500 万用户后，将在明天早上重置使用限制。
+他还观察到，在 2026 年，每个评测/分析类创业公司都在经历一次代际升级，转型为持续学习平台。很多人会失败，但一如既往，有品位的会赢。
 
-**Roblox product lead Peter Yang**
+https://x.com/swyx/status/2061256096719970337
+https://x.com/swyx/status/2061206120233054327
 
-Peter spent an hour with his daughter learning CS 101 from Brilliant — she didn't want to stop until she beat someone on the leaderboard. He also speculated on what defines each AI lab's culture: OpenAI Codex has "dank memes" while Anthropic has "essays."
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @ OpenAI
 
-https://x.com/petergyang/status/2060928818383355907
-https://x.com/petergyang/status/2060930334620053998
+Thibault Sottiaux announced that Codex usage limits have been reset for all paid ChatGPT subscriptions. Users should now be back to 100% weekly and 100% hourly limits. He encourages everyone to "let the tokens do incredible things today and have fun."
 
-Roblox 产品负责人 Peter Yang 花了一小时和女儿一起在 Brilliant 上学习计算机科学入门课程——女儿不打败排行榜上的人就不肯停。他还对各 AI 实验室的文化做了个有趣的总结：OpenAI Codex 的特点是"沙雕梗图"，而 Anthropic 则是"深度长文"。
+https://x.com/thsottiaux/status/2061106703446450392
 
-**Vercel CEO Guillermo Rauch**
+Thibault Sottiaux 宣布，所有付费 ChatGPT 订阅用户的 Codex 使用限制已重置。用户现在应该恢复到 100% 的每周限制和 100% 的每小时限制。他鼓励大家"让 token 在今天做出不可思议的事情，玩得开心"。
 
-Guillermo's advice: just ship the best product. Use lots of AI, some AI, or no AI — be the best. He also highlighted Vercel's new per-API key spend caps on AI Gateway, giving developers more granular cost control.
+https://x.com/thsottiaux/status/2061106703446450392
 
-https://x.com/rauchg/status/2060803480823193840
-https://x.com/rauchg/status/2060787704166776927
+### Peter Yang (petergyang on X) — Product at Roblox, AI tutorials
 
-Vercel CEO Guillermo Rauch 的建议很简单：做出最好的产品。用很多 AI、用一点 AI、或者不用 AI——成为最好的。他还介绍了 Vercel AI Gateway 的新功能：按 API key 设置消费上限，让开发者能更精细地控制成本。
+Peter Yang asks a practical question: is there any difference between Codex automations and Claude Code routines? Which one is better? He wants to consolidate all his cron jobs into one list.
 
-**Box CEO Aaron Levie**
+He also posted a satirical take on startup hustle culture, listing the rules to "really win": work 997 (996 is for losers), tokenmax (spend more on tokens than your entire human headcount budget), sleep in the office, make Forbes 30 Under 30, and try not to end up in jail.
 
-Aaron pushed back on the narrative that AI destroys jobs. In conversations with CIOs, CTOs, and CEOs of large enterprises, most are either growing headcount due to AI (new functions like FDEs, engineering) or reinvesting efficiency savings into sales, marketing, and other areas. He cited Goldman Sachs CEO David Solomon's recent NYT OpEd: AI creates new jobs in building and implementing AI systems, while simultaneously freeing up dollars for previously underfunded areas. The companies that reinvest savings to better serve customers win long-term.
+https://x.com/petergyang/status/2061277577785000203
+https://x.com/petergyang/status/2061175114184736792
 
-https://x.com/levie/status/2060923684295221390
+Peter Yang 提出了一个实际问题：Codex automations 和 Claude Code routines 之间有什么区别？哪个更好？他想把所有 cron job 整合到一个列表中。
 
-Box CEO Aaron Levie 反驳了"AI 摧毁就业"的叙事。根据他与大型企业 CIO、CTO 和 CEO 的交流，大多数公司要么因为 AI 而增加招聘（如 FDE、工程等新职能），要么将效率提升节省的资金重新投入到销售、营销等领域。他引用了高盛 CEO David Solomon 在《纽约时报》的观点：AI 在建设和实施 AI 系统的过程中创造了新就业机会，同时释放了资金用于此前投入不足的领域。那些将节省的资金重新投资以更好服务客户的公司，才能在长期胜出。
+他还发了一个关于创业公司"奋斗文化"的讽刺帖，列出了"真正赢"的规则：工作 997（996 是给失败者的）、tokenmax（在 token 上的花费要超过整个公司的人力成本预算）、睡在办公室、登上福布斯 30 Under 30 榜单，以及尽量不要进监狱。
 
-**Cursor designer Ryo Lu**
+https://x.com/petergyang/status/2061277577785000203
+https://x.com/petergyang/status/2061175114184736792
 
-Ryo highlighted what he loves about Cursor's auto-review feature: it explains the command and the risk, making it much easier for new coders to learn and take action confidently.
+### Guillermo Rauch (rauchg on X) — Vercel CEO
 
-https://x.com/ryolu_/status/2060766674203353190
+Guillermo Rauch reports a striking trend: CEOs and CTOs are back to coding with a fury, thanks to coding agents. He has public company CEOs sliding into his DMs telling him they've fallen in love with shipping software again thanks to Claude Code and Vercel. "Dream accounts" that Vercel always wanted to work with — where in the past the C-suite would hardly understand the infrastructure until much later — are now engaging early. His thesis: coding agents are the ultimate PLG-fication of the enterprise. Bad, legacy software can't hide anymore. The stack that works is self-evident to the entire organization, from intern to CEO.
 
-Cursor 设计师 Ryo Lu 分享了他对 Cursor 自动审查功能（auto-review）的喜爱：它会解释每条命令及其风险，让新手程序员更容易学习并放心操作。
+https://x.com/rauchg/status/2061135404942974982
 
-**Y Combinator CEO Garry Tan**
+Guillermo Rauch 报告了一个引人注目的趋势：得益于 coding agents，CEO 和 CTO 们正以前所未有的热情重新开始写代码。一些上市公司的 CEO 给他发私信说，因为 Claude Code 和 Vercel，他们重新爱上了交付软件。过去，公司高层几乎不了解基础设施，直到项目后期，而现在那些 Vercel 一直想合作的"梦想客户"很早就开始接洽了。他的论点是：coding agents 是企业 PLG（产品驱动增长）的终极体现。糟糕的遗留软件再也无处可藏。好用的技术栈对从实习生到 CEO 的整个组织来说都是不言自明的。
 
-Garry is concerned that San Francisco hasn't seen the building boom yet — a problem for the city's future. He also reminded people to vote by June 2 and shared his voter guide at garrysguide dot org.
+https://x.com/rauchg/status/2061135404942974982
 
-https://x.com/garrytan/status/2060949003790176667
-https://x.com/garrytan/status/2060850157978325119
+### Aaron Levie (levie on X) — CEO @ Box
 
-Y Combinator CEO Garry Tan 担心旧金山尚未迎来建设热潮——这对城市的未来不是好兆头。他还提醒大家在 6 月 2 日前投票，并分享了他的投票指南（garrysguide dot org）。
+Aaron Levie identifies what he calls the #1 problem for AI agents in the enterprise: context. As we move from agentic coding (where a lot of context lives in the codebase and users are technical enough to give the rest to the agent easily) to knowledge work agents, the context problem becomes much more acute. At Box, they see this daily: existing digital knowledge is fragmented across legacy systems, access controls don't map to real work, and critical context often lives in people's heads as tribal knowledge that needs to be digitized. He argues this is one of the biggest points of leverage for applied AI companies and FDEs (Full-Stack Digital Engineers) / new system integrators. The companies that figure this out will get the most out of AI.
 
-**Builder Zara Zhang**
+https://x.com/levie/status/2061247380897579500
 
-Zara noticed that Anthropic's Opus 4.8 has stopped using em dashes in its writing — a small but noticeable stylistic change.
+Aaron Levie 指出，他认为企业 AI agent 面临的头号问题是：上下文（context）。当我们从 agentic coding（大量上下文存在于代码库中，且用户足够专业，可以轻松地将其余部分提供给 agent）转向知识工作 agent 时，上下文问题变得尖锐得多。在 Box，他们每天都能看到这一点：现有的数字知识分散在遗留系统中，访问控制与实际工作不匹配，关键上下文通常存在于人们的头脑中，作为需要被数字化的隐性知识。他认为这是应用型 AI 公司和 FDE（全栈数字工程师）/新型系统集成商最大的杠杆点之一。能解决这个问题的公司将能从 AI 中获得最大收益。
 
-https://x.com/zarazhangrui/status/2060962160872919043
+https://x.com/levie/status/2061247380897579500
 
-Builder Zara Zhang 注意到 Anthropic 的 Opus 4.8 在写作中不再使用破折号——一个微小但值得注意的风格变化。
+### Garry Tan (garrytan on X) — President & CEO @ Y Combinator
 
-**FPV Ventures partner Nikunj Kothari**
+Garry Tan shared that YC has 16 partners funding 40-60 companies per year, which amounts to 50-200 new SF residents per partner per year. He also weighed in on platform openness, arguing that platforms need to stay open and it shouldn't require a lot of work to get your data out — because where the AI harness wars are going, someone else's harness is just you sharecropping someone else's AI ecosystem.
 
-Nikunj shared a reminder that "time is a flat circle" — referencing an old tweet that's back in the discourse. He also had fun with Grok giving him an overly enthusiastic soccer prediction.
+His most provocative take: "You should want to control and host your own memory. It's the one thing that you should be able to take to any platform." He predicts this will be a defining battle in the new browser war — the AI harness wars of 2027.
 
-https://x.com/nikunj/status/2060948669164347448
+https://x.com/garrytan/status/2061251376802599397
+https://x.com/garrytan/status/2061176075288453333
+https://x.com/garrytan/status/2061174413513678941
 
-FPV Ventures 合伙人 Nikunj Kothari 引用了"时间是一个扁平圆环"——提醒大家某个老话题又回到了讨论中。他还分享了 Grok 对他足球预测的过度热情回应。
+Garry Tan 透露，YC 有 16 位合伙人，每年投资 40-60 家公司，这意味着每位合伙人每年会带来 50-200 名新的旧金山居民。他还就平台开放性问题发表了看法，认为平台需要保持开放，导出数据不应该需要大量工作——因为 AI harness 战争的发展方向是，别人的 harness 只会让你成为别人 AI 生态系统的佃农。
 
-**Polyagentmorous ClawFather Peter Steinberger (steipete)**
+他最引人深思的观点是："你应该希望控制和托管自己的记忆。这是你唯一应该能够带到任何平台的东西。"他预测这将成为新浏览器战争中的一场决定性战役——2027 年的 AI harness 之战。
 
-Peter shared his workflow evolution: with GPT-5.5, /goal, autoreview, and crabbox, his prompts have gone from 30-60 minute tasks to often 4-10 hour tasks — with much higher confidence in the output. He calls this "yielding agents" — a skill in itself.
+https://x.com/garrytan/status/2061251376802599397
+https://x.com/garrytan/status/2061176075288453333
+https://x.com/garrytan/status/2061174413513678941
 
-He also shared a trick: ask Codex to review code for bugs and it says everything's fine. Tell it there IS a bug, and it will loop and find issues.
+### Zara Zhang (zarazhangrui on X) — Builder
 
-https://x.com/steipete/status/2060678430031597696
-https://x.com/steipete/status/2060672154727825718
+Zara Zhang expressed frustration with coding agents that end messages with "just say the word" — she wants them to be cofounders, not servants. She also shared a quote about real mastery being achieving the outcome with the least necessary effort, noting that grinding is never good for creative problem-solving.
 
-Peter Steinberger 分享了他的工作流进化：借助 GPT-5.5、/goal、autoreview 和 crabbox，他的 prompt 任务从 30-60 分钟变成了 4-10 小时——但对输出的信心大大提高。他称之为"引导 agent"——这本身是一种技能。
+https://x.com/zarazhangrui/status/2061341642544783801
+https://x.com/zarazhangrui/status/2061143524020822158
 
-他还分享了一个技巧：让 Codex 审查代码中的 bug，它会说一切正常。但告诉它"这里有 bug"，它就会反复检查并找出问题。
+Zara Zhang 表达了对以"just say the word"结束消息的 coding agent 的不满——她希望它们是联合创始人，而不是仆人。她还分享了一句关于真正的大师是用最小的必要努力达成结果的名言，并指出苦干对创造性问题解决从来都不是好事。
 
-**Every CEO Dan Shipper**
+https://x.com/zarazhangrui/status/2061341642544783801
+https://x.com/zarazhangrui/status/2061143524020822158
 
-Dan shared his Codex usage stats: 38 billion tokens consumed, a 56-hour longest task, and a 41-day current streak. He also compared Business Insider's coverage from 2013 vs. 2026 — a striking contrast.
+### Nikunj Kothari (nikunj on X) — Partner @ FPV Ventures
 
-https://x.com/danshipper/status/2060771279280513362
-https://x.com/danshipper/status/2060861670184870225
+Nikunj Kothari is looking for good studies on what jobs AI has *meaningfully* replaced. He wants statistical analysis of historical data, present openings, and forward-looking statements. He notes that while every startup claims outcomes, model company revenues are booming, and companies are laying people off, he thinks the risk of a permanent underclass seems wildly overblown.
 
-Every CEO Dan Shipper 分享了他的 Codex 使用数据：380 亿 token 消耗，最长单次任务 56 小时，连续使用 41 天。他还对比了 Business Insider 2013 年和 2026 年的报道——差异惊人。
+https://x.com/nikunj/status/2061115431528943775
 
-**South Park Commons GP Aditya Agarwal**
+Nikunj Kothari 正在寻找关于 AI 真正*有意义地*取代了哪些工作的好的研究。他想要对历史数据、当前职位空缺和前瞻性声明的统计分析。他指出，虽然每个创业公司都在宣称成果，模型公司的收入在蓬勃发展，公司也在裁员，但他认为永久性底层阶级的风险被严重夸大了。
 
-Aditya observed a cultural difference: when he tells people in India he has three children, their first reaction is surprise, followed by "well, accidents happen." Most families he talks to have one child, because raising kids in nuclear families in cities is genuinely hard.
+https://x.com/nikunj/status/2061115431528943775
 
-https://x.com/adityaag/status/2060644549408739621
+### Peter Steinberger (steipete on X) — Creator of OpenClaw
 
-South Park Commons GP Aditya Agarwal 观察到一个文化差异：当他告诉印度朋友他有三个孩子时，对方的第一个反应是惊讶，然后说"好吧，意外难免"。他接触的大多数家庭只有一个孩子，因为在城市核心家庭中养育孩子确实很艰难。
+Peter Steinberger has been teaching Codex to be his QA assistant. For every commit, it creates a user-test scenario and uses webVNC and computer/browser use tools to test OpenClaw like a real user/QA person would. It runs in the background and opens PRs with fixes. He also noted that Codex wrote ad-hoc codemods for a larger TypeScript migration, which impressed him.
+
+On OpenClaw's philosophy: "The idea of OpenClaw is always that it should be yours. It's modular and lean, only add what you need. Fewer skills, fewer tools = your agent can work more efficiently."
+
+https://x.com/steipete/status/2061208638027395490
+https://x.com/steipete/status/2061115471760441692
+https://x.com/steipete/status/2061072753998856696
+
+Peter Steinberger 一直在教 Codex 做他的 QA 助手。对于每次提交，它都会创建一个用户测试场景，并使用 webVNC 和计算机/浏览器使用工具像真实用户/QA 人员一样测试 OpenClaw。它在后台运行，并打开带有修复的 PR。他还注意到 Codex 为一个较大的 TypeScript 迁移编写了临时的 codemods，这给他留下了深刻印象。
+
+关于 OpenClaw 的理念："OpenClaw 的理念始终是它应该是你的。它是模块化和精简的，只添加你需要的东西。更少的技能，更少的工具 = 你的 agent 可以更高效地工作。"
+
+https://x.com/steipete/status/2061208638027395490
+https://x.com/steipete/status/2061115471760441692
+https://x.com/steipete/status/2061072753998856696
+
+### Dan Shipper (danshipper on X) — CEO @ Every
+
+Dan Shipper posted a photo of the actual Manhattan Project daily schedule, commenting that if you're comparing your startup to the Manhattan Project and you're not rocking this every day, you're not going to make it. He also predicted that the same thing that happened to the internet will happen to AI in about a decade.
+
+https://x.com/danshipper/status/2061234578610585677
+https://x.com/danshipper/status/2061216715262906449
+
+Dan Shipper 发了一张真实的曼哈顿计划每日日程表照片，评论说如果你把你的创业公司比作曼哈顿计划，但你每天不是这样做的，那你就成不了。他还预测，大约十年后，发生在互联网上的事情也会发生在 AI 身上。
+
+https://x.com/danshipper/status/2061234578610585677
+https://x.com/danshipper/status/2061216715262906449
+
+### Aditya Agarwal (adityaag on X) — General Partner @ South Park Commons, Co-Founder @ Bevel Health
+
+Aditya Agarwal shared a video highlighting "Indian Dynamism" from Arctus Aerospace, a startup building aerospace components.
+
+https://x.com/adityaag/status/2061312610172051900
+
+Aditya Agarwal 分享了一段来自 Arctus Aerospace 的视频，强调"印度的活力"，这是一家制造航空航天部件的创业公司。
+
+https://x.com/adityaag/status/2061312610172051900
+
+### Sam Altman (sama on X) — CEO @ OpenAI
+
+Sam Altman made two major announcements. First, OpenAI Robotics is hiring — they're looking for exceptional full-stack hardware, ops, systems, and ML engineers to help program and manufacture useful robots. Their world simulation research program, led by Aditya Ramesh, has evolved into OpenAI Robotics. In the short term, they're focused on robots to support skilled workers building future infrastructure; in the long term, they imagine everyone having a personal robot.
+
+Second, OpenAI wants to help the world get a head start on biodefense, linking to an initiative.
+
+https://x.com/sama/status/2061117302528188712
+https://x.com/sama/status/2061101875303530871
+
+Sam Altman 发布了两个重大消息。首先，OpenAI Robotics 正在招聘——他们正在寻找优秀的全栈硬件、运营、系统和机器学习工程师，以帮助编程和制造对社会有用的机器人。由 Aditya Ramesh 领导的世界模拟研究项目已经演变为 OpenAI Robotics。短期内，他们专注于制造机器人来支持技术工人建设未来基础设施；长期来看，他们设想每个人都拥有一个个人机器人。
+
+其次，OpenAI 希望帮助世界在生物防御方面取得先发优势，并链接到一个相关计划。
+
+https://x.com/sama/status/2061117302528188712
+https://x.com/sama/status/2061101875303530871
 
 ## PODCASTS
 
-**Unsupervised Learning — Ep 87: Gemini Co-Lead on World Models, RL's Next Domains & Continual Learning**
+### The MAD Podcast with Matt Turck — OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real
 
-**The Takeaway:** Google DeepMind's Oriol Vinyals believes AGI is already here in some sense — and the next breakthrough won't come from scaling alone, but from cracking how models truly learn from experience.
+**The Takeaway:** AI progress feels like a sudden step function not because models are improving discontinuously, but because they've finally crossed a reliability threshold — and reinforcement learning has moved from toy domains like math competitions into messy, real-world work.
 
-Oriol Vinyals, co-lead of Gemini alongside Noam Shazeer and Jeff Dean, sat down with Jacob Efron right after Google I/O. With a career spanning Google Brain and DeepMind, Vinyals has been at the center of deep learning's biggest breakthroughs. This conversation covers world models, post-training RL, agent reliability, and the future of continual learning.
+Yann Dubois co-leads the Post-Training Frontiers team at OpenAI, where he helped build GPT-5.5, o3, and GPT-5 thinking. Before OpenAI, he co-authored Stanford Alpaca, the landmark project that kicked off much of the modern post-training research community. In this conversation, he explains what's actually new in GPT-5.5, why AI progress feels like a sudden acceleration, and why continual learning remains the biggest unsolved problem.
 
-On world models: Vinyals says we haven't yet seen the "GPT moment" for video and images. While Gemini Omni can generate and edit video through language, the holy grail remains training purely on visual data and extracting the same level of understanding that language models get from text — including concepts like gravity and causality. "That pure transfer is one of the core quests of machine learning for the last decade plus," he says.
+**Why progress feels like a step function:** Dubois argues that capability improvements are actually continuous — the discontinuity is in reliability. "You need to reach this level of reliability to really make any of these AI tools very useful, and I think we just crossed that probably December last year, at least at OpenAI. Now we can trust these models to do a lot of the work that we are doing." Once you have reliable models, you accelerate yourself — models help train other models, and researchers build better tooling faster.
 
-On post-training RL: Vinyals calls it "total greenfield." The challenge is that unlike games like Go, where every move creates a unique state and infinite training data, LLMs are data-limited. "What is the source of infinite complexity is not so clear." He's optimistic that models can learn to judge their own outputs even without formal verifiers — a capability he believes will unlock RL across more domains.
+**The RL shift from competitions to real work:** Last year, reasoning models were optimized for "verifiable rewards" — math problems and coding competitions where you can easily check if the answer is right. What changed is that OpenAI figured out how to apply the same reinforcement learning tools to messy real-world use cases. "We moved from competitions to usefulness to users, and that's what we are feeling right now."
 
-On agent memory: Vinyals sees a path where agents use the file system itself as external memory — writing thoughts to files, structuring them into directories. He calls this a form of "continual learning" that's more practical than integrating memory back into model weights. "From a practical point of view, it would be painful to have to serve one model with different memories to users."
+**On GPT-5.5's efficiency:** Dubois is most proud of two things: the model's efficiency (most tasks can be performed roughly 2x faster now) and the alignment of the entire company toward a single north star. He describes the optimization as moving the test-time scaling curve to the left — thinking less to achieve the same performance — while inference engineering converts token counts into actual latency improvements.
 
-On the bitter lesson: Vinyals believes the complex scaffolding people build around models today — multi-agent systems, sub-agents, delegation — will eventually be written by the model itself on the fly. "That system itself is a piece of code that eventually the model itself could write."
+**On pre-training not hitting a wall:** Despite last year's narrative that pre-training was plateauing, Dubois says larger models are still yielding gains. "If you look at Anthropic, Mythos seems like clearly just a much bigger model... The cost of the model, usually that's how you know. And clearly, they are getting very good performance just by increasing the size of the model."
 
-On whether AGI is here: "If seven years ago I had to experiment with a model that we have currently, would I have declared this is AGI? I would say probably yes." But he notes that the ability to truly learn from experience is still missing — and that's what fascinates him most.
+**On harnesses vs. models:** Dubois advises startups not to over-invest in general-purpose harnesses (frameworks around models). "If you try to have a general harness that will sustain over time, I don't think that will work." But for specific domains, harnesses are essential — they can take you from 80% to 85% reliability. His advice: build for specific verticals now, knowing you'll have to retune as models improve.
 
-His advice to builders: "Use the models to build anything you do, even if you think there's no remote connection to AI."
+**On continual learning:** This is the problem that keeps Dubois up at night. "Right now, most models at day zero are arguably more useful than most new employees. But across time, they are mostly constant. They don't really learn company knowledge... while humans learn really quickly." He's surprised that three years after ChatGPT, we're still not there. The area under the curve — cumulative utility over time — is what matters, and that's where humans still win.
 
-https://www.youtube.com/watch?v=NQczevdpxq0
+**The quote:** "There will always be a lot of space left for this last mile in different verticals. And I would highly encourage people to continue working on that."
 
-**Unsupervised Learning — Ep 87：Gemini 联合负责人谈世界模型、RL 的下一个领域与持续学习**
+https://www.youtube.com/watch?v=DhD1zZ8w8Mw
 
-**核心观点：** Google DeepMind 的 Oriol Vinyals 认为，从某种意义上说，AGI 已经到来——而下一个突破不会仅仅来自规模扩展，而是来自破解模型如何真正从经验中学习。
+---
 
-作为与 Noam Shazeer 和 Jeff Dean 共同领导 Gemini 的负责人，Oriol Vinyals 在 Google I/O 结束后立即与 Jacob Efron 进行了对话。他的职业生涯横跨 Google Brain 和 DeepMind，身处深度学习最大突破的核心。这场对话涵盖了世界模型、训练后 RL、agent 可靠性和持续学习的未来。
+**核心观点：** AI 进展感觉像是一个突然的阶跃函数，不是因为模型能力在非连续地提升，而是因为它们终于跨过了可靠性的门槛——同时，强化学习已经从数学竞赛等玩具领域迁移到了混乱的真实世界工作中。
 
-关于世界模型：Vinyals 表示，视频和图像领域尚未迎来"GPT 时刻"。虽然 Gemini Omni 可以通过语言生成和编辑视频，但终极目标仍然是仅凭视觉数据进行训练，并提取出语言模型从文本中获得的同等理解——包括重力、因果等概念。"这种纯粹的迁移是过去十多年机器学习最核心的追求之一。"
+Yann Dubois 共同领导 OpenAI 的 Post-Training Frontiers 团队，参与了 GPT-5.5、o3 和 GPT-5 thinking 的构建。在加入 OpenAI 之前，他联合撰写了 Stanford Alpaca，这是启动现代 post-training 研究社区的开创性项目。在这次对话中，他解释了 GPT-5.5 的真正新意所在，为什么 AI 进展感觉像是在突然加速，以及为什么持续学习仍然是最大的未解决问题。
 
-关于训练后 RL：Vinyals 称其为"完全的蓝海"。挑战在于，与围棋等游戏不同（每一步都创造唯一状态和无限训练数据），LLM 受限于数据。"无限复杂性的来源并不明确。"他乐观地认为，即使没有形式化的验证器，模型也能学会评判自己的输出——他相信这一能力将解锁更多领域的 RL 应用。
+**为什么进展感觉像是阶跃函数：** Dubois 认为能力提升实际上是连续的——非连续性在于可靠性。"你需要达到这种可靠性水平，才能真正让这些 AI 工具变得非常有用，我认为我们大概在去年 12 月就跨过了这个门槛，至少在 OpenAI 是这样。现在我们可以信任这些模型来完成我们所做的大部分工作。"一旦你拥有了可靠的模型，你自身也会加速——模型帮助训练其他模型，研究人员也能更快地构建更好的工具。
 
-关于 agent 记忆：Vinyals 设想了一条路径——agent 将文件系统本身用作外部记忆，将思考写入文件，按目录结构组织。他称之为一种"持续学习"形式，比将记忆整合回模型权重更实用。"从实践角度来看，为不同用户提供带有不同记忆的同一模型会很痛苦。"
+**RL 从竞赛到真实工作的转变：** 去年，推理模型是针对"可验证奖励"进行优化的——数学问题和编程竞赛，在这些领域你可以轻松检查答案是否正确。变化在于，OpenAI 找到了将相同的强化学习工具应用于混乱的真实世界用例的方法。"我们从竞赛转向了对用户的有用性，这就是我们现在的感受。"
 
-关于苦涩教训：Vinyals 认为，如今人们围绕模型构建的复杂脚手架——多 agent 系统、子 agent、任务委派——最终将由模型本身动态生成。"这个系统本身就是一段代码，最终模型自己就能写出来。"
+**关于 GPT-5.5 的效率：** Dubois 最引以为豪的是两件事：模型的效率（现在大多数任务的速度大约快了两倍）以及整个公司围绕一个北极星目标的一致性。他将优化描述为将 test-time scaling 曲线向左移动——用更少的思考达到相同的性能——同时推理工程将 token 计数转化为实际的延迟改进。
 
-关于 AGI 是否已经到来："如果七年前我拿现在的模型做实验，我会宣布这就是 AGI 吗？我可能会说'是'。"但他指出，真正从经验中学习的能力仍然缺失——而这正是他最感兴趣的方向。
+**关于预训练没有碰壁：** 尽管去年有说法称预训练正在趋于平稳，但 Dubois 表示更大的模型仍在产生收益。"如果你看看 Anthropic，Mythos 显然是一个大得多的模型……模型的成本，通常你是这么看出来的。很明显，他们仅仅通过增加模型规模就获得了非常好的性能。"
 
-他对创业者的建议是："用模型去构建你做的一切，即使你觉得这和 AI 毫无关系。"
+**关于 harness 与模型：** Dubois 建议创业公司不要过度投资于通用型 harness（围绕模型的框架）。"如果你想构建一个能长期维持的通用 harness，我认为那行不通。"但对于特定领域，harness 至关重要——它们可以将可靠性从 80% 提升到 85%。他的建议是：现在为特定垂直领域构建，但要意识到随着模型的改进，你必须重新调整。
 
-https://www.youtube.com/watch?v=NQczevdpxq0
+**关于持续学习：** 这是让 Dubois 夜不能寐的问题。"现在，大多数模型在第零天可以说比大多数新员工更有用。但随着时间的推移，它们基本保持不变。它们并没有真正学习公司知识……而人类学习得很快。"他感到惊讶的是，ChatGPT 问世三年后，我们仍然没有解决这个问题。曲线下的面积——随时间累积的效用——才是关键，在这方面人类仍然占优。
+
+**金句：** "不同垂直领域的最后一英里总会留下很大的空间。我强烈鼓励大家继续在这方面努力。"
+
+https://www.youtube.com/watch?v=DhD1zZ8w8Mw
 
 ---
 
