@@ -1,164 +1,207 @@
-AI Builders Digest — Wednesday, June 3, 2026
+AI Builders Digest — Thursday, June 4, 2026
 
-## X/Twitter
+## X / TWITTER
 
-### Swyx — founder of DX Tips, Cognition, Temporal, AI Engineer, Latent Space
+**Swyx (swyx on X) — AI engineer, DX Tips, Cognition, Temporal.io**
 
-Swyx highlights a new "flipbook" project from zan2434 and eddiejiao_obj, replying to xAI's "imagine" feature. He also notes that a WorkOS talk is performing very well and is the first to seriously challenge Matt Pocock's long-standing lead in their A/B testing. Finally, he shares a link roundup of Microsoft and Nvidia content.
+Swyx dropped a series of strong takes. He declared that "Codex is AGI man" after one-shotting a complex task with no notes, linking to a demo. He also flagged what he called "probably the best reward function for reasoning efficiency I've seen," pointing to a new approach for optimizing how models think. And he shared a resource on building AI agents that impressed him.
 
-[View tweet](https://x.com/swyx/status/2061694815130243344)
-[View tweet](https://x.com/swyx/status/2061658241877397917)
-[View tweet](https://x.com/swyx/status/2061654021958762620)
-
-Swyx 转发了一条关于 zan2434 和 eddiejiao_obj 的 "flipbook" 项目，这是对 xAI 的 "imagine" 功能的回应。他还提到 WorkOS 的一个演讲表现非常好，是几周以来第一个在 A/B 测试中真正挑战 Matt Pocock 领先地位的内容。此外，他还分享了一个关于微软和英伟达内容的链接汇总。
-
-### Thibault Sottiaux — Codex & ChatGPT at OpenAI
-
-Thibault shares a playful demo showing that "you can just Codex... a farm," highlighting the versatility of OpenAI's coding agent. In a more pointed post, he responds to AWS's enterprise push by noting that OpenAI now has GPT-5.5 available on the platform, subtly countering the idea that AWS is where "the cool kids" are. He also jokingly asks if Codex should be renamed to "ChadGPT," a post that received nearly 3,000 likes.
-
-[View tweet](https://x.com/thsottiaux/status/2061657264508006738)
-[View tweet](https://x.com/thsottiaux/status/2061644307111796984)
-[View tweet](https://x.com/thsottiaux/status/2061572602888589807)
-
-Thibault 分享了一个有趣的演示，展示了 "you can just Codex... a farm"，凸显了 OpenAI 编程智能体的通用性。在另一条更有针对性的帖子中，他回应了 AWS 的企业级推广，指出 OpenAI 现在在该平台上提供了 GPT-5.5，巧妙地反驳了 "酷孩子都在 AWS" 的说法。他还开玩笑地问是否应该把 Codex 改名为 "ChadGPT"，这条帖子获得了近 3000 个赞。
-
-### Peter Yang — Product at Roblox
-
-Peter shares his top takeaways from a conversation with solo builder Josh Shpigford (Shpigford) on building multiple products with AI agents. Key insights include: shipping early despite fear, charging from day one, using separate git worktrees for parallel feature development, having GPT review Claude's code and vice versa, building a "learnings" skill to help AI improve over time, and the importance of real experience — AI lets anyone ship, but knowing what to build still comes from years of practice.
-
-[View tweet](https://x.com/petergyang/status/2061452068792287622)
-
-Peter 分享了他从独立开发者 Josh Shpigford 那里学到的关于用 AI agent 构建多个产品的心得。关键见解包括：即使害怕也要尽早发布、从第一天就开始收费、使用独立的 git worktree 并行开发功能、让 GPT 和 Claude 互相审查代码、建立 "learnings" 技能帮助 AI 持续改进，以及真实经验的重要性——AI 让任何人都能发布产品，但知道该构建什么仍然来自多年的实践。
-
-### Thariq — Claude Code at Anthropic
-
-Thariq shares a prompt from an Anthropic colleague, Suzanne, that she uses to stay in the loop with Claude's work. The prompt helps users fully understand what Claude has been doing, and Suzanne also uses it with voice mode for more natural interaction. Thariq provides a link to the full prompt on GitHub.
-
-[View tweet](https://x.com/trq212/status/2061545633560010826)
-[View tweet](https://x.com/trq212/status/2061545635141361687)
-[View tweet](https://x.com/trq212/status/2061585357934878745)
-
-Thariq 分享了 Anthropic 同事 Suzanne 使用的一个 prompt，用于与 Claude 的工作保持同步并充分理解其进展。这个 prompt 帮助用户全面了解 Claude 的工作内容，Suzanne 还将其与语音模式结合使用，使交互更加自然。Thariq 提供了该完整 prompt 的 GitHub 链接。
-
-### Amjad Masad — CEO at Replit
-
-Amjad shares a vision of going from a prompt to a full business: website, mobile app, monetization, and even a Delaware corporation — all starting for free on Replit. He also posts a cryptic "vibecon" reference, likely teasing an upcoming event or concept.
-
-[View tweet](https://x.com/amasad/status/2061575503434408106)
-[View tweet](https://x.com/amasad/status/2061673231309058241)
-
-Amjad 分享了一个愿景：从一个 prompt 开始，到生成一个完整的业务——包括网站、移动应用、变现，甚至注册一家特拉华州公司——这一切都可以在 Replit 上免费开始。他还发了一条神秘的 "vibecon" 帖子，可能是在预告某个即将到来的活动或概念。
-
-### Guillermo Rauch — CEO at Vercel
-
-Guillermo highlights that MiniMax's M3 model is now the leading open model on Vercel's Next.js agent evaluations, performing right behind Opus and GPT-5 but at 10x lower cost (and 20x cheaper via Vercel's AI Gateway). He also shares a beautiful example of a full-stack agent built on Vercel, calling it great learning material.
-
-[View tweet](https://x.com/rauchg/status/2061593874498531707)
-[View tweet](https://x.com/rauchg/status/2061415178298937365)
-
-Guillermo 指出，MiniMax 的 M3 模型现在在 Vercel 的 Next.js agent 评测中领先所有开源模型，性能仅次于 Opus 和 GPT-5，但成本低了 10 倍（通过 Vercel 的 AI Gateway 则便宜 20 倍）。他还分享了一个在 Vercel 上构建的全栈 agent 的优秀示例，称其为很好的学习材料。
-
-### Aaron Levie — CEO at Box
-
-Aaron offers a strategic take on competitive advantage in the age of AI agents: when everyone has access to the same AI models, the differentiator becomes a company's ability to harness its unique institutional knowledge, data assets, and domain-specific workflows. He also comments on the OpenAI-AWS partnership, noting that AWS's massive enterprise traction will likely drive increased token consumption across all model providers.
-
-[View tweet](https://x.com/levie/status/2061662386680127688)
-[View tweet](https://x.com/levie/status/2061612625574944804)
-
-Aaron 提出了一个关于 AI agent 时代竞争优势的战略观点：当所有人都能使用相同的 AI 模型时，真正的差异化在于企业利用其独特的机构知识、数据资产和特定领域工作流程的能力。他还评论了 OpenAI 与 AWS 的合作，指出 AWS 庞大的企业客户基础很可能会推动所有模型提供商的 token 消耗量增长。
-
-### Garry Tan — President & CEO at Y Combinator
-
-Garry promotes GStack, making its office-hours feature available for product ideas with one click. He also shares a quote from Brian Chesky: "Leadership is presence, not absence."
-
-[View tweet](https://x.com/garrytan/status/2061568169354129640)
-[View tweet](https://x.com/garrytan/status/2061495739637960927)
-
-Garry 推广了 GStack，其 office-hours 功能现在可以一键用于产品创意。他还分享了 Brian Chesky 的一句名言："领导力是到场，而不是缺席。"
-
-### Matt Turck — VC at FirstMark Capital
-
-Matt captures the classic tension between CEO and CTO with a meme: the CEO claims "we have tens of thousands of AI agents running in production at massive scale right now" while the CTO's reaction is a GIF of chaos.
-
-[View tweet](https://x.com/mattturck/status/2061533386296963464)
-
-Matt 用一张 meme 捕捉了 CEO 和 CTO 之间经典的张力：CEO 宣称 "我们现在在生产环境中大规模运行着数万个 AI agent"，而 CTO 的反应则是一个混乱的 GIF。
-
-### Nikunj Kothari — Partner at FPV Ventures
-
-Nikunj teases a sequel to "walk in the park" coming soon, featuring taiuti. He also makes an observation about wealth creation: investing in nearly every public company along the 237 (highway) would have generated life-changing wealth.
-
-[View tweet](https://x.com/nikunj/status/2061662916039074267)
-[View tweet](https://x.com/nikunj/status/2061492724856234030)
-
-Nikunj 预告了 "walk in the park" 的第二部分即将推出，这次 featuring taiuti。他还分享了一个关于财富创造的观察：投资 237 号公路沿线的几乎所有上市公司，就能创造改变人生的财富。
-
-### Peter Steinberger — Creator of OpenClaw at OpenAI
-
-Peter shares a clever workflow: he tells Codex to use a notification service whenever it's distracted and needs his help to be unblocked. Now, occasionally he hears Codex talking to him, which he finds incredibly cool — for example, when releases require npm access that's gated behind 1Password.
-
-[View tweet](https://x.com/steipete/status/2061574752574283858)
-
-Peter 分享了一个巧妙的工作流程：他告诉 Codex，当它被卡住需要他帮忙时，就通过一个通知服务来联系他。现在，他偶尔会听到 Codex 跟他说话，他觉得这非常酷——比如当发布版本需要访问被 1Password 保护的 npm 时。
-
-### Dan Shipper — CEO at Every
-
-Dan celebrates that "it happened!" — referencing a prediction made months ago. He also muses that you don't have to work 7 days a week if you have a swarm of Codex instances running on /goal all the time, but admits you'll probably want to anyway.
-
-[View tweet](https://x.com/danshipper/status/2061550920635191666)
-[View tweet](https://x.com/danshipper/status/2061443674311999739)
-
-Dan 庆祝 "它终于发生了！"——指的是几个月前的一个预测。他还感慨说，如果你有一群 Codex 实例一直在 /goal 上运行，你就不需要每周工作 7 天了，但他承认你可能还是想这么做。
-
-### Aditya Agarwal — General Partner at South Park Commons
-
-Aditya endorses Schrep and the Gigascale team, calling what they're building "something special" and noting they've been incredible partners to South Park Commons portfolio companies.
-
-[View tweet](https://x.com/adityaag/status/2061664255007469881)
-
-Aditya 力挺 Schrep 和 Gigascale 团队，称他们正在构建 "特别的东西"，并指出他们一直是 South Park Commons 投资组合公司的出色合作伙伴。
-
-### Sam Altman — CEO at OpenAI
-
-Sam highlights the work of the OpenAI Foundation, which is focused on helping society become resilient to AI. He calls this "incredibly important" and promises much more to come.
-
-[View tweet](https://x.com/sama/status/2061562575322492937)
-
-Sam 强调了 OpenAI Foundation 的工作，该基金会致力于帮助社会建立对 AI 的韧性。他称这 "极其重要"，并承诺未来会有更多进展。
-
-## Podcasts
-
-### Unsupervised Learning — Ep 88: Unpacking DeepMind's Quest for SuperIntelligence with Demis Hassabis' Biographer
-
-**The Takeaway:** Demis Hassabis is the most underestimated figure in AI — a Nobel Prize winner who saw the race dynamic coming, tried to prevent it, failed, and now believes only government enforcement can keep AI safe.
-
-Sebastian Mallaby spent over 30 hours with DeepMind CEO and co-founder Demis Hassabis for his book *The Infinity Machine*. What emerges is a portrait of a man who is simultaneously idealistic, spiritual, and ruthlessly strategic — and who is often dismissed by a Silicon Valley that prefers the showmanship of Sam Altman.
-
-The most striking revelation is Mallaby's description of Hassabis's almost spiritual conviction about AI. During their pub conversations, Hassabis would bang the table and say: "This table, it's a mystery. We don't understand it. These atoms jumping around... Maybe if we approach science the right way, we will be getting closer to something that we could perhaps call God."
-
-Mallaby also reveals the raw behind-the-scenes dynamics of the AI race. Hassabis originally hoped to avoid a race entirely — he even interviewed candidates by asking if they'd be willing to "fly to a bunker" when AGI was near. That dream died when Elon Musk, after being brought into DeepMind's safety tent in 2015, turned around and founded OpenAI. "You can't trust the other guys," Mallaby summarizes Hassabis's current view. The only solution: government enforcement.
-
-On Google's acquisition of DeepMind, Mallaby reveals that Reid Hoffman once pledged $1 billion to finance a spin-out, which Hassabis used as leverage against Google to demand safety oversight — leverage he never actually used. The result? Hassabis got his Nobel Prize for AlphaFold, but never got the safety guarantees he wanted.
-
-Perhaps the most provocative take is Mallaby's prediction that OpenAI has a 50% chance of going bust by next summer. "The tech is great," he says. "It's the business model that's problematic." Against Google's unlimited cash, even the best technology may not be enough.
-
-[Watch the full episode](https://www.youtube.com/@RedpointAI)
+https://x.com/swyx/status/2062062585391014245
+https://x.com/swyx/status/2062060142489973010
+https://x.com/swyx/status/2062055084138316176
 
 ---
 
-**核心观点：** Demis Hassabis 是 AI 领域最被低估的人物——一位诺贝尔奖得主，他预见到了竞争格局的到来，试图阻止它，失败了，现在认为只有政府监管才能确保 AI 的安全。
+Swyx 连续放了几记重锤。他宣称"Codex 就是 AGI"，并展示了一次性零笔记完成复杂任务的 demo。他还转发了一个"目前见过最好的推理效率奖励函数"，指向一种优化模型思考过程的新方法。此外，他还分享了一个让他印象深刻的 AI agent 构建资源。
 
-Sebastian Mallaby 为了撰写《无限机器》一书，与 DeepMind CEO 兼联合创始人 Demis Hassabis 进行了超过 30 小时的对话。书中描绘了一个既理想主义、又带有精神追求、同时冷酷而富有战略眼光的人物形象——而这样的人，在一个更偏爱 Sam Altman 那种表演型人格的硅谷，常常被忽视。
+**Google VP Josh Woodward — Gemini App, Google AI Studio**
 
-最引人注目的发现是 Mallaby 描述的 Hassabis 对 AI 近乎精神层面的信念。在他们的酒吧对话中，Hassabis 会拍着桌子说："这张桌子，它是一个谜。我们不了解它。这些原子在跳动……也许如果我们以正确的方式探索科学，我们就能更接近自然，更接近某种我们可以称之为上帝的东西。"
+Josh announced that Thinking Levels are now available on Gemini across Web, iOS, and Android, calling it a "papercut fixed." This means users can now adjust how much "thinking" the model does before responding — a feature power users have been asking for.
 
-Mallaby 还揭示了 AI 竞赛背后鲜为人知的动态。Hassabis 最初希望完全避免竞争——他甚至会在面试候选人时问："当 AGI 临近时，你愿意登上那架飞往地堡的飞机吗？" 这个梦想在 2015 年破灭了，当时 Elon Musk 被邀请加入 DeepMind 的安全监督委员会，转头却创立了 OpenAI。Mallaby 总结了 Hassabis 目前的看法："你不能信任其他家伙。" 唯一的解决方案是政府强制执行。
+https://x.com/joshwoodward/status/2062025667852812583
 
-关于 Google 收购 DeepMind，Mallaby 透露 Reid Hoffman 曾承诺提供 10 亿美元来资助分拆，Hassabis 以此作为向 Google 施压要求安全监督的筹码——但他从未真正使用过这个筹码。结果是：Hassabis 凭借 AlphaFold 获得了诺贝尔奖，但从未得到他想要的安全保障。
+---
 
-也许最具争议的观点是 Mallaby 的预测：OpenAI 有 50% 的概率在明年夏天之前破产。"技术很棒，"他说，"有问题的是商业模式。" 面对 Google 无限的现金流，即使是最好的技术也可能不够。
+Josh 宣布 Gemini 的 Thinking Levels（思考层级）现已登陆 Web、iOS 和 Android 全平台，他称之为"修复了一个小痛点"。这意味着用户可以调整模型在回复前的"思考"深度——这是重度用户期待已久的功能。
 
-[观看完整剧集](https://www.youtube.com/@RedpointAI)
+**OpenAI's Thibault Sottiaux — Codex & ChatGPT**
+
+Thibault made a definitive statement about the ChatGPT brand: "Whether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build." He also announced a wave of new Codex features for business plans: hosting and sharing websites, vastly improved plugins and skills for broad roles, and the ability to give feedback to your agent through visual annotations in docs, slides, sheets, and more.
+
+https://x.com/thsottiaux/status/2062057881424506950
+https://x.com/thsottiaux/status/2061877014999830625
+https://x.com/thsottiaux/status/2061876999564791952
+
+---
+
+Thibault 对 ChatGPT 这个品牌做出了明确的定位："不管你喜不喜欢这个名字，它已经来了，而且不会走。它是过去、现在和未来。是 AI 的同义词，很快也会是 agent 的同义词。还有很多东西要建。"他还宣布了 Codex 面向企业计划的一系列新功能：托管和分享网站、大幅改进的插件和面向多种角色的技能，以及通过文档、幻灯片、表格中的视觉标注向 agent 提供反馈的能力。
+
+**Peter Yang — Product at Roblox, AI tutorials**
+
+Peter shared a funny quote from a guide: "They're so lit up by being able to build anything that they don't do anything else. Then they launch and there are no users." He also gave credit to the Devin/Windsurf team for staying disciplined through ups and downs, noting many AI-native builders now love Devin. In a thoughtful thread, he argued that simple SaaS for narrow use cases is becoming harder to monetize because: 1) AI skills can flexibly solve the same problem, 2) AI-native agents with personal context are more powerful, and 3) people compare $20/month SaaS against their Claude/ChatGPT subscription.
+
+https://x.com/petergyang/status/2062018242789670929
+https://x.com/petergyang/status/2061936952400814392
+https://x.com/petergyang/status/2061846283263103274
+
+---
+
+Peter 分享了一个有趣的引述："他们因为能构建任何东西而兴奋不已，以至于什么都不做。然后产品上线了，发现一个用户都没有。"他还称赞 Devin/Windsurf 团队在起伏中保持了纪律性，表示很多 AI-native 开发者现在很喜欢 Devin。在一篇有深度的帖子中，他认为针对狭窄场景的简单 SaaS 越来越难变现，原因有三：1) AI 技能可以灵活解决同样的问题；2) 拥有个人上下文的 AI-native agent 更强大；3) 人们会拿每月 20 美元的 SaaS 和自己的 Claude/ChatGPT 订阅做比较。
+
+**Anthropic's Thariq (trq212 on X) — Claude Code**
+
+Thariq announced that Workflows are "the biggest upgrade to Claude Code's capabilities since skills and subagents." He dove deep into best practices, examples, and is particularly excited about the non-technical tasks it enables. The announcement got massive engagement — 3.3K likes and 236 retweets. He also shared that this is available on the Claude Blog.
+
+https://x.com/trq212/status/2061907897928528349
+https://x.com/trq212/status/2061907538741006796
+https://x.com/trq212/status/2061907337154367865
+
+---
+
+Thariq 宣布 Workflows 是"自 skills 和 subagents 以来 Claude Code 最大的能力升级"。他深入探讨了最佳实践和案例，特别兴奋的是它解锁了非技术类任务的能力。这条消息获得了巨大反响——3300 赞和 236 次转发。他还提到相关内容已发布在 Claude Blog 上。
+
+**Replit CEO Amjad Masad**
+
+Amjad announced a partnership with Microsoft to enable everyone in the enterprise to build and deploy safe & secure Fabric data apps, powered by Microsoft's new Rayfin SDK. He also noted that SWE benchmarks don't necessarily capture app building capabilities — ViBench does. And he quote-tweeted something with "Your whole business laid out on a canvas."
+
+https://x.com/amasad/status/2062048812345291259
+https://x.com/amasad/status/2061893093696434578
+https://x.com/amasad/status/2061878314311266552
+
+---
+
+Amjad 宣布与 Microsoft 达成合作，让企业中的每个人都能借助 Microsoft 新的 Rayfin SDK 构建和部署安全可靠的 Fabric 数据应用。他还指出，SWE 基准测试不一定能反映应用构建能力——ViBench 可以。此外，他转发了一条内容并评论道："你的整个业务都铺在一张画布上。"
+
+**Vercel CEO Guillermo Rauch**
+
+Guillermo coined "YES-CODE" as the opposite of no-code, arguing that coding agents have made code cheap, easy, and abundant. He recalled a moment when his co-founder was asked if Vercel was a no-code platform and replied "no, it's the absolute opposite. It's a yes-code platform." He said Vercel's mission is to create "the easiest cloud for agents that you never graduate from." He also shared his view on AI-era education: start with language, because "human language is the new API to the world." And he welcomed Conductor (an IDE born for coding agents) to Vercel.
+
+https://x.com/rauchg/status/2061934154732974376
+https://x.com/rauchg/status/2061862134469062850
+https://x.com/rauchg/status/2061809689973944724
+
+---
+
+Guillermo 提出了"YES-CODE"这个概念，与 no-code 相对。他认为 coding agents 让代码变得廉价、简单和丰富。他回忆说，曾有人问 Vercel 是不是 no-code 平台，他的联合创始人回答："不，恰恰相反。这是一个 yes-code 平台。"他说 Vercel 的使命是"打造 agent 最易用的云平台，让你永远不想离开"。他还分享了对 AI 时代教育的看法：从语言开始，因为"人类语言是连接世界的新 API"。此外，他欢迎 Conductor（一个为 coding agents 而生的 IDE）加入 Vercel。
+
+**Box CEO Aaron Levie**
+
+Aaron shared a sharp take on model routing: as token budgets become a larger part of operating expenses, model routing is inevitable. He argued that products that can intelligently route workflows to the right tier of model will aggregate more demand. However, he noted that most use-cases will still need frontier performance for the foreseeable future.
+
+https://x.com/levie/status/2061974298760495132
+
+---
+
+Aaron 对模型路由（model routing）提出了精辟见解：随着 token 预算在运营支出中占比越来越大，模型路由是不可避免的趋势。他认为，能够智能地将工作流路由到合适模型层级的产品将聚合更多需求。不过他也指出，在可预见的未来，大多数用例仍然需要前沿模型性能。
+
+**YC President & CEO Garry Tan**
+
+Garry shared that GBrain is "the agentic swiss army knife for retrieval and memory." He also posted about landing many PRs with "many more to go before you sleep." And he expressed relief that Phil Kim beat "the insane woman named Brandee who literally doxxed my home address and made me sell my home and move my family to a new one."
+
+https://x.com/garrytan/status/2062076227977126237
+https://x.com/garrytan/status/2062074760331448381
+https://x.com/garrytan/status/2062052761945223266
+
+---
+
+Garry 表示 GBrain 是"用于检索和记忆的 agentic 瑞士军刀"。他还发帖说自己合并了不少 PR，"在睡觉前还有更多要处理"。另外，他对 Phil Kim 击败"那个疯狂的女人 Brandee（她人肉了我的家庭地址，迫使我卖掉房子、全家搬走）"表示如释重负。
+
+**Zara Zhang (zarazhangrui on X) — Builder**
+
+Zara highlighted a striking stat from OpenAI's Codex report: "Knowledge workers now represent about 20% of Codex users and are adopting it more than 3 times as fast as developers. The fastest growing task types for knowledge workers are: Data Analysis (110% growth week over week); Research (+37%), and Knowledge Artifacts (+36%)." She also announced that her open-source project Frontend Slides hit 20K GitHub stars, with new features including beautiful templates, publish as webpage/export as PDF, and inline editing.
+
+https://x.com/zarazhangrui/status/2061924300698091760
+https://x.com/zarazhangrui/status/2061892917514662152
+https://x.com/zarazhangrui/status/2061889286585405790
+
+---
+
+Zara 分享了 OpenAI Codex 报告中的一个惊人数据："知识工作者现在占 Codex 用户的 20%，其采用速度是开发者的 3 倍以上。增长最快的任务类型是：数据分析（周环比增长 110%）、研究（+37%）和知识制品（+36%）。"她还宣布自己的开源项目 Frontend Slides 在 GitHub 上获得了 20K 星标，新增功能包括精美模板、发布为网页/导出为 PDF，以及内联编辑。
+
+**FPV Ventures Partner Nikunj Kothari**
+
+Nikunj shared a thoughtful thread on what makes a strong pitch. He argued that the best founders treat AI/timing, funding, distribution, market, product, and revenue as necessary components — but not the entire business. The bar has never been higher, especially in overcrowded categories. He advised founders to take ten extra minutes to communicate their long-term ambition, as that might be the small difference between them and the next round.
+
+https://x.com/nikunj/status/2062033620773306763
+
+---
+
+Nikunj 分享了一篇关于如何做好融资 pitch 的深度思考。他认为最好的创始人把 AI/时机、融资、分销、市场、产品和营收视为必要条件——但不是全部。现在的门槛从未如此之高，尤其是在拥挤的赛道。他建议创始人多花十分钟去表达自己的长期野心，因为这可能是你和其他人之间那一点微小的差距。
+
+**OpenClaw's Peter Steinberger (steipete on X)**
+
+Peter shared that it's been great working with Omar to get observability and verifiable workspaces into OpenClaw. He also called it "such a privilege to work with Microsoft to bring claws to enterprises!" — suggesting OpenClaw is expanding into the enterprise space through a Microsoft partnership.
+
+https://x.com/steipete/status/2061877813053907083
+https://x.com/steipete/status/2061874084649025728
+
+---
+
+Peter 分享了与 Omar 合作将可观测性和可验证工作空间引入 OpenClaw 的进展。他还表示"能与微软合作将 claws 带给企业是一种荣幸"——暗示 OpenClaw 正通过与微软的合作进入企业市场。
+
+**Every CEO Dan Shipper**
+
+Dan asked the community for their thoughts on Opus 4.8 a week after release, noting that Every was extremely bullish in testing but the public response seemed more tepid. He theorized that Opus 4.8 "pushes on your frame a little more" and has high-variance results. He also flagged that "people internally are freaking out about" Claude Code's new Workflows feature, calling it worth paying attention to. And he celebrated a team member who grew from selling ads to leading design at Every.
+
+https://x.com/danshipper/status/2061962774918373592
+https://x.com/danshipper/status/2061908190040645707
+https://x.com/danshipper/status/2061817375519809665
+
+---
+
+Dan 在 Opus 4.8 发布一周后向社区征求意见，指出 Every 在测试中非常看好，但公众反应似乎较为平淡。他推测 Opus 4.8"会更多地挑战你的框架"，结果方差较大。他还提醒大家注意 Claude Code 的 Workflows 新功能，称"内部的人都在为此兴奋"。此外，他庆祝了一位团队成员从销售广告成长为 Every 的设计负责人。
+
+**OpenAI CEO Sam Altman**
+
+Sam commented on a new Executive Order on AI, saying "the US should lead on AI by continuing to develop the very best models, making sure they're safe, and getting cyber tools into the hands of trusted defenders. The new EO gets the balance right." He also shared an inspiring quote from Ecclesiastes 9:10: "Whatever your hand finds to do, do it with all your might..."
+
+https://x.com/sama/status/2061973280655904815
+https://x.com/sama/status/2061828631089844709
+
+---
+
+Sam 评论了新的 AI 行政令，表示"美国应该通过持续开发最好的模型、确保安全、以及将网络工具交到可信防御者手中来引领 AI 发展。新的行政令取得了恰当的平衡。"他还分享了一句来自《传道书》9:10 的励志名言："凡你手所当做的事，要尽力去做……"
+
+**Claude (claudeai on X) — Anthropic's AI assistant**
+
+Claude's account featured Legora, a company using Claude to modernize legal work. "Interpreting law is one of the oldest jobs in the world. @MaxJunestrand, co-founder and CEO of @WeAreLegora, is bringing it into its next era with Claude. His bet: every new model release raises the tide, and Legora is building the boats for everyone else."
+
+https://x.com/claudeai/status/2061829560505655316
+https://x.com/claudeai/status/2061829558999912680
+
+---
+
+Claude 的账号介绍了 Legora，一家用 Claude 实现法律工作现代化的公司。"解释法律是世界上最古老的工作之一。Legora 的联合创始人兼 CEO Max Junestrand 正在用 Claude 将其带入下一个时代。他的赌注是：每一次新模型发布都会抬高水位，而 Legora 正在为所有人造船。"
+
+---
+
+## PODCASTS
+
+### Training Data — "Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss"
+
+**The Takeaway:** As AI makes building things exponentially easier, the hardest question becomes "what to build" — and the companies that can systematically answer that question by talking to millions of customers will own the future.
+
+Alfred Wahlforss, founder and CEO of Listen Labs, is building an AI-native customer research platform that runs thousands of voice interviews simultaneously. Launched just a year ago, Listen already serves 20% of the Fortune 500, including Microsoft, Anthropic, Sweetgreen, and NBC. The premise is simple but powerful: an AI agent conducts video interviews with real people, detects emotions from facial expressions and tone, and synthesizes insights at scale.
+
+What makes this counterintuitive is that people are actually *more* honest with an AI interviewer than a human one. "It's a very therapeutic experience because it's a nonjudgmental entity that's really interested in you," Alfred says. They've even interviewed children about products — a market segment that's notoriously difficult to access due to scheduling and consent issues.
+
+The bigger vision is simulation. After conducting enough interviews, Listen can start predicting how specific audiences will respond to new questions. Alfred tested this himself: he came up with 100 titles for a conference talk, fed them into Listen's simulation, and the top title performed "twice better" than the next one. When he asked ChatGPT the same question, it picked the wrong answer. The difference? Listen's models are trained on real interview data from a specific niche, not the average internet user.
+
+Alfred's framing of the AI era is worth sitting with: "As we get closer to AGI, it will be easier to build things, but the hard part will be knowing what to build." The implication is that the winning companies won't just have the best coding agents — they'll have the best "human API" that feeds customer preferences directly into the build loop.
+
+https://www.youtube.com/watch?v=Rumft-rsEu4
+
+---
+
+**核心观点：** 当 AI 让构建东西变得指数级容易时，最难的问题变成了"该构建什么"——而那些能够通过对数百万用户进行访谈来系统性地回答这个问题的公司，将拥有未来。
+
+Listen Labs 创始人兼 CEO Alfred Wahlforss 正在构建一个 AI-native 的客户研究平台，可以同时运行数千场语音访谈。上线仅一年，Listen 已经服务了 20% 的财富 500 强企业，包括 Microsoft、Anthropic、Sweetgreen 和 NBC。这个想法简单但强大：一个 AI agent 与真人进行视频访谈，通过面部表情和语气检测情绪，并大规模综合洞察。
+
+反直觉的是，人们对 AI 访谈者比对人类更诚实。"这是一种非常治愈的体验，因为它是一个没有评判、真正对你感兴趣的实体，"Alfred 说。他们甚至访谈过儿童对产品的看法——这是一个因日程安排和同意问题而出了名难以触及的市场细分。
+
+更大的愿景是模拟。在进行了足够多的访谈后，Listen 可以开始预测特定受众会如何回答新问题。Alfred 亲自测试过：他为一次会议演讲想了 100 个标题，输入 Listen 的模拟系统，排名第一的标题效果"比第二名好一倍"。当他用 ChatGPT 问同样的问题时，它选错了答案。区别在于：Listen 的模型是在来自特定细分市场的真实访谈数据上训练的，而不是基于普通互联网用户。
+
+Alfred 对 AI 时代的总结值得深思："随着我们接近 AGI，构建东西会越来越容易，但难点在于知道该构建什么。"这意味着最终胜出的公司不仅拥有最好的 coding agents——它们还将拥有最好的"人类 API"，能够将客户偏好直接输入到构建循环中。
 
 ---
 
