@@ -1,148 +1,135 @@
-AI Builders Digest — June 8, 2026
+AI Builders Digest — Tuesday, June 9, 2026
 
-## X / TWITTER
+## X/Twitter
 
-### Swyx (swyx on X) — AI Engineer founder, DX Tips, Cognition, Temporal
+### Claude Code @ Anthropic 的 Boris Cherny
 
-Swyx argues that California's non-compete ban has had a bigger impact on knowledge diffusion than GitHub, arXiv, and HuggingFace combined. His theory: researchers realized they could walk out with tacit knowledge and get $100M+ instead of fighting marketing departments over publishing papers. He's channeling this into building AI Engineer as a product-centric industry conference to complement paper-centric research.
+**Boris Cherny** (Claude Code @ Anthropic) 分享了他让 Opus 模型自主运行数小时甚至数天的五个技巧：使用自动模式以跳过审批、利用动态工作流协调数百/数千个 agent、使用 `/goal` 或 `/loop` 指令推动 Claude 持续工作、在云端使用 Claude Code（桌面或移动端最方便），以及让 Claude 能端到端地自我验证成果——比如通过 Chrome 浏览器扩展验证网页、通过 iOS/Android 模拟器 MCP 验证移动端、通过启动完整 Web 服务器或服务来验证后端工作。
 
-https://x.com/swyx/status/2063432747432268259
+https://x.com/bcherny/status/2063792263067754658
 
-Swyx 提出，加州对竞业禁止协议的禁令对知识传播的影响，比 GitHub、arXiv 和 HuggingFace 三者加起来还要大。他的理论是：研究人员意识到，与其和营销部门争论论文发表，不如直接带着隐性知识走出去，拿到 1 亿美元以上的融资。他正将这股能量投入到打造 AI Engineer 这个以产品为中心的行业会议，以补充以论文为中心的研究会议。
+### OpenAI 的 Thibault Sottiaux
 
----
+**Thibault Sottiaux** (Codex & ChatGPT @ OpenAI) 宣布了一个新项目：未来 100 天里，他们每天会选择一位用 Codex 做出令人印象深刻或极其有用成果的人，给予其一个月的 10 倍使用额度，看看他们能做出什么。第一个名额明天公布。
 
-### Peter Yang (petergyang on X) — Product at Roblox
+https://x.com/thsottiaux/status/2063748242681307611
 
-Peter is deep in the agentic coding rabbit hole, calling it "more addictive than video games." He's also hitting practical UX friction with Codex: he wants to filter/sort his threads by status (e.g., "waiting for approval" vs. "currently working") rather than just by project. He's trying to keep it to 10 threads but it's already getting unwieldy.
+### Roblox 的 Peter Yang
 
-https://x.com/petergyang/status/2063486871037153558
-https://x.com/petergyang/status/2063475353335869922
+**Peter Yang** (Product at Roblox) 分享了一个有趣的互动：他告诉妻子"你不应该再给我发 prompt 了，你应该设计 loops"，妻子回复"我确实设计了，这个 loop 叫婚姻，而你是我的 daily cron job"。
 
-Peter 深陷 agentic coding 的兔子洞，称其"比电子游戏还上瘾"。他还遇到了 Codex 的 UX 瓶颈：他希望能按状态（例如"等待批准"vs"正在工作"）来筛选或排序线程，而不仅仅是按项目。他试图将线程数控制在 10 个以内，但已经力不从心了。
+他还分享了一些链接：Compound Engineering 和 Kun Chen 的免费工具。
 
----
+https://x.com/petergyang/status/2063819323106615434
+https://x.com/petergyang/status/2063818032280170721
+https://x.com/petergyang/status/2063773025196192188
 
-### Madhu Guru (realmadhuguru on X) — Former Product Leader at Google (Gemini, Veo, Nano)
+### 前 Google 产品负责人 Madhu Guru
 
-Drawing from his time on Gemini, Madhu lays out a three-phase enterprise progression for model routing:
+**Madhu Guru** (前 Google Gemini、Veo、Nano Banana 产品负责人) 指出一个常见误解：训练数据是低技能、苦力活。实际上，推动模型前沿所需的数据恰恰相反——实验室需要的是高经济价值任务的训练数据。而除了软件工程之外，大多数这类任务几乎没有现成文档，它们是多年积累的复杂领域知识，涉及互不相通的遗留工具。这就是为什么我们现在有 SWE agent 却没有知识工作 agent。像 Mercor 这样创建训练数据的公司，做的是极其高杠杆、高技能的工作，对推动 AI 发展至关重要，却被严重低估。
 
-Phase 1 (2024): Everyone defaulted to GPT regardless of task.
-Phase 2 (early 2025): Teams over-corrected, trying to find the cheapest model but lacked the evals to map tasks properly.
-Phase 3: Sophisticated AI-native startups broke products into sub-agents, routing reasoning to Claude and simple tasks to Gemini Flash-Lite or open-weight models. Enterprises followed 6-9 months later.
+https://x.com/realmadhuguru/status/2063704354910347520
 
-His core insight: routing is genuinely hard, and that difficulty is itself the opportunity.
+### Replit CEO Amjad Masad
 
-https://x.com/realmadhuguru/status/2063342268472574268
+**Replit CEO Amjad Masad** 表示 Replit 的目标是消除所有干扰，让你专注于真正重要的事——快速推向市场并赚到钱。
 
-结合他在 Gemini 的经历，Madhu 勾勒出企业采用模型路由的三个阶段：
+https://x.com/amasad/status/2063744208587125142
 
-第一阶段（2024 年）：无论什么任务，所有人都默认使用 GPT。
-第二阶段（2025 年初）：团队矫枉过正，试图寻找最便宜的模型，但缺乏足够精细的评估来正确分配任务。
-第三阶段：成熟的 AI-native 初创公司将产品拆解为子代理，将推理任务路由给 Claude，将简单任务路由给 Gemini Flash-Lite 或开源模型。企业则在 6-9 个月后跟进。
+### Vercel CEO Guillermo Rauch
 
-他的核心洞察是：路由真的很难，而正是这种难度本身构成了机会。
+**Vercel CEO Guillermo Rauch** 分享了一个惊人数据：Vercel AI Gateway 每月平均恢复超过 1 万亿 token。就像 Stripe 通过智能重试失败支付或更新信用卡来挽回收入一样。而且 Vercel 在实验室价格上零加价，额外提供冗余、零数据保留强制执行、可观测性、使用 API、限额等功能。
 
----
+https://x.com/rauchg/status/2063714700618334260
 
-### Amjad Masad (amasad on X) — Replit CEO
+### Box CEO Aaron Levie
 
-Amjad reflects on speaking out against the Gaza genocide: a bunch of "midwit VCs" ganged up on him publicly and privately, but the VCs who stood by him were both morally better and had better return profiles. His takeaway: the best way to avoid sociopaths is to have them self-select out of your life by standing for your beliefs. He also posted "Vibecon" — likely a reference to the vibe coding conference.
+**Box CEO Aaron Levie** 发表了一系列深刻见解：
 
-https://x.com/amasad/status/2063344460705288401
-https://x.com/amasad/status/2063300737296400516
+他认为未来一两年内，用例必须在不同模型家族之间分层。高端任务用前沿模型，高容量工作量用更便宜的模型。能高效将工作负载路由到合适模型的中间层将变得极具价值——agent 编排若能同时优化成本并成功完成任务，将处于有利位置。
 
-Amjad 反思了他公开反对加沙种族灭绝后的遭遇：一群"平庸的 VC"在公开和私下联合攻击他，但支持他的 VC 在道德和回报表现上都更为出色。他的结论是：避免与反社会者打交道的最好方式，就是坚持自己的信念，让他们主动从你的生活中退出。他还发了一条"Vibecon"，可能是指 vibe coding 大会。
+关于 AI 颠覆企业软件，他指出市场误解了一点：过去构建好软件很难，AI 使其变容易了一些，但这只是企业平台的一部分。大多数企业软件公司的成本大头实际上是 GTM（市场推广），因为大规模进入企业市场需要大量咨询式销售、实施支持和集成。AI 并没有减少这种需求，在很多情况下反而需要更多。当你让一件事（软件开发）变得更便宜、更丰富时，可发现性和市场差异化（GTM）就成了最难的部分。
 
----
+他还宣布 Box 现在支持 Web 端 Markdown 编辑器、完整 CLI 支持、评论功能和完整版本历史。Box Drive 可以挂载到任何桌面客户端，让你在 Claude Cowork、Codex、Obsidian、Cursor 等应用中即时处理所有文件。
 
-### Aaron Levie (levie on X) — Box CEO
+https://x.com/levie/status/2063835799096090749
+https://x.com/levie/status/2063756386572681606
+https://x.com/levie/status/2063649508681224367
 
-Aaron says token costs are now one of the hottest topics with enterprise customers — a bullish sign because it means these systems are being used at unprecedented scale. He argues that model routing will become a major differentiator for the applied AI layer: companies that build the best evals, route workloads intelligently, and align their business models with customers' financial goals will win. Frontier intelligence will still matter for high-end tasks (coding, legal, finance, healthcare), but the real efficiency play is peeling off tasks to cheaper models.
+### Y Combinator CEO Garry Tan
 
-https://x.com/levie/status/2063320673217609936
+**Y Combinator CEO Garry Tan** 发布了三个更新：
 
-Aaron 表示，token 成本已成为企业客户最热门的话题之一——这是一个看涨信号，意味着这些系统正在以前所未有的规模被使用。他认为，模型路由将成为应用层 AI 的一个关键差异化因素：那些能构建最佳评估体系、智能路由工作负载、并将其商业模式与客户财务目标对齐的公司将胜出。前沿模型在高难度任务（编程、法律、金融、医疗）上仍然重要，但真正的效率提升来自于将任务剥离给更便宜的模型。
+他认为教会人们如何使用 AI 工具已成为一个严重瓶颈，这也是他们创建某个资源的原因。
 
----
+他还宣布 GBrain v0.42.30 现在可以给你一份详细总结，展示你的思维方式随时间的变化。
 
-### Garry Tan (garrytan on X) — Y Combinator President & CEO
+https://x.com/garrytan/status/2063786182140735829
+https://x.com/garrytan/status/2063786111588323780
+https://x.com/garrytan/status/2063785286367392095
 
-Garry clarifies that Paxel (his new product) doesn't upload code/file contents to the cloud, but clarifies they never said no user data goes to the cloud. He's excited about local models getting better over time so Paxel can do even more locally. He also wants to help people "become more legit with Paxel." Separately, he's supporting Empower Oakland to fix Oakland's mismanagement, following SF's recent turnaround.
+### Zara Zhang
 
-https://x.com/garrytan/status/2063418130714800487
-https://x.com/garrytan/status/2063409501706018903
-https://x.com/garrytan/status/2063280482922663980
+**Zara Zhang** (Builder) 分享了她对 Frontend Slides skill 能有机增长的一个观察：幻灯片本质上是社交性的。人们看到酷炫的幻灯片总会问"这是怎么做的"，而且使用 HTML 做幻灯片的人往往被认为更 AI-native、更懂 AI。
 
-Garry 澄清，Paxel（他的新产品）不会将代码/文件内容上传到云端，但也明确他们从未说过任何用户数据都不上云。他对本地模型持续进步感到兴奋，这样 Paxel 就能在本地做更多事情。他还希望帮助人们"用 Paxel 变得更专业"。此外，他正在支持 Empower Oakland 来修复奥克兰的管理不善问题，效仿旧金山近期的复苏。
+https://x.com/zarazhangrui/status/2063638307586662539
 
----
+### FPV Ventures 合伙人 Nikunj Kothari
 
-### Zara Zhang (zarazhangrui on X) — Builder, Harvard '17
+**Nikunj Kothari** (FPV Ventures 合伙人) 观察到从"tokenmaxxing"和"token 焦虑"到"token 优化"的转变仅发生在几周内，这种氛围变化非常疯狂。他仍然认为公司应该给员工充足的 token 预算，让他们保持在前沿并探索所有可能性，否则很容易退回到"按老方法做事"。
 
-Zara echoes a talk's thesis: the value of static content is declining while the value of live interaction is rising. People want to connect with the human behind the work. Raw and opinionated beats polished and generic.
+他还调侃说，在大家都在讨论"loops"的背景下，Apple 在 WWDC 上有机会做一件最有趣的事。
 
-https://x.com/zarazhangrui/status/2063391758189572266
+https://x.com/nikunj/status/2063829369949467050
+https://x.com/nikunj/status/2063630238123483195
 
-Zara 呼应了一个演讲的核心论点：静态内容的价值在下降，实时互动的价值在上升。人们想要与作品背后的人建立连接。真实且有观点，胜过精致但平庸。
+### OpenClaw 的 Peter Steinberger
 
----
+**Peter Steinberger** (Polyagentmorous ClawFather, OpenClaw @ OpenAI) 发出了本月提醒：你不应该再给 coding agent 发 prompt 了。你应该设计 loops 来驱动你的 agents。
 
-### Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+这条推文获得了 13,734 个赞和 870 次转发，成为当天最受关注的推文之一。
 
-Nikunj published "A Walk In The Park (part II)" featuring Reactor World founder Taiuti, covering world models, the origin story from text-to-3D, building in stealth, and why low latency matters for world models. He also reminds everyone to "touch sand this weekend."
+https://x.com/steipete/status/2063697162748260627
 
-https://x.com/nikunj/status/2063263389238087745
+### South Park Commons 的 Aditya Agarwal
 
-Nikunj 发布了"A Walk In The Park（第二部分）"，与 Reactor World 创始人 Taiuti 对谈，内容涵盖世界模型、从 text-to-3D 的起源故事、秘密开发，以及低延迟对世界模型的重要性。他还提醒大家"周末记得去摸摸沙子"。
+**Aditya Agarwal** (South Park Commons 合伙人, Bevel 联合创始人, 前 Facebook 早期工程师, Dropbox CTO) 分享了他经历两次 IPO（Meta 和 Dropbox）的感悟。他认为巨额财富往往会放大深层欲望，而不是创造新欲望。主流叙事是早期员工赚大钱后买豪宅去海滩，但对很多人来说，这是去做更疯狂、更酷的事情的机会——创办新公司、投资新项目，让硅谷的疯狂 loop 继续运转下去。未来几个月将有很多人获得流动性，这将是令人兴奋的。
 
----
+https://x.com/adityaag/status/2063731771284619521
 
-### Dan Shipper (danshipper on X) — Every CEO
+### OpenAI CEO Sam Altman
 
-Dan is thinking deeply about LLMs through the lens of Plato. His favorite dialogue is Protagoras, which he says "pre-sages LLMs" in how it talks about where knowledge comes from and whether virtue can be taught. He also adds two concepts that increase in value: Aidōs (reverence and responsiveness to others) and Dikē (the capacity to perceive what is right). His most provocative line: "LLMs are not conscious. LLMs are not not conscious. Both true."
+**Sam Altman** (OpenAI CEO) 对 Thibault Sottiaux 的 Codex 项目发表了评论，认为这里可能存在一个有趣的递归 loop。
 
-https://x.com/danshipper/status/2063438262841094604
-https://x.com/danshipper/status/2063436919967522848
-https://x.com/danshipper/status/2063426632824562167
-
-Dan 正在通过柏拉图的视角深入思考 LLM。他最喜欢的是《普罗泰戈拉篇》，称其在探讨知识来源和美德是否可教的问题上"预见了 LLM"。他还补充了两个价值日益凸显的概念：Aidōs（对他人的敬畏与回应）和 Dikē（感知何为正确的能力）。他最具挑衅性的一句话是："LLM 没有意识。LLM 并非没有意识。两者都对。"
+https://x.com/sama/status/2063779477419901071
 
 ---
 
-## PODCASTS
+## Podcasts
 
-### Unsupervised Learning — Ep 89: AI Research Legend's Honest Assessment of Where We Are
+### The MAD Podcast with Matt Turck — State of Enterprise AI 2026: Aaron Levie on Tokenmaxxing, Rise of Headless, and AI-Proofing Your Job
 
-**The Takeaway:** Transformers are incredible but still fundamentally alien learners — they need trillions of tokens to grasp concepts that humans pick up from a handful of examples, and that gap may or may not be closed by scaling alone.
+**The Takeaway:** AI 技术进步的速度正在"反噬"企业部署——每一次突破都让客户刚建好的架构过时，这反而拖慢了落地速度。
 
-Lukasz Kaiser, co-author of the seminal "Attention Is All You Need" paper and veteran of both Google and OpenAI, sits down with host Jacob Efron for a remarkably candid tour of the current AI landscape. This is not another hype-driven podcast — Kaiser is refreshingly honest about what's working, what isn't, and what keeps him up at night as a researcher.
+Box CEO **Aaron Levie** 在 The MAD Podcast 上做了一场极其深刻的企业 AI 现状分析。作为同时身处硅谷前沿和全球 2000 强企业一线的 CEO，他的视角独特且务实。
 
-The core tension he identifies: today's models are astonishingly capable. He personally uses Codex agents daily and estimates they've made him 5-10x more productive at reproducing old research papers. "I basically stopped looking at the code," he says. But there's a catch — the way LLMs learn is fundamentally different from humans. He offers a memorable analogy: "Americans will do the right thing after exhausting all other options, and LLMs will learn the concept after exhausting all other options. You need this trillion tokens... That's not how we learn."
+**Token 成本危机与预算重构**
 
-On the Christmas 2025 breakthrough in coding agents: Kaiser admits nobody fully understands what caused it. "It's a little confusing... The fact that I don't know doesn't mean nobody knows." But he's certain it wasn't just a single change — harness improvements, post-training tweaks, and new pretrained models all converged.
+Levie 指出 token 成本已成为企业 AI 讨论中三分之一的"热点问题"。过去大家习惯用 $20/用户/月的订阅模式，但现在一个 coding agent 单次任务可能消耗 $1000 的计算资源，旧模式已彻底失效。更反直觉的是，前沿模型的 token 成本不降反升——因为模型更大、硬件没变便宜、还有产能瓶颈。他认为企业将被迫把 AI 成本从 IT 预算（占收入 3-7%）迁移到业务部门预算，这需要全新的 FinOps 工具和 ROI 衡量方法。Levie 预测这里可能诞生一个 50 亿美元的初创公司机会——"AI 计算的 ERP 系统"。
 
-On Anthropic's coding dominance: Kaiser credits a strategic bet. "Anthropic made this very good decision to focus on coding... Partway, Anthropic made this decision was that they just could not compete in chat." He sees this as a lesson in how AI evolves through upheavals — the thing that wins today may not be what matters tomorrow.
+**AI Coding vs. 知识工作：两个截然不同的世界**
 
-On open vs. closed source: He's pragmatic. Distilled models are great for many tasks, but "whenever I use them, they're fine until they trip and cost me so much time, I go back to the big one." He sees a stable equilibrium where both coexist for different needs.
+Levie 最精彩的洞察是为什么 AI 在编程领域的成功难以简单复制到知识工作。编程有四个独特优势：用户是技术人员、模型经过编程训练、工作成果可验证（代码要么跑得通要么跑不通）、代码库本身就包含了大部分上下文。而知识工作的上下文分散在 20 个不同地方（有些甚至不是数字化的），权限控制混乱，用户不是技术人员。这导致了一个关键结论：AI 在企业的扩散将以年为单位，而非月。
 
-His most contrarian take? The hardware revolution under our desks is as important as the big labs' clusters. A single RTX 5090 GPU now has more compute than the entire cluster he used for the original transformer research. For researchers with wild ideas, "the time where you can run a childhood's worth of learning in a few days is here." His closing message: go explore, fail, publish wild ideas. "This is how we'll get to interesting things."
+**关于就业与 Jevons 悖论**
 
-https://www.youtube.com/watch?v=N1geOimmdDo
+Levie 坚定地站在"AI 创造就业"这一边。他指出，当 John Deere、Eli Lilly 等非硅谷公司发现一个工程师现在能干三到五个人的活时，它们会启动更大规模的技术项目，从而需要更多工程师。小企业也会因为 AI 而首次有能力开展某些业务功能。他引用了一个生动的例子：他自己在深夜把 Perplexity Computer 推到极限后，结论是"我再也不想亲自做这件事了，我更愿意雇一个人来用 AI 帮我做"——这恰恰创造了就业。
 
-**核心要点：** Transformer 无比强大，但其学习方式与人类根本不同——它们需要数万亿 token 才能掌握人类从几个例子中就能领悟的概念，而这种差距是否能仅靠规模扩展来弥合，仍是未知数。
+**给普通员工的建议**
 
-Lukasz Kaiser，开创性论文《Attention Is All You Need》的合著者，谷歌和 OpenAI 的资深研究员，与主持人 Jacob Efron 进行了一场异常坦诚的对话，全面审视了当前 AI 领域的真实状况。这不是又一个炒作驱动的播客——Kaiser 坦诚地谈论了什么有效、什么无效，以及作为研究者什么让他夜不能寐。
+Levie 建议每个人每月花 $50-100，关掉一个流媒体订阅，开始大量使用 AI 工具。把 AI 想象成一个"无限能力的幕僚长"——你会让它做什么？这种思维方式会让你发现工作中可以重新设计的流程。
 
-他指出的核心矛盾是：今天的模型能力惊人。他个人每天都在使用 Codex agent，并估计它们在复现旧研究论文方面让他效率提升了 5-10 倍。"我基本上不再看代码了，"他说。但有一个问题——LLM 的学习方式与人类根本不同。他给出了一个令人难忘的类比："美国人会在穷尽所有其他选项后做正确的事，而 LLM 会在穷尽所有其他选项后学会概念。你需要这数万亿 token……这不是我们学习的方式。"
-
-关于 2025 年圣诞节前后编程 agent 的突破：Kaiser 承认没有人完全理解是什么导致的。"这有点令人困惑……我不知道不代表没人知道。"但他确信这不仅仅是单一改变的结果——harness 的改进、训练后的微调以及新的预训练模型共同促成了这一突破。
-
-关于 Anthropic 在编程领域的领先地位：Kaiser 将其归因于一个战略性的押注。"Anthropic 做出了一个非常好的决策，专注于编程……部分原因是他们无法在聊天领域竞争。"他认为这是一个关于 AI 如何通过剧变演进的教训——今天获胜的东西不一定是明天重要的东西。
-
-关于开源与闭源：他很务实。蒸馏模型在许多任务上表现很好，但"每当我使用它们时，它们都还不错，直到它们出错并浪费我大量时间，于是我又回到了大模型。"他看到了一个稳定的平衡状态，两者将因不同需求而共存。
-
-他最具逆向思维的观点是什么？我们桌面下的硬件革命与大实验室的集群同样重要。一块 RTX 5090 GPU 现在的算力已经超过了他当年做原始 transformer 研究时使用的整个集群。对于有疯狂想法的研究者来说，"在几天内跑完相当于一个人童年学习量的时代已经到来。"他最后的寄语是：去探索，去失败，发表疯狂的想法。"这就是我们通向有趣事物的方式。"
+完整内容：https://www.youtube.com/watch?v=Gs2styCcwro
 
 ---
 
