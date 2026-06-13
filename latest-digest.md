@@ -1,188 +1,130 @@
-AI Builders Digest — Friday, June 12, 2026
+AI Builders Digest — June 13, 2026
 
-## X / Twitter
+## X/TWITTER
 
-**Swyx (swyx on X)**
+### swyx (swyx on X) — AI engineer, DX Tips, Cognition, Temporal, AI Engineer Summit, Latent Space
 
-Swyx cheered on Cognition Labs' new Fable 5 model launch with a celebratory "wooh," signaling excitement about the latest frontier model release.
+Swyx shared a concept he calls "Loopcraft" — the ability to stack loops effectively will define the next century of AI work. The key insight: knowing when to go **down** a loop (for reliability when things go wrong) is valuable early on, but going **up** a loop as models improve (for leverage) will be even more important.
 
-https://x.com/swyx/status/2064698525917827092
+He also vented a builder pain point: none of the existing vibecoding platforms (Vercel, Cloudflare, Netlify) truly "close the loop" on error handling and failure notifications. He's building his own platform because he's tired of configuring Posthog, Arize, and other infra for every single project — all of that should be swallowed into one thing.
 
----
+Lastly, he congratulated Ona on joining OpenAI, hinting at what's next for Codex.
 
-Josh Woodward (VP, Google / Google Labs / Gemini / AI Studio)
+https://x.com/swyx/status/2065307558198567206
+https://x.com/swyx/status/2065264832056889711
+https://x.com/swyx/status/2065176231453282777
 
-Josh Woodward posted two updates about a Gemini outage. First, he acknowledged the issue and assured users fixes were coming. Then he confirmed everything was back up and running, apologizing for the disruption.
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @ OpenAI
 
-https://x.com/joshwoodward/status/2064762269674918013
-https://x.com/joshwoodward/status/2064869366290841716
+Thibault welcomed Ona to OpenAI, saying he's "beyond excited" to work with Johannes and team to build the future of Codex.
 
----
+https://x.com/thsottiaux/status/2065193272952422852
 
-Boris Cherny (Claude Code @ Anthropic)
+### Peter Yang (petergyang on X) — AI tutorials & interviews
 
-Boris shared a photo from "Code with Claude Tokyo," an event celebrating Claude Code with the developer community in Japan. The post racked up 1,820 likes, showing strong global interest.
+Peter shared that you can now play FIFA on Netflix using your phone as a controller — and it's pretty great. He also compared AI models to RPGs, and shared his current learning plan.
 
-https://x.com/bcherny/status/2064885111477219664
+https://x.com/petergyang/status/2065294767760769222
+https://x.com/petergyang/status/2065283568918794658
 
----
+### Amjad Masad (amasad on X) — CEO @ Replit
 
-Thibault Sottiaux (Codex & ChatGPT @ OpenAI)
+Amjad declared a milestone: for the first time, he's vibecoding with zero frustration and in a complete state of flow, so much so that he's running out of ideas. His take: we don't need more IQ for vibecoding, just cheaper and faster models.
 
-Thibault noted an unusual spike in Codex token consumption over the past 48 hours — strong growth without any new launch. He also welcomed Clint and Michael to OpenAI's cybersecurity efforts, saying "It's time to build." Separately, he shared a design philosophy: "Simplify until there is nothing to simplify."
+He also showed what building a company looks like on Replit — one canvas with your web app, mobile app, marketing, and App Store materials. Click into any one and start building.
 
-https://x.com/thsottiaux/status/2064911328087810308
-https://x.com/thsottiaux/status/2064869401359417799
-https://x.com/thsottiaux/status/2064900105032135010
+Finally, he noted that Replit's Agent team made Fable's cost "stomachable" — fewer mistakes net net makes it more affordable.
 
----
+https://x.com/amasad/status/2065236013627351551
+https://x.com/amasad/status/2065241626436583860
+https://x.com/amasad/status/2065259509082411233
 
-Peter Yang (Practical AI tutorials)
+### Guillermo Rauch (rauchg on X) — CEO @ Vercel
 
-Peter Yang posted a thread encouraging builders to embrace their craft rather than chasing the traditional leadership ladder. He argued that companies are increasingly rewarding ICs and builders, and that the best career move is to "give yourself permission to build." He also shared that the more he uses Codex, the more ambitious his requests become.
+Guillermo announced Vercel + Grok integration. He also highlighted a case study where a Shopify storefront built with v0 + Cursor AI processed 500+ orders in 2 minutes on a fully custom Next.js storefront — calling it proof that anyone can now dream → build → ship → sell.
 
-https://x.com/petergyang/status/2064799855059616172
-https://x.com/petergyang/status/2064748427892945313
+https://x.com/rauchg/status/2065118448947216681
+https://x.com/rauchg/status/2065116986678624419
 
----
+### Aaron Levie (levie on X) — CEO @ Box
 
-Nan Yu (Head of Product @ Linear)
+Aaron shared data from Box's survey of 1,640 IT leaders: the companies that adopted AI the most are planning to grow headcount the most. His read: the narrative of jobs being wiped out assumes companies take a fixed approach to what they want to accomplish. In practice, AI adoption causes companies to light up more projects, sell to more customers, and automate more processes — all of which leads to more work for people.
 
-Nan Yu coined the term "gangprompting" in a quote tweet, riffing on the idea of multiple AI agents working together. He also shared a boat ownership metaphor: the two best days are the day you buy it and the day you sell it — a nod to the lifecycle of building and shipping.
+https://x.com/levie/status/2065287110744297809
 
-https://x.com/thenanyu/status/2064733338779177459
-https://x.com/thenanyu/status/2064711789556732316
+### Garry Tan (garrytan on X) — President & CEO @ Y Combinator
 
----
+Garry pushed back on a writer's claim that "gifted" is a meaningless category. He pointed out that a 35-year study found 12.3% of 677 gifted kids reached "eminence" (full professor, Fortune 500 exec, federal judge) — and that the general population's base rate for such outcomes is far closer to zero. 12.3% is the selection mechanism working spectacularly.
 
-Madhu Guru (Prev: Product Leader at Google - Gemini, Veo)
+He also hosted Gavin Newsom at a Garry's List event at YC, discussing YIMBY, the "asset seizure tax" (Prop 13 reform), and keeping California's innovation wave going.
 
-Madhu shared a rule of thumb from the early Gemini days: when replacing a traditional ML model with an LLM, start small because you already know what good looks like. But when building something new, start with the most capable model — think magically, figure out what's possible first, then optimize down.
+https://x.com/garrytan/status/2065314389196959813
+https://x.com/garrytan/status/2065298785463579053
 
-https://x.com/realmadhuguru/status/2064794601320481150
+### Zara Zhang (zarazhangrui on X) — Builder, Follow Builders
 
----
+Zara shared a sneak peek of a deck she'll be presenting at an upcoming event, generating 47 likes and engagement from the builder community.
 
-Thariq (Claude Code @ Anthropic)
+https://x.com/zarazhangrui/status/2065140462709506108
 
-Thariq shared a detailed breakdown of how he used Fable to edit its own launch video — no video editor touched. Fable wrote code and used tool calls for transcription services, ffmpeg, color grading, the Figma MCP, Remotion UI, and rendering. He also shared the deck and video for reference.
+### Nikunj Kothari (nikunj on X) — Partner @ FPV Ventures
 
-https://x.com/trq212/status/2064826394589442448
-https://x.com/trq212/status/2064826541947940910
-https://x.com/trq212/status/2064828193446740023
+Nikunj shared a simple but powerful take: what you work on has never been more important. Make sure it's fun. Make sure it's insanely ambitious. That's the greatest moat.
 
----
+https://x.com/nikunj/status/2065075361969500162
 
-Google Labs
+### Peter Steinberger (steipete on X) — Creator of OpenClaw
 
-Google Labs announced that Project Genie access is expanding globally to Google AI Ultra 5X subscribers. This is Google's latest AI tool tier, giving more users access to the experimental platform.
+Peter continues his OpenClaw hardening work. He replaced shelling out to ffmpeg for media conversion with a wasm-based approach, reducing surface risk while maintaining similar performance.
 
-https://x.com/GoogleLabs/status/2064801929339752527
+He also noted that "writing Mac apps is still hard" — a reminder that even with AI, native platform development remains challenging.
 
----
+Most notably, he got someone named Chris to do a PR with Codex, which generated 802 likes — suggesting Codex is being used for real open source contributions.
 
-Amjad Masad (CEO @ Replit)
+https://x.com/steipete/status/2064999763397980286
+https://x.com/steipete/status/2065132980398444945
+https://x.com/steipete/status/2065176989359808636
 
-Amjad promoted a new Replit feature to automate job searches, and shared his excitement about a "super interesting approach to enterprise agents" from a new launch. He also posted an American flag emoji — likely a comment on the political landscape.
+### Dan Shipper (danshipper on X) — CEO @ Every
 
-https://x.com/amasad/status/2064864439275536495
-https://x.com/amasad/status/2064806473352540643
-https://x.com/amasad/status/2064864076430504282
+Dan tried to use Fable for a big project, set it up, and let it cook. Came back an hour later to find it had triggered safeguards and fell back to a weaker model 10 minutes in. His verdict: back to Codex.
 
----
+https://x.com/danshipper/status/2065269582961737957
 
-Guillermo Rauch (CEO @ Vercel)
+### Aditya Agarwal (adityaag on X) — GP @ South Park Commons, Co-Founder @ Bevel
 
-Guillermo announced Vercel Ship in London next week with "some special announcements" coming. He also reflected on Silicon Valley's meritocracy: "the future is up for grabs, ready for anyone to build" — whether you're "2 lads & a dog" or a 5-time award-winning entrepreneur.
+Aditya highlighted what "production-grade visual AI looks like" and shared a quote: "Things are only impossible to build until someone builds them."
 
-https://x.com/rauchg/status/2064777495422161205
-https://x.com/rauchg/status/2064732935484514729
+https://x.com/adityaag/status/2065155724850942050
+https://x.com/adityaag/status/2065155311770440097
 
----
+### Sam Altman (sama on X) — CEO @ OpenAI
 
-Aaron Levie (CEO @ Box)
+Sam welcomed Ona to OpenAI, saying he's "really looking forward to working together."
 
-Aaron published a detailed thread comparing Fable vs Opus 4.8 on Box's Complex Work Eval. Across industries — legal, healthcare, media, retail, financial services, tech — Fable showed huge jumps. Key differentiators: no shortcuts on complex reasoning, correct multi-step calculations, and significantly more consistent across runs. Fable will be available in Box AI Studio for customers to build agents.
-
-https://x.com/levie/status/2064922814688481678
+https://x.com/sama/status/2065160791205310565
 
 ---
 
-Garry Tan (President & CEO @ Y Combinator)
+## PODCASTS
 
-Garry celebrated the end of Aaron Peskin's tenure in San Francisco politics, calling for "common sense to reign." He also called for defunding the "performative nonprofit industrial complex." On the AI front, he recommended Nessie as the best way to migrate context, memory, and history across ChatGPT, Perplexity, Gemini, and OpenClaw/Hermes Agent.
+### Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness
 
-https://x.com/garrytan/status/2064948068076986657
-https://x.com/garrytan/status/2064947547735789715
-https://x.com/garrytan/status/2064947145652994510
+**The Takeaway:** The "model" is no longer just weights — it's an expanding system that will eventually absorb the agent harness, and the smartest bet is to build for the frontier, not the scaffolding.
 
----
+Logan Kilpatrick runs Google AI Studio and the Gemini API at Google DeepMind. In this conversation, he lays out a vision that feels both pragmatic and profound.
 
-Matt Turck (VC @ FirstMark Capital)
+The most provocative idea? "The model eats the harness." Logan argues that what we call "the model" today is already far more than a set of weights — it's an entire system with tool calling, search, code execution, and an agent harness baked in. The scaffolding that startups are building today as their moat? The model will "digest" it within 12 months. "The alpha will be somewhere else," he says. The implication: building a generic agent harness as a startup is a race against the model labs' roadmap.
 
-Matt posted a satirical take on the brutal 2026 VC conference circuit: Davos, Aspen, Upfront, Milken, Paris, Berlin, London, World Cup, Raise AI, Sun Valley, Mykonos, Goldman tech gauntlet, Slush, NeurIPS in Sydney... "and *boom*, a productive year of thought leadership is over, and you're a wreck."
+On coding, Logan is refreshingly honest about where Google stands. He acknowledges that Claude and Codex dominate developer mindshare, but points out that the narrative shifts fast — in December, "Google had won" with Gemini 3.0. The Windsurf acquisition and the Antigravity team (which he calls "the Avengers of AI internally") are Google's bet to close the gap. His meta point: you can't make a great coding model without a product that does long-running autonomous coding, and now Google has that flywheel spinning.
 
-https://x.com/mattturck/status/2064806681612362113
+On agentic AI in the enterprise, Logan agrees that coding agents are the only place agents truly work today — but argues that's changing this year. He points to rising token consumption and agent run lengths as early signals that other domains (finance, science, math) are about to cross the quality threshold.
 
----
+On Omni, Google's new world model, Logan emphasizes that it's a single model (not routing between eight different models) and that its real power is in subtle world understanding — like editing a video to add a dog that interacts with the speaker, where the model understands physics, social dynamics, and timing. He personally finds this more authentic than AI avatars: "It's not changing me. It's changing the bits that aren't me."
 
-Zara Zhang (Builder)
+The episode closes with a reflection on DeepMind's culture — scientific, mission-driven, and anchored by Demis Hassabis's Nobel Prize legacy. Logan's favorite Silicon Valley quote: "We can't let other people make the world a better place more than we can."
 
-Zara shared three insights. First, agencies' output is increasingly a folder of files for agents, not one-off assets — "get paid for your mind, not your hands." Second, teams should build agents for their cross-functional partners: designers building design agents for marketing, etc. Third, she observed that most SF startups sell to each other (engineering teams, AI-native startups), while very few build for the 99% of the world.
-
-https://x.com/zarazhangrui/status/2064843560248332577
-https://x.com/zarazhangrui/status/2064835289559023958
-https://x.com/zarazhangrui/status/2064825302359150870
-
----
-
-Nikunj Kothari (Partner @ FPV Ventures)
-
-Nikunj shared a fun TIL: you can roast your way into getting legit coffee at the Cognition office.
-
-https://x.com/nikunj/status/2064901295383990417
-
----
-
-Dan Shipper (CEO @ Every)
-
-Dan predicted last year that AI-boosted individual productivity would make reshoring jobs back to the US attractive — and now he's seeing that play out. He also shared he was "fable maxxing on the plane to SF" and called a game "absolutely insane."
-
-https://x.com/danshipper/status/2064777216656097445
-https://x.com/danshipper/status/2064767202767602122
-https://x.com/danshipper/status/2064916544417829027
-
----
-
-Claude (Anthropic)
-
-Claude's official account shared three updates: a new "The Problem Solvers" series featuring founders using Claude for hard problems; a feature on Cursor co-founder Michael Truell (60% of Fortune 500 now uses Cursor); and new platform features: scheduled deployments and environment variables in vaults.
-
-https://x.com/claudeai/status/2064757537992249734
-https://x.com/claudeai/status/2064757539762295177
-https://x.com/claudeai/status/2064741184547795408
-
----
-
-## Podcasts
-
-### AI & I by Every — How Anthropic Uses Claude Fable 5 With Mike Krieger
-
-**The Takeaway:** Fable 5 isn't just a smarter model — it's a fundamentally different tool that requires you to rethink your entire workflow, from how you decompose tasks to how you trust a model to work autonomously overnight.
-
-Mike Krieger, Head of Anthropic Labs and co-founder of Instagram, sat down with Dan Shipper to share what it's really like to use Fable 5 day in and day out — beyond the first-day hype. The core shift: Fable feels less like a chatbot and more like a teammate you can delegate complex work to.
-
-Krieger described how he now sets up Claude Code sessions before bed, asking it to complete multi-hour tasks overnight. "I will wish Claude a good night, set it up on a pretty complex task... and wake up to — actually, it's usually done by like two in the morning, and I guess it just twiddles its thumbs for the next four hours." The model handles unexpected failures gracefully: when a remote service goes down mid-task, it writes a scaffolded backend, documents the workaround, and picks up where it left off when the service comes back online.
-
-The biggest change? How you think about decomposing work. "I sat there and I was like, I feel like a total newbie again because I feel like the way that I am prompting or even thinking about decomposing a task is really out of date now with this model." Instead of step-by-step instructions, Krieger now expresses high-level intent and lets Fable figure out the execution — including pushing back when it disagrees with code review feedback.
-
-On the question of whether software engineering is over, Krieger's answer is nuanced: the craft of writing code line by line is largely done, but software production — understanding what to build, verifying output, handling production incidents — remains deeply human. "I think there is a feeling of loss in some of the better engineers that I talk to, as well as the feeling of 'oh my god, but I can do insane amounts of work now.' So we're holding both ideas in our heads at once."
-
-He also showed a personal project: a media tracker app that's self-modifying. Long-press a chat button, and Claude edits the app's code live, previews changes, and deploys them. "Phase one of agent-native architecture: every single thing in this product is accessible from the agent and has tool calls." The app was built over a weekend with Fable — and cost was surprisingly manageable for a personal project.
-
-For teams adopting Fable, Krieger's advice: invest in verification loops. Screenshots, video captures of animations, and automated workflows are essential. He also highlighted "Dynamic Workflows" — a feature that lets you scaffold long-running tasks (like porting a Python codebase to TypeScript) and let Fable orchestrate them over hours or days.
-
-https://www.youtube.com/watch?v=XWpTgCvgYaE
+https://www.youtube.com/watch?v=cMAs8z2dehs
 
 ---
 
