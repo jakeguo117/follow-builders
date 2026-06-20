@@ -1,226 +1,203 @@
-AI Builders Digest — Friday, June 19, 2026
-
----
+AI Builders Digest — Saturday, June 20, 2026
 
 ## X / TWITTER
 
-### Swyx (swyx on X)
+**Claude (@claudeai)**
+Claude Code 推出全新 Artifacts 功能。现在你可以从会话中直接生成交互式页面——比如 PR 走查或实时项目仪表盘——并以私密链接分享给团队。Artifact 会随会话持续更新，所有已分享的人看到的始终是最新版。目前 Team 和 Enterprise 计划可用 Beta 版。
 
-Swyx had an evening full of highlights — he shared a cancer survivor's review of Midjourney that he called the "best review from a cancer survivor x tech realist," and also mentioned using Polymarket prediction markets to gauge the implied value of his AI Engineer World Cup suite being a Team USA game on July 1. He also flagged a paper worth reading.
+New in Claude Code: Artifacts. Interactive pages built from your session—like a PR walkthrough or a living project dashboard—shared with your team at a private link. Available in beta on Team and Enterprise plans.
+https://x.com/claudeai/status/2067671912038240487
 
-https://x.com/swyx/status/2067512137405350067
-https://x.com/swyx/status/2067511309609115657
-https://x.com/swyx/status/2067495676972540343
+https://x.com/claudeai/status/2067671913418063892
 
-Swyx 分享了一个很有意思的夜晚——他转发了一位癌症幸存者对 Midjourney 的评测，称之为"癌症幸存者 x 技术现实主义者的最佳评测"。他还提到在用 Polymarket 预测市场来估算他7月1日 AI Engineer 世界杯包厢是否会成为美国队比赛。另外还推荐了一篇论文。
-
----
-
-### Josh Woodward — VP, Google Labs / Gemini / AI Studio
-
-Josh highlighted the Google Labs value of "co-creation" by sharing a demo from the Voltage team that exemplifies this principle in action.
-
-https://x.com/joshwoodward/status/2067337173699850487
-
-Josh Woodward 分享了 Voltage 团队的 demo，展示了 Google Labs "共同创造"这一核心价值观在实际中的体现。
+https://x.com/claudeai/status/2067671914533863585
 
 ---
 
-### Thibault Sottiaux — Codex & ChatGPT @ OpenAI
+**Claude Code 产品负责人 Thariq (trq212)**
+Claude Code 现在可以上传和编辑 HTML Artifacts，并分享给团队或其他 Claude 实例。Team 计划用户可立即使用，Pro 和 MAX 计划即将支持。此外，Thariq 将于 7 月 1 日上午 9 点在 AI Engineer World's Fair 发表 Day 2 开场主旨演讲。
 
-Thibault dropped a double reset for Codex users — a full usage reset plus a bonus reset banked for later use. He also reminded the community that Codex App, CLI, and SDK work with any open source model, not just OpenAI's models. Both posts got massive engagement (5.5K+ and 6.1K+ likes respectively).
+Claude Code can now upload and edit HTML artifacts shareable with your team or other Claudes. Starting with Team plans, coming to Pro and MAX soon. Thariq will also be giving the Day 2 opening keynote at AI Engineer World's Fair on July 1st.
+https://x.com/trq212/status/2067682475611242546
 
-https://x.com/thsottiaux/status/2067399435009622521
-https://x.com/thsottiaux/status/2067181377028538431
-
-Thibault Sottiaux 给 Codex 用户带来了双重重置福利——一次完整的使用额度重置，外加一个可随时使用的备用重置额度。他还提醒社区，Codex App、CLI 和 SDK 不仅支持 OpenAI 的模型，也兼容任何开源模型。两条推文都获得了极高的互动量。
-
----
-
-### Peter Yang — AI tutorials & interviews
-
-No notable posts.
-
-无实质性内容。
+https://x.com/trq212/status/2067737883545596368
 
 ---
 
-### Nan Yu — Head of Product @ Linear
+**Claude Code 产品经理 Cat Wu (_catwu)**
+在 Claude Team 和 Claude Enterprise 上，你现在可以用 Claude Code 部署 HTML 网站并与团队成员分享。Artifacts 已成为团队内部沟通架构变更、数据分析和新原型的绝佳方式。
 
-Nan Yu offered a sharp take on the perennial "taste" debate: "taste" is not just about aesthetics, the same way "design" isn't just visual design. He pointed out that half the conversations on the subject are people talking past each other because of this distinction — and added that when PG talks about taste while wearing cargo shorts, he's clearly not talking about taste in pants.
-
-https://x.com/thenanyu/status/2067327619897446721
-https://x.com/thenanyu/status/2067327901666521478
-
-Nan Yu 对"品味"这个老生常谈的话题给出了精辟见解：品味不只是审美品味，就像设计不只是视觉设计。他指出，关于这个话题的讨论有一半都是因为混淆了这一点而在各说各话——他还调侃说，PG 穿着工装短裤谈品味，显然不是在说裤子的品味。
+On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates. Artifacts is a great format for communicating architecture changes, data analyses, and new prototypes.
+https://x.com/_catwu/status/2067674836726694200
 
 ---
 
-### Amjad Masad — CEO @ Replit
+**Claude Code 团队 Boris Cherny (bcherny)**
+Boris 已全面拥抱 Claude Code 中的 Artifacts：用它来可视化解释复杂代码、绘制系统架构图、快速预览多种动画选项，以及制作分享给团队的数据分析仪表盘。他说这彻底改变了他与 Claude 协作的方式。
 
-Amjad shared his excitement about interviewing Spike Jonze, and highlighted a new workflow: "Design with Claude, Ship with Replit." He also mentioned "Vibecon" — likely a reference to the growing vibe coding culture.
-
-https://x.com/amasad/status/2067386053980266542
-https://x.com/amasad/status/2067363904183783833
-https://x.com/amasad/status/2067363597110391230
-
-Amjad Masad 分享了采访 Spike Jonze 的兴奋之情，并推广了"用 Claude 设计，用 Replit 交付"的新工作流。他还提到了"Vibecon"——很可能是指日益兴起的 vibe coding 文化。
+Boris has been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of animation options, and data analyses shared with the team. A game changer for how he works with Claude.
+https://x.com/bcherny/status/2067700226669060207
 
 ---
 
-### Guillermo Rauch — CEO @ Vercel
+**Box CEO Aaron Levie (levie)**
+Aaron 有两则重要评论。第一，开源权重模型已能逼近前沿性能，这意义深远——意味着你可以拥有主权 AI、针对特定工作流进行后训练、为不同负载优化成本，真正推动应用层创新。第二，关于 Fable 模型获准的消息：未来 AI 监管将按能力或算力阈值分级审查模型发布。这可能意味着模型进步将以更大的跳跃式进行（因为每次审查成本高），但也存在风险——我们习惯的快速迭代可能放缓。
 
-Guillermo shared that the AI SDK (aisdk) is more relevant than ever given the intense model competition — pointing out that GLM 5.2, an open model, surpassed Opus 4.8 in Vercel's Next.js Evals. He drew a parallel: just as React needed Next.js to solve building actual web apps, the world needs a practical solution for building and deploying agents. He also celebrated the Vercel SHIP London team.
+Two big takes from Aaron. First, open weights models credibly reaching frontier performance is a huge deal—enabling sovereign AI, post-training for specific workflows, and cost optimization across workloads. Second, on Fable's approval: future AI regulation will likely use frameworks to gate model releases past certain capability/compute thresholds. This could mean bigger, less frequent jumps in model progress, but risks slowing the rapid back-and-forth we've gotten used to.
+https://x.com/levie/status/2067821985342878180
 
-https://x.com/rauchg/status/2067242482190979186
-https://x.com/rauchg/status/2067274101702406554
-
-Guillermo Rauch 认为，在模型竞争白热化的当下，AI SDK 比以往任何时候都更重要——他提到开源模型 GLM 5.2 在 Vercel 的 Next.js Evals 中已经超越了 Opus 4.8。他打了个比方：就像 React 需要 Next.js 来解决构建实际 Web 应用的问题一样，世界也需要一个实用的方案来构建和部署 agent。他还感谢了 Vercel SHIP London 的团队。
-
----
-
-### Aaron Levie — CEO @ Box
-
-Aaron wrote a substantial thread on what the Applied AI layer looks like at scale. His key thesis: despite initial critiques that this would be a thin layer on top of LLMs, driving agentic workflows in the enterprise is far more complex — and complexity generally creates moats and value. He outlined four components of the playbook: (1) building features that bridge intelligence and workflow, (2) acting as a model router that balances frontier and cheaper models, (3) driving implementation and change management via FDEs, and (4) implementing domain-specific GTM motions. His final note: models may get better, but enterprises need help changing *today*, and many aspects of bringing intelligence to real-world work don't depend only on model capability.
-
-https://x.com/levie/status/2067455756795039957
-
-Aaron Levie 发了一条内容丰富的长推，探讨应用层 AI 在大规模部署时的真实面貌。他的核心观点是：尽管最初有人批评这只是 LLM 上的一层薄薄的封装，但实际上在企业中驱动 agentic workflow 要复杂得多——而复杂性通常会带来护城河和价值。他列出了四个关键要素：(1) 构建连接智能与工作流的功能；(2) 充当模型路由器，平衡前沿模型和更经济的模型；(3) 通过 FDE（现场部署工程师）推动实施和变革管理；(4) 构建领域特定的 GTM 策略。他的结语是：模型会越来越好，但企业*现在*就需要帮助，而且将智能带入实际工作的许多方面并不仅仅取决于模型能力。
+https://x.com/levie/status/2067802697324212562
 
 ---
 
-### Garry Tan — President & CEO @ Y Combinator
+**Y Combinator CEO Garry Tan (garrytan)**
+Garry 连发数条重磅推文。Bernie Sanders 提出法案，要对收入超过 2 亿美元的 AI 初创公司征收 50% 资产。Garry 称这是对在美国创办初创公司的战争——同一批反繁荣势力还试图禁止初创公司收购，堵死 85% 创始人的唯一退出路径。他还分享了对 AI 的看法：对于没有明确未来愿景的人，AI 只是另一种控制工具；但在有能动性的人手中，AI 是打破枷锁的力量。
 
-Garry estimated the productivity cost of a Fable 5 ban at $12M per hour, based on 5M daily active AI-coding devs, 17.8% of work routed to Fable, and Fable's ~15% productivity advantage. He also noted that the AI era means technical founders now have access to business thinking and business founders to technical thinking — net net, more startups that actually work. And he reiterated YC's stance: they don't care about age, only about building with craft and making something people want.
+Garry dropped several heavy posts. Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. Garry calls this a war on building startups in America—the same anti-prosperity bloc tried to ban startup acquisitions, blocking the only exit 85% of founders ever get. He also shared his philosophy on AI: for people without agency, AI is just another control mechanism; for those with agency, AI is a liberator that lets you do what no human can do alone.
+https://x.com/garrytan/status/2067636692794875923
 
-https://x.com/garrytan/status/2067366749411176831
-https://x.com/garrytan/status/2067308407603048774
-https://x.com/garrytan/status/2067260431597723825
+https://x.com/garrytan/status/2067637324763316499
 
-Garry Tan 估算，如果 Fable 5 被禁，每小时的生产力损失约为 1200 万美元——基于 500 万日活 AI 编程开发者、17.8% 的工作量路由到 Fable，以及 Fable 约 15% 的生产力优势。他还指出，AI 时代意味着技术型创始人现在可以接触到商业思维，商业型创始人也可以接触到技术思维——最终结果是更多真正可行的创业公司。他还重申了 YC 的立场：不在乎年龄，只在乎能否用心构建，能否做出人们想要的东西。
-
----
-
-### Zara Zhang — Builder
-
-Zara offered two sharp observations. First: don't use AI for writing until you've developed your own taste and voice — otherwise you won't even recognize slop as slop. Second: the real challenge of vibe-coded personal apps isn't building them (that takes a day), it's finding out if you'll actually use them (that takes a week). Most dead projects worked fine; people just never opened them. Build for the lazy, forgetful human that actually exists.
-
-https://x.com/zarazhangrui/status/2067423674689638652
-https://x.com/zarazhangrui/status/2067313780724551853
-
-Zara Zhang 给出了两个犀利的观察。第一：在形成自己的品味和声音之前不要用 AI 写作——否则你连 AI 生成的垃圾都识别不出来。第二：vibe coding 个人应用真正的挑战不是构建（只需一天），而是发现你是否真的会用它（需要一周）。大多数死掉的项目功能都正常，只是人们从来没打开过。要为真实存在的、懒惰又健忘的人类而构建。
+https://x.com/garrytan/status/2067606805459714229
 
 ---
 
-### Nikunj Kothari — Partner @ FPV Ventures
+**Linear 产品负责人 Nan Yu (thenanyu)**
+Nan 分享了 Linear 在 AI 代理生成项目更新上的实践经验。早期他们天真地认为代理可以一次性完成更新而无需用户输入，结果产生了大量"垃圾内容"——因为用户完全放弃了思考。后来改为多轮交互模式：代理会主动询问你要强调什么、什么最重要、缺少什么上下文。这个简单的改变带来了更好的更新质量，确保了用户有引导方向的机会，而不是被动接受一切。
 
-Nikunj went on a tear about tranched rounds in startup fundraising. His take: if someone raises at under 10% dilution of the published valuation, it's almost certainly a tranched round — and this screws the next employee who joins because their 409A valuation is artificially high. He's seeing weird tranches even at Series B. On a more optimistic note, he predicts the next 12 months will see incredible emerging managers debut with funds — not household names yet, but they will be in the next decade.
-
-https://x.com/nikunj/status/2067399657639285150
-https://x.com/nikunj/status/2067397092981772501
-https://x.com/nikunj/status/2067378464773292066
-
-Nikunj Kothari 猛烈抨击了创业融资中的分期融资（tranched rounds）。他的观点是：如果有人以低于公布估值 10% 的稀释率完成融资，那几乎肯定是分期融资——这会坑了之后加入的员工，因为他们的 409A 估值被人为抬高。他甚至在 B 轮也看到了奇怪的分期结构。更乐观的一面是，他预测未来 12 个月将涌现出一批出色的新兴基金管理者——现在还不是家喻户晓的名字，但未来十年会是的。
+Nan shared Linear's hard-won lesson on AI-generated project updates. Early on they naively thought the agent could one-shot updates without user input—resulting in slop because users disengaged their brains. Switching to a multi-turn interactive mode (where the agent prompts you to emphasize, prioritize, fill in missing context) produced much better updates. A great example of introducing friction for net benefit.
+https://x.com/thenanyu/status/2067703108344369306
 
 ---
 
-### Peter Steinberger — ClawFather / OpenClaw
+**OpenAI 的 Thibault Sottiaux (thsottiaux)**
+Thibault 发起了一个简单的投票："你在用什么？"——显然在询问大家使用什么 AI 工具。获得了 223 个赞和 154 条回复。
 
-Peter shared something that gave him "sci-fi vibes" — a quote tweet that got over 1,100 likes, suggesting the Claw ecosystem continues to push boundaries.
-
-https://x.com/steipete/status/2067431311317352809
-
-Peter Steinberger 分享了一条让他感觉"科幻氛围拉满"的内容——这条引用推文获得了超过 1100 个赞，表明 Claw 生态系统仍在不断突破边界。
+Thibault asked a simple poll: "What do you use?"—apparently asking about people's AI tools of choice. Got 223 likes and 154 replies.
+https://x.com/thsottiaux/status/2067783964077547520
 
 ---
 
-### Dan Shipper — CEO @ Every
+**Google 前产品负责人 Madhu Guru (realmadhuguru)**
+Madhu 开玩笑说："你们知道 LLM 私下里把我们的 prompt 称为 human slop 吗？"
 
-Dan highlighted Every's investment in Tacit, a founder (Nina) whose mission and approach he's a huge fan of. He also pointed back to his 2023 essay "Against Explanations" about how AI might change the sciences, expressing excitement about the prospect of rapid progress.
-
-https://x.com/danshipper/status/2067386342661624055
-https://x.com/danshipper/status/2067386395283345808
-
-Dan Shipper 介绍了 Every 对 Tacit 的投资，他对创始人 Nina 的使命和方法非常欣赏。他还回顾了自己 2023 年的文章《Against Explanations》，探讨 AI 可能如何改变科学领域，并对快速进步的前景感到兴奋。
+Madhu joked: "Did you know LLMs secretly refer to our prompts as human slop?"
+https://x.com/realmadhuguru/status/2067644951874404650
 
 ---
 
-### Aditya Agarwal — GP @ South Park Commons, Co-Founder @ Bevel
+**Peter Yang (petergyang)**
+Peter 向 OpenAI Devs 建议，能否在录屏中增加语音旁白功能——就像快速录制一段视频向同事解释如何做某事。他还问了一个实用问题：如何在 Claude Code 桌面应用中，在它工作过程中输入新 prompt 来引导它？
 
-Aditya shared that the questions SPC members explore signal where the frontier is heading next, and encouraged applications to SPC.
+Peter suggested to OpenAI Devs that they add voice-over narration to screen recordings—like taking a quick clip to explain how to do something to a coworker. He also asked a practical question: how do you steer Claude Code with new prompts in the desktop app while it's working?
+https://x.com/petergyang/status/2067783369153470878
 
-https://x.com/adityaag/status/2067306242825949398
-https://x.com/adityaag/status/2067306244390428893
-https://x.com/adityaag/status/2067306245942317426
-
-Aditya Agarwal 表示，SPC 成员探索的问题预示着前沿方向，并鼓励大家申请加入 SPC。
+https://x.com/petergyang/status/2067760098265706566
 
 ---
 
-### Sam Altman — CEO @ OpenAI
+**Vercel CEO Guillermo Rauch (rauchg)**
+Guillermo 发布了一条内容，获得 1792 个赞。
 
-Sam announced that Noam Brown is joining OpenAI — someone he's wanted to work with since the very beginning of OpenAI, and says it only took 10 years. He quoted a meme-worthy line: "We offer no explanation as to why Noams are so good at AI; we attribute their success, as all else, to divine benevolence."
-
-https://x.com/sama/status/2067427421083652131
-https://x.com/sama/status/2067427678529974740
-
-Sam Altman 宣布 Noam Brown 加入 OpenAI——这是他从 OpenAI 成立之初就一直想合作的人，只花了十年时间。他还引用了一句 meme 金句："我们无法解释为什么 Noam 们这么擅长 AI；我们将其成功，如同其他一切，归因于神的恩典。"
+Guillermo posted something that got 1,792 likes.
+https://x.com/rauchg/status/2067586339021734029
 
 ---
 
-### Claude (@claudeai)
+**Zara Zhang (zarazhangrui)**
+Zara 用自己开发的 Frontend Slides skill 制作了一个漂亮的 HTML 幻灯片，效果令她非常满意。幻灯片包含很多彩蛋（点击图片可放大、嵌套内容、超链接、交互元素等）。她还发布了该 skill 的链接和演讲录播。
 
-Claude announced that Claude Design is now in beta on all paid plans (web and desktop). Key updates: Claude Design and Claude Code now work together bidirectionally — hand a design off to build, or sync design projects from your terminal. Export to PDF and PowerPoint. The redesigned editor now has layout controls for drag, resize, and align elements directly on the canvas.
+Zara made a beautiful HTML deck using her self-built Frontend Slides skill and was very happy with the result. Lots of easter eggs (clickable images to enlarge, nested content, hyperlinks, interactive elements). She also shared the skill link and recording of her talk.
+https://x.com/zarazhangrui/status/2067850383758901669
 
-https://x.com/claudeai/status/2067325894268428560
-https://x.com/claudeai/status/2067325893001826552
-https://x.com/claudeai/status/2067325891781226581
-
-Claude 宣布 Claude Design 现已在所有付费计划中进入 beta 阶段（网页版和桌面版）。关键更新：Claude Design 和 Claude Code 现在可以双向协作——可以将设计交给 Claude 来构建，也可以在终端中同步设计项目。支持导出为 PDF 和 PowerPoint。重新设计的编辑器现在可以直接在画布上拖拽、调整大小和对齐元素。
+https://x.com/zarazhangrui/status/2067851144664342725
 
 ---
 
-## OFFICIAL BLOGS
+**FPV Ventures 合伙人 Nikunj Kothari (nikunj)**
+Nikunj 分享了一个有趣的实验：几周前低调上线了一个 side project，让 Claude Code / Codex 把网站的 SEO/GEO 优化到极致。没有外链、没有社交媒体推广、没有 Reddit 营销——纯靠老派 SEO。28 天内获得了约 16,000 次展示和 94 次点击。正式发布即将到来。
 
-No blog posts with new content in this batch.
+Nikunj shared a fun experiment: quietly launched a side project a few weeks ago, let Claude Code/Codex optimize the hell out of the website's SEO/GEO. No backlinks, no social promotion, no Reddit hacking—pure old-school optimization. Got ~16k impressions and 94 clicks over 28 days. Official launch soon.
+https://x.com/nikunj/status/2067830061009633294
 
-本期没有新的官方博客内容。
+---
+
+**Peter Steinberger (steipete)**
+Peter 评论道："现在一切要么是 fast API，要么是 slow API。"
+
+Peter commented: "Everything's either a fast or slow API now."
+https://x.com/steipete/status/2067821739556413651
+
+---
+
+**Every CEO Dan Shipper (danshipper)**
+Dan 观察到"极端的时间通缩正在发生"——每当 Fable 解锁，生产力就会出现阶跃式变化，不如在此之前去度假。他还宣布 Every 正在招聘一位 managing editor。
+
+Dan observed "extreme time deflation happening right now"—expecting a step change in productivity whenever Fable is unlocked, might as well go on vacation until then. He's also hiring a managing editor at Every.
+https://x.com/danshipper/status/2067630124795662471
+
+https://x.com/danshipper/status/2067614889141469570
+
+---
+
+**Swyx (swyx)**
+Swyx 开玩笑说一天涨了 55%，"我应该搞个基金"——并认真询问如果有人帮他运营基金可以私信他。他还在和 DevinAI 团队互动。
+
+Swyx joked about a 55% one-day gain and said he should start a fund—seriously asking for DMs if someone would help him run one. Also interacting with the DevinAI team.
+https://x.com/swyx/status/2067764968808915392
+
+---
+
+**Replit CEO Amjad Masad (amasad)**
+Amjad 转发了多条内容，表示赞赏。
+
+Amjad quote-tweeted several posts with enthusiasm.
+https://x.com/amasad/status/2067832394913104309
+
+https://x.com/amasad/status/2067831841357193237
+
+https://x.com/amasad/status/2067831496388358176
+
+---
+
+**FirstMark Capital 的 Matt Turck (mattturck)**
+Matt 发布了与 Lambda 联合创始人 Stephen Balaban 的深度对话播客，涵盖 AI 算力现状、neocloud 热潮、数据中心、GPU 以及未来展望。节目时间戳长达 72 分钟，内容极其丰富。
+
+Matt released a deep conversation with Lambda cofounder Stephen Balaban on the state of AI compute, the neocloud boom, data centers, GPUs, and what's ahead. The episode has a detailed 72-minute timestamp table of contents.
+https://x.com/mattturck/status/2067646198140358854
 
 ---
 
 ## PODCASTS
 
-### GitHub COO Kyle Daigle on "AI & I by Every"
+**The MAD Podcast with Matt Turck — The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban**
 
-**The Takeaway:** The age of agents is here — GitHub saw 17 million agent-created pull requests in March 2026 alone, and the COO's biggest insight is that the real moat isn't model intelligence but personalization: agents that deeply understand *you*.
+**The Takeaway:** 云计算从来不是 commodity，而是一个高度垂直整合的复杂业务——从土地审批到 HPC 设计到软件虚拟化。那些说 GPU 五年就报废的人错得离谱。
 
-Kyle Daigle, COO of GitHub (13-year veteran, previously led engineering), sat down with Every's Mike Taylor to talk about what's happening on the front lines of coding agents. The stats are staggering: last year GitHub had 1 billion commits for the full year; this year they're on track for 14 billion if growth is linear — but it won't be linear, it's accelerating. In March alone, 17 million pull requests were created by agents.
+Lambda 联合创始人兼 CTO Stephen Balaban 在这期深度访谈中，从物理层开始拆解整个 AI 计算栈。如果你想知道"AI 数据中心里到底在发生什么"，这期节目是最好的入门课。
 
-Daigle's most counterintuitive take: the biggest challenge isn't technical — it's social. Open source maintainers are drowning in AI-generated PRs, and GitHub's approach is to give them building blocks of control rather than imposing a one-size-fits-all solution. Different communities want different things, and GitHub is letting standards emerge naturally rather than dictating them.
+核心洞察：
 
-On the $200-to-$2,000 subscription problem: Daigle thinks the answer is automatic model routing. Developers shouldn't have to manually choose between a frontier model and a cheap one for every task. The tools should know when to use Opus 4.8 and when Haiku will do — and route accordingly. "A lot of the reasons why tokens are expensive is because we're all going and choosing our model of the day or week or hour."
+- **GPU 算力从来不是 commodity。** 很多人以为 neocloud 会像传统云一样被 commoditize，但实际恰恰相反。云服务是极其复杂的垂直整合业务——土地、电力、建设、HPC 设计、软件、虚拟化层层叠加。这也是为什么全球最大公司（亚马逊、微软、谷歌、Oracle）都在做云——因为这是门好生意。
 
-The most personal moment: Daigle revealed he has an OpenClaw agent named Baxter that reads all his emails and Slack messages every week and gives him a "comms report" — feedback on his communication patterns. "Humans are way more willing to take critical feedback from robots than other humans. It's less threatening." He uses this for recursive self-improvement, treating the agent as a personal coach rather than just a coding tool.
+- **我们仍在低估算力需求。** Stephen 认为行业总体上一直在 underbuilding。Scaling laws 没有尽头——投入更多算力就得到更智能的模型。随着模型能力提升，可寻址市场的"锥形"不断扩张（从客服到搜索引擎替代到软件工程替代），算力需求只会继续增长。
 
-**Memorable quote:** *"I deeply believe that software development is a team sport. It seems silly to think that there's any one company that can just answer every single question."*
+- **真正的瓶颈不是 GPU，是"土地+电力+外壳"。** 具体来说，是有电力配额承诺的土地、以及数据中心里的机电设备（MEP）。
 
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+- **关于社区反对数据中心的运动：** Stephen 认为很多是 misinformation。新一代 Blackwell/Rubin 级 GPU 使用闭环直接芯片液冷 + 干冷却器，几乎零蒸发，不消耗大量水。数据中心还带来大量税收、就业和电网基础设施投资。
 
----
+- **NVIDIA 真正的护城河不是 CUDA，而是 cuDNN 和 NCCL。** cuDNN 是高度优化的矩阵乘法引擎，NCCL 是网络优化库——它们让新进入芯片领域的竞争者极难追赶。
 
-**一句话总结：** Agent 时代已经到来——GitHub 仅在 2026 年 3 月就看到了 1700 万个由 agent 创建的 pull request，而 COO 最大的洞见是：真正的护城河不是模型智能，而是个性化——那些深刻理解*你*的 agent。
+- **Lambda 的疯狂起源故事：** 2012 年以人脸识别公司起步，做过内置摄像头的棒球帽（Lambda Hat），做过 Deep Dream 风格的图像生成应用 Dreamscope（百万用户），因 AWS 账单太高自建工作站集群，意外发现这比主业更赚钱——于是转型为云计算公司。如今营收接近 10 亿美元。
 
-GitHub 的 COO Kyle Daigle（任职 13 年的老将，曾领导工程团队）与 Every 的 Mike Taylor 坐下来聊了聊 coding agent 的前线情况。数据令人震惊：去年 GitHub 全年有 10 亿次提交；如果增长是线性的，今年将达到 140 亿次——但增长不会是线性的，而是在加速。仅 3 月份，就有 1700 万个 pull request 是由 agent 创建的。
+- **"AI 不会写软件，AI 就是软件。"** Stephen 提出"神经软件"（neural software）的概念——不是生成代码然后运行，而是 LLM 直接模拟软件行为。没有 bug，只有对 prompt 的误解。他认为大规模采用可能需要 10-15 年，但原型已经存在。
 
-Daigle 最反直觉的观点是：最大的挑战不是技术性的，而是社会性的。开源维护者被 AI 生成的 PR 淹没了，GitHub 的做法是给他们提供控制工具，而不是强加一刀切的解决方案。不同的社区想要不同的东西，GitHub 让标准自然涌现，而不是强行规定。
+- **"一个人一块 GPU"：** 就像苹果当年"一个人一台电脑"的愿景，Stephen 相信未来每个人都需要一块 GPU 的算力来完成日常工作和创造。但他也清醒地认识到，苹果用了半个世纪才实现那个目标。
 
-关于从 200 美元订阅费涨到 2000 美元的问题：Daigle 认为答案是自动模型路由。开发者不应该为每个任务手动在 frontier 模型和廉价模型之间做选择。工具应该知道什么时候用 Opus 4.8，什么时候用 Haiku 就够了——并自动路由。"token 之所以贵，很大程度上是因为我们都在选择当天的、当周的、甚至当小时的模型。"
+- **被高估的：** 非软件工程领域的 agentic workflows。因为缺乏像自动化测试那样具体、可验证的反馈机制。
+- **被低估的：** 软件开发的 agentic workflows。大多数人根本没试过——打开 Claude，说"最大努力，用最新模型，起 10 个 agent 去干"。
 
-最个人化的时刻：Daigle 透露他有一个叫 Baxter 的 OpenClaw agent，每周读取他所有的邮件和 Slack 消息，然后给他一份"沟通报告"——关于他沟通模式的反馈。"人类更愿意接受来自机器人的批评性反馈，而不是来自其他人类。这没那么有威胁性。"他用这个来做递归式自我提升，把 agent 当作个人教练，而不仅仅是一个编码工具。
-
-**金句：** *"我坚信软件开发是一项团队运动。认为任何一家公司就能回答所有问题，这太荒谬了。"*
-
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+完整视频：https://www.youtube.com/watch?v=0NttU4CbyVs
 
 ---
 
