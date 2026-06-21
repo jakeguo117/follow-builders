@@ -1,203 +1,202 @@
-AI Builders Digest — Saturday, June 20, 2026
+AI Builders Digest — June 21, 2026
 
 ## X / TWITTER
 
-**Claude (@claudeai)**
-Claude Code 推出全新 Artifacts 功能。现在你可以从会话中直接生成交互式页面——比如 PR 走查或实时项目仪表盘——并以私密链接分享给团队。Artifact 会随会话持续更新，所有已分享的人看到的始终是最新版。目前 Team 和 Enterprise 计划可用 Beta 版。
+**Swyx (Shawn Wang)** — AI engineer, founder of aiDotEngineer, Cognition, Temporalio
 
-New in Claude Code: Artifacts. Interactive pages built from your session—like a PR walkthrough or a living project dashboard—shared with your team at a private link. Available in beta on Team and Enterprise plans.
-https://x.com/claudeai/status/2067671912038240487
+Swyx makes a bold prediction: **Anthropic is going to IPO at $2T.** He also shares a nostalgic moment — 10 years ago he was asked by Ben Halpern and Jess Lee to write his first blog post on The Practical Dev (now Dev.to), and now MLHacks is producing the first ever physical daily newspaper at aiDotEngineer World Fair.
 
-https://x.com/claudeai/status/2067671913418063892
+https://x.com/swyx/status/2068084391260426345
+https://x.com/swyx/status/2068233518858342887
 
-https://x.com/claudeai/status/2067671914533863585
+**Swyx（Shawn Wang）** — AI工程师，aiDotEngineer、Cognition、Temporalio创始人
 
----
+Swyx 抛出一个大胆预测：**Anthropic 将以2万亿美元市值上市。** 他还分享了一段怀旧时刻——十年前Ben Halpern和Jess Lee邀请他在The Practical Dev（现在的Dev.to）上写第一篇博客，如今MLHacks正在aiDotEngineer世界博览会上制作第一份实体日报。
 
-**Claude Code 产品负责人 Thariq (trq212)**
-Claude Code 现在可以上传和编辑 HTML Artifacts，并分享给团队或其他 Claude 实例。Team 计划用户可立即使用，Pro 和 MAX 计划即将支持。此外，Thariq 将于 7 月 1 日上午 9 点在 AI Engineer World's Fair 发表 Day 2 开场主旨演讲。
-
-Claude Code can now upload and edit HTML artifacts shareable with your team or other Claudes. Starting with Team plans, coming to Pro and MAX soon. Thariq will also be giving the Day 2 opening keynote at AI Engineer World's Fair on July 1st.
-https://x.com/trq212/status/2067682475611242546
-
-https://x.com/trq212/status/2067737883545596368
+https://x.com/swyx/status/2068084391260426345
+https://x.com/swyx/status/2068233518858342887
 
 ---
 
-**Claude Code 产品经理 Cat Wu (_catwu)**
-在 Claude Team 和 Claude Enterprise 上，你现在可以用 Claude Code 部署 HTML 网站并与团队成员分享。Artifacts 已成为团队内部沟通架构变更、数据分析和新原型的绝佳方式。
+**Boris Cherny** — Claude Code @ Anthropic
 
-On Claude Team and Claude Enterprise, you can now use Claude Code to deploy HTML sites and share these with your teammates. Artifacts is a great format for communicating architecture changes, data analyses, and new prototypes.
-https://x.com/_catwu/status/2067674836726694200
+Boris Cherny shares a fascinating use case for Claude Code: **deciphering Linear A, a 3,500-year-old written language from Crete.** He hopes the results hold up in peer review. This is a powerful example of LLMs being applied far beyond coding — into archaeology and linguistics.
 
----
+https://x.com/bcherny/status/2068064304503660962
 
-**Claude Code 团队 Boris Cherny (bcherny)**
-Boris 已全面拥抱 Claude Code 中的 Artifacts：用它来可视化解释复杂代码、绘制系统架构图、快速预览多种动画选项，以及制作分享给团队的数据分析仪表盘。他说这彻底改变了他与 Claude 协作的方式。
+**Boris Cherny** — Anthropic 的 Claude Code 团队成员
 
-Boris has been using Artifacts in Claude Code for everything: visual explanations of tricky code, system diagrams, quick previews of animation options, and data analyses shared with the team. A game changer for how he works with Claude.
-https://x.com/bcherny/status/2067700226669060207
+Boris Cherny 分享了一个 Claude Code 的迷人用例：**破译来自克里特岛的3500年前的线性文字A。** 他希望结果能经得起同行评审。这是一个强有力的例子，展示了大语言模型如何超越编程，应用于考古学和语言学领域。
+
+https://x.com/bcherny/status/2068064304503660962
 
 ---
 
-**Box CEO Aaron Levie (levie)**
-Aaron 有两则重要评论。第一，开源权重模型已能逼近前沿性能，这意义深远——意味着你可以拥有主权 AI、针对特定工作流进行后训练、为不同负载优化成本，真正推动应用层创新。第二，关于 Fable 模型获准的消息：未来 AI 监管将按能力或算力阈值分级审查模型发布。这可能意味着模型进步将以更大的跳跃式进行（因为每次审查成本高），但也存在风险——我们习惯的快速迭代可能放缓。
+**Thibault Sottiaux** — Codex & ChatGPT @ OpenAI
 
-Two big takes from Aaron. First, open weights models credibly reaching frontier performance is a huge deal—enabling sovereign AI, post-training for specific workflows, and cost optimization across workloads. Second, on Fable's approval: future AI regulation will likely use frameworks to gate model releases past certain capability/compute thresholds. This could mean bigger, less frequent jumps in model progress, but risks slowing the rapid back-and-forth we've gotten used to.
-https://x.com/levie/status/2067821985342878180
+Thibault Sottiaux highlights **remote/local handoff in Codex**, saying "removing boundaries one at a time" and noting that "when you let the model be in the driver seat, you actually need less infrastructure." He also recommends following Dan Shipper for top-tier Codex tips, admitting he now spends more time in the Codex app than all other apps combined on his Mac.
 
-https://x.com/levie/status/2067802697324212562
+https://x.com/thsottiaux/status/2068120572673077274
+https://x.com/thsottiaux/status/2068144722460475527
 
----
+**Thibault Sottiaux** — OpenAI 的 Codex & ChatGPT 团队成员
 
-**Y Combinator CEO Garry Tan (garrytan)**
-Garry 连发数条重磅推文。Bernie Sanders 提出法案，要对收入超过 2 亿美元的 AI 初创公司征收 50% 资产。Garry 称这是对在美国创办初创公司的战争——同一批反繁荣势力还试图禁止初创公司收购，堵死 85% 创始人的唯一退出路径。他还分享了对 AI 的看法：对于没有明确未来愿景的人，AI 只是另一种控制工具；但在有能动性的人手中，AI 是打破枷锁的力量。
+Thibault Sottiaux 强调了 **Codex 中的远程/本地交接**，说这是"一次移除一个边界"，并指出"当你让模型坐在驾驶座上时，你实际上需要的更少的基础设施。"他还推荐关注 Dan Shipper 获取顶级 Codex 技巧，承认他现在在 Mac 上花在 Codex 应用上的时间比所有其他应用加起来还多。
 
-Garry dropped several heavy posts. Bernie Sanders introduced a bill to seize 50% of any AI startup that crosses $200M in revenue. Garry calls this a war on building startups in America—the same anti-prosperity bloc tried to ban startup acquisitions, blocking the only exit 85% of founders ever get. He also shared his philosophy on AI: for people without agency, AI is just another control mechanism; for those with agency, AI is a liberator that lets you do what no human can do alone.
-https://x.com/garrytan/status/2067636692794875923
-
-https://x.com/garrytan/status/2067637324763316499
-
-https://x.com/garrytan/status/2067606805459714229
+https://x.com/thsottiaux/status/2068120572673077274
+https://x.com/thsottiaux/status/2068144722460475527
 
 ---
 
-**Linear 产品负责人 Nan Yu (thenanyu)**
-Nan 分享了 Linear 在 AI 代理生成项目更新上的实践经验。早期他们天真地认为代理可以一次性完成更新而无需用户输入，结果产生了大量"垃圾内容"——因为用户完全放弃了思考。后来改为多轮交互模式：代理会主动询问你要强调什么、什么最重要、缺少什么上下文。这个简单的改变带来了更好的更新质量，确保了用户有引导方向的机会，而不是被动接受一切。
+**Peter Yang** — AI tutorials & interviews, 150K+ subscribers
 
-Nan shared Linear's hard-won lesson on AI-generated project updates. Early on they naively thought the agent could one-shot updates without user input—resulting in slop because users disengaged their brains. Switching to a multi-turn interactive mode (where the agent prompts you to emphasize, prioritize, fill in missing context) produced much better updates. A great example of introducing friction for net benefit.
-https://x.com/thenanyu/status/2067703108344369306
+Peter Yang shares his personal shift from die-hard Claude Code user to **Codex convert.** His key reasons: GPT-5.5 is excellent, fast mode + generous limits = more reps, and Codex's browser/computer use capabilities are "simply goated." He still uses Claude Code too, and hopes the two compete forever so builders keep winning.
 
----
+https://x.com/petergyang/status/2068175172960690266
 
-**OpenAI 的 Thibault Sottiaux (thsottiaux)**
-Thibault 发起了一个简单的投票："你在用什么？"——显然在询问大家使用什么 AI 工具。获得了 223 个赞和 154 条回复。
+**Peter Yang** — AI教程与访谈作者，15万+订阅者
 
-Thibault asked a simple poll: "What do you use?"—apparently asking about people's AI tools of choice. Got 223 likes and 154 replies.
-https://x.com/thsottiaux/status/2067783964077547520
+Peter Yang 分享了他从坚定的 Claude Code 用户转变为 **Codex 用户**的个人经历。主要原因：GPT-5.5 非常出色，快速模式+慷慨的限制=更多迭代，以及 Codex 的浏览器和电脑使用能力"简直无敌"。他仍然使用 Claude Code，并希望两者永远竞争，这样开发者才能持续受益。
+
+https://x.com/petergyang/status/2068175172960690266
 
 ---
 
-**Google 前产品负责人 Madhu Guru (realmadhuguru)**
-Madhu 开玩笑说："你们知道 LLM 私下里把我们的 prompt 称为 human slop 吗？"
+**Amanda Askell** — Philosopher & ethicist @ Anthropic
 
-Madhu joked: "Did you know LLMs secretly refer to our prompts as human slop?"
-https://x.com/realmadhuguru/status/2067644951874404650
+Amanda Askell shares a personal story about **chronic pain that went undiagnosed for 30+ years** because doctors assumed she "was too stupid to be in the presence of scan results." She also reflects on medical scans and incidental findings, arguing that the issue isn't the scan itself but how we respond to what we find. A thought-provoking thread from Anthropic's philosopher.
 
----
+https://x.com/AmandaAskell/status/2068218515723866477
+https://x.com/AmandaAskell/status/2068162191740764622
 
-**Peter Yang (petergyang)**
-Peter 向 OpenAI Devs 建议，能否在录屏中增加语音旁白功能——就像快速录制一段视频向同事解释如何做某事。他还问了一个实用问题：如何在 Claude Code 桌面应用中，在它工作过程中输入新 prompt 来引导它？
+**Amanda Askell** — Anthropic 的哲学家与伦理学家
 
-Peter suggested to OpenAI Devs that they add voice-over narration to screen recordings—like taking a quick clip to explain how to do something to a coworker. He also asked a practical question: how do you steer Claude Code with new prompts in the desktop app while it's working?
-https://x.com/petergyang/status/2067783369153470878
+Amanda Askell 分享了一个个人故事：**慢性疼痛被误诊了30多年**，因为医生认为她"太愚蠢，不配看到扫描结果"。她还反思了医学扫描和偶然发现的问题，认为问题不在于扫描本身，而在于我们如何应对发现的结果。来自 Anthropic 哲学家的发人深省的思考。
 
-https://x.com/petergyang/status/2067760098265706566
+https://x.com/AmandaAskell/status/2068218515723866477
+https://x.com/AmandaAskell/status/2068162191740764622
 
 ---
 
-**Vercel CEO Guillermo Rauch (rauchg)**
-Guillermo 发布了一条内容，获得 1792 个赞。
+**Amjad Masad** — CEO of Replit
 
-Guillermo posted something that got 1,792 likes.
-https://x.com/rauchg/status/2067586339021734029
+Amjad Masad shares a **Vibecon recap**, calling it "the best conference experience I've had this year." No further details shared, but the enthusiasm is clear.
 
----
+https://x.com/amasad/status/2068182309719728159
 
-**Zara Zhang (zarazhangrui)**
-Zara 用自己开发的 Frontend Slides skill 制作了一个漂亮的 HTML 幻灯片，效果令她非常满意。幻灯片包含很多彩蛋（点击图片可放大、嵌套内容、超链接、交互元素等）。她还发布了该 skill 的链接和演讲录播。
+**Amjad Masad** — Replit 首席执行官
 
-Zara made a beautiful HTML deck using her self-built Frontend Slides skill and was very happy with the result. Lots of easter eggs (clickable images to enlarge, nested content, hyperlinks, interactive elements). She also shared the skill link and recording of her talk.
-https://x.com/zarazhangrui/status/2067850383758901669
+Amjad Masad 分享了一段 **Vibecon 回顾**，称其为"今年最好的会议体验"。没有分享更多细节，但热情显而易见。
 
-https://x.com/zarazhangrui/status/2067851144664342725
+https://x.com/amasad/status/2068182309719728159
 
 ---
 
-**FPV Ventures 合伙人 Nikunj Kothari (nikunj)**
-Nikunj 分享了一个有趣的实验：几周前低调上线了一个 side project，让 Claude Code / Codex 把网站的 SEO/GEO 优化到极致。没有外链、没有社交媒体推广、没有 Reddit 营销——纯靠老派 SEO。28 天内获得了约 16,000 次展示和 94 次点击。正式发布即将到来。
+**Guillermo Rauch** — CEO of Vercel
 
-Nikunj shared a fun experiment: quietly launched a side project a few weeks ago, let Claude Code/Codex optimize the hell out of the website's SEO/GEO. No backlinks, no social promotion, no Reddit hacking—pure old-school optimization. Got ~16k impressions and 94 clicks over 28 days. Official launch soon.
-https://x.com/nikunj/status/2067830061009633294
+Guillermo Rauch makes a provocative claim: **"The next hot programming language is… markdown."** He introduces a minimal agent structure: folders with markdown files for instructions and skills, deployable with one command (`vercel`). He also notes that agents are motivating healthy software habits — open APIs, documentation, tests, Unix CLIs, payment protocols — calling it "the original vision of the WWW coming to life before our eyes."
 
----
+https://x.com/rauchg/status/2068165988005380478
+https://x.com/rauchg/status/2067936390285807940
 
-**Peter Steinberger (steipete)**
-Peter 评论道："现在一切要么是 fast API，要么是 slow API。"
+**Guillermo Rauch** — Vercel 首席执行官
 
-Peter commented: "Everything's either a fast or slow API now."
-https://x.com/steipete/status/2067821739556413651
+Guillermo Rauch 提出了一个挑衅性的主张：**"下一种热门编程语言是……markdown。"** 他介绍了一个极简的 agent 结构：用 markdown 文件组成的文件夹来存放指令和技能，一条命令（`vercel`）即可部署。他还指出，agent 正在激发健康的软件习惯——开放 API、文档、测试、Unix CLI、支付协议——称其为"万维网的原始愿景正在我们眼前实现。"
 
----
-
-**Every CEO Dan Shipper (danshipper)**
-Dan 观察到"极端的时间通缩正在发生"——每当 Fable 解锁，生产力就会出现阶跃式变化，不如在此之前去度假。他还宣布 Every 正在招聘一位 managing editor。
-
-Dan observed "extreme time deflation happening right now"—expecting a step change in productivity whenever Fable is unlocked, might as well go on vacation until then. He's also hiring a managing editor at Every.
-https://x.com/danshipper/status/2067630124795662471
-
-https://x.com/danshipper/status/2067614889141469570
+https://x.com/rauchg/status/2068165988005380478
+https://x.com/rauchg/status/2067936390285807940
 
 ---
 
-**Swyx (swyx)**
-Swyx 开玩笑说一天涨了 55%，"我应该搞个基金"——并认真询问如果有人帮他运营基金可以私信他。他还在和 DevinAI 团队互动。
+**Aaron Levie** — CEO of Box
 
-Swyx joked about a 55% one-day gain and said he should start a fund—seriously asking for DMs if someone would help him run one. Also interacting with the DevinAI team.
-https://x.com/swyx/status/2067764968808915392
+Aaron Levie argues that **the key variable for agent success is context**, and that creating a shared working area (like a filesystem) that both humans and agents can understand is crucial. He quotes: "What they need is a working set: plans, notes, task lists, policies, drafts, summaries, logs, corrections, decisions." The filesystem-shaped interface is "legible to both the model and the humans supervising it."
 
----
+https://x.com/levie/status/2068068247413694532
 
-**Replit CEO Amjad Masad (amasad)**
-Amjad 转发了多条内容，表示赞赏。
+**Aaron Levie** — Box 首席执行官
 
-Amjad quote-tweeted several posts with enthusiasm.
-https://x.com/amasad/status/2067832394913104309
+Aaron Levie 认为 **agent 成功的关键变量是上下文**，而创建一个人类和 agent 都能理解的共享工作区（如文件系统）至关重要。他引用道："它们需要一个工作集：计划、笔记、任务列表、策略、草稿、摘要、日志、修正、决策。"文件系统形态的接口对"模型和监督它的人类都是可读的。"
 
-https://x.com/amasad/status/2067831841357193237
-
-https://x.com/amasad/status/2067831496388358176
+https://x.com/levie/status/2068068247413694532
 
 ---
 
-**FirstMark Capital 的 Matt Turck (mattturck)**
-Matt 发布了与 Lambda 联合创始人 Stephen Balaban 的深度对话播客，涵盖 AI 算力现状、neocloud 热潮、数据中心、GPU 以及未来展望。节目时间戳长达 72 分钟，内容极其丰富。
+**Garry Tan** — President & CEO of Y Combinator
 
-Matt released a deep conversation with Lambda cofounder Stephen Balaban on the state of AI compute, the neocloud boom, data centers, GPUs, and what's ahead. The episode has a detailed 72-minute timestamp table of contents.
-https://x.com/mattturck/status/2067646198140358854
+Garry Tan shares a board meeting tip: **pick the worst thing you're afraid to show your board and make it slide one.** He notes you can only do this with good boards, but making it a habit builds trust and transparency.
+
+https://x.com/garrytan/status/2068007205102842238
+
+**Garry Tan** — Y Combinator 总裁兼首席执行官
+
+Garry Tan 分享了一个董事会会议技巧：**选择你最害怕向董事会展示的那件事，把它放在第一页幻灯片。** 他指出这只有在好的董事会才能做到，但养成这个习惯可以建立信任和透明度。
+
+https://x.com/garrytan/status/2068007205102842238
+
+---
+
+**Zara Zhang** — Builder
+
+Zara Zhang distills what sets someone apart in the AI age down to three things: **Agency, Taste, and Distribution.** A concise, memorable framework for thriving in an AI-augmented world.
+
+https://x.com/zarazhangrui/status/2068094591220531583
+
+**Zara Zhang** — 开发者
+
+Zara Zhang 将AI时代让人脱颖而出的要素提炼为三点：**主动性（Agency）、品味（Taste）和分发能力（Distribution）。** 这是一个简洁而令人难忘的框架，适用于在AI增强的世界中蓬勃发展。
+
+https://x.com/zarazhangrui/status/2068094591220531583
 
 ---
 
 ## PODCASTS
 
-**The MAD Podcast with Matt Turck — The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban**
+**No Priors — Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan**
 
-**The Takeaway:** 云计算从来不是 commodity，而是一个高度垂直整合的复杂业务——从土地审批到 HPC 设计到软件虚拟化。那些说 GPU 五年就报废的人错得离谱。
+**The Takeaway:** Intel's CEO Lip Bu Tan is betting that the CPU will make a comeback in the AI era, that US government backing is essential for semiconductor manufacturing, and that Intel can 10x from here — a venture capitalist's dream applied to a $600B company.
 
-Lambda 联合创始人兼 CTO Stephen Balaban 在这期深度访谈中，从物理层开始拆解整个 AI 计算栈。如果你想知道"AI 数据中心里到底在发生什么"，这期节目是最好的入门课。
+Lip Bu Tan, the 66-year-old CEO of Intel, former CEO of Cadence, and legendary venture investor with 159 IPOs/M&A exits, sits down with No Priors to explain why he took "the hardest job in the industry." His answer: Intel is an iconic company critical to the US and the semiconductor ecosystem. "I decided to do one more after Cadence."
 
-核心洞察：
+The conversation is remarkably candid. Tan reveals that President Trump asked him to resign early on over conflict of interest concerns, but after a personal meeting where Tan explained his background (born in Malaysia, raised in Singapore, MIT-educated, never lived outside the US), Trump listened and gave him a second chance. "I don't need this job. I do it purely to save Intel."
 
-- **GPU 算力从来不是 commodity。** 很多人以为 neocloud 会像传统云一样被 commoditize，但实际恰恰相反。云服务是极其复杂的垂直整合业务——土地、电力、建设、HPC 设计、软件、虚拟化层层叠加。这也是为什么全球最大公司（亚马逊、微软、谷歌、Oracle）都在做云——因为这是门好生意。
+Tan's turnaround plan is classic venture capital thinking applied to a giant: strengthen the balance sheet (US government became a big shareholder, Jensen Huang invested $5B that's now worth $25B, SoftBank stepped in), simplify products, listen to customers, and drive next-generation leadership products. He's betting big on the CPU's resurgence in the AI era: "In terms of reinforcement learning, in terms of the speed of orchestrating all the agents, the CPU is actually better." He sees the ratio of CPU to GPU shifting from 1:8 to potentially 1:1.
 
-- **我们仍在低估算力需求。** Stephen 认为行业总体上一直在 underbuilding。Scaling laws 没有尽头——投入更多算力就得到更智能的模型。随着模型能力提升，可寻址市场的"锥形"不断扩张（从客服到搜索引擎替代到软件工程替代），算力需求只会继续增长。
+On the foundry business, Tan is humble: "We are very distant from TSMC." But he believes by 2030-2032, Intel will "surface up." He's investing in new materials — gallium nitride, silicon carbide, indium phosphide, glass substrates, even artificial diamond — and building a full-stack capability from silicon to software to racks.
 
-- **真正的瓶颈不是 GPU，是"土地+电力+外壳"。** 具体来说，是有电力配额承诺的土地、以及数据中心里的机电设备（MEP）。
+The most fascinating part: **TeraFab, Intel's collaboration with Elon Musk.** Musk wants to build his own fab, and Intel is working with him to accelerate production. Tan describes Musk as "unconventional" and "refreshing" — someone who questions every step of the traditional way of doing things. (When asked about Musk wanting to allow smoking inside the clean room, Tan laughed: "I don't go that far.")
 
-- **关于社区反对数据中心的运动：** Stephen 认为很多是 misinformation。新一代 Blackwell/Rubin 级 GPU 使用闭环直接芯片液冷 + 干冷却器，几乎零蒸发，不消耗大量水。数据中心还带来大量税收、就业和电网基础设施投资。
+Tan also shared his investment philosophy: look for bottlenecks, back startups solving real problems that customers are "crying for," target hyperscale customers from day one, and find partners who will stick with you through hard times. "Nine of the 10 companies I invest in change their business plan halfway because the market changed. So I like to have an entrepreneur as a team, not just one person."
 
-- **NVIDIA 真正的护城河不是 CUDA，而是 cuDNN 和 NCCL。** cuDNN 是高度优化的矩阵乘法引擎，NCCL 是网络优化库——它们让新进入芯片领域的竞争者极难追赶。
+On the future of AI and compute, Tan sees a massive opportunity in **physical AI** — robots, autonomous cars, defense — where edge and client compute will be critical. He believes the game is not over: NVIDIA owns training, but agentic AI and physical AI are "the jungle" where everyone has a chance.
 
-- **Lambda 的疯狂起源故事：** 2012 年以人脸识别公司起步，做过内置摄像头的棒球帽（Lambda Hat），做过 Deep Dream 风格的图像生成应用 Dreamscope（百万用户），因 AWS 账单太高自建工作站集群，意外发现这比主业更赚钱——于是转型为云计算公司。如今营收接近 10 亿美元。
+His goal? 10x returns for Intel shareholders. "At Cadence, when I stepped down, we made about 76x. At Intel, the base is bigger, so let's do 10x." Venture capital at heart, applied to a $600B company.
 
-- **"AI 不会写软件，AI 就是软件。"** Stephen 提出"神经软件"（neural software）的概念——不是生成代码然后运行，而是 LLM 直接模拟软件行为。没有 bug，只有对 prompt 的误解。他认为大规模采用可能需要 10-15 年，但原型已经存在。
+https://www.youtube.com/watch?v=asCgCv2XB4s
 
-- **"一个人一块 GPU"：** 就像苹果当年"一个人一台电脑"的愿景，Stephen 相信未来每个人都需要一块 GPU 的算力来完成日常工作和创造。但他也清醒地认识到，苹果用了半个世纪才实现那个目标。
+---
 
-- **被高估的：** 非软件工程领域的 agentic workflows。因为缺乏像自动化测试那样具体、可验证的反馈机制。
-- **被低估的：** 软件开发的 agentic workflows。大多数人根本没试过——打开 Claude，说"最大努力，用最新模型，起 10 个 agent 去干"。
+**No Priors — 与英特尔CEO Lip Bu Tan一起重构半导体供应链**
 
-完整视频：https://www.youtube.com/watch?v=0NttU4CbyVs
+**核心观点：** 英特尔CEO Lip Bu Tan押注CPU将在AI时代卷土重来，认为美国政府支持对半导体制造至关重要，并相信英特尔能从这里实现10倍增长——一个风险投资家的梦想应用于一家6000亿美元的公司。
+
+66岁的英特尔CEO Lip Bu Tan，前Cadence CEO，拥有159次IPO/并购退出的传奇风险投资人，与No Priors坐下来解释他为什么接下"行业中最难的工作"。他的回答：英特尔是一家对美国半导体生态系统至关重要的标志性公司。"我决定在Cadence之后再干一次。"
+
+这次对话异常坦诚。Tan透露，特朗普总统曾因利益冲突问题要求他辞职，但在一次个人会面中，Tan解释了自己的背景（马来西亚出生，新加坡长大，MIT教育，从未在美国以外生活过），特朗普听取了他的解释并给了他第二次机会。"我不需要这份工作。我纯粹是为了拯救英特尔。"
+
+Tan的转型计划是将经典的风险投资思维应用于一家巨头：强化资产负债表（美国政府成为大股东，黄仁勋投资50亿美元现已价值250亿美元，软银出手相助），简化产品，倾听客户，推动下一代领先产品。他大力押注CPU在AI时代的复苏："在强化学习方面，在编排所有agent的速度方面，CPU实际上更好。"他认为CPU与GPU的比例将从1:8转变为潜在的1:1。
+
+关于代工业务，Tan很谦虚："我们与台积电还有很大差距。"但他相信到2030-2032年，英特尔将"浮出水面"。他正在投资新材料——氮化镓、碳化硅、磷化铟、玻璃基板，甚至人造金刚石——并构建从硅到软件到机架的全栈能力。
+
+最引人入胜的部分：**TeraFab，英特尔与Elon Musk的合作。** Musk想建造自己的晶圆厂，英特尔正在与他合作加速生产。Tan形容Musk"非传统"且"令人耳目一新"——他会质疑传统做事方式的每一个步骤。（当被问及Musk想在洁净室里允许吸烟时，Tan笑了："我不会走那么远。"）
+
+Tan还分享了他的投资哲学：寻找瓶颈，支持解决客户"哭着要"的解决方案的初创公司，从第一天起瞄准超大规模客户，并找到能在困难时期与你同行的合作伙伴。"我投资的10家公司中有9家在途中改变了商业计划，因为市场发生了变化。所以我希望企业家是一个团队，而不是一个人。"
+
+关于AI和计算的未来，Tan看到了**物理AI**的巨大机遇——机器人、自动驾驶汽车、国防——在这些领域，边缘和客户端计算将至关重要。他认为游戏还没有结束：NVIDIA拥有训练，但agentic AI和物理AI是"丛林"，每个人都有机会。
+
+他的目标？为英特尔股东带来10倍回报。"在Cadence，我卸任时，我们创造了大约76倍回报。在英特尔，基数更大，所以让我们做10倍。"风险投资家的心，应用于一家6000亿美元的公司。
+
+https://www.youtube.com/watch?v=asCgCv2XB4s
 
 ---
 
