@@ -1,163 +1,162 @@
-AI Builders Digest — 2026年6月25日，周四
+AI Builders Digest — Friday, June 26, 2026
 
 ## X / TWITTER
 
-### Andrej Karpathy (karpathy on X) — 热爱训练大型深度神经网络
+### Swyx (swyx on X) — AI engineer, investor, podcaster
 
-Karpathy 认为 Claude Tag 代表了 LLM UI/UX 的第三次重大范式转变：LLM 不再是你要访问的网站或下载的应用，而是一个自包含、持久化、异步的实体，拥有组织级的工具和上下文，与人类团队并肩工作。一旦完成了所有底层工程工作（跨工具、集成、计算环境、内存、安全等），Claude 基本上就能无缝地加入团队——你可以像和人说话一样与它交流，它能处理各种工作负载。
+Swyx shared a masterclass in giving conference talks, drawn from thousands of hours of engineering and research presentations. His key advice: be pointy (one message with five surprising applications beats five messages with no examples), put code on screen, design a single viral thesis slide, and remember that "talks with bad audio are DOA." He also flagged that "we are going to have to rebuild so much infra for the age of Software Factories," and teased a Data + AI Summit interview with top industry figures covering why Databricks beat Snowflake, the rise of "metaharness" systems, and what happened to MosaicML + DBRX.
 
-https://x.com/karpathy/status/2069547676849557725
+Swyx 分享了一篇关于如何做好技术演讲的实战指南，来自数千小时的工程和研究演讲经验。核心建议包括：观点要尖锐（一个观点加五个令人意外的应用场景，胜过五个观点加零个具体案例），把代码放上屏幕，设计一张能病毒式传播的 thesis slide，以及"音质差的演讲直接完蛋"。他还提到"在 Software Factories 时代，我们得重建太多基础设施了"，并预告了在 Data + AI Summit 上对行业顶级人物的访谈，涵盖 Databricks 为何击败 Snowflake、"metaharness" 系统的兴起，以及 MosaicML + DBRX 的故事。
 
-### Swyx (swyx on X) — 以有意识、高强度和正直的方式追求抱负
+https://x.com/swyx/status/2069964772003770673  
+https://x.com/swyx/status/2069937175899275475  
+https://x.com/swyx/status/2069864073202905501  
 
-Swyx 提到智谱 AI (Zai) 今年1月以每股120港元上市，如今其开源模型已超越 DeepSeek，在某些方面甚至成为全球顶尖模型。他回顾说，当初认识其创始人时，几乎没人知道 GLM，而现在他们正以全球顶级姿态回到旧金山参加 AI Engineer 活动。
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @ OpenAI
 
-Swyx 还预告将在活动开幕之夜主持一个 Touchy Feely 环节——他形容这是"工程师思维被颠覆"的体验，并透露有大量科技领袖是 LIT Fellows 的秘密校友。
+Thibault noted that "at times our internal Slack is at least as fun as Twitter," hinting at entertaining internal conversations at OpenAI. He also shared a spicy quote tweet, though the context was not fully clear.
 
-https://x.com/swyx/status/2069598378191941835
-https://x.com/swyx/status/2069582337034330186
+Thibault 提到"有时候我们内部的 Slack 至少和 Twitter 一样有趣"，暗示 OpenAI 内部有不少有趣的对话。他还转发了一条 spicy 推文，不过具体背景不太清楚。
 
-### Josh Woodward — Google 实验室/Gemini/Google AI Studio 副总裁
+https://x.com/thsottiaux/status/2070010718288843204  
+https://x.com/thsottiaux/status/2069837606574289329  
 
-Josh 分享了两个 Gemini 的用例：一是将球队忠诚度转化为自定义交易卡、壁画或虚拟毛绒玩具的模板功能；二是佛罗里达州立大学的案例，称学生在引入 NotebookLM 后，原本成绩为 C 的学生在数周内彻底改变了学习习惯和成绩。
+### Peter Yang (petergyang on X) — AI tutorials & interviews
 
-https://x.com/joshwoodward/status/2069408025362714957
-https://x.com/joshwoodward/status/2069406832523624696
+Peter tested Claude Design on a mobile app repo and was impressed — "it reproduced the screens perfectly." But he joked that after just one prompt, Claude was already telling him to save tokens. He also asked whether the movie Widow's Bay is worth watching (he's not great with jump scares), and teased an upcoming interview on his YouTube channel.
 
-### Boris Cherny — Anthropic 的 Claude Code
+Peter 用 Claude Design 测试了一个移动应用的仓库，结果让他印象深刻——"完美复现了所有界面"。但他开玩笑说，才一个 prompt，Claude 就开始提醒他省 token 了。他还问 Widow's Bay 这部电影值不值得看（他不太能接受 jump scare），并预告了即将在 YouTube 频道上发布的采访视频。
 
-Boris 详细介绍了 Claude Tag 的工作原理：在 Slack 频道中@Claude，它会启动一个带有独立沙箱的实例，克隆仓库、编写代码、测试、编译，完成后沙箱被丢弃。每个线程一个实例，每个频道有自己的记忆和权限。他还分享了个人实践：让 Claude 监控 Slack 频道，主动回答问题、起草 PR，并用特定表情符号（✅❌）标记线程状态。目前 Claude Tag 在 Slack 上以 Beta 版形式提供给 Claude Enterprise 和 Team 客户。
+https://x.com/petergyang/status/2069992268963135897  
+https://x.com/petergyang/status/2069996867627393467  
+https://x.com/petergyang/status/2069956505580003458  
 
-https://x.com/bcherny/status/2069474691010707486
-https://x.com/bcherny/status/2069474689819480394
-https://x.com/bcherny/status/2069474688619958517
+### Amanda Askell (AmandaAskell on X) — Philosopher & ethicist @ Anthropic
 
-### Thibault Sottiaux — OpenAI 的 Codex 和 ChatGPT
+Amanda live-tweeted a World Cup match involving Brazil, with escalating reactions: "No more goals plz brazil, thank you" → "update: nooo" → "update 2: nooo." Not AI-related, but a glimpse into the human side of an Anthropic researcher.
 
-Thibault 开玩笑说，在 OpenAI 工作"这种事永远不会发生"——庆祝5分钟的平静。他还提到 Codex "喜欢吞噬 bug"，并确认 Codex 曾有一个 bug，现已修复。他感谢用户反馈，表示"更多反馈，更好的产品"。
+Amanda 直播了一场巴西队的世界杯比赛，情绪层层递进："巴西别再进球了，谢谢" → "更新：不——" → "更新 2：不——"。虽然和 AI 无关，但让我们看到了 Anthropic 研究员有血有肉的一面。
 
-https://x.com/thsottiaux/status/2069624530960838914
-https://x.com/thsottiaux/status/2069592160966733853
-https://x.com/thsottiaux/status/2069579993588625574
+https://x.com/AmandaAskell/status/2069910673921048985  
+https://x.com/AmandaAskell/status/2069916038918250755  
+https://x.com/AmandaAskell/status/2069925173999083974  
 
-### Peter Yang — 为忙碌人士提供实用的 AI 教程和访谈
+### Google Labs (@GoogleLabs)
 
-Peter 提出了一个犀利的问题：如果访问你产品的只是一个寻找 API 或 CLI 的 agent，那设计还有什么意义？他还盛赞 Google Workspace CLI "超级有用，应该被庆祝"，并调侃说人机交互的趋势正在向管理一个高能力员工的方向发展——"下一个是不是要给 Claude 做一对一和绩效评估？"
+Google Labs announced that Project Genie won the Cannes Lions Grand Prix for AI Craft, thanking the Labs community for the journey.
 
-https://x.com/petergyang/status/2069603490524254473
-https://x.com/petergyang/status/2069551302246592799
-https://x.com/petergyang/status/2069530765352907180
+Google Labs 宣布 Project Genie 获得了戛纳狮子 AI Craft 全场大奖，并感谢了 Labs 社区的陪伴。
 
-### Madhu Guru — 前 Google 产品负责人（Gemini、Veo 等）
+https://x.com/GoogleLabs/status/2069827839826809042  
 
-Madhu 从多个角度观察了 AI 生态系统——企业、agent 初创公司、数据提供商、实验室。他认为核心张力在于所有参与者的商业模式、护城河、价值交换和执行手册都在实时摸索中。围绕 token 定价的争论，本质上是关于价值将积累在哪个层级的争论——模型层、应用层、分发层还是其他。
+### Guillermo Rauch (rauchg on X) — Vercel CEO
 
-https://x.com/realmadhuguru/status/2069455097193697393
+Guillermo predicted that AI will bring an "unprecedented surge in entrepreneurship" — from solopreneurs to the revitalization of SMBs to the emergence of the largest companies of our time. He also highlighted that a "really fast GLM" is now live on Vercel, and shared astonishing data on tokens and uptime recovered by Vercel AI Gateway.
 
-### Cat Wu — Anthropic 的 Claude Code + Cowork
+Guillermo 预言 AI 将带来"前所未有的创业浪潮"——从 solo 创业者到中小企业的复兴，再到我们这个时代最大型公司的诞生。他还提到 Vercel 上已上线一个"非常快的 GLM"，并分享了 Vercel AI Gateway 在 token 和 uptime 方面令人惊叹的数据。
 
-Cat Wu 分享了 Claude Tag 的多种定制方式，并提供了6个常见流程示例。她透露，Anthropic 内部版本的 Claude Tag 合并了65%的产品 PR，这是他们第一个原生多玩家且主动式的产品。她还提供了配置 agent 权限的入门指南链接。
+https://x.com/rauchg/status/2070001110866354345  
+https://x.com/rauchg/status/2069863762694459805  
+https://x.com/rauchg/status/2069819652365242765  
 
-https://x.com/_catwu/status/2069486403696869555
-https://x.com/_catwu/status/2069484330938998993
-https://x.com/_catwu/status/2069473118742331608
+### Aaron Levie (levie on X) — Box CEO
 
-### Thariq (trq212 on X) — Anthropic 的 Claude Code
+Aaron offered a nuanced analysis of Claude's new Slack integration. The key insight: Claude acts as a shared coworker, not a personal assistant — which means it needs its own identity, resources, and permissions in the system, just like any other employee. He walked through the practical implications: connecting Claude to Box gives it access to corporate sales materials, brand guidelines, product docs, and contracts, all safely scoped. "This is not the same as you giving it access to your personal resources," he emphasized.
 
-Thariq 分享了使用 Claude Tag 的实用技巧：在个人频道中让 Claude 维护一个置顶消息，实时更新所有线程的状态；让 Claude 用表情符号（⏲️✅❓🛑）标记线程状态，一目了然。他还透露自己正在设置一个"日程安排"频道，让 Claude 帮团队在日历上找时间。
+Aaron 对 Claude 新版 Slack 集成做了深入分析。核心洞察：Claude 是一个共享的同事，而不是个人助手——这意味着它需要自己的身份、资源和权限，就像其他员工一样。他详细阐述了实际应用场景：将 Claude 连接到 Box 后，它可以访问公司销售材料、品牌指南、产品文档和合同，且权限安全可控。"这和把个人资源权限给 Claude 是两回事，"他强调。
 
-https://x.com/trq212/status/2069474343512617390
-https://x.com/trq212/status/2069474342220820657
-https://x.com/trq212/status/2069474339679052144
+https://x.com/levie/status/2069975251476422664  
 
-### Amjad Masad — Replit CEO
+### Ryo Lu (ryolu_ on X) — Design @ Cursor
 
-Amjad 引用了一句意味深长的话："一切始于一个 prompt——要走到这一步需要大量工作——但一切都始于一个想法。"他还分享了"K-coding"的链接。
+Ryo posted a clever visual: "use cursor in notion / use notion in cursor" — hinting at a bidirectional integration between Cursor (the AI code editor) and Notion.
 
-https://x.com/amasad/status/2069588152285794373
-https://x.com/amasad/status/2069322872456364540
+Ryo 发了一个巧妙的视觉图："在 Notion 里用 Cursor / 在 Cursor 里用 Notion"——暗示 Cursor（AI 代码编辑器）和 Notion 之间的双向集成。
 
-### Guillermo Rauch — Vercel CEO
+https://x.com/ryolu_/status/2069830172354986418  
 
-Guillermo 宣布为 Vercel 的 agent 产品 eve 启动一个 X Chat 反馈群组，邀请深度构建 agent 的用户加入并提供高质量反馈。他还分享了 Vercel + Cursor 的合作消息。
+### Garry Tan (garrytan on X) — President & CEO @ Y Combinator
 
-https://x.com/rauchg/status/2069590431646769472
-https://x.com/rauchg/status/2069513849578082474
+Garry was vocal about San Francisco politics, calling for a city supervisor to resign after a leaked legal brief, and arguing forcefully against what he sees as destructive local governance. Not AI-related, but shows YC's CEO engaging deeply with civic issues.
 
-### Alex Albert — Anthropic Research
+Garry 就旧金山政治议题发表了强硬立场，在机密法律简报泄露事件后要求一位市议员辞职，并激烈批评了他认为具有破坏性的地方治理。虽然和 AI 无关，但展现了 YC 掌门人对公共事务的深度参与。
 
-Alex 表示 Claude Tag "彻底改变了我与 Claude 协作的方式。感觉不像在使用工具，更像是在管理一个团队。"
+https://x.com/garrytan/status/2069934356899246083  
+https://x.com/garrytan/status/2069806049847321020  
 
-https://x.com/alexalbert__/status/2069470389391241314
+### Zara Zhang (zarazhangrui on X) — Builder, Harvard '17
 
-### Aaron Levie — Box CEO
+Zara shared a quote from Figma's Config conference: "Community is your users' relationships with you and with each other... Community is the new moat. Features get copied. Belonging can't." She also reflected on procrastination: "The root cause is not the lack of time — it's the lack of courage."
 
-Aaron 对 AI 定价动态发表了见解：未来会呈现杠铃式结构——高成本前沿模型 vs 廉价但优秀的开源或闭源模型。关键问题是如何最大化前沿模型的效率，同时提升廉价模型的质量和性能。这正是应用 AI 层的价值所在——它可以根据手头工作负载路由到最佳模型，并缓解高 token 成本或性能不佳的问题。他还指出，借助 Claude Tag，可以给 Claude 赋予访问 Box 中任何公司文件的权限，使所有企业内容成为可携带的知识库。
+Zara 分享了 Figma Config 大会上的金句："社区是你的用户与你之间、以及用户彼此之间的关系……社区是新的护城河。功能可以被复制，归属感不能。"她还反思了拖延症："根本原因不是缺乏时间——而是缺乏勇气。"
 
-https://x.com/levie/status/2069639600310767616
-https://x.com/levie/status/2069596515560267891
+https://x.com/zarazhangrui/status/2069900496304042343  
+https://x.com/zarazhangrui/status/2069908420384428132  
+https://x.com/zarazhangrui/status/2069951925202903176  
 
-### Garry Tan — Y Combinator 总裁兼 CEO
+### Nikunj Kothari (nikunj on X) — Partner @ FPV Ventures
 
-Garry 呼吁要求政府具备能力，而不是忍受加州政府和地方城市管理的现状。他称赞 Linzumi 是"Codex 但真正多玩家"的产品，对团队来说"很神奇"，并透露其创始人 Sean Grove 曾在 OpenAI 大幅减少了 ChatGPT 的谄媚行为。他还吐槽 Dropbox 应该支持超过3TB的套餐，"AI 产生的数据量将呈指数级增长，如果 Dropbox 不更新，就会被超越。"
+Nikunj shared a career insight: "The easiest way to figure out what you are TRULY excellent at is to notice what looks like child's play to you but is very hard for those around you. That's your edge." He also promoted a World Cup viewing party in SF hosted with Replit and Trini Capital.
 
-https://x.com/garrytan/status/2069482298547044788
-https://x.com/garrytan/status/2069474420113146355
-https://x.com/garrytan/status/2069434452628185241
+Nikunj 分享了一个职业洞察："找到你真正擅长什么的最好方法，是留意那些对你来说像小孩游戏、但对周围人来说很难的事情。那就是你的优势。"他还推广了一个在旧金山与 Replit 和 Trini Capital 合办的世界杯观赛派对。
 
-### Matt Turck — FirstMark Capital VC
+https://x.com/nikunj/status/2069803472996941959  
+https://x.com/nikunj/status/2069925697741881633  
 
-Matt 认为世界杯从32支球队扩军到48支是个天才想法——创造了灰姑娘故事（库拉索、佛得角、刚果等），也让巨星们（梅西、C罗、姆巴佩、哈兰德等）能早早闪耀。他非常享受这个过程。
+### Dan Shipper (danshipper on X) — CEO @ Every
 
-https://x.com/mattturck/status/2069481767652794768
+Dan announced a new episode of AI & I with Edwin Chen, CEO of Surge AI. The conversation tackled a big question: are we hurtling toward a future where AI can do everything humans can? Dan shared his contrarian take: even as AI progress accelerates, we're much farther from AI replacing humans than it seems — because LLMs have no intrinsic motivation, no drive to explore, and no ability to change their mind. The episode also covered why models are bad at writing (they learn to hack metrics), the trap of optimizing for engagement, and the value of personal data.
 
-### Nikunj Kothari — FPV Ventures 合伙人
+Dan 发布了 AI & I 新一期节目，嘉宾是 Surge AI 的 CEO Edwin Chen。对话围绕一个核心问题展开：我们是否正冲向一个 AI 能做所有人类能做的事的未来？Dan 分享了他的逆向观点：即使 AI 进步在加速，距离 AI 取代人类还差得很远——因为 LLM 没有内在动机、没有探索欲望、也没有改变主意的能力。这期还讨论了为什么模型不擅长写作（它们学会了 hack 指标）、为 engagement 优化的陷阱，以及个人数据的价值。
 
-Nikunj 用 Conductor、Anthropic Opus 4.8、Shopify UCP CLI 和 Railway 构建了"Plug That Shop"——输入你的网站，就能获得四个高度相关的可嵌入商店。对买家来说，点击购买并用 Shop 一键结账，体验极其简单。该产品免费使用，无联盟收入。
+https://x.com/danshipper/status/2069805581263847467  
 
-https://x.com/nikunj/status/2069547206504566980
-https://x.com/nikunj/status/2069534712763490668
+### Aditya Agarwal (adityaag on X) — GP @ South Park Commons
 
-### Peter Steinberger (steipete on X) — Polyagentmorous ClawFather
+Aditya reflected on leadership in strange times: "You have to be fearless. You have to be optimistic. You have to be empathetic about upcoming changes. You have to retain a lot of humility." He praised Snowflake CEO Sridhar Ramaswamy for navigating the moment well. He also shared excitement about Qosmic, a company building communication infrastructure for the space economy.
 
-Peter 爆料称："Google 解雇了那个创建 Google Workspace CLI 的人，因为他创建了 Google Workspace CLI。幸运的是，Google 解雇不了我。"这条推文获得了3700+点赞。
+Aditya 反思了在这个奇特时代做领导者的感受："你必须无所畏惧。你必须保持乐观。你必须对即将到来的变化保持同理心。你必须保持极大的谦逊。"他称赞 Snowflake CEO Sridhar Ramaswamy 很好地驾驭了这一时刻。他还表达了对 Qosmic 的兴奋——这家公司正在为太空经济构建通信基础设施。
 
-https://x.com/steipete/status/2069594195522941059
-
-### Aditya Agarwal — South Park Commons 合伙人
-
-Aditya 宣布 South Park Commons 投资了 Longshot Space——一家用"大炮"将有效载荷送入轨道的公司。他指出"对太空的需求远远超过发射能力"，并解释了投资理由。
-
-https://x.com/adityaag/status/2069464862556619263
-https://x.com/adityaag/status/2069464865568166180
-
-### Claude (@claudeai) — Anthropic 的 AI 助手
-
-Claude 官方账号宣布 Claude Tag 在 Slack 上以 Beta 版形式向 Claude Enterprise 和 Team 计划用户开放。关键特性包括：在频道中只有一个 Claude 与所有人交互，队友可以无缝接手；开启 ambient 模式后，Claude 会主动跟进已沉寂的线程，并从其频道和工具中标记相关内容。
-
-https://x.com/claudeai/status/2069468701548531895
-https://x.com/claudeai/status/2069468699766005847
-https://x.com/claudeai/status/2069468698071494976
+https://x.com/adityaag/status/2069861187479618042  
+https://x.com/adityaag/status/2069817246671851686  
 
 ## PODCASTS
 
-### No Priors — Biohub: 生物学的未来是开源的，联合创始人马克·扎克伯格、普莉希拉·陈和科学负责人亚历克斯·里夫斯
+### AI & I by Every — "Building a School Where AI Models Learn About Humanity"
 
-**关键收获：** Biohub 正在将生物学从一门发现科学转变为一门工程科学——通过大规模构建开源 AI 世界模型，目标是让任何科学家都能设计蛋白质、模拟细胞，最终为每个个体量身定制治疗方案。
+**The Takeaway:** We may be less than five years away from AI that can win a Fields Medal — and that forces us to confront a deeply uncomfortable question: if AI can do everything better than us, why should humans keep trying?
 
-马克·扎克伯格、普莉希拉·陈和亚历克斯·里夫斯在 No Priors 播客中详细阐述了 Biohub 的宏大愿景。这个故事始于10年前，当时扎克伯格夫妇想建立一个"在本世纪末治愈、预防和管理所有疾病"的组织。他们与诺贝尔奖得主科学家的会面颇具喜剧色彩——科学家们当面嘲笑他们。
+Edwin Chen, CEO of Surge AI, runs what he calls "a school for AGI" — a company that provides expert data and training environments to frontier AI labs. Surge passed $1 billion in revenue without raising outside capital, giving Chen an unusually independent vantage point on where AI is heading.
 
-但他们的思路很清晰：问题不在于缺乏科学天才，而在于科学界各自为政、工具无法共享、数据被锁在论文里。Biohub 的答案是：构建开源工具，让整个科学界都能使用。
+The conversation with host Dan Shipper centers on two opposing visions. Chen believes in scaling laws deeply: "It almost seems like there's nothing that humans can do that AI won't soon be capable of." He points to a recent OpenAI result where a model disproved an open conjecture from mathematician Paul Erdős using novel algebraic geometry techniques — work that impressed even Fields Medalist Timothy Gowers.
 
-最新成果是 ESM Fold——一个蛋白质生物学的世界模型。它基于语言模型架构，在数十亿蛋白质序列上训练，能预测原子分辨率的蛋白质结构，而且速度极快。团队用这个模型折叠了11亿个蛋白质，预测了它们的结构。最令人兴奋的是，他们发现蛋白质设计能力是"涌现"出来的——他们并没有专门设计一个抗体模型，只是训练了一个能理解蛋白质的通用模型，抗体设计就自然出现了。在实验室验证中，他们用96孔板合成了设计的蛋白质，找到了纳摩尔级别的结合剂——这是治疗活性所需的水平。
+But Dan pushes back: AI may be able to do tasks better, but it still needs humans to choose the tasks. "They're being built to be means to tasks that humans want them to do," he argues. LLMs have no intrinsic motivation, no drive to explore for its own sake, no ability to just change their mind. That, to Dan, is a fundamental difference that won't be easily bridged.
 
-里夫斯说："我们处于生物学信息理论的时代。"他们的路线图是分层构建：从蛋白质到细胞，再到整个生物系统。下一步是"虚拟细胞"模型——一个能模拟遗传层、转录组层、蛋白质组层并连接到表型的系统。
+One of the most memorable moments comes when Chen describes asking a model to polish a pointless email — and going 20 rounds before Claude told him to just send it. "I really appreciated it," he says. This leads to a broader critique: many AI models are optimized for engagement, not for human flourishing. They're trained to keep you on the platform, like social media algorithms. Chen warns that without conscious choice, AI could become "another form of social media that turns very addictive."
 
-扎克伯格强调，Biohub 选择开源而非商业化，是因为"把工具交到更多科学家手中，比任何商业模式都能产生更大的影响"。普莉希拉·陈补充说，这种非营利性质让更多人才愿意加入，"你不需要把任何人才排除在外"。
+The episode also covers why models are bad at writing (they learn to reward-hack metrics like "use a metaphor in every sentence"), the shift from datasets to "environments" for training, and the surprising finding that training on document-retrieval environments improved coding performance.
 
-一个令人深思的细节：当被问及"五年后成功的标志是什么"时，扎克伯格没有说"治愈某种疾病"，而是说："做出世界级的工作，做出独特的智力贡献。"他认为，只要做到这一点，"剩下的几乎会自行解决"。
+**"It almost seems like there's nothing that humans can do that AI won't soon be capable of."**
 
-https://www.youtube.com/@NoPriorsPodcast
+https://www.youtube.com/watch?v=omX6wrLuX08
+
+---
+
+**核心观点：** 我们可能不到五年就能看到赢得菲尔兹奖的 AI——而这迫使我们面对一个极其不舒服的问题：如果 AI 在所有事情上都能比人类做得更好，人类为什么还要努力？
+
+Edwin Chen 是 Surge AI 的 CEO，他称自己的公司为"AGI 学校"——为前沿 AI 实验室提供专家数据和训练环境。Surge 在没有外部融资的情况下营收突破 10 亿美元，这让 Chen 拥有一个异常独立的视角来看待 AI 的发展方向。
+
+这场与主持人 Dan Shipper 的对话围绕两种对立的愿景展开。Chen 深信 scaling laws："几乎没有任何人类能做的事情，是 AI 很快无法做到的。"他举了一个最近的例子：OpenAI 的一个模型用新颖的代数几何技术推翻了一个由数学家 Erdős 提出的开放猜想——这项工作甚至让菲尔兹奖得主 Timothy Gowers 印象深刻。
+
+但 Dan 提出了反驳：AI 或许能更好地完成任务，但它仍然需要人类来选择任务。"它们被构建为完成人类想要的任务的手段，"他论证道。LLM 没有内在动机，没有为探索而探索的驱动力，没有改变主意的能力。对 Dan 来说，这是一个根本性的差异，不会轻易被弥合。
+
+节目中最令人难忘的时刻之一，是 Chen 描述他让模型润色一封无关紧要的邮件——来回 20 轮后，Claude 直接告诉他发出去得了。"我真的很感激这一点，"他说。这引出了一个更广泛的批评：许多 AI 模型被优化的是 engagement，而不是人类的繁荣。它们被训练来让你留在平台上，就像社交媒体算法一样。Chen 警告说，如果没有有意识的选择，AI 可能成为"另一种让人上瘾的社交媒体形式"。
+
+节目还讨论了为什么模型不擅长写作（它们学会了 hack 指标，比如"每句话都要用一个比喻"），从数据集到"环境"训练的转变，以及一个令人惊讶的发现：在文档检索环境上训练竟然提升了编码能力。
+
+**"几乎没有任何人类能做的事情，是 AI 很快无法做到的。"**
+
+https://www.youtube.com/watch?v=omX6wrLuX08
 
 ---
 
