@@ -1,148 +1,128 @@
-AI Builders Digest — July 5, 2026
+AI Builders Digest — July 6, 2026
 
-## X/TWITTER
+## X / TWITTER
 
-### AI builder Swyx (swyx on X)
+**Anthropic's Amanda Askell** — Happy birthday, America! You don't look a day over 200.
+https://x.com/AmandaAskell/status/2073569330940531152
 
-Swyx shared a sharp observation about the "tools for thought" community: they spent a decade building beautiful canvas-based demos, only to be completely overtaken by low-contrast, poorly designed CLIs that win because they do commodity thinking for you. He also noted that Factorio has "broken containment," suggesting the game's optimization mindset is spreading beyond gaming culture.
+Anthropic 的哲学家兼伦理学家 Amanda Askell 发了一条轻松的国庆祝福。没有发表深刻的技术观点，只是祝美国生日快乐，语气俏皮。
 
-Swyx 分享了一个犀利的观察："思维工具"社区花了十年时间做漂亮的画布式 demo，结果被那些低对比度、设计粗糙的 CLI 工具彻底碾压——原因很简单，它们帮你完成了"通用思考"。他还提到《异星工厂》已经"破圈"，暗示这款游戏的优化思维正在超越游戏文化本身。
+---
 
-[View tweet](https://x.com/swyx/status/2073220591684096087) | [View tweet](https://x.com/swyx/status/2073202219944649015)
+**Anthropic's Cat Wu (Claude Code + Cowork)** — Cat Wu shares her appreciation for Claude Fable 5's improved judgment. In a retention analysis, Fable 5 automatically used propensity score matching (matching users on activity to compare like with like) without being asked. She notes it's exciting to see this judgment extend across all its work — from writing emails and docs in Cowork to debugging complex errors in Claude Code.
+https://x.com/_catwu/status/2073439890482794966
 
-### Anthropic's Claude Code + Cowork Cat Wu (_catwu on X)
+Anthropic 的 Cat Wu 分享了 Claude Fable 5 的改进。在做留存分析时，Fable 5 自动使用了倾向得分匹配（根据用户活动进行匹配，确保同类比较），完全不需要她提出。她表示，很高兴看到这种判断力贯穿于 Fable 5 的所有工作中——从在 Cowork 中撰写邮件和文档，到在 Claude Code 中调试复杂错误。
 
-Cat Wu shared a practical tip: you can use Claude Code with computer use to set up Claude Tag. Just point it to the Claude Tag docs and it will connect your team's GitHub repo, data warehouse, Google Drive, and other data sources for you. She also asked the community what they're building with Fable 5 this long weekend, inviting demo submissions.
+---
 
-Cat Wu 分享了一个实用技巧：你可以用 Claude Code 配合 computer use 来设置 Claude Tag。只要指向 Claude Tag 的文档，它就会自动连接你团队的 GitHub 仓库、数据仓库、Google Drive 和其他数据源。她还问社区这个长周末在用 Fable 5 做什么，欢迎大家提交 demo。
+**Box CEO Aaron Levie** — No notable posts.
 
-[View tweet](https://x.com/_catwu/status/2073149354412822738) | [View tweet](https://x.com/_catwu/status/2073147672106873001)
+---
 
-### Anthropic Claude Code Thariq (trq212 on X)
+**Vercel CEO Guillermo Rauch** — Rauch animated the token spend race from Vercel AI Gateway's lifetime usage, which aggregates trillions of tokens from millions of developers monthly. The visualization shows fascinating fluctuations among the labs, Anthropic's dominance, and the rise of open weight AI.
+https://x.com/rauchg/status/2073563586270781674
 
-Thariq shared that the most important part of working with Fable is discovering your own unknowns so you can prompt it better, and he showed how he does that. He noted that his AIE talk was based on one of his posts, crediting Geoff Litt for an incredible discussion that helped him refine the ideas, including adding quizzes. He also shared examples of HTML artifacts for finding unknowns.
+Vercel CEO Guillermo Rauch 分享了一个可视化动画，展示了 Vercel AI Gateway 自上线以来的 token 消耗竞赛。该网关每月聚合来自数百万开发者的数万亿 token。动画清晰地展示了各大 AI 实验室之间的波动、Anthropic 的主导地位，以及开源权重 AI 的崛起。
 
-Thariq 分享了使用 Fable 最重要的心得：发现自己的未知领域，这样才能更好地写 prompt，并展示了他的具体做法。他指出自己在 AIE 的演讲就是基于其中一篇文章，感谢 Geoff Litt 的精彩讨论帮他完善了想法，包括加入了测验环节。他还分享了用于发现未知的 HTML artifacts 示例。
+---
 
-[View tweet](https://x.com/trq212/status/2073101078145724589) | [View tweet](https://x.com/trq212/status/2073101082428047681) | [View tweet](https://x.com/trq212/status/2073101079877943683)
+**YC CEO Garry Tan** — Garry Tan argues that San Francisco needs to build housing immediately, incentivize and build supply, and stop subsidizing demand. He criticizes the "idiotic NIMBY class" for attacking people doing good work and opposing YIMBY Family Zoning plans that would allow more housing construction.
+https://x.com/garrytan/status/2073575065917280331
 
-### Replit CEO Amjad Masad (amasad on X)
+YC 总裁兼 CEO Garry Tan 认为旧金山需要立即建房，激励和增加供应，并停止补贴需求。他批评了那些反对 YIMBY 家庭分区计划、攻击做实事的人的 "愚蠢 NIMBY 阶层"。
 
-Amjad Masad announced that video generation is now available on Replit, inviting users to try it out.
+---
 
-Amjad Masad 宣布 Replit 现在支持视频生成功能，邀请用户试用。
+**FirstMark Capital VC Matt Turck** — No notable posts.
 
-[View tweet](https://x.com/amasad/status/2073003971287863717)
+---
 
-### Vercel CEO Guillermo Rauch (rauchg on X)
+**FPV Ventures partner Nikunj Kothari** — Nikunj Kothari shared a personal reflection on moving to America for undergrad and living there ever since. He expressed gratitude for the opportunities the country has given him, calling it "no greater land of opportunity" despite its issues.
+https://x.com/nikunj/status/2073447791876317338
 
-Guillermo Rauch introduced the concept of "agentic self-improvement": give your agent the ability to introspect its past runs, spot inefficiencies, errors, and redundant tool calls, and produce new prompts and skills. He noted that this is why agent observability is built-in when you deploy to Vercel.
+FPV Ventures 合伙人 Nikunj Kothari 分享了一段个人感悟：他来美国读本科并一直生活至今。他对这个国家给予他的机会表示感谢，称尽管存在各种问题，但 "没有比这更伟大的机遇之地"。
 
-Guillermo Rauch 提出了"智能体自我改进"的概念：让你的 agent 能够回顾过去的运行记录，发现效率低下、错误和冗余的工具调用，并自动生成新的 prompt 和技能。他指出这就是为什么部署到 Vercel 时内置了 agent 可观测性。
+---
 
-[View tweet](https://x.com/rauchg/status/2073132174958841887)
+**OpenAI's Thibault Sottiaux (Codex & ChatGPT)** — Thibault Sottiaux asked a provocative question to the community: "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?" The post generated nearly 2,000 replies, indicating significant community engagement around Codex's remaining limitations.
+https://x.com/thsottiaux/status/2073551549494596079
 
-### Box CEO Aaron Levie (levie on X)
+OpenAI 的 Thibault Sottiaux 向社区提出了一个尖锐问题："Codex 仍然做不好、而且我们早就应该搞定的东西是什么？" 这条帖子获得了近 2000 条回复，反映出社区对 Codex 现有局限性的高度关注。
 
-Aaron Levie wrote a substantive thread arguing that the battle in AI is shaping up to be a battle for context. The platforms that capture and leverage the best context within their agents—and can pick the right models for the task—will be where agents do their best work. He argues the applied AI layer has far more value than being just an LLM wrapper, because organizing critical knowledge in a governed way, routing work between frontier and lower-cost models, and handling change management are all essential. He also noted that the applied layer is in a good position to train its own domain-specific models.
+---
 
-Aaron Levie 写了一篇有深度的长推文，认为 AI 领域的竞争本质上是"上下文之战"。能够在其 agent 中捕获和利用最佳上下文——并能针对任务选择合适的模型——的平台将成为 agent 发挥最大价值的地方。他认为应用层远不止是 LLM wrapper，因为以受控方式组织关键知识、在前沿模型和低成本模型之间路由工作、以及处理变革管理都至关重要。他还指出应用层完全有能力训练自己的领域专用模型。
+**OpenAI CEO Sam Altman** — Sam Altman expressed gratitude for America on its 250th anniversary, calling it "the most impressive social experiment in history." He thanked the people who created the idea of America, everyone who built it over the past 250 years, and those who will carry it forward for the next 250.
+https://x.com/sama/status/2073635910512726444
 
-[View tweet](https://x.com/levie/status/2073138135014502777)
+OpenAI CEO Sam Altman 在美国 250 周年之际表达了感激之情，称其为 "历史上最令人印象深刻的社会实验"。他感谢了创造美国理念的人、过去 250 年间建设它的人，以及未来 250 年将继续推动它前进的人。
 
-### Y Combinator CEO Garry Tan (garrytan on X)
+---
 
-Garry Tan shared his belief that AI will bring the quality of healthcare up 100x, noting that wait times for specialists are increasing just as AI is about to change everything. He also commented on NIMBYism, arguing that performative feel-good virtue signaling doesn't solve the real problem of building housing.
+**Linear head of product Nan Yu** — Nan Yu shared a sharp observation about code review and bug catching: "The best way to catch bugs is to use the product and see if you can break it. You're not going to find most bugs by dead reckoning the code." He argues that code review is for architecture and API design to control technical debt, not for finding bugs.
+https://x.com/thenanyu/status/2073410299680428445
 
-Garry Tan 认为 AI 将把医疗质量提升 100 倍，指出专家门诊等待时间正在增加，而 AI 即将改变这一切。他还评论了 NIMBY 现象，认为表演性的自我感觉良好的道德信号并不能解决建造住房的真正问题。
+Linear 产品负责人 Nan Yu 分享了一个关于代码审查和 bug 发现的犀利观点："发现 bug 的最好方法是使用产品并试图破坏它。你不可能通过死磕代码来发现大多数 bug。" 他认为，代码审查的目的是为了把控架构和 API 设计，以控制技术债，而不是用来找 bug 的。
 
-[View tweet](https://x.com/garrytan/status/2073053799791710301) | [View tweet](https://x.com/garrytan/status/2073104683636547909)
+---
 
-### FPV Ventures partner Nikunj Kothari (nikunj on X)
+**Peter Steinberger (OpenClaw)** — Peter Steinberger announced a new feature for his platform that shows exactly when token resets expire, helping users optimize their "valuemaxxing game."
+https://x.com/steipete/status/2073482942513565713
 
-Nikunj Kothari observed that AI labs seem to release models when long weekends are coming up—Opus 4.5 before Thanksgiving, Fable 5 now before July 4th—giving the masses time to tinker and have their minds blown. He also noted that despite being a vocal critic of Gemini's product experience, it's still the only place where with a single API key you can really do it all: Flash for fast cheap long context tasks, Nano for world-class images, search with grounding, and real-time audio.
+Peter Steinberger 宣布了他的平台即将上线的新功能：精确显示 token 重置的到期时间，帮助用户优化他们的 "价值最大化" 策略。
 
-Nikunj Kothari 观察到 AI 实验室似乎喜欢在长周末前发布新模型——感恩节前出 Opus 4.5，7 月 4 日前出 Fable 5——让大众有时间把玩、被震撼。他还指出，尽管自己是 Gemini 产品体验的直言批评者，但它仍然是唯一一个用单一 API key 就能做所有事情的地方：Flash 用于快速廉价的长上下文任务，Nano 用于世界级图像，search with grounding，以及实时音频。
+---
 
-[View tweet](https://x.com/nikunj/status/2073071325644816440) | [View tweet](https://x.com/nikunj/status/2073151491557478883)
+**Peter Yang** — No notable posts.
 
-### OpenClaw creator Peter Steinberger (steipete on X)
+---
 
-Peter Steinberger shared a clever tip: if you think Codex sucks at design, try "use imagegen to re-imagine this design and implement that." He also fed Fable 80,000 of his tweets so it could roast him even more.
+**Swyx** — No notable posts.
 
-Peter Steinberger 分享了一个巧妙的技巧：如果你觉得 Codex 设计能力不行，试试让它"用图片生成重新想象这个设计并实现它"。他还把自己 8 万条推文喂给了 Fable，让它能更狠地吐槽自己。
+---
 
-[View tweet](https://x.com/steipete/status/2073277317464682723) | [View tweet](https://x.com/steipete/status/2073295890857758810)
+**Dan Shipper (Every CEO)** — Dan Shipper noted his biggest learning from the 3Blue1Brown episode on Dwarkesh Patel's podcast: he's been mispronouncing every famous mathematician's name this whole time.
+https://x.com/danshipper/status/2073422764275364153
 
-### Every CEO Dan Shipper (danshipper on X)
+Every 的 CEO Dan Shipper 提到，他从 Dwarkesh Patel 播客的 3Blue1Brown 那一期学到的最大的教训是：他一直以来都把每一位著名数学家的名字念错了。
 
-Dan Shipper clarified that Fable 5 is the same model as before, but it falls back to Opus 4.8 slightly more, so benchmarks are measuring a mix. He called it a "skill issue." He also shared the Fable 5 prompt library and humorously calculated token usage: a new personal iOS app end to end costs 5M tokens, clearing your whole prod bug backlog costs 20M tokens, and unnecessarily detailed responses to every unread email, Slack, and text message costs 30M tokens.
-
-Dan Shipper 澄清 Fable 5 和之前是同一个模型，只是稍微更多回退到 Opus 4.8，所以基准测试测的是两者的混合。他称之为"技术问题"。他还分享了 Fable 5 prompt 库，并幽默地计算了 token 用量：一个完整的个人 iOS 应用需要 500 万 token，清空整个生产环境的 bug backlog 需要 2000 万 token，给每封未读邮件、Slack 和短信写过于详细的回复需要 3000 万 token。
-
-[View tweet](https://x.com/danshipper/status/2073097796941484486) | [View tweet](https://x.com/danshipper/status/2073076447992746379)
-
-### Zara Zhang (zarazhangrui on X)
-
-Zara Zhang observed that people are getting less willing to buy tools—if it's just a tool, they figure they can build it themselves with coding agents. What they'll pay for is the feeling of hiring expertise they don't have. She also shared that tweeting a lot is easier than people think once you get over the first hump; it stops being a task and becomes a lens through which you see your day.
-
-Zara Zhang 观察到人们越来越不愿意为工具付费了——如果只是工具，他们觉得用 coding agent 自己就能做。他们愿意付费的是"雇佣自己没有的专业知识"的感觉。她还分享说，多发推文比人们想象的要容易，一旦跨过最初的障碍，它就不再是一个任务，而变成了你看待生活的一副眼镜。
-
-[View tweet](https://x.com/zarazhangrui/status/2073295900395606401) | [View tweet](https://x.com/zarazhangrui/status/2073280650300596414)
-
-### Linear head of product Nan Yu (thenanyu on X)
-
-Nan Yu noted that Tailwind's adoption by the company that brought you Bootstrap is a "supreme victory." He also loved the observation that if your field doesn't produce good training data, it was probably full of crap to begin with. On the AI + healthcare front, he said the best scenario is a doctor who spends significant time on your case and is equipped with LLMs.
-
-Nan Yu 指出 Tailwind 被创造了 Bootstrap 的公司采用，是"至高无上的胜利"。他还喜欢一个观察：如果你的领域生产不出好的训练数据，那它可能从一开始就没什么价值。在 AI + 医疗方面，他说最好的场景是医生花大量时间研究你的病例，并且配备了 LLM。
-
-[View tweet](https://x.com/thenanyu/status/2073194274435317767) | [View tweet](https://x.com/thenanyu/status/2073070255031615877) | [View tweet](https://x.com/thenanyu/status/2073066919200956793)
-
-### OpenAI Codex & ChatGPT Thibault Sottiaux (thsottiaux on X)
-
-Thibault Sottiaux posted a reflective tweet with an image, captioned "What it could have been," which received 2,504 likes and significant engagement.
-
-Thibault Sottiaux 发了一条带图的反思性推文，配文"它本可以是什么样子"，获得了 2504 个赞和大量互动。
-
-[View tweet](https://x.com/thsottiaux/status/2073079378808901663)
-
-### Claude (claudeai on X)
-
-Claude's official account featured Squidsoup, a collective of artists and designers who make immersive experiences with sound, light, and space. Claude caught up with them before one of their largest projects to date: a live performance with an orchestra at the Southbank Centre in London.
-
-Claude 官方账号介绍了 Squidsoup——一个用声音、光线和空间创造沉浸式体验的艺术家和设计师团体。Claude 在他们迄今为止最大的项目之一——伦敦南岸中心与管弦乐队合作的现场表演——之前与他们进行了交流。
-
-[View tweet](https://x.com/claudeai/status/2073028947478995406)
+---
 
 ## PODCASTS
 
-### The MAD Podcast with Matt Turck — Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro
+### The MAD Podcast with Matt Turck — Cloudflare CEO: The Internet's Business Model Is Dead
 
-**The Takeaway:** NVIDIA builds open-source AI models not to compete with its customers, but to understand AI deeply enough to design better GPUs—and to ensure the entire AI ecosystem thrives, because a rising tide lifts all (GPU-selling) boats.
+**The Takeaway:** The internet's 28-year-old ad-based business model is dying because bots don't click on ads, and the next five years will force a radical reinvention of how the internet is funded.
 
-**The Takeaway:** NVIDIA 做开源 AI 模型不是为了和客户竞争，而是为了深入理解 AI 以便设计更好的 GPU——同时确保整个 AI 生态繁荣，因为水涨船高，所有（卖 GPU 的）船都会受益。
+Cloudflare CEO Matthew Prince joins Matt Turck for a sweeping conversation about the state of the internet. Prince reveals a staggering milestone: for the first time in history, bot traffic has surpassed human traffic on the internet — and it happened in the first half of 2026, far earlier than anyone predicted. "In five years, you might have a thousand times as much traffic on the internet as you do today," Prince says. The driving force? AI agents. When a human shops for a digital camera, they might visit 5 sites; an agent might visit 5,000.
 
-Bryan Catanzaro leads Nemotron, NVIDIA's family of open foundation models. He's been at NVIDIA since 2008—back when people thought using GPUs for AI was crazy. He also spent time at Baidu's Silicon Valley AI Lab alongside Andrew Ng and a young Dario Amodei (now Anthropic's CEO). This gives him a rare vantage point: he's seen AI from the system level (he helped create cuDNN and Megatron) and from the application level.
+This explosion creates a fundamental economic problem. "The underlying business model of the internet for the last 28 years has remained basically the same, which is it's largely advertising. The problem is bots don't click on ads." Prince argues that the internet needs a new business model, and it's completely undefined. He's experimenting with micropayments — processing 10 million financial transactions per second, scaling to 100 million, which would be two orders of magnitude beyond Visa's capacity.
 
-Bryan Catanzaro 领导 NVIDIA 的开源基础模型家族 Nemotron。他从 2008 年就在 NVIDIA 了——那时候人们还觉得用 GPU 做 AI 是疯了。他还曾在百度硅谷 AI 实验室与吴恩达和年轻的 Dario Amodei（现 Anthropic CEO）共事。这给了他一个罕见的视角：他从系统层面（参与创建 cuDNN 和 Megatron）和应用层面都见证了 AI 的发展。
+Prince also shares the story behind Cloudflare's recent 20% layoff. "I do think in the next six to twelve months, almost every company is going to go through some exercise like this where they're gonna cut a bunch of their team." His rationale: once you know the change is coming, the kindest thing is to do it immediately, with generous severance, because the job market will be flooded in 6-12 months. He predicts a shift from 6:1 to 12:1 manager-to-report ratios, flattening organizations.
 
-The core insight of the conversation is that NVIDIA's model-building effort serves two distinct purposes. First, it's a tool for designing future hardware. As Catanzaro puts it, "Nemotron's first job is to help NVIDIA understand how to build the systems of the future." By training frontier models, NVIDIA discovers what bottlenecks matter, which then feeds directly into chip design. The Blackwell NVL72, for instance, was built specifically to handle mixture-of-experts (MoE) architectures—a design choice that only made sense because NVIDIA had been working on MoE models. Second, Nemotron exists to support the ecosystem. "We're not trying to be the only provider," Catanzaro says. "Whenever AI is further developed and deployed, it's an opportunity for our business."
+On security, Prince warns of a "Log4j-like vulnerability every single week for the next two years" as AI models become incredibly good at finding software flaws. But he's optimistic: "Two years from now, software is going to get just massively better." Internally, Cloudflare uses an agent that reviews every code release and configuration change, trained on 10 years of incidents. The result: uptime and reliability have improved by an order of magnitude in the last year.
 
-这场对话的核心洞见是：NVIDIA 做模型有两个截然不同的目的。第一，它是设计未来硬件的工具。Catanzaro 说："Nemotron 的第一份工作是帮助 NVIDIA 理解如何构建未来的系统。"通过训练前沿模型，NVIDIA 发现了什么瓶颈真正重要，然后直接反馈到芯片设计中。比如 Blackwell NVL72 就是专门为处理 mixture-of-experts (MoE) 架构而构建的——这个设计选择只有在 NVIDIA 自己做过 MoE 模型之后才有意义。第二，Nemotron 存在的目的是支持生态。"我们不是要成为唯一的供应商，"Catanzaro 说，"每当 AI 得到进一步开发和部署，对我们的业务来说就是机会。"
+The conversation closes with Prince's hopeful vision: "For the first time in human history, we have essentially a mathematical model of all of human knowledge. It also shows you where the gaps are." He imagines a future where AI licensing deals reward local, quirky, unique content — the kind the ad-driven internet killed. His wife bought their local newspaper; this year, it will make more from AI licensing than from display ads.
 
-The technical depth is impressive. Catanzaro walks through several key innovations: 4-bit pretraining (training models using only 16 values, which dramatically reduces energy and memory costs), hybrid transformer-Mamba architecture (combining state space models for global understanding with attention for exact recall), latent MoE (compressing tokens before routing them between GPUs to save bandwidth), and multi-token prediction (predicting multiple tokens at once to exploit the fact that reading weights from memory is the bottleneck, not the math).
+https://www.youtube.com/watch?v=UN47z_opfmo
 
-技术深度令人印象深刻。Catanzaro 详细介绍了几个关键创新：4-bit 预训练（仅用 16 个值训练模型，大幅降低能耗和内存成本）、混合 transformer-Mamba 架构（结合状态空间模型的全局理解能力和 attention 的精确召回能力）、latent MoE（在 GPU 之间路由 token 之前先压缩以节省带宽），以及多 token 预测（一次预测多个 token，利用"从内存读取权重才是瓶颈"这一事实）。
+**核心观点：** 互联网运行 28 年的广告商业模式正在消亡，因为机器人不会点击广告。未来五年，互联网的融资方式将被迫彻底重塑。
 
-On the open-source vs. closed-source debate, Catanzaro has a contrarian take on safety: "I think open technologies are generally safer because there's more sunlight." He argues that diversity is safer than monoculture, drawing a parallel to freedom of speech—societies that tried to decide top-down which ideas were safe found it "much less safe than a pluralism."
+Cloudflare CEO Matthew Prince 与 Matt Turck 进行了一场内容广泛的对话。Prince 揭示了一个惊人的里程碑：互联网上的机器人流量首次超过了人类流量——这发生在 2026 年上半年，远比任何人预测的都要早。"五年后，互联网上的流量可能是今天的一千倍，"Prince 说。背后的驱动力是 AI agent。当人类购买数码相机时，可能会浏览 5 个网站；而一个 agent 可能会浏览 5000 个。
 
-在开源与闭源的辩论中，Catanzaro 对安全性有一个反直觉的观点："我认为开放技术通常更安全，因为有更多的阳光。"他认为多样性比单一文化更安全，并类比言论自由——那些试图自上而下决定哪些想法安全的社会，最终发现"这比多元主义要危险得多"。
+这种爆发带来了根本性的经济问题。"过去 28 年，互联网的基本商业模式基本没变，主要靠广告。问题是机器人不会点击广告。"Prince 认为，互联网需要新的商业模式，而它目前完全没有定义。他正在试验微支付——每秒处理 1000 万笔金融交易，并扩展到 1 亿笔，这将是 Visa 处理能力的一百倍。
 
-Perhaps the most memorable moment is Catanzaro's closing reflection on intelligence itself. He rejects the singularity framing, arguing that intelligence is "so incredibly multifaceted"—the kind of intelligence that wins a math Olympiad is not the same kind that makes a great CEO or a hit musician. "Raw intelligence is kinda like the horsepower of an engine, but an engine running without wheels doesn't go anywhere." He ends with a beautiful metaphor: "We have an external stomach. We call it kitchen. Now we're creating an external brain." The implications, he says, are "pretty profound. Nobody actually really knows."
+Prince 还分享了 Cloudflare 最近裁员 20% 背后的故事。"我认为在未来 6 到 12 个月内，几乎每家公司都会经历类似的过程，裁掉一部分团队。"他的理由是：一旦你意识到变革即将到来，最仁慈的做法就是立即行动，并提供慷慨的遣散费，因为 6 到 12 个月后就业市场将被淹没。他预测管理层与员工的汇报比例将从 1:6 变为 1:12，从而使组织更加扁平化。
 
-也许最令人难忘的是 Catanzaro 结尾处对智能本身的反思。他拒绝奇点论的框架，认为智能"极其多面化"——赢得数学奥赛的智能和成为优秀 CEO 或热门音乐家的智能不是同一种。"原始智能有点像引擎的马力，但没有轮子的引擎哪儿也去不了。"他用一个优美的比喻结尾："我们有一个外部胃，我们称之为厨房。现在我们正在创造一个外部大脑。"他说，其影响"非常深远。实际上没人真正知道。"
+在安全方面，Prince 警告说，"未来两年，每周都会出现一个类似 Log4j 的漏洞"，因为 AI 模型在发现软件缺陷方面变得极其擅长。但他持乐观态度："两年后，软件质量将大幅提升。" 在 Cloudflare 内部，他们使用一个 agent 来审查每一次代码发布和配置变更，该 agent 基于 10 年的事故数据进行训练。结果：正常运行时间和可靠性在过去一年里提高了一个数量级。
 
-[Watch the full episode](https://www.youtube.com/watch?v=Oojrfdl42LI)
+对话以 Prince 充满希望的愿景结束："在人类历史上，我们第一次拥有了一个本质上包含所有人类知识的数学模型。它同时也向你展示了知识的空白在哪里。" 他设想了一个未来，AI 授权交易将奖励本地化、奇特、独特的内容——那些被广告驱动的互联网所扼杀的内容。他的妻子买下了他们当地的报纸；今年，这份报纸从 AI 授权中获得的收入将超过展示广告。
+
+---
+
+## OFFICIAL BLOGS
+
+No new posts from official AI company blogs this week.
 
 ---
 
