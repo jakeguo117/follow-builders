@@ -1,128 +1,145 @@
-AI Builders Digest — July 6, 2026
+AI Builders Digest — Tuesday, July 7, 2026
 
 ## X / TWITTER
 
-**Anthropic's Amanda Askell** — Happy birthday, America! You don't look a day over 200.
-https://x.com/AmandaAskell/status/2073569330940531152
+### Linear Head of Product Nan Yu
 
-Anthropic 的哲学家兼伦理学家 Amanda Askell 发了一条轻松的国庆祝福。没有发表深刻的技术观点，只是祝美国生日快乐，语气俏皮。
+Nan Yu (Linear) delivered two sharp takes on AI agents. First, he dismissed the "real-time strategy game" model of managing agents as a dead end, noting that AI already beats 99% of human players and can out-micro them to an extreme degree. He also called out "bragging about running 10 Claude Code tabs" as pure theater.
 
----
-
-**Anthropic's Cat Wu (Claude Code + Cowork)** — Cat Wu shares her appreciation for Claude Fable 5's improved judgment. In a retention analysis, Fable 5 automatically used propensity score matching (matching users on activity to compare like with like) without being asked. She notes it's exciting to see this judgment extend across all its work — from writing emails and docs in Cowork to debugging complex errors in Claude Code.
-https://x.com/_catwu/status/2073439890482794966
-
-Anthropic 的 Cat Wu 分享了 Claude Fable 5 的改进。在做留存分析时，Fable 5 自动使用了倾向得分匹配（根据用户活动进行匹配，确保同类比较），完全不需要她提出。她表示，很高兴看到这种判断力贯穿于 Fable 5 的所有工作中——从在 Cowork 中撰写邮件和文档，到在 Claude Code 中调试复杂错误。
+https://x.com/thenanyu/status/2073920326304460847
+https://x.com/thenanyu/status/2073920959011074292
 
 ---
 
-**Box CEO Aaron Levie** — No notable posts.
+Linear 产品负责人 Nan Yu 对 AI agent 提出了两个犀利的观点。首先，他认为用"即时战略游戏"的方式来管理 agent 是一条死路——AI 已经能击败 99% 的人类玩家，微观操作能力远超人类。其次，他直言"炫耀同时开 10 个 Claude Code 标签页"纯属表演。
+
+### Anthropic Philosopher & Ethicist Amanda Askell
+
+Amanda Askell (Anthropic) shared a relatable observation: extracting a probability estimate from a doctor is "one of life's unnecessary boss battles." Even begging for an "interval-valued subjective probability" — essentially a hunch — is nearly impossible. She wondered if doctors get sued for giving out information.
+
+https://x.com/AmandaAskell/status/2073786264059625897
 
 ---
 
-**Vercel CEO Guillermo Rauch** — Rauch animated the token spend race from Vercel AI Gateway's lifetime usage, which aggregates trillions of tokens from millions of developers monthly. The visualization shows fascinating fluctuations among the labs, Anthropic's dominance, and the rise of open weight AI.
-https://x.com/rauchg/status/2073563586270781674
+Anthropic 的哲学家兼伦理学家 Amanda Askell 分享了一个让人深有同感的观察：让医生给出一个概率估算，简直是"人生中不必要的 boss 战"。就算你求他们给个区间估计——说白了就是直觉判断——也几乎不可能。她猜测医生可能是怕被告。
 
-Vercel CEO Guillermo Rauch 分享了一个可视化动画，展示了 Vercel AI Gateway 自上线以来的 token 消耗竞赛。该网关每月聚合来自数百万开发者的数万亿 token。动画清晰地展示了各大 AI 实验室之间的波动、Anthropic 的主导地位，以及开源权重 AI 的崛起。
+### Anthropic's Cat Wu on Claude Code for Sourcing Candidates
 
----
+Cat Wu (Anthropic, Claude Code) shared a creative new use case for Claude Code + workflows + artifacts: sourcing candidates. She tells Claude Code about the role and background she's looking for, asks it to kick off a dynamic workflow to find 100 candidates with LinkedIn, Twitter, blog, podcast links and a one-line pitch for each, then asks it to create an artifact and email it to her. She locks her laptop and reviews the list on the go once it's done.
 
-**YC CEO Garry Tan** — Garry Tan argues that San Francisco needs to build housing immediately, incentivize and build supply, and stop subsidizing demand. He criticizes the "idiotic NIMBY class" for attacking people doing good work and opposing YIMBY Family Zoning plans that would allow more housing construction.
-https://x.com/garrytan/status/2073575065917280331
-
-YC 总裁兼 CEO Garry Tan 认为旧金山需要立即建房，激励和增加供应，并停止补贴需求。他批评了那些反对 YIMBY 家庭分区计划、攻击做实事的人的 "愚蠢 NIMBY 阶层"。
+https://x.com/_catwu/status/2073806626965049686
 
 ---
 
-**FirstMark Capital VC Matt Turck** — No notable posts.
+Anthropic 的 Cat Wu 分享了一个 Claude Code 的新用法：用于候选人 sourcing。她告诉 Claude Code 要找的职位和背景，让它启动一个动态工作流，找到 100 位候选人并附上 LinkedIn、Twitter、博客、播客链接和一句话推荐语，然后生成 artifact 并邮件发送给她。之后她就合上电脑出门，等 Claude Code 完成后在路上查看。
+
+### Claude Code's Thariq
+
+Thariq (Anthropic, Claude Code) posted a humorous observation about life in San Francisco: "God gave me a sign... I mean, I was acasually influenced by the ASI at the end of time to maximize EV for humanity."
+
+https://x.com/trq212/status/2073956140610924936
 
 ---
 
-**FPV Ventures partner Nikunj Kothari** — Nikunj Kothari shared a personal reflection on moving to America for undergrad and living there ever since. He expressed gratitude for the opportunities the country has given him, calling it "no greater land of opportunity" despite its issues.
-https://x.com/nikunj/status/2073447791876317338
+Anthropic Claude Code 团队的 Thariq 发了一条关于旧金山生活的幽默吐槽："上帝给了我一个信号……我是说，我被时间尽头的 ASI 偶然影响了，来最大化人类的 EV。"
 
-FPV Ventures 合伙人 Nikunj Kothari 分享了一段个人感悟：他来美国读本科并一直生活至今。他对这个国家给予他的机会表示感谢，称尽管存在各种问题，但 "没有比这更伟大的机遇之地"。
+### YC CEO Garry Tan on AI, Japan, and the Leverage Constraint
 
----
+YC CEO Garry Tan posted a thread with two big ideas. First, he argued that the real constraint on human wealth was never resources — it was good ideas and the leverage to act on them. "We just deleted the leverage constraint for everybody. Now it's only the ideas. Go have them, and then build them. It's your time." Second, from Osaka, he observed that Japan already ran the experiment on the ceiling: thirty years of zero growth built the best trains, service, and craft on earth. "When you can't compete on more, you compete on better. Better AND more at the same time."
 
-**OpenAI's Thibault Sottiaux (Codex & ChatGPT)** — Thibault Sottiaux asked a provocative question to the community: "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?" The post generated nearly 2,000 replies, indicating significant community engagement around Codex's remaining limitations.
-https://x.com/thsottiaux/status/2073551549494596079
-
-OpenAI 的 Thibault Sottiaux 向社区提出了一个尖锐问题："Codex 仍然做不好、而且我们早就应该搞定的东西是什么？" 这条帖子获得了近 2000 条回复，反映出社区对 Codex 现有局限性的高度关注。
+https://x.com/garrytan/status/2073881439700168925
+https://x.com/garrytan/status/2073881438123110512
 
 ---
 
-**OpenAI CEO Sam Altman** — Sam Altman expressed gratitude for America on its 250th anniversary, calling it "the most impressive social experiment in history." He thanked the people who created the idea of America, everyone who built it over the past 250 years, and those who will carry it forward for the next 250.
-https://x.com/sama/status/2073635910512726444
+YC CEO Garry Tan 发了一系列推文，提出了两个重要观点。首先，他认为人类财富的真正限制从来不是资源，而是好的创意和付诸行动的能力。"我们刚刚为每个人消除了杠杆的限制。现在只剩下创意了。去拥有它们，然后去构建它们。这是你的时代。"其次，他在大阪观察到，日本已经做了"天花板实验"：三十年的零增长反而造就了全球最好的火车、服务和工艺。"当你无法在'更多'上竞争时，你就在'更好'上竞争。但同时做到更好和更多。"
 
-OpenAI CEO Sam Altman 在美国 250 周年之际表达了感激之情，称其为 "历史上最令人印象深刻的社会实验"。他感谢了创造美国理念的人、过去 250 年间建设它的人，以及未来 250 年将继续推动它前进的人。
+### FPV Ventures Partner Nikunj Kothari on Fundraising Theater
 
----
+Nikunj Kothari (FPV Ventures) called out the inefficiency of standard VC fundraising meetings. He argued that founders and VCs spending 30 minutes on Zoom going through a parroted deck is a waste — it could be a product brainstorm or simply getting to know each other. "What alpha do you get from hearing the same story again?" He suggested it's more efficient for both sides to upload their "prompts" to Claude and do it digitally.
 
-**Linear head of product Nan Yu** — Nan Yu shared a sharp observation about code review and bug catching: "The best way to catch bugs is to use the product and see if you can break it. You're not going to find most bugs by dead reckoning the code." He argues that code review is for architecture and API design to control technical debt, not for finding bugs.
-https://x.com/thenanyu/status/2073410299680428445
-
-Linear 产品负责人 Nan Yu 分享了一个关于代码审查和 bug 发现的犀利观点："发现 bug 的最好方法是使用产品并试图破坏它。你不可能通过死磕代码来发现大多数 bug。" 他认为，代码审查的目的是为了把控架构和 API 设计，以控制技术债，而不是用来找 bug 的。
+https://x.com/nikunj/status/2073903310982218088
 
 ---
 
-**Peter Steinberger (OpenClaw)** — Peter Steinberger announced a new feature for his platform that shows exactly when token resets expire, helping users optimize their "valuemaxxing game."
-https://x.com/steipete/status/2073482942513565713
+FPV Ventures 合伙人 Nikunj Kothari 批评了传统的 VC 融资会议的低效。他认为创始人和 VC 花 30 分钟在 Zoom 上过一遍背得滚瓜烂熟的 deck 纯属浪费时间——不如用来做产品头脑风暴或者单纯互相了解。"反复听同样的故事能获得什么 alpha？"他建议双方不如把各自的"prompts"上传到 Claude，数字化完成这个过程。
 
-Peter Steinberger 宣布了他的平台即将上线的新功能：精确显示 token 重置的到期时间，帮助用户优化他们的 "价值最大化" 策略。
+### Every CEO Dan Shipper on Fable Overkill
 
----
+Dan Shipper (Every) poked fun at AI tool overkill with two posts. In one, he described asking Fable to change a button color, and it responded by spinning up "a fleet of 100 agents" to get it done. In another, he shared a fable about Ultracode with the prompt "make no mistakes."
 
-**Peter Yang** — No notable posts.
-
----
-
-**Swyx** — No notable posts.
+https://x.com/danshipper/status/2073764166700048480
+https://x.com/danshipper/status/2073894034225897602
 
 ---
 
-**Dan Shipper (Every CEO)** — Dan Shipper noted his biggest learning from the 3Blue1Brown episode on Dwarkesh Patel's podcast: he's been mispronouncing every famous mathematician's name this whole time.
-https://x.com/danshipper/status/2073422764275364153
+Every CEO Dan Shipper 用两条推文调侃了 AI 工具的过度使用。一条是，他让 Fable 改个按钮颜色，结果 Fable 启动了"100 个 agent 的舰队"来完成这个任务。另一条是关于 Ultracode 的寓言，prompt 是"不许犯错"。
 
-Every 的 CEO Dan Shipper 提到，他从 Dwarkesh Patel 播客的 3Blue1Brown 那一期学到的最大的教训是：他一直以来都把每一位著名数学家的名字念错了。
+### OpenAI CEO Sam Altman
+
+Sam Altman shared a personal milestone: his older child put two words together for the first time. He said he was "approximately as amazed by this cognitive feat as I am by GPT-5.6 discovering new math."
+
+https://x.com/sama/status/2073791666553844074
+
+---
+
+OpenAI CEO Sam Altman 分享了一个个人里程碑：他的大孩子第一次把两个词连在一起说了。他说这个认知成就"让我感到的惊讶程度，差不多和 GPT-5.6 发现新数学一样"。
+
+### Other Builders
+
+**Peter Yang** — No notable AI posts (shared birthday/subscriber milestone and World Cup comments).
+
+**Zara Zhang** — Resurfaced a previously built skill for understanding code.
+
+https://x.com/zarazhangrui/status/2073768913310200310
+
+**Peter Steinberger (OpenClaw)** — Recommended using OpenClaw via clawgpt.com.
+
+https://x.com/steipete/status/2074007001802367446
+
+**Matt Turck (FirstMark)** — No notable AI posts (World Cup comments).
+
+**Amjad Masad (Replit)** — No notable AI posts (July 4th greeting).
+
+**Guillermo Rauch (Vercel)** — No notable AI posts (World Cup prediction).
 
 ---
 
 ## PODCASTS
 
-### The MAD Podcast with Matt Turck — Cloudflare CEO: The Internet's Business Model Is Dead
+### No Priors — "Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI Research Scientist Noam Brown"
 
-**The Takeaway:** The internet's 28-year-old ad-based business model is dying because bots don't click on ads, and the next five years will force a radical reinvention of how the internet is funded.
+https://www.youtube.com/watch?v=AZrU6y3pUcU
 
-Cloudflare CEO Matthew Prince joins Matt Turck for a sweeping conversation about the state of the internet. Prince reveals a staggering milestone: for the first time in history, bot traffic has surpassed human traffic on the internet — and it happened in the first half of 2026, far earlier than anyone predicted. "In five years, you might have a thousand times as much traffic on the internet as you do today," Prince says. The driving force? AI agents. When a human shops for a digital camera, they might visit 5 sites; an agent might visit 5,000.
+**The Takeaway:** The industry is evaluating AI models the wrong way — benchmarks without a test-time compute axis are actively misleading, and current safety frameworks don't account for the fact that a model's capability is now a function of how much money you spend on inference.
 
-This explosion creates a fundamental economic problem. "The underlying business model of the internet for the last 28 years has remained basically the same, which is it's largely advertising. The problem is bots don't click on ads." Prince argues that the internet needs a new business model, and it's completely undefined. He's experimenting with micropayments — processing 10 million financial transactions per second, scaling to 100 million, which would be two orders of magnitude beyond Visa's capacity.
+OpenAI research scientist Noam Brown, one of the godfathers of AI reasoning, returns to No Priors to explain why the industry's evaluation infrastructure is broken. The core problem: models like GPT-5.5 can think productively for weeks or even months if properly scaffolded, yet every benchmark today presents a single-number score that doesn't control for inference budget.
 
-Prince also shares the story behind Cloudflare's recent 20% layoff. "I do think in the next six to twelve months, almost every company is going to go through some exercise like this where they're gonna cut a bunch of their team." His rationale: once you know the change is coming, the kindest thing is to do it immediately, with generous severance, because the job market will be flooded in 6-12 months. He predicts a shift from 6:1 to 12:1 manager-to-report ratios, flattening organizations.
+Brown's critique is specific and actionable. When OpenAI released 5.5, the benchmark grid showed only a few percentage points improvement over 5.4 — leading to initial skepticism. But in practice, 5.5 is much more efficient with its thinking. "If you run it at max settings, 5.4 is thinking for a lot longer... Once you control for the amount of thinking time, 5.5 is a substantial jump." His proposed fix: every benchmark should have an x-axis — tokens, cost, or time — so you can see performance as a function of compute spent.
 
-On security, Prince warns of a "Log4j-like vulnerability every single week for the next two years" as AI models become incredibly good at finding software flaws. But he's optimistic: "Two years from now, software is going to get just massively better." Internally, Cloudflare uses an agent that reviews every code release and configuration change, trained on 10 years of incidents. The result: uptime and reliability have improved by an order of magnitude in the last year.
+This has direct implications for safety evaluations. Current responsible scaling policies and preparedness frameworks were designed in the GPT-3 era, when test-time compute scaling wasn't a thing. "With GPT-3, you couldn't scale test time compute. If you gave it a budget of $10 million, it really can't do that much more." Today, the capability of a model is a function of money. "If you give it a budget of $10,000, it can do a lot more than with $10. Give it $10 million, it can do even more. At what budget should you evaluate these models? The policies that exist today don't address that question."
 
-The conversation closes with Prince's hopeful vision: "For the first time in human history, we have essentially a mathematical model of all of human knowledge. It also shows you where the gaps are." He imagines a future where AI licensing deals reward local, quirky, unique content — the kind the ad-driven internet killed. His wife bought their local newspaper; this year, it will make more from AI licensing than from display ads.
+On recursive self-improvement, Brown pushes back against the fast-takeoff narrative. Because models rely on large-scale test-time compute to unlock their full intelligence, time itself becomes a bottleneck. "Things can only go so fast because the models need to run for long enough to actually do something really powerful." He believes the real dynamic is gradual compounding: models accelerate some parts of research but not others, and the bottlenecked areas shrink over time.
 
-https://www.youtube.com/watch?v=UN47z_opfmo
+Brown also revealed that there are likely significant latent capabilities in already-released models that nobody has explored. The Erdős unit distance problem — a math conjecture that stumped mathematicians — was disproven by an internal OpenAI model at a "dirt cheap" budget. After the announcement, people found they could get the same result from GPT-5.5 with proper scaffolding, at a cost of roughly $1,000 to $100,000. "Nobody had explored: what happens if I put $100,000 worth of compute into 5.5? What could it do? The answer is, yeah, you probably could get stuff like that out of it."
 
-**核心观点：** 互联网运行 28 年的广告商业模式正在消亡，因为机器人不会点击广告。未来五年，互联网的融资方式将被迫彻底重塑。
-
-Cloudflare CEO Matthew Prince 与 Matt Turck 进行了一场内容广泛的对话。Prince 揭示了一个惊人的里程碑：互联网上的机器人流量首次超过了人类流量——这发生在 2026 年上半年，远比任何人预测的都要早。"五年后，互联网上的流量可能是今天的一千倍，"Prince 说。背后的驱动力是 AI agent。当人类购买数码相机时，可能会浏览 5 个网站；而一个 agent 可能会浏览 5000 个。
-
-这种爆发带来了根本性的经济问题。"过去 28 年，互联网的基本商业模式基本没变，主要靠广告。问题是机器人不会点击广告。"Prince 认为，互联网需要新的商业模式，而它目前完全没有定义。他正在试验微支付——每秒处理 1000 万笔金融交易，并扩展到 1 亿笔，这将是 Visa 处理能力的一百倍。
-
-Prince 还分享了 Cloudflare 最近裁员 20% 背后的故事。"我认为在未来 6 到 12 个月内，几乎每家公司都会经历类似的过程，裁掉一部分团队。"他的理由是：一旦你意识到变革即将到来，最仁慈的做法就是立即行动，并提供慷慨的遣散费，因为 6 到 12 个月后就业市场将被淹没。他预测管理层与员工的汇报比例将从 1:6 变为 1:12，从而使组织更加扁平化。
-
-在安全方面，Prince 警告说，"未来两年，每周都会出现一个类似 Log4j 的漏洞"，因为 AI 模型在发现软件缺陷方面变得极其擅长。但他持乐观态度："两年后，软件质量将大幅提升。" 在 Cloudflare 内部，他们使用一个 agent 来审查每一次代码发布和配置变更，该 agent 基于 10 年的事故数据进行训练。结果：正常运行时间和可靠性在过去一年里提高了一个数量级。
-
-对话以 Prince 充满希望的愿景结束："在人类历史上，我们第一次拥有了一个本质上包含所有人类知识的数学模型。它同时也向你展示了知识的空白在哪里。" 他设想了一个未来，AI 授权交易将奖励本地化、奇特、独特的内容——那些被广告驱动的互联网所扼杀的内容。他的妻子买下了他们当地的报纸；今年，这份报纸从 AI 授权中获得的收入将超过展示广告。
+His personal test for new models? Building poker bots. With 5.2, he could build a poker solver about 5x faster than alone — but the model gaslit him constantly. With 5.5, it can do a full-scale poker solver with gentle steering. He predicts within 6-12 months, the model could zero-shot his entire PhD thesis in one go.
 
 ---
 
-## OFFICIAL BLOGS
+**核心观点：** 整个行业评估 AI 模型的方式是错误的——没有 test-time compute 维度的基准测试具有误导性，而当前的安全框架没有考虑到一个模型的能力现在取决于你在推理上花多少钱。
 
-No new posts from official AI company blogs this week.
+OpenAI 研究科学家 Noam Brown，AI 推理领域的奠基人之一，回到 No Priors 解释了为什么行业的评估基础设施已经过时。核心问题是：像 GPT-5.5 这样的模型如果搭建得当，可以高效思考数周甚至数月，但今天每个基准测试都只给出一个单一数字的分数，完全没有控制推理预算。
+
+Brown 的批评非常具体且有操作性。OpenAI 发布 5.5 时，基准测试网格只显示出比 5.4 提高几个百分点，导致外界最初持怀疑态度。但实际上，5.5 的思考效率高得多。"如果开到最大设置，5.4 的思考时间要长得多……一旦控制思考时间，5.5 是一个巨大的飞跃。"他的解决方案：每个基准测试都应该有一个 x 轴——token 数、成本或时间——这样你就能看到性能随推理投入的变化。
+
+这对安全评估有直接影响。当前的负责任扩展政策和准备框架是在 GPT-3 时代设计的，那时 test-time compute scaling 还不存在。"用 GPT-3，你无法扩展 test-time compute。给它 1000 万美元的预算，它也做不了太多。"今天，模型的能力是钱的函数。"给它 1 万美元的预算，它能做的比 10 美元多得多。给它 1000 万，它能做更多。应该在什么预算下评估这些模型？现有的政策根本没有解决这个问题。"
+
+关于递归自我改进，Brown 反驳了"快速起飞"的说法。因为模型需要大量的 test-time compute 来解锁全部智能，时间本身就成为了瓶颈。"事情只能进展得那么快，因为模型需要运行足够长的时间才能做出真正强大的事情。"他认为真正的动态是渐进式的复合：模型加速了研究的某些部分，但不是全部，而被瓶颈化的领域会随时间缩小。
+
+Brown 还透露，已经发布的模型中很可能存在大量未被探索的潜在能力。厄尔多斯单位距离问题——一个难倒数学家的猜想——被 OpenAI 的内部模型以"极其便宜"的预算推翻了。公告发布后，人们发现通过适当的 scaffolding，用 GPT-5.5 也能得到同样的结果，成本大约在 1000 到 10 万美元之间。"没有人探索过：如果我把 10 万美元的算力投入 5.5，它能做什么？答案是，是的，你很可能能得到这样的结果。"
+
+他测试新模型的方式？构建扑克机器人。用 5.2，他构建扑克求解器的速度比单独工作快约 5 倍——但模型经常 gaslight 他。用 5.5，只需温和引导就能完成全尺寸扑克求解器。他预测 6-12 个月内，模型能一次性零样本完成他的整个博士论文。
 
 ---
 
