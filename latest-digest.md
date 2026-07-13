@@ -1,154 +1,89 @@
-AI Builders Digest — July 12, 2026
+AI Builders Digest — Monday, July 13, 2026
 
 ## X / TWITTER
 
-### OpenAI Codex & ChatGPT builder Thibault Sottiaux
+**Swyx (AI Engineer, DXTips, Cognition, Temporal)**
+Swyx pushes the Jevons Paradox further: as coding agents get better and cheaper, demand for knowledge work won't shrink — it'll explode. Coding isn't the exception; it's the herald. When humans who wield agents well (aka "AI Engineers") scale, efficiency gains don't reduce work — they multiply it.
+https://x.com/swyx/status/2076155833428431012
 
-Thibault shared a poster from OpenAI's office showing how Codex usage limit resets affect their internal systems — "data is beautiful." He also celebrated major growth for ChatGPT Work, saying "you know it's a good model when you grow more in 1 day than last two weeks combined," and urged existing Codex users to keep using it while telling non-technical friends and family about ChatGPT Work.
+Swyx 把杰文斯悖论往前推了一步：当编码 agent 变得更好更便宜时，对知识工作的需求不会萎缩，反而会爆发。编码不是例外，而是先兆。当能熟练驾驭 agent 的人类（即"AI 工程师"）规模化时，效率提升不会减少工作——而是倍增它。
 
-- https://x.com/thsottiaux/status/2076054439140720719
-- https://x.com/thsottiaux/status/2076021263945039876
-- https://x.com/thsottiaux/status/2075961345351307739
+**OpenAI's Thibault Sottiaux**
+Thibault touts GPT 5.6 Sol as a major step up: fast, token-efficient, strong at both back-end and front-end, and crucially — it no longer overuses `useEffect`. For those not ready to install the Codex app, he shares a workaround: point Claude at GPT 5.6 Sol via a CLI alias. The community response? 3,871 likes and 243 retweets — people are paying attention.
+https://x.com/thsottiaux/status/2076145711922696371
+https://x.com/thsottiaux/status/2076119366647894371
 
-**OpenAI Codex 和 ChatGPT 的构建者 Thibault Sottiaux** 分享了一张办公室海报，展示了 Codex 使用额度重置如何影响内部系统——"数据真美"。他还庆祝 ChatGPT Work 的大幅增长，称"当你在一天内的增长超过过去两周的总和时，你就知道这是个好模型"，并建议现有 Codex 用户继续使用，同时向非技术背景的朋友和家人推荐 ChatGPT Work。
+Thibault 盛赞 GPT 5.6 Sol 是重大飞跃：速度快、token 高效、前后端都很强，最关键的是——它不再滥用 `useEffect`。对于还没准备好安装 Codex 应用的人，他分享了一个变通方案：通过 CLI alias 让 Claude 指向 GPT 5.6 Sol。社区反响？3,871 个赞，243 次转推——大家都在关注。
 
----
+**Box CEO Aaron Levie**
+The job AI was supposed to replace? Software engineering job postings are outpacing other fields. Levie's take: when you lower the cost of producing something with infinite use cases, demand for it goes up, not down. Software is now cheaper per unit, so people want more of it. But the job isn't fully automated (and won't be for a while) — you still need humans to maintain, decide, and run these systems long-term. Agents will cause abundance, not replacement.
+https://x.com/levie/status/2076116544980214164
 
-### Practical AI tutorials creator Peter Yang
+AI 本该取代的工作？软件工程岗位的招聘需求反而超过了其他领域。Levie 的观点：当你降低一种有无穷用例的生产成本时，需求不会下降，反而上升。软件的单位成本降低了，所以人们想要更多。但这份工作还没完全自动化（短期内也不会）——你仍然需要人类来维护、决策和长期运行这些系统。Agent 带来的是丰裕，而非替代。
 
-Peter shared his weekend project workflow: "Use Fable to build plan.html with design guidelines → Use Claude Design to make components + screens → Get gpt 5.6 to build." He also quote-tweeted something about design benchmarks, wondering "how do you benchmark design taste?" (No notable posts beyond the workflow and the benchmark question.)
+**Y Combinator CEO Garry Tan**
+Garry pushes for repealing CEQA in California to unlock housing — millions of units are blocked every year by a review process that shouldn't apply to by-right housing. Separately, he offers a characteristically optimistic framing: "So much could go wrong. But the interesting question is always: what happens if things go right?"
+https://x.com/garrytan/status/2075944103867830352
+https://x.com/garrytan/status/2075933358660730901
 
-- https://x.com/petergyang/status/2075999617666445714
-- https://x.com/petergyang/status/2076050876314300478
+Garry 呼吁废除加州 CEQA 法案以释放住房供应——每年有数百万套住房被不必要的审查流程卡住。另外，他给出了标志性的乐观框架："太多事情可能出错。但有趣的问题永远是：如果事情进展顺利呢？"
 
-**实用AI教程创作者 Peter Yang** 分享了他的周末项目工作流："用 Fable 构建 plan.html 并制定设计规范 → 用 Claude Design 制作组件和屏幕 → 让 gpt 5.6 来构建。"他还引用了一条关于设计基准测试的推文，好奇"设计品味要怎么基准测试？"
+**OpenAI CEO Sam Altman**
+Sam declares GPT 5.6 Sol the best model in the world — not just on benchmarks, but because "Elon is obsessed with me again." He also flags a surprising cost insight: 30% of model cost at high usage levels went to fable? That's a detail worth watching.
+https://x.com/sama/status/2075983427019612242
+https://x.com/sama/status/2075982820322025788
 
----
+Sam 宣称 GPT 5.6 Sol 是全世界最好的模型——不光是看 benchmark，而且因为"Elon 又开始 obsess 我了。"他还透露了一个惊人的成本洞察：在高使用量下，30% 的模型成本竟然花在了 fable 上？这个细节值得关注。
 
-### Box CEO Aaron Levie
+**Zara Zhang (Builder)**
+Zara confirms GPT 5.6 Sol's front-end chops with a simple verdict: "Ok 5.6 Sol is very good at front end 👌"
+https://x.com/zarazhangrui/status/2076130810143367453
 
-Aaron Levie quote-tweeted a post about enterprise AI, sharing a deep take on what AI transformation actually looks like in organizations. His key point: moving from chat tools to agents means deploying AI against specific workflows that span multiple functions — "this is a different way of deploying AI than solely rolling it out to end users." He highlighted that the real winners will be platforms that can be deployed for specific workflows with deep domain expertise, requiring FDE support, change management, organized data, and comprehensive evals.
+Zara 用一句话确认了 GPT 5.6 Sol 的前端能力："Ok 5.6 Sol is very good at front end 👌"
 
-- https://x.com/levie/status/2075963779599466894
+**FirstMark VC Matt Turck**
+Matt tracks Argentina's surprisingly tough World Cup run: struggled against #64, almost eliminated by #26, now in extra time against #19 with 10 men. Argentina's path to the final has been anything but smooth.
+https://x.com/mattturck/status/2076141940484010189
 
-**Box CEO Aaron Levie** 引用了一条关于企业 AI 的推文，深入分析了 AI 转型在组织中的真实面貌。他的核心观点：从聊天工具转向 agents，意味着要将 AI 部署到跨多个职能的具体工作流中——"这与单纯向终端用户推广 AI 是截然不同的方式。"他强调，真正的赢家是那些能够针对特定工作流部署、具备深厚领域专业知识的平台，这需要高管支持、变革管理、有序的数据和全面的评估体系。
+Matt 追踪了阿根廷令人意外的艰难世界杯之旅：对阵第 64 名球队时挣扎，差点被第 26 名淘汰，现在在少一人作战的情况下与第 19 名进入加时赛。阿根廷的决赛之路远非一帆风顺。
 
----
+**FPV Ventures partner Nikunj Kothari**
+Nikunj calls Argentina's run "the mandate of heaven" after a stunning Alvarez strike, and sets up the dream semifinals: England vs. Argentina, France vs. Spain. "Pure cinema."
+https://x.com/nikunj/status/2076150076087611433
 
-### Y Combinator President & CEO Garry Tan
+Nikunj 在 Alvarez 一记精彩射门后称阿根廷拥有"天命"，并展望了梦幻半决赛：英格兰对阿根廷，法国对西班牙。"纯粹的电影级对决。"
 
-Garry Tan made three quote tweets. One: "Make something agents want" — a succinct thesis for the agent era. Another: "Defund the grifters who created the SF Doom Loop." And a third about CEQA killing thousands of housing units in San Francisco.
+**Vercel CEO Guillermo Rauch**
+Guillermo posts a single line: "Easy money (Swiss francs)" — cryptic, but likely a bet on Switzerland in the World Cup.
+https://x.com/rauchg/status/2076151956440261008
 
-- https://x.com/garrytan/status/2075975184293765564
-- https://x.com/garrytan/status/2076002866582675674
-- https://x.com/garrytan/status/2075945096860807494
+Guillermo 发了一条简短推文："Easy money (Swiss francs)"——语焉不详，但很可能是在世界杯上押注瑞士。
 
-**Y Combinator 总裁兼 CEO Garry Tan** 发了三条引用推文。一条是："做出 agents 想要的东西"——这是对 agent 时代的简洁概括。另一条是："停止资助那些制造旧金山衰败循环的骗子。"还有一条关于 CEQA 在旧金山扼杀了数千套住房。
+*No notable posts from Peter Yang (all tweets were about the World Cup match).*
 
----
+## OFFICIAL BLOGS
 
-### Builder Zara Zhang
-
-Zara Zhang posted: "The line between 'builder' and 'creator' is blurring. This is the best time for builders to create content and for creators to build products."
-
-- https://x.com/zarazhangrui/status/2075930909669515753
-
-**构建者 Zara Zhang** 发帖："'构建者'和'创作者'之间的界限正在模糊。现在是构建者做内容、创作者做产品的最好时机。"
-
----
-
-### FPV Ventures partner Nikunj Kothari
-
-Nikunj shared that Fable and Sol got him a fully working iOS app in a few hours, based on the backend and web app: "what an insane world we live in 🤯"
-
-- https://x.com/nikunj/status/2076022807365079342
-
-**FPV Ventures 合伙人 Nikunj Kothari** 分享说，Fable 和 Sol 在几小时内就为他生成了一个功能完整的 iOS 应用，基于已有的后端和网页应用："我们生活在一个多么疯狂的世界 🤯"
-
----
-
-### OpenClaw & OpenAI builder Peter Steinberger
-
-Peter Steinberger posted a single line that resonated widely: "Let me verify a couple of load-bearing facts before I give you the architecture assessment." — capturing the new norm of AI-assisted decision making where verification precedes judgment.
-
-- https://x.com/steipete/status/2076013212043182375
-
-**OpenClaw 和 OpenAI 构建者 Peter Steinberger** 发了一条引起广泛共鸣的推文："让我先验证几个关键事实，再给你架构评估。"——这句话捕捉到了 AI 辅助决策的新常态：验证先于判断。
-
----
-
-### Every CEO Dan Shipper
-
-Dan Shipper quote-tweeted something with a simple "seems bad" — no further context or elaboration provided.
-
-- https://x.com/danshipper/status/2075767886254064011
-
-**Every CEO Dan Shipper** 引用了一条推文，只说了句"看起来不太好"——没有提供进一步的背景或说明。
-
----
-
-### South Park Commons GP & Bevel Co-Founder Aditya Agarwal
-
-Aditya shared his vision for the AI agent stack: "Run all the agents in the cloud → Choose any model (frontier, OSS, Chinese, American) → Choose any harness → Have full tracing → Have recursive improvement loops." He expressed impatience: "I know it will be there but can it happen already?" He also posted about the World Cup, jokingly predicting "The World Cup 2048 will be brought to you by FIFA-NFL."
-
-- https://x.com/adityaag/status/2076047290083733539
-- https://x.com/adityaag/status/2076084443920683119
-
-**South Park Commons GP 兼 Bevel 联合创始人 Aditya Agarwal** 分享了他对 AI agent 技术栈的愿景："在云端运行所有 agents → 选择任意模型（前沿、开源、中国、美国）→ 选择任意框架 → 拥有完整追踪 → 拥有递归改进循环。"他表达了急切的心情："我知道这一天会来，但能不能快点？"他还发了一条关于世界杯的推文，开玩笑说"2048 年世界杯将由 FIFA-NFL 联合呈现。"
-
----
-
-### OpenAI CEO Sam Altman
-
-Sam Altman made a notable claim: "so far at least, I'm pretty sure AI has been net job-creating." He admitted this surprised him — he expected more job displacement by now — but noted it's possible the trend continues. He also highlighted a medical study where "physicians found fewer flaws in GPT-5.6 responses than physician-written responses," and reacted with "whoa" to Thibault's ChatGPT Work growth numbers.
-
-- https://x.com/sama/status/2076036901824532530
-- https://x.com/sama/status/2075985056846451123
-- https://x.com/sama/status/2076034163418014199
-
-**OpenAI CEO Sam Altman** 发表了一个引人注目的观点："至少到目前为止，我很确定 AI 在净创造就业。"他承认这让他自己都感到意外——他本以为到这个能力水平会看到更多就业替代——但也指出这种趋势可能会持续。他还引用了一项医学研究，其中"医生发现 GPT-5.6 回答中的缺陷比医生自己写的回答更少"，并对 Thibault 分享的 ChatGPT Work 增长数据感叹"哇"。
-
----
+No new blog posts from AI company blogs this digest cycle.
 
 ## PODCASTS
 
-### The MAD Podcast with Matt Turck — Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay
+**No Priors — Travel Through the Lens of AI with Booking.com CEO Glenn Fogel**
 
-**The Takeaway:** The next phase of AI isn't just about agents helping you buy things — it's about agents becoming full-fledged economic actors that run businesses, buying and selling on their own, and the infrastructure to make that work is being built right now.
+**The Takeaway:** There is no such thing as a moat. The only way to win long-term is to keep building — and AI agents are about to transform travel from a frustrating chore into a personalized concierge experience that knows you better than you know yourself.
 
-Emily Sands, Stripe's Head of Data and AI, returns to The MAD Podcast to paint a vivid picture of where agentic commerce stands one year after her last appearance. The conversation is dense with concrete progress and clear-eyed pragmatism.
+Glenn Fogel, CEO of Booking Holdings (Priceline, Booking.com, Kayak, OpenTable), has seen it all. He joined Priceline in 2000 when it was worth a few hundred million dollars — right after the Nasdaq peak, when the stock crashed from $30 billion to a couple hundred million. He stuck around. Twenty-seven years later, Booking Holdings peaked at $180 billion. A thousand-bagger from the low. That's the kind of long-term perspective he brings to AI.
 
-The most striking development? Stripe has built an entire infrastructure layer for the agent economy. The Agentic Commerce Protocol (ACP) — built with OpenAI — is essentially "MCP before commerce," a standardized way for businesses to expose their product catalogs to any agent, not just one platform. Best Buy, Coach, Kate Spade, and Shopify are already on board. The shared payment token is the key primitive: a way for consumers to authorize agents to pay without ever handing over card details. "The agent doesn't have access to the credentials in the way that you and I probably wouldn't want an agent to have our credit card."
+Fogel is refreshingly direct about the AI travel hype cycle. When OpenAI launched ChatGPT with travel features and Booking's stock dropped 8%, he didn't panic. "From the outside, it looked easy," he says. "AI will take care of travel, and all the travel companies won't be worth anything." Then OpenAI killed the feature, and the stock bounced back. His read: people who don't understand the industry's complexity — regulatory frameworks across dozens of countries, millions of supplier relationships, real-time inventory, and the domino effect when one thing goes wrong — underestimate how hard travel really is.
 
-Sands introduces a "levels of autonomy" framework for agentic commerce, mirroring self-driving car levels. Right now, consumers are mostly at Level 2 — delegating some product selection to AI but still making final decisions. The leap to Level 4 or 5, where agents autonomously handle entire shopping missions ("I have a $500 budget for back-to-school shopping, get it done"), requires trust that can only be built through repeated experience.
+But Fogel isn't dismissive of AI. He's all in. He personally demoed Penny, Priceline's AI agent, for a complex family trip — two cabins, different departure cities, frequent flyer miles vs. cash decisions, restaurant planning. "It was incredible," he says. Penny's adoption has doubled every month, driving higher conversion, shorter booking paths, and lower cancellation rates. Customer service costs are already down 10%, with satisfaction up.
 
-The most provocative idea: agents as micro-firms. Sands envisions a world where "Emily has an agent who's tasked with running a business, and that includes buying some things and selling some things and making some profits." She points to data showing 5 million Americans now earn their living as solopreneurs, with hundreds of thousands clearing $1M/year — and AI is accelerating this trend.
+The real opportunity, Fogel argues, isn't just trip planning — it's handling the inevitable chaos. "Travel is like dominoes. One thing falls over, and it all starts falling over." His vision: an AI that predicts problems before they happen and proactively rebooks. That's hard. That's where incumbents with scale and data have an edge.
 
-On the fraud front, Sands calls token theft "the most under-discussed topic in AI." More than one in six signups at AI companies are abuse. Fraudsters steal tokens (not credentials) to resell or build products on someone else's dime. Since AI has real marginal costs unlike SaaS, "if your fraud rate is high enough, the economics of your product break really fast."
+On the job displacement question, Fogel is unusually thoughtful. He remembers when Booking.com had humans translating into 40 languages and staffing customer service in each. Machine translation wiped out those jobs. "What happened to those people? Where did they go?" He worries about the 50-year-old truck driver who can't retrain overnight. His answer: companies have an obligation to upskill. "Every day I'm talking with my CHRO about how we can do the best training, how we can get people AI-literate." Government retraining programs haven't worked historically, he notes, but the alternative — people rejecting technology out of fear — is worse.
 
-She also introduces "vibe deployment" as the new bottleneck: "Vibe coding was easy. Vibe deployment has become the binding constraint." Stripe Projects launched to solve this — letting agents sign up for and configure all the services they need to deploy an app, directly from the command line.
+His parting advice, aimed at founders and builders: "Choose wisely. You only get one life. You will not get that time back."
 
-The episode closes with a bold prediction: in 12 months, the most interesting thing won't be agents buying better — it'll be agents as multifaceted economic actors, running businesses end to end.
-
-https://www.youtube.com/@DataDrivenNYC/videos
-
-**核心要点：** AI 的下一个阶段不只是让 agents 帮你买东西——而是让 agents 成为完整的经济参与者，自主经营业务、买卖交易，而支撑这一切的基础设施正在被建立。
-
-Stripe 数据和 AI 负责人 Emily Sands 再次做客 The MAD Podcast，生动描绘了 agentic commerce 在她上次出现一年后的现状。这场对话充满了具体的进展和清醒的务实精神。
-
-最引人注目的进展是什么？Stripe 已经为 agent 经济构建了完整的基础设施层。与 OpenAI 联合构建的 Agentic Commerce Protocol（ACP）本质上是"商业领域的 MCP"，这是一种标准化方式，让企业能够向任何 agent（而不仅仅是单一平台）展示其产品目录。Best Buy、Coach、Kate Spade 和 Shopify 已经加入。共享支付令牌是核心原语：消费者可以授权 agent 代为支付，而无需交出卡号信息。"agent 无法接触到凭证信息，就像你我大概也不希望 agent 持有我们的信用卡一样。"
-
-Sands 提出了 agentic commerce 的"自主等级"框架，类似于自动驾驶的等级划分。目前，消费者大多处于 Level 2——将部分产品选择权委托给 AI，但保留最终决定权。要跃升到 Level 4 或 Level 5（agent 自主完成整个购物任务——"我有 500 美元的返校购物预算，帮我搞定"），需要的信任只能通过反复的实践来建立。
-
-最具挑衅性的想法是：agent 作为微型企业。Sands 设想了一个世界，其中"Emily 有一个负责经营业务的 agent，这包括买卖一些东西并创造利润。"她指出，数据显示美国有 500 万人以个体创业者身份谋生，其中数十万人年收入超过 100 万美元——而 AI 正在加速这一趋势。
-
-在欺诈方面，Sands 称 token 盗窃是"AI 领域最被低估的话题"。超过六分之一的 AI 公司注册用户是滥用行为。欺诈者窃取 token（而非凭证）进行转售，或利用他人的资源构建产品。由于 AI 具有真实的边际成本（与 SaaS 不同），"如果你的欺诈率足够高，产品的经济模型会很快崩溃。"
-
-她还引入了"vibe deployment"作为新的瓶颈："Vibe coding 很容易，但 vibe deployment 已经成为制约因素。"Stripe Projects 的推出就是为了解决这个问题——让 agent 能够直接从命令行注册并配置部署应用所需的所有服务。
-
-节目的结尾是一个大胆的预测：12 个月后，最有趣的事情不会是 agents 买得更好——而是 agents 成为多面手经济参与者，端到端地经营业务。
-
-https://www.youtube.com/@DataDrivenNYC/videos
+https://www.youtube.com/watch?v=8nj_0wZkbtA
 
 ---
 
