@@ -1,174 +1,168 @@
-AI Builders Digest — Wednesday, July 15, 2026
+AI Builders Digest — Thursday, July 16, 2026
 
-## X / TWITTER
+---
 
-### Swyx (swyx on X) — AI Engineer, Cognition, Temporal, DX Tips
+## X/TWITTER
 
-Swyx shared his current AI coding stack for "Big Boy projects": Sol Ultra for planning, Fable 5 for critique, Sonnet 5/Terra Ultra/SWE 1.7 for "ultracode/slop cannon," and Devin Review for review (using Kakuna). He always uses a variant of Matt Pocock's "grill-me" or Thariq's "interview-me" prompts to elicit decisions upfront. He also joked that Resend had another outage, quipping that even his mom's texts now require a Resend API key.
+### Swyx (swyx on X) — AI builder, DX Tips, Cognition, Temporal, AI Engineer, Latent Space
 
-Swyx 分享了他当前用于"大型项目"的 AI 编程栈：用 Sol Ultra 做规划，Fable 5 做评审，Sonnet 5/Terra Ultra/SWE 1.7 负责"超写代码/内容大炮"，Devin Review 做审查（用 Kakuna）。他始终使用 Matt Pocock 的 "grill-me" 或 Thariq 的 "interview-me" 提示词变体，让决策前置。他还调侃 Resend 又宕机了，说连他妈发短信都要先要个 Resend API key。
+Swyx is hosting a personal AI meetup at New Media Lab this Thursday night, featuring Shloked — whom he calls "one of the best builder-writers" he's met this year. He notes that the last time they held this meetup, the featured speakers were acquired by Amazon's hardware division, and he's still a daily active user of their product two years later.
 
-https://x.com/swyx/status/2076811977918484795
-https://x.com/swyx/status/2076809831328157758
+https://x.com/swyx/status/2077243443391422813
+
+---
 
 ### Thibault Sottiaux — Codex & ChatGPT @ OpenAI
 
-Thibault teased that tomorrow "might be 8M active user celebration day" for Codex, hinting at explosive growth. He also announced "ChatGPT Work," a new product launch.
+Thibault is teasing that ChatGPT Work and Codex usage might hit 9M soon, and asking whether they should reset usage limits or give it some space. He's also offering $100 in Codex credits to the first 10k users who tweet what they love about GPT-5.6 Sol or why they switched — a clever way to generate testimonials and drive adoption.
 
-Thibault 暗示明天可能是 Codex "800 万活跃用户的庆祝日"，暗示增长迅猛。他还发布了新产品 "ChatGPT Work"。
+https://x.com/thsottiaux/status/2077271889626706300  
+https://x.com/thsottiaux/status/2077248807533003257  
+https://x.com/thsottiaux/status/2077212009071075330
 
-https://x.com/thsottiaux/status/2076907789763621237
-https://x.com/thsottiaux/status/2076894071323537898
+---
 
-### Peter Yang — Creator, AI tutorials
+### Peter Yang — AI tutorials & guides
 
-Peter Yang asked if there's a way to find accounts that instantly reply to big accounts — those are usually AI bots worth banning. He blocks a bunch every week.
+Peter is publishing a new video tomorrow on his complete ChatGPT Work (Codex) setup in 7 steps — from choosing the right GPT-5.6 model to managing email, calendar, and recurring tasks. He also spotted a wild time-traveler conspiracy post from 2021 that eerily predicted the current AI landscape.
 
-Peter Yang 问有没有办法找到那些秒回大 V 的账号——这些通常是该封的 AI 机器人。他每周都要手动拉黑一大批。
+https://x.com/petergyang/status/2077196815951417649  
+https://x.com/petergyang/status/2077172496424751376
 
-https://x.com/petergyang/status/2076897407439454577
+---
 
-### Nan Yu — Head of Product @ Linear
+### Thariq — Claude Code @ Anthropic (prev YC W20, South Park Commons, Media Lab)
 
-Nan Yu quote-tweeted a post about "designer" jobs outside of software, noting that the role becomes much clearer once you look beyond the tech industry. He also referenced the "Chinese Room" thought experiment in another post.
+Thariq has been using Claude Code to help him play Pokémon Champions — it writes code using Smogon's npm library, pulls live usage stats, and generates reports on matchups and team theorycrafting. He's considering open-sourcing the project if there's interest.
 
-Nan Yu 引用了一条关于软件行业外"设计师"岗位的帖子，指出跳出科技行业看这个角色会更清晰。他还在另一条帖子中提到了"中文房间"思想实验。
+https://x.com/trq212/status/2077051280267399550  
+https://x.com/trq212/status/2077051282146431092
 
-https://x.com/thenanyu/status/2076783865528516971
+---
 
-### Cat Wu — Claude Code + Cowork @ Anthropic
+### Guillermo Rauch — Vercel CEO
 
-Cat Wu announced that Claude Artifacts just got an upgrade. The feature now supports more expressive and collaborative use cases.
+Vercel is opening up the dataset of AI token flows on their AI Gateway, offering fascinating insights into how tokens are being used across the ecosystem. Rauch also highlighted that AgentMail now integrates seamlessly with Vercel — just run `vercel install agentmail` with no signup, automatic setup, and unified billing.
 
-Cat Wu 宣布 Claude Artifacts 刚刚升级了。该功能现在支持更具表现力和协作性的使用场景。
+https://x.com/rauchg/status/2077176141790752798  
+https://x.com/rauchg/status/2077154901013221444
 
-https://x.com/_catwu/status/2076867882894684314
+---
 
-### Thariq (trq212 on X) — Claude Code @ Anthropic
+### Aaron Levie — Box CEO
 
-Thariq highlighted the upgraded Artifacts, saying they're "much more expressive and can be combined in creative ways." His favorite use case: creating a project dashboard in a Claude Tag that can be edited by others or by his local Claude Code sessions.
+Levie argues that code's unique property — you can quickly test it — is why it's so amenable to agents. Most other work (stock trades, contracts, sales pitches) only gets tested when the final product hits the real world. He predicts this will create a whole new set of opportunities for testing the rest of work, which ultimately means more agents in workflows — and much better evals for enterprise knowledge work.
 
-Thariq 强调了升级后的 Artifacts，称其"表现力更强，可以以创造性的方式组合使用"。他最喜欢的用法：在 Claude Tag 中创建一个项目仪表盘，其他人或他的本地 Claude Code 会话都可以编辑。
+He also weighed in on a proposal for an AI standards body (distinct from a regulatory agency), saying it threads the needle but the real challenge is getting industry alignment on what the safety risks actually are.
 
-https://x.com/trq212/status/2076790799011131735
+https://x.com/levie/status/2077201458546745553  
+https://x.com/levie/status/2077043523703243070
 
-### Amjad Masad — CEO @ Replit
+---
 
-Amjad shared that he's getting realtime progress updates on his model training runs. He said this "feels like early vibe coding except it's making personal models."
+### Ryo Lu — Design @ Cursor (prev Notion, Stripe)
 
-Amjad 分享说，他现在能实时收到模型训练进度的更新。他说这"感觉像是早期的 vibe coding，只不过现在是在训练个人模型"。
+Ryo wrote a beautiful, deeply personal thread about what happens when "the dream becomes the job" — and how AI is forcing builders to confront a painful question: if the machine can do what you became good at, what part of you is really you? His answer: the small fire inside — the curiosity, the obsession, the private thread that made you care in the first place. That part cannot be automated.
 
-https://x.com/amasad/status/2076776737074184661
+He's also assembling the best design team at Cursor and looking for design engineers.
 
-### Guillermo Rauch — CEO @ Vercel
+https://x.com/ryolu_/status/2077162119506833627  
+https://x.com/ryolu_/status/2077108336844210352
 
-Guillermo shared that the two most popular features of Vercel's new product are ease of use/filesystem API and observability — and they're doubling down on both. He also highlighted a new building block for autonomous, self-optimizing websites: giving agents the ability to set up and tune experiments with feature flags. He noted that open-weight models now run 29% of gateway tokens, up from 11% in April.
+---
 
-Guillermo 分享说，Vercel 新产品的两个最受欢迎的功能是易用性/文件系统 API 和可观测性——他们正在加倍投入这两方面。他还强调了一个用于自主、自我优化网站的新构建模块：让 agent 能够设置和调整带有 feature flag 的实验。他提到，open-weight 模型现在处理了 29% 的 gateway tokens，高于四月份的 11%。
+### Garry Tan — Y Combinator President & CEO
 
-https://x.com/rauchg/status/2076817174073880957
-https://x.com/rauchg/status/2076786138195595704
-https://x.com/rauchg/status/2076713720731042174
+Garry warns "never go full omnicause" — a reminder that spreading yourself across every cause dilutes impact. He also called out San Francisco's "doom loop," arguing that tax dollars are being wasted on mismanagement rather than serving citizens.
 
-### Aaron Levie — CEO @ Box
+https://x.com/garrytan/status/2076948530598486090  
+https://x.com/garrytan/status/2076935141658611759
 
-Aaron Levie shared a detailed thread on the structural future of AI. He sees three layers coexisting: frontier intelligence (top labs, ever-improving), open weights (absorbing breakthroughs, enabling customization), and the applied AI layer (orchestrating workflows, combining frontier + cheap models). He believes individual enterprises should focus on getting their data and context right rather than training their own models, since sensitive information can't be packed into a model without compromising security. He also highlighted a post about Fable (a new model) that acts like a "good manager" — delegating and giving feedback instead of doing the work itself — which actually decreased costs despite a 2x premium.
+---
 
-Aaron Levie 发了一条长推，阐述了 AI 的结构性未来。他认为未来将有三个层面共存：前沿智能（顶级实验室，持续进步）、开放权重（吸收突破，支持定制化）和应用层（编排工作流，结合前沿和低成本模型）。他认为企业应该专注于把数据和上下文做对，而不是自己训练模型，因为敏感信息无法在不牺牲安全性的前提下塞进模型。他还引用了一篇关于 Fable（一个新模型）的帖子，Fable 像一个"好经理"——委派任务并给予反馈，而不是自己动手写代码——尽管有 2 倍的溢价，实际上却降低了成本。
+### Matt Turck — VC @ FirstMark Capital, MAD Podcast host
 
-https://x.com/levie/status/2076882332821373381
-https://x.com/levie/status/2076839463410671637
-https://x.com/levie/status/2076764958579446006
+Matt notes the cruel reality of the World Cup: 47 out of 48 teams go home heartbroken. He also called out France's semi-final performance as a cautionary tale — playing 10/10 football throughout the tournament but only 4/10 when it mattered most.
 
-### Ryo Lu — Design @ Cursor
+https://x.com/mattturck/status/2077168963822231753  
+https://x.com/mattturck/status/2077139555535241253
 
-Ryo Lu built a custom e-reader firmware using Cursor. It supports beautiful Latin + CJK typography, vertical layout, line breaking, large character sets, and syncs books with his personal OS (ryOS). He also announced that Jenny is joining Cursor to lead the design team, which he's excited about because it frees him up to "dream big again."
-
-Ryo Lu 用 Cursor 构建了一个自定义电子阅读器固件。它支持美观的拉丁文+中日韩文字排版、纵向布局、换行、大字集，并与他的个人操作系统 (ryOS) 同步书籍。他还宣布 Jenny 将加入 Cursor 领导设计团队，他对此感到兴奋，因为这让他可以重新"大胆做梦"。
-
-https://x.com/ryolu_/status/2076713331113734641
-https://x.com/ryolu_/status/2076689062921150479
-
-### Garry Tan — President & CEO @ Y Combinator
-
-Garry Tan declared that the "Era of the Gentleman Scientist is so back," quoting a post about individual researchers making breakthroughs.
-
-Garry Tan 宣称"绅士科学家的时代回来了"，引用了一条关于个人研究者取得突破的帖子。
-
-https://x.com/garrytan/status/2076587412516421945
-
-### Zara Zhang — Builder
-
-Zara Zhang shared "The 3 levels of AI adoption for organizations," noting that most companies are at level 2. She also shared a 45-minute conversation she recorded with ashebytes on building in public, growing an audience on X, and her thoughts on vibe coding.
-
-Zara Zhang 分享了"组织采用 AI 的 3 个层次"，指出大多数公司处于第 2 层。她还分享了她与 ashebytes 录制的 45 分钟对话，内容涉及公开构建、在 X 上增长受众，以及她对 vibe coding 的看法。
-
-https://x.com/zarazhangrui/status/2076862290985730481
-https://x.com/zarazhangrui/status/2076860372993388663
+---
 
 ### Nikunj Kothari — Partner @ FPV Ventures
 
-Nikunj built an open-source "Ramp-Autofill" skill using Claude Code (Fable) and Ramp's CLI. It automatically finds receipts from iMessage and Gmail, fills in memos from Google Calendar, and auto-categorizes expenses by learning from past transactions. He said the entire thing was one-shot by Fable with a voice prompt while driving to SF, with some steering and edits.
+Nikunj observes that pre-AI engineering leaders can't comprehend that their most cracked engineer is also extremely online — while agents are working, X becomes the dopamine spike they need. He predicts time on X (especially in tech) will continue to go up.
 
-Nikunj 使用 Claude Code (Fable) 和 Ramp 的 CLI 构建了一个开源的"Ramp-Autofill"技能。它能自动从 iMessage 和 Gmail 中查找收据，从 Google 日历中填写备注，并通过学习历史交易自动对支出进行分类。他说整个东西是他在开车去旧金山的路上用语音提示让 Fable 一次性生成的，只做了一些引导和编辑。
+https://x.com/nikunj/status/2077144910508257317
 
-https://x.com/nikunj/status/2076775924650107151
-https://x.com/nikunj/status/2076878668149002669
+---
 
-### Peter Steinberger — Creator of OpenClaw
+### Peter Steinberger — Polyagentmous ClawFather, OpenClaw + OpenAI
 
-Peter shipped an update to his project, with iOS and Android apps also getting updates. He shared that "stress test" is a good prompt. He also noted that after moving his maintainer agent to the cloud, the agents "are fighting already."
+Peter is having fun with Suno AI, calling its output "bangers." He also emphasizes the importance of running autoreview — a reminder that AI-generated code still needs human oversight.
 
-Peter 发布了项目更新，iOS 和 Android 应用也同步更新。他分享说"stress test"是个好 prompt。他还提到，把维护 agent 搬到云端后，agents "已经开始打架了"。
+https://x.com/steipete/status/2077250314575745024  
+https://x.com/steipete/status/2077265627379843242
 
-https://x.com/steipete/status/2076917691139674373
-https://x.com/steipete/status/2076886451455992249
-https://x.com/steipete/status/2076923300593422560
+---
 
-### Aditya Agarwal — General Partner @ South Park Commons
+### Dan Shipper — CEO @ Every
 
-Aditya noted he's not sure if he's using Codex or ChatGPT, but he knows he's asking an "AGI LEVEL coding agent" about what necklaces Benson Boone wears — for his daughter.
+Dan is hosting an Every subscriber meetup in Brooklyn on Wednesday, July 15. He also points out that if you were reading Every, you knew Codex was about to take off six months ago — a flex on being ahead of the curve.
 
-Aditya 说他不确定自己用的是 Codex 还是 ChatGPT，但他知道自己是在向一个"AGI 级别的编码 agent"问 Benson Boone 戴什么项链——为了他女儿。
+https://x.com/danshipper/status/2077196636971815135  
+https://x.com/danshipper/status/2077156555376492557
 
-https://x.com/adityaag/status/2076821102194721167
+---
 
-### Sam Altman — CEO @ OpenAI
+### Aditya Agarwal — GP @ South Park Commons, Co-Founder @ Bevel Health (ex-Facebook, Dropbox CTO)
 
-Sam Altman shared that it "still sorta breaks my brain to see our models be good at design finally." He also thought a parody account (spelled c1audeai) was satire at first. He posted a quote about "hard questions" being great but only if you're deemed worthy enough to not be silently downgraded.
+Aditya appreciates the depth of the new ChatGPT app but laments that it feels too heavyweight for quick queries — he used the legacy version 15-20 times a day, and now that use case feels clunky. A reminder that more features isn't always better UX.
 
-Sam Altman 分享说，"看到我们的模型终于擅长设计了，还是有点让我脑洞大开。"他一开始还以为一个拼写为 c1audeai 的恶搞账号是讽刺作品。他还引用了一句关于"难题"的话：难题很好，但前提是你被判定为足够有价值，不会被静默降级甚至拒绝访问。
+https://x.com/adityaag/status/2077130899733553560
 
-https://x.com/sama/status/2076823209589313910
-https://x.com/sama/status/2076824686307271125
-https://x.com/sama/status/2076824870072238299
+---
 
-## OFFICIAL BLOGS
+### Sam Altman — OpenAI CEO
 
-No notable blog posts from AI company blogs today.
+Sam reports that GPT-5.6 Sol's growth is "insane" and praises the inference team's heroic work to support demand. He warns there might be hiccups soon as they scramble to scale. He also casually dropped a "hello!" quote-tweeting something — classic Sam energy.
+
+https://x.com/sama/status/2077106587307798989  
+https://x.com/sama/status/2077118672150388816
+
+---
+
+### Claude (@claudeai on X) — Anthropic's AI assistant
+
+Claude for Teachers is now live — built for K-12 privacy with FERPA-compliant data processing. Teachers can ask for a lesson plan, and Claude starts from state standards and high-quality curricula via Learning Commons, then drafts student-facing materials ready for the classroom.
+
+https://x.com/claudeai/status/2077047279689535705  
+https://x.com/claudeai/status/2077047280767488218  
+https://x.com/claudeai/status/2077047282109714488
+
+---
 
 ## PODCASTS
 
-### Inside Nemotron & NVIDIA's AI Lab | Bryan Catanzaro
+### Training Data — Anthropic's Katelyn Lesse & Angela Jiang: Building an Ecosystem, not a Walled Garden
 
-**The Takeaway:** NVIDIA is building frontier open-weight models not to compete with the AI industry, but to design better GPUs and grow the entire ecosystem — and they believe open-source AI is inherently safer than closed-source because of transparency and diversity.
+**The Takeaway:** Anthropic's platform team is moving from a "knowledge layer" to an "execution layer" to a "coordination layer" — and the real innovation ahead is in giving tokens different jobs (advise vs. execute vs. reflect), not just making bigger models.
 
-Bryan Catanzaro leads Nemotron, NVIDIA's family of open foundation models. He's been at NVIDIA since 2008, left to co-found Baidu's Silicon Valley AI Lab with Andrew Ng and Dario Amodei, then returned in 2016 to build an applied research lab. He was instrumental in creating cuDNN, Megatron, and DLSS.
+Anthropic's platform leads Angela Jiang and Katelyn Lesse sat down with the Training Data podcast to lay out their vision for what they're building — and it's a masterclass in platform thinking.
 
-The conversation covers why NVIDIA — the world's most valuable chip company — invests heavily in building its own AI models. Catanzaro explains Nemotron has two jobs: first, to help NVIDIA understand how to build future systems (you can't design great AI hardware without deep AI expertise); second, to support the ecosystem by making open technologies available so companies of all sizes can customize AI for their specific needs.
+They describe a three-layer cake of abstractions. At the bottom is the **knowledge layer**: the Messages API, skills, memory, MCP — the primitives that let Claude know things. Above that is the **execution layer**: managed infrastructure and low-level harnesses that let Claude actually *do* work (Claude Managed Agents is the current product). And at the top is the **coordination layer** — still emerging — where you compose "strategies" that give different tokens different jobs.
 
-Key technical highlights from Nemotron 3 Ultra:
-- **4-bit pretraining**: NVIDIA pretrained the model using NVFP4 arithmetic, a significant innovation since 4-bit formats are dramatically cheaper to move around and compute on. "If you accept that we're gonna be running at the limit [of compute or power], the way to get more intelligence is to be more efficient."
-- **Hybrid architecture**: Combines transformer layers with state-space models (SSMs). Surprisingly, models that are mostly SSM with a little attention perform better than either alone — SSMs excel at "impressionistic" global understanding while attention excels at precise information retrieval.
-- **Mixture of Experts (MoE)**: With "latent MoE," NVIDIA compresses token vectors before routing them between GPUs, effectively getting 4x more experts for the same inference cost.
-- **Multi-token prediction**: The model predicts 5 tokens at once. Since reading weights from memory is the bottleneck, pushing multiple tokens through costs roughly the same time as one — giving up to 4x speedup without accuracy loss.
-- **Multi-teacher distillation**: NVIDIA trains domain-specific teacher models (for coding, math, science, etc.) and uses reinforcement learning to distill them into one student model. This also solves an organizational challenge — 500 researchers working on one model without stepping on each other.
+This last layer is where the magic lives. As Angela puts it: "If tokens aren't really fungible and you need to give them different jobs — like maybe this token is advising versus this token is executing — you want to start composing these orchestrated strategies."
 
-On the safety debate, Catanzaro takes a strong pro-open-source position: "Open technologies are generally safer because there's more sunlight. Diversity is more safe than monoculture." He draws parallels to freedom of speech — societies that tried controlling which ideas were "safe" found it less safe than pluralism.
+They're refreshingly pragmatic about open vs. walled garden. They launched self-hosted sandboxes with Modal, Vercel, Cloudflare, and Amazon's micro VMs. MCP tunnels let you call through firewalls. They don't care where the infrastructure runs — they care about the architecture.
 
-On singularity skepticism: "Intelligence is incredibly multifaceted. Raw intelligence is like the horsepower of an engine, but an engine without wheels doesn't go anywhere." He compares AI to an "external brain" — just as the kitchen is an "external stomach" that enabled agriculture and civilization, AI will profoundly reshape society in ways we can't fully predict.
+On Claude Tag (their Slack agent): "The important part is all the context engineering and architecture we put underneath the hood. It should just feel like a coworker." They see this as an "org-level harness" — an always-on agent for the entire company.
 
-https://www.youtube.com/@DataDrivenNYC/videos
+On token rationalization: "What you don't want to do is stop AI usage. If you're getting returns, those are gains." Their advice? Build a router that assesses task complexity — hard tasks go to big models, easy ones to cheaper models. But they're clear: they're designing for Claude, not for multi-model routing.
+
+The most exciting customer innovation they're seeing? Context and connectivity — companies building MCP servers *on top* of their own agents so agents can call other agents. And manufacturing is emerging as a surprising new vertical.
+
+https://www.youtube.com/watch?v=vPnVTHYplrQ
 
 ---
 
