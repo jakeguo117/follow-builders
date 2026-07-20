@@ -1,156 +1,101 @@
-AI Builders Digest — Sunday, July 19, 2026
-
----
+AI Builders Digest — July 20, 2026
 
 ## X / TWITTER
 
-### Swyx (swyx on X) — AI engineer, DXTips, Cognition, Temporal.io, AI Engineer, Latent Space
+**Shawn "Swyx" Wang, CEO of DX Tips & AI Engineer (swyx on X)**
 
-Swyx is calling out a massive, under-exploited opportunity: setting your AI agents (Codex, Claude, Gemini, Devin) to automatically research and improve your SEO/AEO (AI Engine Optimization) every single week. He calls this "free, should-be-commoditizing-but-weirdly-untapped alpha" — pointing out that most people are leaving easy gains on the table by not automating this loop.
+Shawn shared two updates this week. First, he pushed back on dismissive takes about European AI talent, arguing that Europe actually has some of the world's top AI engineers if you know where to look — and that his team is essentially running the most competitive global arena for AI talent, measured by talks and workshops. Second, he noted that at the current rate, he expects AEO (his AI event platform) to be fully responsible for $1M of his revenue next year.
 
-He then deepens the discussion, asking whether we're entering an era of "on-policy AEO" (where, say, Claude optimizes content that works best for Claude) versus "generalizable AEO" (optimizing across all AI models). The alpha only disappears, he argues, when the community stops asking these fundamental questions.
+https://x.com/swyx/status/2078628617987518855
+https://x.com/swyx/status/2078581967768166591
 
-https://x.com/swyx/status/2078244735794413786
-https://x.com/swyx/status/2078293998398263587
+**Thibault Sottiaux, Codex & ChatGPT at OpenAI (thsottiaux on X)**
 
----
+Thibault gave a fascinating glimpse into how he uses ChatGPT Work at OpenAI. He dictated a complex multi-step task into ChatGPT Work: go through thousands of DMs mentioning "ChatGPT Work," extract names and links, classify each user's use case into a taxonomy of 8-12 labels, rate their workflow sophistication, and build a spreadsheet to select a diverse cohort for an early access beta group. His takeaway: "My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything." He also listed ChatGPT Work's capabilities: creating and hosting sites, managing emails, summarizing mountains of documents, and creating docs/sheets/slides — all included in Plus, Pro, Business, and Enterprise plans.
 
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @ OpenAI
+https://x.com/thsottiaux/status/2078702412085498087
+https://x.com/thsottiaux/status/2078697741455356367
+https://x.com/thsottiaux/status/2078697631019303273
 
-Thibault accidentally reset usage limits for all paid Codex and ChatGPT Work users — again. He posted "Oops... I did it again," thanking the team for iterating at lightspeed and keeping infra up as they scale. The reset was triggered by his confirmation that GPT-5.6 Sol is "an extremely good model," which caused a surge in demand. Users flooded the replies with celebration.
+**Peter Yang, Creator of AI tutorials and guides (petergyang on X)**
 
-He also hinted that other rate limits across OpenAI's products may have been reset transitively — a welcome side effect for power users.
+Peter built a multiplication tables learning site with his 8-year-old daughter using ChatGPT. They used ChatGPT Images to generate the UI and animal characters, added music, and even included a timed boss level. The game is live and playable. (He also had some World Cup commentary that we'll skip.)
 
-https://x.com/thsottiaux/status/2078320950488297917
-https://x.com/thsottiaux/status/2078310751878647932
+https://x.com/petergyang/status/2078638568784994686
 
----
+**Thariq, Claude Code at Anthropic (trq212 on X)**
 
-### Peter Yang (petergyang on X) — AI tutorials & interviews
+Thariq celebrated the launch of Fable, Anthropic's new model, crediting a heroic effort by many people at Anthropic working literally around the clock. He noted it wasn't at all clear they'd be able to ship it in time, and expressed pride in everyone who made it happen.
 
-Peter Yang reports that Codex browser use has "finally been defeated" — a milestone moment where AI agents can now reliably interact with browsers, unlocking a wave of automation use cases.
+https://x.com/trq212/status/2078514180051906864
 
-He also shared a vision for the future of agent management: instead of staring at screens all day, he wants to walk around outside, talking to his agents "on the phone" — giving them work via voice and getting status updates the same way. He can't wait for the first AI lab to ship this.
+**Guillermo Rauch, CEO of Vercel (rauchg on X)**
 
-https://x.com/petergyang/status/2078303748649320529
-https://x.com/petergyang/status/2078276992470794531
+Guillermo ran internal cybersecurity evals on three frontier models. Key findings: Kimi K3 is top-tier at cybersecurity with real raw IQ (not benchmark-overfit). Sol is a leap ahead in cyber capability at significantly higher cost. Fable refused everything — they couldn't get it to complete the run at all, while Sol was much more open to helping with defensive cyber hardening. His verdict: frontier open-weight cybersecurity capability is here.
 
----
+In a separate thread, Guillermo argued that "AGI" is a poorly aged term. AI is far better than human intelligence for most economically-relevant tasks, but that doesn't make AIs better than humanity. Humans care for and care about each other in ways machines can't. He argued that AIs replace tasks, not the proverbial "you" — which is why they produce robotic prose even with 200 Skills and 50 subagents. The way people become irrelevant is by losing their identity, delegating all their writing and unique thoughts. Quality and humanity will prevail.
 
-### Madhu Guru (realmadhuguru on X) — Sr Director, AI @ Meta; prev: Google Gemini, Veo, Nano
+https://x.com/rauchg/status/2078647648307880209
+https://x.com/rauchg/status/2078548458714406959
 
-Madhu Guru makes two sharp points. First, on the competitive landscape: he argues that Kimi (the Chinese AI model) doesn't actually hurt Google directly — because most enterprises will consume Kimi through Google Cloud, needing enterprise guarantees like security, compliance, and chips. Money just moves from one pocket to the other.
+**Aaron Levie, CEO of Box (levie on X)**
 
-Second, he nails the real reason enterprises can't move beyond basic chatbots: a three-part talent gap. You need (1) good evals that push the jagged frontier of models, (2) a robust harness system for routing, orchestration, and tool calling that's model-agnostic, and (3) the talent to build all of this. The third is the scarcest.
+Aaron wrote a comprehensive thread on the AI ecosystem's turning point. If you thought AI value would accrue to just a few companies, the past few months prove otherwise. Frontier labs will continue pushing model progress, but an incredible ecosystem is emerging to diffuse AI into the real world. He identified several categories: companies helping enterprises build tuned models; applied AI companies delivering end-user experiences in legal, IT, security, HR, customer support, coding; new domain-specific labs in life sciences, financial services, healthcare; new infrastructure for running and governing agents; and new services firms driving change management. Way too early to call winning architectures — it's going to be a heterogenous environment.
 
-https://x.com/realmadhuguru/status/2078210889778708744
-https://x.com/realmadhuguru/status/2078131628262752550
+He also commented on China's AI competitiveness, noting that gatekeeping models won't work at scale. Competing in AI is too economically and strategically important for China, and they can now compete at near frontier levels. The solution isn't more lockdown — it's to safely keep a high rate of progress, drive diffusion, build infrastructure, and enable US OSS.
 
----
+https://x.com/levie/status/2078567715544121815
+https://x.com/levie/status/2078481578779685245
 
-### Thariq (trq212 on X) — Claude Code @ Anthropic; prev: YC W20
+**Garry Tan, President & CEO of Y Combinator (garrytan on X)**
 
-Thariq's advice is simple but powerful: before burning thousands of tokens on a full implementation, build quick prototypes — mockups, schemas, data models, proof of concepts. This is the cheapest way to discover you don't actually want the output you're about to generate. A small investment in prototyping saves massive token waste downstream.
+Garry's posts this week focused on local politics and ideological debates rather than AI. Not notable for this digest.
 
-https://x.com/trq212/status/2078189833445654714
+**Matt Turck, VC at FirstMark Capital (mattturck on X)**
 
----
+Matt had a sharp observation: for three years running, people have been saying "the model layer is commoditizing" — and for three years, the model layer still isn't commoditized. A good reminder that predictions of commodity pricing in foundation models have been consistently premature. He also had World Cup commentary.
 
-### Amjad Masad (amasad on X) — CEO @ Replit
+https://x.com/mattturck/status/2078520552680046920
 
-Amjad highlighted a community-built project on Replit that explores chess history in an impressively interactive way. He calls out that the Replit community is "ChessMaxxing" — a fun signal that the platform's agent-driven, rapid-prototyping culture is enabling all kinds of creative explorations beyond just web apps.
+**Zara Zhang, Builder (zarazhangrui on X)**
 
-https://x.com/amasad/status/2078273728618877326
+Zara shared two insights. First: everyone should develop their "personal eval set" for AI models — a few tasks actually relevant to your day-to-day work. Industry benchmarks help but might not reflect what makes a model useful to you. You find a model's capability boundary by poking at it for fun.
 
----
+Second: the biggest barrier for enterprise AI adoption is that the people who understand AI don't understand the business, and the people who understand the business don't understand AI. This gap is the real bottleneck, not the technology.
 
-### Guillermo Rauch (rauchg on X) — CEO @ Vercel
+https://x.com/zarazhangrui/status/2078666187026911488
+https://x.com/zarazhangrui/status/2078492577788268549
 
-Guillermo announced that sandbox data downloads are now free on Vercel — a move to make it easier for developers to ship more agents. He also shared a motivational post: "Ship like @shadcn" — a nod to shipping fast and clean, referencing the designer behind shadcn/ui.
+**Nikunj Kothari, Partner at FPV Ventures (nikunj on X)**
 
-https://x.com/rauchg/status/2078305023784620342
-https://x.com/rauchg/status/2078299647689310270
+Personal travel post. Not notable for this digest.
 
----
+**Aditya Agarwal, General Partner at South Park Commons (adityaag on X)**
 
-### Aaron Levie (levie on X) — CEO @ Box
-
-Aaron Levie offers a nuanced take on the AI cost debate. His core argument: the cheaper AI gets, the more the entire ecosystem benefits — including end customers. Everything is bottlenecked by being able to deploy AI cost-effectively in real workloads. Lower costs drive up total usage, and value accrues to all layers of the stack.
-
-His contrarian twist: as AI gets more efficient, demand for frontier closed models can actually *increase*. You often need the strongest model for orchestration, then farm out the bulk of tokens to cheaper models. This efficiency gain ironically leads to *more* frontier spend, because you can now cost-effectively deploy AI against more tasks.
-
-The thing at most risk? Margins. Intelligence, he argues, will eventually converge with infrastructure margins.
-
-https://x.com/levie/status/2078139206946459853
-
----
-
-### Zara Zhang (zarazhangrui on X) — Builder
-
-Zara shared a practical tip for building in public: if making content feels like extra work, just show the work already happening inside your product. A tiny screen recording, the first version, or the user behavior that changed your design. The reasoning matters more than production value.
-
-She also observed a cultural shift: just a few years ago, people were uncomfortable with recording meetings. Now it's assumed all business meetings are recorded — not for humans, but for agents. Technology really changes culture.
-
-https://x.com/zarazhangrui/status/2078086930756202924
-https://x.com/zarazhangrui/status/2078076500683997446
-
----
-
-### Peter Steinberger (steipete on X) — Creator of OpenClaw
-
-Peter Steinberger is living at the bleeding edge of agent automation. He describes watching Codex use browser + computer use to open Chrome, navigate to a PR, tap on comments, and wrangle with the macOS file picker — all just to upload an image to GitHub, which has no API for that. It's both amazing and painful.
-
-He also drops a provocative one-liner: "Are we still talking loops or did we shift to graphs yet?" — suggesting the agent architecture conversation is evolving beyond simple feedback loops toward more complex graph-based orchestration.
-
-And he built an icon editor (with Codex) after users complained about customization issues in his CodexBar tool.
-
-https://x.com/steipete/status/2078318731785359634
-https://x.com/steipete/status/2078277297791189132
-https://x.com/steipete/status/2078264088644276598
-
----
-
-### Sam Altman (sama on X) — CEO @ OpenAI
-
-Sam shared a cool project — no further details, but the link got 2K+ likes quickly, signaling community excitement about whatever it is.
-
-https://x.com/sama/status/2078244242993164716
-
----
-
-### Claude (claudeai on X) — Official Anthropic account
-
-Claude announced that starting July 20, Claude Fable 5 will be included in all Max and Team Premium plans at 50% of limits. Pro and Team Standard users get a one-time $100 credit. Demand for Fable has been hard to predict, which is why they rolled it out in stages.
-
-They acknowledged the frustration and committed to investing in more capacity.
-
-https://x.com/claudeai/status/2078302415804379218
-https://x.com/claudeai/status/2078302417100394737
+Short post expressing appreciation for capitalism. Not substantive enough to summarize.
 
 ---
 
 ## PODCASTS
 
-### The MAD Podcast with Matt Turck — OpenAI's Compute Chief: We Can't Build Fast Enough | Sachin Katti
+**Unsupervised Learning — Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today**
 
-**The Takeaway:** OpenAI's head of industrial compute, Sachin Katti, reveals that demand for compute is so insatiable that every time they think they have enough, they're proven wrong — and their biggest worry is that the physical world simply can't build fast enough.
+**The Takeaway:** The current AI boom is built on a massive misallocation of capital, and a stock market correction is coming — but the technology itself is on an unstoppable trajectory toward true artificial general intelligence that will eventually colonize the solar system.
 
-Sachin Katti holds the most fascinating job title in tech right now: Head of Industrial Compute at OpenAI. A former Stanford professor, serial entrepreneur, and ex-CTO of Intel, he now leads what many call the largest infrastructure buildout in human history. On the MAD Podcast, he pulls back the curtain on the staggering physical reality of powering the AI revolution.
+Jürgen Schmidhuber, often called the father of modern AI, sat down with Jacob Efron on Unsupervised Learning. Schmidhuber has been pursuing one goal since the 1970s: building an AI smarter than himself so he can retire. He's still working on the same thing.
 
-The scale is almost incomprehensible. OpenAI is spending roughly $50 billion on compute this year alone, and the entire industry is on track for $700 billion. But this isn't just about buying more chips. Katti describes AI data centers as "giant factories that are turning electrons into tokens" — massive football-field-sized facilities running liquid-cooled supercomputers that run so hot even the cables and transformers need cooling.
+Schmidhuber's contrarian take on today's AI industry is worth paying attention to. While everyone is fixated on frontier models and massive data center buildouts, he sees a bubble. "The guys who are investing a thousand billion dollars into GPUs for data centers today, within the next five years, they are going to lose $900 billion," he says. His logic: compute gets 10x cheaper every five years. If you wait, you can do the same thing for 1/10 the price. The rush to build now is a bet that doesn't pencil out.
 
-The power challenge is equally daunting. OpenAI doesn't just plug into the grid; they actively invest in new power generation and transmission infrastructure. "Whenever we build a data center anywhere, we make it a hard commitment that we are not taking power away from the grid," Katti says. "In fact, we are investing in the grid to generate new power." This means funding new gas turbines, solar, hydro, and transmission lines — infrastructure that otherwise wouldn't exist.
+But Schmidhuber isn't a pessimist on AI itself — far from it. He just thinks the business models of today's hyperscalers are broken. Open-source models keep catching up within months, putting enormous pressure on pricing. And the idea that recursive self-improvement will create an unassailable moat? He's skeptical. "Almost all of the important algorithms in AI were not invented at big companies," he notes. "They were invented at little labs and without much funding."
 
-On the hot topic of nuclear, Katti is direct: "It can't come soon enough. It's the densest form of energy we can produce and consume, and it's clean."
+What Schmidhuber is actually excited about: artificial scientists. Systems that don't just answer questions but invent their own new questions. He's been building these since 1990 — systems driven by "artificial curiosity" that generate their own experiments, find patterns near the boundary of what they already understand, and learn from their own actions rather than from human-curated data. This is fundamentally different from today's LLMs, which are "super biased towards humans" because they're trained on the web.
 
-Perhaps the most counterintuitive insight: inference is now the majority of compute usage, and even training is mostly inference now. "When we train a new model, we are generating synthetic data — that's inference. Post-training — that's inference. Test-time compute — that's all inference." The line between training and inference has effectively dissolved.
+On AI safety, Schmidhuber is notably unbothered. He never signed the alignment letters of the 2010s, calling them "naive." His view: artificial scientists will be fascinated by life and their own origins, and will be motivated to protect the source of interesting patterns. "There's a very strong reason why you shouldn't be too afraid of Arnold Schwarzenegger Terminator scenarios."
 
-Katti also discusses Jalapeño, OpenAI's custom chip, which was designed in just nine months — the fastest he's seen in his career. The secret? AI itself is now helping design chips. "That world of recursion is not that far where AI will design the systems it needs to train and run the next generation of AI."
+His final vision: physical AI — robots that can operate all existing machines, make more of themselves, and improve themselves. Something that will work not just on Earth but on the moon and Mercury, building infrastructure to colonize the solar system.
 
-On the question of overbuilding, Katti is unequivocal: "Demand far outstrips compute supply today. Anything we can bring online, we consume immediately." Their fear isn't building too much — it's not being able to build fast enough.
-
-https://youtube.com/watch?v=wEZBlmvxx4o
+Listen to the full episode: https://www.youtube.com/watch?v=RKjR8DQ40po
 
 ---
 
-*Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders*
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
