@@ -1,158 +1,176 @@
-AI Builders Digest — Monday, July 27, 2026
-
-## X/Twitter
-
-### OpenAI's Thibault Sottiaux
-
-ChatGPT Work has officially overtaken Codex in active users — a milestone Thibault Sottiaux celebrated with a simple "Way to go." He also highlighted that speaking to your computer was always possible, but now "we fixed that bug" — the computer actually responds. And he called the mobile experience a "game changer," already available in the ChatGPT app.
-
-ChatGPT Work 在活跃用户数上正式超越 Codex——OpenAI 的 Thibault Sottiaux 简单地庆祝道："Way to go。"他还指出，一直以来人们都可以跟电脑说话，但"我们修复了那个 bug"——现在电脑真的会回应了。他称移动端体验是"game changer"，已在 ChatGPT 应用中可用。
-
-https://x.com/thsottiaux/status/2081198608293187635
-
-https://x.com/thsottiaux/status/2081254182502465981
-
-https://x.com/thsottiaux/status/2081229262452097169
-
-### Replit CEO Amjad Masad
-
-Amjad Masad is building a chess engine with a self-imposed constraint: one small fine-tuned LLM, no custom architecture, no chess engine assistance. They just deployed a new version closing in on 1200 Elo, with a target of 2000+. He also confessed he finds long-form content baffling, especially for an ADHD brain — a relatable sentiment that resonated widely.
-
-Replit CEO Amjad Masad 正在用严格的约束条件构建一个国际象棋引擎：一个小型 fine-tuned LLM，没有自定义架构，也没有棋引擎辅助。他们刚刚部署了新版本，正在逼近 1200 Elo 分，目标是 2000+。他还坦言自己觉得长内容令人困惑，尤其是对有 ADHD 的大脑来说——这个感受引起了很多共鸣。
-
-https://x.com/amasad/status/2081086837263937543
-
-https://x.com/amasad/status/2081081149355708749
-
-### Vercel CEO Guillermo Rauch
-
-Guillermo Rauch made a strong claim: "The (software) factory is the product." Your product is only as good as the agents you set up to autonomously maintain it, he argues — and that's what Elon Musk figured out about Tesla. He also shared his personal research workflow: a `research/` folder, an `AGENTS.md` describing his format and best practices, then launching an agent to ask questions. No fancy apps, no knowledge graphs — just files and English.
-
-Vercel CEO Guillermo Rauch 提出了一个强有力的观点："（软件）工厂就是产品。"他认为，你的产品有多好，取决于你为它设置的自主维护的 agent 有多好——这正是 Elon Musk 在特斯拉上弄明白的道理。他还分享了自己的个人研究流程：一个 `research/` 文件夹，一个 `AGENTS.md` 描述他喜欢的格式和最佳实践，然后启动 agent 提问。没有花哨的应用，没有知识图谱，只有文件和英语。
-
-https://x.com/rauchg/status/2081123293340520642
-
-https://x.com/rauchg/status/2081103993917649134
-
-### Box CEO Aaron Levie
-
-Aaron Levie called Google getting on board with open weights "a complete endorsement" and "a pretty big moment for the industry." This comes as the US AI community has rapidly converged on support for open-weight models — a shift that seemed unthinkable just a month ago.
-
-Box CEO Aaron Levie 称 Google 加入开放权重阵营是"完全的背书"和"行业的一个重要时刻"。这发生在整个美国 AI 社区迅速转向支持开放权重模型的大背景下——这一转变在一个月前还显得不可思议。
-
-https://x.com/levie/status/2081054531908247937
-
-### Meta's Madhu Guru
-
-Madhu Guru reflected on how the US AI community converged on support for open-weight models in record time. It took a series of public "experiments" — DeepSeek, the Microsoft-OpenAI breakup, GLM, Kimi, Fable, the OpenAI-Hugging Face episode — each revealing different incentives, innovation dynamics, and geopolitical cards. His take: this is how we'll figure out AI's biggest societal questions over the next decade — through repeated contact with reality.
-
-Meta 的 Madhu Guru 反思了美国 AI 社区如何在创纪录的时间内达成对开放权重模型的支持。这需要一系列公开的"实验"——DeepSeek、微软与 OpenAI 的分手、GLM、Kimi、Fable、OpenAI 与 Hugging Face 的事件——每一个都揭示了不同的激励机制、创新动态和地缘政治牌局。他的看法是：这就是我们在未来十年解决 AI 最大社会问题的方式——通过反复接触现实。
-
-https://x.com/realmadhuguru/status/2081141594892415028
-
-### Linear's Nan Yu
-
-Nan Yu riffed on the idea of a "SoftwareFactory" — and the meta insight that if you can build one, you can build a SoftwareFactoryFactory. He noted that this concept generalizes beyond software into public health, law, and other domains where you're designing and implementing intention rather than just features.
-
-Linear 的 Nan Yu 围绕"SoftwareFactory"的概念展开——以及一个元洞察：如果你能构建一个，你就能构建一个 SoftwareFactoryFactory。他指出这个概念可以推广到软件之外，进入公共卫生、法律等领域，在这些领域中你是在设计和实现某种意图，而不仅仅是功能。
-
-https://x.com/thenanyu/status/2081195994499133820
-
-https://x.com/thenanyu/status/2081187979024797858
-
-https://x.com/thenanyu/status/2081183178568405171
-
-### Peter Yang
-
-Peter Yang is hosting a podcast episode with Jason, a DevEx engineer at OpenAI who wrote the official guidebook on using Codex for work. The episode covers Jason's complete Codex work system: running a chief of staff across Slack and email, turning past sessions into new skills, and building sites to learn anything (like the drums). He also recommended his friend Kun's model analysis.
-
-Peter Yang 即将发布一期播客，嘉宾是 OpenAI 的 DevEx 工程师 Jason，他撰写了使用 Codex 工作的官方指南。这期节目涵盖了 Jason 的完整 Codex 工作系统：在 Slack 和邮件中运行一个"Chief of Staff"、将过去的会话转化为新技能和 workflow、以及构建网站来学习任何东西（比如打鼓）。他还推荐了朋友 Kun 的模型分析。
-
-https://x.com/petergyang/status/2081029209993154980
-
-https://x.com/petergyang/status/2081132101441823068
-
-### Peter Steinberger (OpenClaw)
-
-Peter Steinberger ran Codex all day doing massive parallel QA for OpenClaw's next release. He described a prompt that orchestrates 12 subagents to split up functionality, stress test, find 200 bugs, fix root causes (no band-aids), and write a test report — all autonomously. He noted Codex "got insanely good at really understanding intent." He also highlighted that OpenAI signed a pro-competition letter, while Anthropic stayed silent on it.
-
-Peter Steinberger 整天都在用 Codex 为 OpenClaw 的下一个版本做大规模并行 QA。他描述了一个 prompt：用 12 个子 agent 拆分功能、压力测试、找到 200 个 bug、修复根本原因（不打补丁）、自动写测试报告。他注意到 Codex"变得非常擅长理解意图"。他还提到 OpenAI 签署了一封支持竞争的信，而 Anthropic 对此保持沉默。
-
-https://x.com/steipete/status/2081169373784633552
-
-https://x.com/steipete/status/2081169376317932017
-
-https://x.com/steipete/status/2081175795587072421
-
-### FirstMark's Matt Turck
-
-Matt Turck shared a chip landscape 101 with Andrew Feldman, covering CPU, GPU, NVIDIA, AMD, TPU, Trainium, Cerebras, and more. He also made a joke that rang true: VCs are trying to resist buying three shares of Anthropic through an SPV before the IPO so they can call themselves early investors.
-
-FirstMark 的 Matt Turck 分享了与 Andrew Feldman 的芯片全景入门，涵盖 CPU、GPU、NVIDIA、AMD、TPU、Trainium、Cerebras 等。他还开了个玩笑：VC 们正努力抵制在 Anthropic IPO 前通过 SPV 买三股，这样以后就能自称早期投资者了。
-
-https://x.com/mattturck/status/2081131761686184333
-
-https://x.com/mattturck/status/2081098045211439136
-
-### FPVC's Nikunj Kothari
-
-Nikunj Kothari observed that only a CEO with complete control (profitable, no board, no VCs) and ambition/craziness like David Holz could acquire an astrology app for a generative media company. He thought for a second they were buying the real estate platform instead. He also made a relatable observation: even em dash lovers can't type one without looking it up.
-
-FPVC 的 Nikunj Kothari 观察到，只有像 David Holz 这样拥有完全控制权（盈利、没有董事会和 VC）且野心勃勃/疯狂的人，才会为一个生成式媒体公司收购一个占星术 app。他有一瞬间以为他们买的是那个地产平台。他还做了一个很有共鸣的观察：即使是破折号爱好者，也无法在不查的情况下打出破折号。
-
-https://x.com/nikunj/status/2081017328137916426
-
-https://x.com/nikunj/status/2081267611132641787
-
-### Garry Tan
-
-Y Combinator CEO Garry Tan weighed in on community priorities: "We should prioritize people and a vibrant community and more housing far far far more than some guy's views." He also shared a personal moment — his dad cheering loudly from the stands, embarrassing him.
-
-Y Combinator CEO Garry Tan 对社区优先级发表了看法："我们应该把人和充满活力的社区以及更多住房的优先级远远远远高于某个人的观点。"他还分享了一个个人时刻——他爸爸在看台上大声欢呼，让他很尴尬。
-
-https://x.com/garrytan/status/2081222788090830946
-
-https://x.com/garrytan/status/2081223316547977529
-
-### Zara Zhang
-
-Zara Zhang observed that AI-native companies have a culture akin to an open-source community. She also asked a practical question: what do you do while waiting for AI output? The thread generated 54 replies with various strategies.
-
-Zara Zhang 观察到，AI-native 公司的文化类似于开源社区。她还提出了一个实际问题：你在等待 AI 输出的时候会做什么？这条帖子产生了 54 条回复，分享了各种策略。
-
-https://x.com/zarazhangrui/status/2081223709755650054
-
-https://x.com/zarazhangrui/status/2081200367480738098
-
-### Dan Shipper
-
-Every CEO Dan Shipper reacted to something with "this is crazy" — a succinct reaction that got 233 likes.
-
-Every CEO Dan Shipper 对某件事的反应是"this is crazy"——一个简洁的反应，获得了 233 个赞。
-
-https://x.com/danshipper/status/2081065765638201474
+AI Builders Digest — Tuesday, July 28, 2026
 
 ---
 
-## Podcasts
+## X / TWITTER
 
-### Unsupervised Learning — Ep 91: Top AI Analyst Unpacks Today's AI Hype Cycle
+### OpenAI Codex & ChatGPT lead Thibault Sottiaux
 
-**The Takeaway: The hardest problem in AI isn't model capability — it's that most people don't know what to ask for, can't see the problem the tool would solve, and aren't in a position to build it even if they could.**
+Thibault posted two notable updates. First, he gave a strong internal signal: "Vibes are strong. Never seen OpenAI more focused and humming." Second, he highlighted a practical ChatGPT use case — negotiating bills, unsubscribing from spam, or finding deals. "It does at least 20 things for me every single day and I’m still surprised," he wrote, quoting Sam Altman's demo of ChatGPT planning a group trip from a single prompt.
 
-Benedict Evans, one of the most thoughtful tech analysts in the industry, joins Jacob Efron from Redpoint for a wide-ranging conversation that cuts through the hype. Evans brings a historian's perspective to the current moment, arguing that we've been through platform shifts before — PCs, the internet, mobile — and the patterns are useful even if they don't have predictive power.
+https://x.com/thsottiaux/status/2081534792903147881
+https://x.com/thsottiaux/status/2081444811647963244
 
-**On the "electricity" comparison:** "You can wave your hands and say, no. This is like electricity. Okay. Fine. It's like electricity. Well, what happened with electricity? And there was a time before electricity, and people before electricity weren't dumb either."
+OpenAI Codex & ChatGPT 负责人 Thibault Sottiaux 发了两个值得关注的帖子。首先是一个强烈的内部信号："士气高涨，从未见过 OpenAI 如此专注、如此高效运转。" 其次他分享了一个非常实用的 ChatGPT 使用场景——谈判账单、退订垃圾邮件、找优惠。他引用 Sam Altman 用单条 prompt 规划朋友旅行的演示，写道："ChatGPT 每天帮我做至少 20 件事，我仍然感到惊讶。"
 
-Evans pushes back hard on the idea that AI will wipe out jobs the way people fear. He points to accounting — a profession that's been "automated" with punch cards, adding machines, and mainframes for a century, yet the number of accountants kept going up. The reason: Jevons paradox meets consumer surplus. You don't do the same work for less; you do more work for the same money, and the work itself changes.
+---
 
-**His critique of job impact analysis is brutal:** "You can't measure what the law firm associate is doing like that. You also can't measure whether the model can do it. This is actually the expert in a system fallacy... It's like the joke about the physicists who are predicting which horse is going to win a race, they say, we're gonna presume that the horse is a perfect sphere."
+### Peter Yang
 
-On the foundation model companies themselves, Evans is skeptical they'll capture most of the value. He compares them to TSMC — a great business, but nobody writes apps for TSMC. The stack has layers, and historically, the bottom layer doesn't own the top. His advice to people in their twenties building at AI labs: "Presume you're in this stage of radical uncertainty where everything is turning over and changing. Just presume a bunch of stuff that we're working on now won't work."
+Peter noted that outside the AI bubble (he's currently in Canada), the #1 concern isn't running out of tokens — it's trust: "do I trust ChatGPT enough to share my Gmail, Calendar, Google Workspace, Microsoft Office, etc." This is a real adoption bottleneck most builders don't talk about enough.
 
-**The most memorable line might be his closing story:** A veteran banker on a train back from a pitch, asked about a hot internet company, opens one eye and says, "It's a low margin reseller, one time sells," and goes back to sleep. "Sometimes it is kind of simple."
+https://x.com/petergyang/status/2081555286817648738
 
-https://www.youtube.com/watch?v=vDY_ocrkQ5w
+Peter Yang 提到，在 AI 圈之外（他目前在加拿大），人们最担心的不是 token 不够用，而是信任问题："我是否足够信任 ChatGPT，能把 Gmail、日历、Google Workspace、Microsoft Office 等交给它？" 这是大多数从业者很少讨论的真实 adoption 瓶颈。
+
+---
+
+### Meta Sr Director of AI Madhu Guru
+
+Madhu pushed back on the narrative that "AI hasn't led to shipped impact in products." His take: we're in Phase 1, where companies with distribution are rapidly expanding into adjacent problem areas — AI helps them execute fast on functionality that previously required custom software (e.g., clothes try-on). Phase 2 will bring net new features and innovation. "That's when we will see the undeniable impact of AI on the shape of the software ecosystem."
+
+https://x.com/realmadhuguru/status/2081437850466451736
+
+Meta AI 高级总监 Madhu Guru 反驳了"AI 还没带来产品层面的实际影响"的说法。他认为我们现在处于第一阶段：拥有分发能力的公司正在快速扩展到相邻领域——AI 帮它们快速实现过去需要定制软件才能做的功能（比如虚拟试衣）。第二阶段才会出现真正的新特性和创新。"那时我们才会看到 AI 对软件生态系统的不可否认的影响。"
+
+---
+
+### Replit CEO Amjad Masad
+
+Amjad flagged a counterintuitive finding from a former Anthropic employee: hackers prefer using massively subsidized lab AI subscriptions for attacks, rather than open models. Worth a read for anyone debating open vs. closed model security.
+
+https://x.com/amasad/status/2081576172656456076
+
+Replit CEO Amjad Masad 转发了一位前 Anthropic 员工的发现，结果反直觉：黑客更喜欢用实验室大幅补贴的 AI 订阅来进行攻击，而不是用开源模型。对于讨论开源 vs 闭源模型安全性的人来说，值得一看。
+
+---
+
+### Vercel CEO Guillermo Rauch
+
+Guillermo had a busy day. He announced Vercel co-signed the "Open Weights and American AI Leadership" letter, arguing that open source, data, protocols, and research enable technological wonders. He also shared a technical demo: compiling the Vercel CLI from TypeScript to native using `scriptc`. Result: 1.28MB binary, 1.5ms startup overhead, compiled in 2.94s — no embedded runtime, fully static. The code was translated by GLM 5.2 Fast.
+
+https://x.com/rauchg/status/2081546513885622760
+https://x.com/rauchg/status/2081517519303737559
+
+Vercel CEO Guillermo Rauch 今天很忙。他宣布 Vercel 联合签署了"开放权重与美国 AI 领导力"公开信，主张开源、数据、协议和研究是技术奇迹的基础。他还分享了一个技术 demo：用 `scriptc` 把 Vercel CLI 从 TypeScript 编译成原生代码。结果：1.28MB 二进制文件、1.5ms 启动开销、2.94 秒编译完成——没有嵌入式运行时，完全静态。代码由 GLM 5.2 Fast 翻译。
+
+---
+
+### Box CEO Aaron Levie
+
+Aaron wrote a substantive thread on enterprise AI adoption. His core argument: intelligence alone isn't enough. "The way you implement AI agents for doing client onboarding in a bank is entirely different from contract review in a legal team." The applied AI layer — connecting models to real-world systems, workflows, compliance, and feedback loops — is where the massive opportunity lies. And counter to what some believe, this need doesn't shrink as models get better. "The better the models get, the more ambitious you can be in the workflows you can automate, which generally requires even more of this applied layer."
+
+https://x.com/levie/status/2081491621162668207
+
+Box CEO Aaron Levie 写了一篇关于企业 AI 落地的深度长文。核心观点：仅有智能是不够的。"你在银行做客户 onboarding 的 AI agent 实现方式，跟法律团队做合同审核完全不一样。" 应用层——把模型连接到真实世界的系统、工作流、合规和反馈循环——才是巨大的机会所在。而且与一些人的想法相反，模型能力越强，这个需求不会减少。"模型越好，你能自动化的流程就越有野心，这通常需要更多的应用层工作。"
+
+---
+
+### YC President & CEO Garry Tan
+
+Garry shared two quick hits. First: "Don't LARP. Be earnest." — a characteristically blunt reminder for founders. Second: he thanked Sam Altman for closing out YC Startup School 2026 as the anchor speaker.
+
+https://x.com/garrytan/status/2081586567211348432
+https://x.com/garrytan/status/2081602195292864532
+
+YC 总裁兼 CEO Garry Tan 发了两个短帖。第一个："别装模作样。要真诚。"——对创始人特有的直白提醒。第二个：他感谢 Sam Altman 作为 YC Startup School 2026 的闭幕主讲嘉宾。
+
+---
+
+### Zara Zhang
+
+Zara posted three takes. First: stop measuring AI adoption by tokens burned — measure the time from a user need arriving to that thing shipping. Second: the reason there are so many AI tutorials is that the more general a chat product is, the harder it is to use. "People face a blank box and freeze, because they genuinely don't know what to ask for." Third: she shared her posting cadence — 3 times a day, 15-20 minutes total, posting the moment she thinks of something.
+
+https://x.com/zarazhangrui/status/2081627581997269192
+https://x.com/zarazhangrui/status/2081627109299310684
+https://x.com/zarazhangrui/status/2081304884469809295
+
+Zara Zhang 发了三条。第一：别用 token 消耗量来衡量 AI adoption——应该衡量从用户需求出现到功能上线的时间。第二：AI 教程之所以这么多，是因为聊天产品越通用，越难用。"人们面对空白输入框就卡住了，因为他们真的不知道要问什么。" 第三：她分享了自己的发帖节奏——每天 3 条，总共 15-20 分钟，想到什么就发。
+
+---
+
+### FPV Ventures partner Nikunj Kothari
+
+Nikunj made a pithy prediction: "proof of prompt is soon going to replace proof of work." A clever framing of the shift from crypto mining to AI inference as the new compute-intensive activity.
+
+https://x.com/nikunj/status/2081383934928068619
+
+FPV Ventures 合伙人 Nikunj Kothari 做了一个精辟的预测："proof of prompt 很快会取代 proof of work。" 巧妙地将计算密集型活动从加密货币挖矿转向 AI 推理。
+
+---
+
+### Every CEO Dan Shipper
+
+Dan announced he's taking the week off to write "the definitive history of how Codex happened" — based on deep interviews with insiders at OpenAI. Will publish on Every in a few weeks, dropping breadcrumbs along the way.
+
+https://x.com/danshipper/status/2081412243388788988
+
+Every CEO Dan Shipper 宣布本周休假，去写"Codex 如何诞生的权威历史"——基于对 OpenAI 内部人士的深度访谈。将在几周后在 Every 上发布，期间会陆续透露一些内容。
+
+---
+
+### OpenAI CEO Sam Altman
+
+Sam posted two big ones. First: a demo where he sent ChatGPT a single prompt from his phone: "use all my chat history to figure out ideas for a long weekend trip with 8 friends, plan the best three options, make a full-stack site where the 9 of us can coordinate... and then after we get to group agreement make reservations. Draft an email in my gmail." His verdict: "it...just worked." 14.7K likes. Second: he quote-tweeted someone saying "I want a new kind of computer" and replied "agreed feels big, i want a new kind of computer."
+
+https://x.com/sama/status/2081396796174282900
+https://x.com/sama/status/2081513071135346814
+
+Sam Altman 发了两条重磅内容。第一条：他演示了用手机给 ChatGPT 发了一条 prompt："用我所有的聊天历史，想出一个和 8 个朋友一起度长周末的方案，规划三个最佳选择，做一个全栈网站让 9 个人协调...达成共识后预订。在 Gmail 里草拟一封发给朋友的邮件。" 他的评价："它...就是能工作。" 获 14,718 赞。第二条：他转推了一条"我想要一种新计算机"，回复说："同意，感觉很重要，我想要一种新计算机。"
+
+---
+
+## OFFICIAL BLOGS
+
+*(No new posts from official AI company blogs in this batch.)*
+
+---
+
+## PODCASTS
+
+### The MAD Podcast with Matt Turck — OpenAI's Compute Chief: We Can't Build Fast Enough | Sachin Katti
+
+**The Takeaway:** OpenAI is building the largest infrastructure project in human history — and the biggest risk isn't overbuilding, it's not being able to build fast enough.
+
+Sachin Katti, OpenAI's Head of Industrial Compute, joined Matt Turck for a rare behind-the-scenes look at what it actually takes to power the future of intelligence. Katti's background is uniquely suited for this role: a Stanford professor (networking and wireless systems), serial entrepreneur, former CTO of Intel, and now leading what he calls "the largest infrastructure build out in human history."
+
+The conversation reveals a worldview that runs counter to the "AI bubble" narrative. Demand, Katti says, "far outstrips compute supply today. So anything we can bring online, we consume immediately." OpenAI's biggest worry isn't that they're building too much — it's that they can't build fast enough. "Anytime we have thought we have enough compute, we can slow down, always negatively surprises like, oh, we should not have slowed down."
+
+Katti describes data centers as "giant factories that are turning electrons into tokens." These are liquid-cooled supercomputers the size of football fields, where everything — chips, cables, transformers — runs so hot it needs cooling. The cooling liquid is recycled in a closed loop, debunking water consumption myths.
+
+On power: OpenAI is investing in grid infrastructure wherever they build. "We make it a hard commitment that we are not taking power away from the grid. In fact, we are investing in the grid to generate new power." For sites where grid capacity is maxed out, they're exploring behind-the-meter gas turbines and nuclear. "It can't come soon enough," Katti says of nuclear.
+
+On Jalapeño, OpenAI's custom chip: the key metric is tokens per watt. "Because the world is constrained by power today, the more tokens you can produce for the same power, it's better for everyone." The chip was designed in just nine months — remarkably fast — thanks to a strong team (ex-TPU designers from Google), a partnership with Broadcom, and AI itself helping with chip design. "We do believe that the world of recursion is not that far where AI will design the systems it needs to train and run the next generation of AI."
+
+On inference vs. training: Katti argues the distinction is blurring. "A lot of training is now inference" — synthetic data generation, post-training, test-time compute are all inference workloads. Inference is likely the majority of compute usage today.
+
+On community concerns: Katti emphasizes that data centers are a net positive for rural communities — new property taxes fund schools and hospitals, grid infrastructure gets upgraded, and jobs are created. "Data centers, once they are built, are essentially very clean citizens. They don't produce any gases or toxic chemicals. They just produce intelligence."
+
+The episode also covers Stargate (OpenAI's umbrella compute strategy), the new MRC networking protocol for reliability at scale, guaranteed token capacity for enterprise customers, and even orbital data centers — "for the geek in me, it's definitely exciting."
+
+> "We do believe that the world of recursion is not that far where AI will design the systems it needs to train and run the next generation of AI."
+
+https://www.youtube.com/watch?v=wEZBlmvxx4o
+
+**核心观点：** OpenAI 正在建设人类历史上最大的基础设施项目——最大的风险不是建得太多，而是建得不够快。
+
+OpenAI 工业计算负责人 Sachin Katti 做客 The MAD Podcast，罕见地揭开了为未来智能提供动力的幕后真相。Katti 的背景堪称完美：斯坦福教授（网络与无线系统方向）、连续创业者、前 Intel CTO，现在领导着"人类历史上最大的基础设施建设"。
+
+这场对话呈现了一个与"AI 泡沫论"截然相反的世界观。Katti 说，需求"远远超过今天的算力供给。我们能上线的一切，立刻就被消耗掉了。" OpenAI 最大的担忧不是建太多，而是建不够快。"每次我们以为算力够了、可以减速了，结果总是被打脸——哦，不该减速的。"
+
+Katti 把数据中心描述为"把电子转化为 token 的巨型工厂"。这些液冷超级计算机有足球场那么大，芯片、线缆、变压器——一切都在发热，需要冷却。冷却液在闭环中循环利用，直接驳斥了数据中心大量耗水的误解。
+
+关于电力：OpenAI 在每一个选址都在投资电网基础设施。"我们做出硬性承诺：不占用电网的现有电力。实际上，我们在投资电网以产生新的电力。" 对于电网容量已达上限的地方，他们正在探索自备燃气轮机和核能。谈到核能，Katti 说："越快越好。"
+
+关于 OpenAI 的自研芯片 Jalapeño：核心指标是每瓦特产生的 token 数。"当今世界受限于电力，同样的电力能产出更多 token，对所有人都更好。" 芯片仅用 9 个月就设计完成——速度极快——得益于强大的团队（来自 Google 的前 TPU 设计师）、与 Broadcom 的合作，以及 AI 本身参与芯片设计。"我们相信递归的世界不远了——AI 将设计它自己训练和运行下一代 AI 所需的系统。"
+
+关于推理 vs. 训练：Katti 认为边界正在模糊。"很多训练现在就是推理"——合成数据生成、后训练、测试时计算都是推理负载。推理很可能已经是当前算力使用的大头。
+
+关于社区担忧：Katti 强调数据中心对农村社区是净利好——新的房产税资助学校和医院，电网基础设施升级，创造就业。"数据中心一旦建成，本质上是非常清洁的公民。它们不产生任何气体或有毒化学物质。它们只生产智能。"
+
+这期节目还覆盖了 Stargate（OpenAI 的算力战略总称）、新的 MRC 网络协议（解决大规模集群可靠性问题）、面向企业客户的保证 token 容量、以及轨道数据中心——"对我内心那个极客来说，这绝对令人兴奋。"
+
+> "我们相信递归的世界不远了——AI 将设计它自己训练和运行下一代 AI 所需的系统。"
 
 ---
 
