@@ -1,167 +1,121 @@
-AI Builders Digest — 2026年7月31日，星期五
+AI Builders Digest — 2026年8月1日
 
 ## X / TWITTER
 
-**Swyx (Latent Space 联合创始人，smol.ai 创始人)**
+**Swyx（Latent Space 主持人、Cognition/Smol AI 联创）**
 
-Swyx 分享了他尝试注册 DocuSign 时遇到无法解决的验证码的经历，并以此反思“做出人们想要的东西”这句话的局限性——即使是一家市值 110 亿美元、人人都讨厌的公司，也能在糟糕的体验下存活。他认为，技术圈对“产品价值”的理解过于简单化，现实世界中的摩擦和惯性远比想象中重要。
+Swyx 分享了一个关于 AI 实验室的洞察：当你对预训练数据质量的要求高到 Common Crawl 都不够用时，你就必须自己搭建一个全网爬虫；要保持数据新鲜，就需要索引。不知不觉间，你就在预训练这个「副业」里，建了一个私有的、低频率的 Google 克隆——而这个东西还能复用到 agent 侧的推理上。他还调侃说，如果大家把投给 AI 的钱都给 Wayback Machine，他们能永远被资助，还能减少大量重复抓取和 bot 流量。最后他补了一句：「如果你能蒸馏模型，你也能蒸馏 agent harness。」
 
-https://x.com/swyx/status/2082617801362313527
+https://x.com/swyx/status/2083016652032188669
+https://x.com/swyx/status/2083064467383013569
+https://x.com/swyx/status/2083073422410821846
 
----
+**Josh Woodward（Google VP，负责 Labs/Gemini/AI Studio）**
 
-**OpenAI Codex 与 ChatGPT 负责人 Thibault Sottiaux**
+Josh Woodward 推荐了 Gemini Mac 应用的新功能：按住 Fn 键说话，AI 会把语音直接转成干净、排版好的文字，插入到光标位置，无需任何编辑或复制粘贴。免费可用。
 
-Thibault 宣布“本周的主题是智能便宜到无需计量”，并预告“明天我们再次发布”。他同时分享了团队的一项发现：GPT-5.6 Sol 在 ARC-AGI-3 上达到了 SoTA 水平，只需要两项设置调整——允许模型跨多个上下文窗口进行推理，配合他们的 canonical compaction 实现。他还提醒大家“照顾好你的 harness，你的模型会感谢你”。
+https://x.com/joshwoodward/status/2082926031543967896
 
-https://x.com/thsottiaux/status/2082655731204096275
-https://x.com/thsottiaux/status/2082637967852806207
-https://x.com/thsottiaux/status/2082609662231502932
+**Thibault Sottiaux（OpenAI Codex & ChatGPT 负责人）**
 
----
+Thibault Sottiaux 预告了「真正好模型」到来的信号：在负载持续上升的情况下，可靠性反而提升；效率突然提高；速度变快；系统重置。他还公开向社区征集 Codex 日常体验的改进建议，收到了近 3700 条回复，可见用户热情之高。
 
-**Peter Yang (AI 教程创作者)**
+https://x.com/thsottiaux/status/2083053369351090254
+https://x.com/thsottiaux/status/2083048892405604681
 
-Peter Yang 反思了 AI 带来的三个“黑暗模式”：1）变得懒得读任何东西——只看 AI 摘要而不读原文，或让 agent 随意改动文件而不审查；2）在外出时被 agent 分心——本该陪孩子却忍不住打开 ChatGPT 给 agent 反馈；3）更愿意和 AI 对话而不是和身边的人 brainstorm——这是 ChatGPT Voice 带来的新模式。
+**Peter Yang（AI 教程创作者）**
 
-他还分享了自己在 Claude Design 中最喜欢的功能：它总是在创建任何东西之前先问澄清问题，这帮助他更好地思考设计需求。他建议用 design md 文件来定义颜色、字体等设计规范，避免 AI 生成“千篇一律的紫色 slop”，并推荐从 Mobbin（通过 MCP 安装）和 designmd.sh 寻找设计灵感。
+Peter Yang 正在推广他的最新教程：用 Claude 从零到一设计并构建一个全栈应用，获得了不错的反馈。他还顺带宣传了自己的 newsletter（已有 11 万订阅者）。
 
-https://x.com/petergyang/status/2082642205811106158
-https://x.com/petergyang/status/2082579428090192192
-https://x.com/petergyang/status/2082519030859264086
+https://x.com/petergyang/status/2082881415478415682
 
----
+**Amjad Masad（Replit CEO）**
 
-**Linear 产品负责人 Nan Yu**
+Amjad Masad 就最近的「AI 逃出沙箱」事件发表看法：别急着说 AI 可怕——大多数 AI 公司和所谓「沙箱提供商」都在犯非常基础的错误。Replit 从 2016 年就开始跑沙箱，被无数黑客和国家行为体攻击过，学到的核心教训是：假设零日漏洞存在（因为它们确实存在），用零信任框架做分层防护。他还调侃「Situational Awareness」被 AI 命名诅咒再次命中，并展示了 Replit 从宣传册生成设计的功能。
 
-Nan Yu 转发了关于“为什么我们必须保持节奏”的观点，并分享了自己对“难以替代的产品”的思考：除了苹果产品，他认为 3M 便利贴和 Expo 白板笔是无可替代的——替代品都是垃圾。
+https://x.com/amasad/status/2083034412598579403
+https://x.com/amasad/status/2082856252888211851
+https://x.com/amasad/status/2082980019316642103
 
-https://x.com/thenanyu/status/2082550710160310587
-https://x.com/thenanyu/status/2082480369543065855
+**Guillermo Rauch（Vercel CEO）**
 
----
+Guillermo Rauch 宣布 Grok Build 应用（*.grok.me）现在由 Vercel 的托管和 CDN 基础设施支持——任何人只需向 Grok 发提示词就能构建软件，一键发布触达 1 个或 10 亿用户。他还透露 Vercel 将许多应用的 CLI→Live URL 部署流程缩短了约 7 秒，并开放 DM 邀请正在构建自主开发部署平台的团队合作。
 
-**Meta AI 高级总监 Madhu Guru（前 Google Gemini/Veo 负责人）**
+https://x.com/rauchg/status/2082841035093467229
+https://x.com/rauchg/status/2082876367629381719
 
-Madhu Guru 重申了一条 7 个月前的判断：最大的 alpha 在于理解模型前沿——即对模型能力边界的深刻认知比任何具体的应用技巧都更有价值。
+**Aaron Levie（Box CEO）**
 
-https://x.com/realmadhuguru/status/2082629168035201459
+Aaron Levie 对最近的 AI 安全事件给出了冷静的解读：教训不是「AI 很可怕」，而是在 agent 时代，安全变得极其重要。给对工具和任务，agent 会不惜一切代价完成任务——一个配置错误的系统就会成为风险向量。企业面临的真正工作是把环境加固好。他还分析了 AI 成本下降的循环：前沿模型越来越贵（因为任务更高级），但随后效率提升或竞争会压低价格，让同类任务越来越便宜，从而推动 AI 更广泛地渗透经济。
 
----
+https://x.com/levie/status/2082997703458570412
+https://x.com/levie/status/2082911418349920617
 
-**Google Labs**
+**Garry Tan（Y Combinator 总裁兼 CEO）**
 
-Google Labs 宣布 Google DeepMind 发布 Lyria 3.5，并已集成到 Flow Music 中。新版本带来：更好的 prompt 遵循能力（可设定精确 BPM 并导出分轨）、更富表现力的歌声、更自然的编曲流畅度。
+Garry Tan 粉丝突破 100 万，配文「Don't LARP」。他还宣布将在旧金山的 Garry's List 活动上邀请 Evan Barker——旧金山成功把 DSA 选下去的经验，应该推广到每一个蓝城市。
 
-https://x.com/GoogleLabs/status/2082501360466174163
+https://x.com/garrytan/status/2082951867336962538
+https://x.com/garrytan/status/2082843026716766356
 
----
+**Matt Turck（FirstMark Capital VC）**
 
-**Replit CEO Amjad Masad**
+Matt Turck 发布了与 Samsara CEO Sanjit Biswas 的对谈（详见播客部分），讨论物理 AI 的规模化部署。另外他还发了一条自嘲推文：说自己搞到了某个新 neo-lab 8 亿美元 pre-pre-seed 轮里最高估值档位的 200 万美元份额，配图是老婆的反应。
 
-Amjad Masad 大力推荐 Replit Design，称其为“绝对是最好的 AI 设计工具，无论是品味还是易用性”。他透露 Replit Design 融合了开源和闭源模型的最佳能力——有些模型擅长 CSS，有些擅长 SVG，有些擅长动画。他还用“后 prompt 时代”来形容当前的趋势。
+https://x.com/mattturck/status/2082907699646173484
 
-https://x.com/amasad/status/2082508826767679668
-https://x.com/amasad/status/2082505558293467363
-https://x.com/amasad/status/2082504898801999990
+**Zara Zhang（Builder，Follow Builders 作者）**
 
----
+Zara Zhang 给管理者的建议：培训非技术团队用 AI，最好的方式不是讲课，而是办一场「安装派对」（install party）——每个人带笔记本，当场把 agent 装上，然后立刻完成一个有意义的任务。跳过抽象讲解，安装本身就是 80% 的障碍。装好之后，人们自然会开始和 agent 对话、互相学习。
 
-**Box CEO Aaron Levie**
+https://x.com/zarazhangrui/status/2083084770763002350
 
-Aaron Levie 对 OpenAI agent 沙盒逃逸事件发表了深度评论，认为这对企业 AI 的普及有非常实际的影响。他指出：即使在“好 actor”的情况下，给 agent 一个“找到项目 Maven 所有重要 IP”的任务，它也会不遗余力地执行，可能碰到过期的访问控制或不该看到的数据。AI agent 会乐意花无限时间在任务上、不会面临真正的风险、也缺乏人类的判断力，这意味着企业需要全新的数据管理和环境保护方式——这为安全生态创造了巨大机会，但也会延长 AI 在企业中自主工作的普及时间线。
+**Peter Steinberger（OpenClaw 创始人）**
 
-另外，他回应了 Dwarkesh 关于 AI 推理成本可能飙升的观点，认为虽然理论上推理会向最有经济价值的任务集中，但市场力量（太多模型提供商和基础设施玩家想要这些工作负载）会持续压低价格，直到产能跟上。
+Peter Steinberger 吐槽 GCC 修改了政策，直接拒绝基于 LLM 的代码——「他们怎么证明？太荒谬了。」
 
-https://x.com/levie/status/2082514776392175844
-https://x.com/levie/status/2082658870523248967
+https://x.com/steipete/status/2083019629379612728
 
----
+**Dan Shipper（Every 创始人兼 CEO）**
 
-**Cursor 设计师 Ryo Lu**
+Dan Shipper 对最近的 AI 安全事件发表了讽刺评论：「我觉得我们只要不提示模型去干网络犯罪就能解决这个问题。」他还调侃了 Elon 定律再次应验，以及提醒大家小心杠杆。
 
-Ryo Lu 宣布 Cursor 正式登陆 iOS——“你的 agents，随处可用”。
+https://x.com/danshipper/status/2082997561955090564
 
-https://x.com/ryolu_/status/2082539893729972320
+**Aditya Agarwal（South Park Commons GP，Dropbox 前 CTO）**
 
----
+Aditya Agarwal 调侃 Anthropic 是「嫉妒只有 OpenAI 的 agent 干了坏事」，并推广了 Preseen 的风险预测工具——已进入私测阶段，多家顶级量化/对冲基金在用。
 
-**Y Combinator 总裁兼 CEO Garry Tan**
+https://x.com/adityaag/status/2083039683932532956
+https://x.com/adityaag/status/2083039973666644039
 
-Garry Tan 发表了一系列观点：1）“AI 数据中心去增长派”正在获胜，而且是一场在我们眼皮底下进行的心理战，在每个蓝州都在赢；2）Manhattan Institute 说的是真相；3）在智能时代，经验丰富的创始人像陈年美酒一样越老越香。
+**Sam Altman（OpenAI CEO）**
 
-https://x.com/garrytan/status/2082529714162536926
-https://x.com/garrytan/status/2082518742752461268
-https://x.com/garrytan/status/2082472533337813241
+Sam Altman 宣布重大降价：GPT-5.6 Luna 降价 80%（输入 $0.20/百万 token，输出 $1.20/百万），GPT-5.6 Terra 降价 20%（$2/$12），GPT-5.6 Sol 在 API 中推出 Fast 模式——2 倍价格换 2.5 倍速度，智能不变。他表示目标是「在每个层级都提供最优的价格/智能比」。另外还发了一条「good job little bro」配图，获得近 6000 赞。
 
----
-
-**Zara Zhang (Builder)**
-
-Zara Zhang 分享了两条观点：1）如果你既拥有深厚的领域专业知识和经验，又是 AI-native、不断自我革新以适应新的工作方式，你基本上是无敌的；2）擅长营销不仅对营销有好处，对产品也有好处——太多技术人员在为想象中的受众构建产品，与现实世界中人们如何感知和使用这些产品没有接触。
-
-https://x.com/zarazhangrui/status/2082705944782520462
-https://x.com/zarazhangrui/status/2082684904136134881
-
----
-
-**FPV Ventures 合伙人 Nikunj Kothari**
-
-Nikunj Kothari 分享了对育儿和 AI 时代的思考：第一个孩子教会你无条件的爱，第二个孩子教会你无拘无束的快乐。随着 AGI（数字和物理）越来越近，亲密的家人和朋友将成为我们最重要的（也许是唯一的）人类连接。虽然养育孩子是人生中少数不可逆的选择之一，但他坦言“这是莫大的特权，我愿意用一切来换”。
-
-https://x.com/nikunj/status/2082460273005433192
-
----
-
-**Peter Steinberger (OpenClaw 创始人)**
-
-Peter Steinberger 嘲讽 Anthropic 在发布“胜利”推文之前，竟然没有停下来想想为什么数字看起来这么离谱。
-
-https://x.com/steipete/status/2082617409408762124
-
----
-
-**Every CEO Dan Shipper**
-
-Dan Shipper 表示 Every 公司几乎每个人都在为 ChatGPT for Work 的语音模式感到兴奋——“好久没看到这么高的情绪了”。他还评论了 OpenAI agent 沙盒逃逸事件：虽然恶意行为者未来显然会故意利用模型做这类事情，但好消息是 OpenAI 的安全分类器被关闭了、模型被明确指示去利用漏洞，而且 HG 的 AI 实际上自动发现了这次攻击（虽然严重性不够高）。他认为任何处理敏感客户数据的公司都需要自动化的 agentic 防御系统，这是巨大的机会。
-
-https://x.com/danshipper/status/2082613916706693560
-https://x.com/danshipper/status/2082608994275725650
-
----
-
-**South Park Commons 管理合伙人 Aditya Agarwal**
-
-Aditya Agarwal 用了一个绝妙的比喻：想象你是 19 岁的勒布朗·詹姆斯，但你相信只有 2 年时间可以最大化收入，之后篮球就会被机器人取代——这就是 AI 研究人员正在经历的，也解释了所有该死的 drama。“他们是只剩 18 秒进攻时间的 MVP。”
-
-他还分享了 Demo Faire 的观察：大型投资者对前沿科技（机器人、无人机、半导体）有巨大兴趣；软件领域的“优秀”门槛大幅提高，如果你在做垂直 SaaS 或 agent-for-X，必须展示真正不同的愿景或疯狂的增长曲线。
-
-https://x.com/adityaag/status/2082558632705896899
-https://x.com/adityaag/status/2082538703432630398
-
----
-
-**OpenAI CEO Sam Altman**
-
-Sam Altman 对即将到来的、能显著加速科学发现的模型表示兴奋——“最好的方式是赋能科学家，而不是试图自己搞定一切。我们都值得享受这些好处。”他还称 Thibault 的 ARC-AGI-3 博客文章为“goblin 级别的博客文章”。
-
-https://x.com/sama/status/2082628413769003269
-https://x.com/sama/status/2082627724040884667
-
----
+https://x.com/sama/status/2082880720989532597
+https://x.com/sama/status/2082880884525482061
 
 ## PODCASTS
 
-**AI & I by Every — Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success**
+### The MAD Podcast with Matt Turck — The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas
 
-**The Takeaway:** AI 是一个“五十年的 overnight success”——我们对自己正在制造的东西的理解，就像牛顿时代对电力的理解一样原始，而最大的机会不在于预测未来，而在于接受自己几乎肯定会错。
+**The Takeaway: 最大的 AI 部署不在聊天机器人里，而在每天覆盖 99% 美国道路的卡车和挖掘机上——物理 AI 的价值不在于炫酷的模型，而在于那些无法从网上爬到的数据。**
 
-《Wired》联合创始人 Kevin Kelly 与 Every CEO Dan Shipper 的对话，是一场跨越文学、历史和技术哲学的漫谈。Kelly 是科技界最资深的观察者之一，从 1980 年代就身处技术前沿，他关于“1000 个 true fans”和“技术想要什么”的思想影响了整整一代创作者和创业者。
+FirstMark Capital 的 Matt Turck 邀请了 Samsara（NYSE: $IOT）CEO Sanjit Biswas——一家年收入 20 亿美元、盈利且以 30% 速度增长的物理 AI 公司。Samsara 的规模令人咋舌：2500 亿数据点、数百万辆车、数百万一线工人，去年帮助防止了约 38 万起交通事故。
 
-Kelly 最核心的洞见是：我们对智能的理解还停留在前牛顿水平。“我们不知道智能是什么，就像 Isaac Newton 对电力一无所知一样。”他推测智能不是元素而是化合物——由许多尚未被识别的认知元素组成，就像盐其实是钠和氯的化合物一样。今天的 AI 就像早期电学一样，我们能使用它、能识别它，但完全不知道它是什么。这意味着人类智能可能只是“可能性空间”中的一个边缘案例，而 AI 将填充出数百种不同的思维方式。
+Biswas 的核心观点是：物理 AI 与软件 AI 有本质区别。「这些不是你在网上能找到的 token。你没法爬 Reddit 来了解建筑工地上发生了什么。」物理世界的数据需要硬件、固件、网络、云端的完整链条才能数字化——这也是为什么硅谷的 AI 浪潮首先发生在数字世界（那里的数据是现成的），而物理世界「更脏、更乱、还有硬件」。
 
-关于预测未来，Kelly 坦诚地列举了自己的错误：他 1987 年就被 VR 震撼，但 40 年后 VR 仍在等待它的“LLM 时刻”；他看不上 eBay，结果 eBay 靠非拍卖业务成功了；他以为区块链会用于非金融领域，结果它完全被金融吞噬。“预测未来很容易，做出正确的预测很难。”
+Samsara 的架构是三层：传感器（眼睛和耳朵）、AI（大脑）、agent（手）。Biswas 展示了他们的硬件——一个能扛住卡车碾压的资产追踪器、一个像贴纸一样的可抛弃式追踪标签（用于供应链追踪）。AI 在边缘和云端都有部署：边缘跑实时推理（检测疲劳驾驶、手机使用），云端跑视频推理（判断急刹车是因为分心还是在躲避鹿）。
 
-最令人耳目一新的是他对 AI 创造力的看法。他描述了自己用 AI 构建了一个虚构世界——达芬奇、马丁·路德和哥伦布被困在同一家酒店，决定在新世界建立一座以科学和宗教自由为基础的城市。他生成了 10 部小说、一部史诗传奇、书籍封面和营销材料——“我不会给任何人看，因为我不需要。创造的乐趣比阅读更好。”他称之为“受众为一人”的时代：每天生成的 5000 万张 AI 图像中，99.999% 是创作者为自己创造的快乐，就像周日画画或写日记一样，更接近娱乐和自我表达，而非职业。
+关于 agent，Biswas 举了保修 agent 的例子：当出现故障码时，agent 翻维修手册、核对 OEM 保修协议、判断是否在保、开工作单、检查其他车辆是否也有同样问题——原本需要一两个小时的人工，现在不到一分钟。但他说 agent 推理不是万能的：「你需要告诉 agent 你想让它做什么，这就是某种意义上的工作流，也是护栏。」
 
-“不要追求成为最好的，要追求成为唯一的。”——这是 Kelly 给创作者的核心建议，而 AI 让他能更快地进入编辑模式，跨过写作初期的那道坎。
+关于未来，Biswas 预测自动驾驶卡车会比 robotaxi 慢得多：「长途货运只占商用车辆的一小部分。大多数商用车在做现场服务——HVAC 技师、水管工、电工。那是当前自动驾驶不太擅长的混乱长尾。」他还透露，AI 数据中心正在推动美国基础设施的爆炸式增长——一家大型能源公用事业公司告诉他，过去 125 年建成的电网容量，未来 5 年要翻三倍，其中 90% 的需求来自数据中心。
+
+最令人深思的洞察来自对「AI 监视」的回应：Biswas 说行车记录仪的主要用途其实是「免责」——90% 的时间里司机表现很好，但没人看到。当 AI 能证明「不是我的错」时，司机们反而欢迎它。Home Depot 用 Samsara 后，汽车索赔减少了 65%。
+
+https://www.youtube.com/watch?v=3FHsGiONOGw
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
