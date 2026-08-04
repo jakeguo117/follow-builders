@@ -1,126 +1,113 @@
-AI Builders Digest — 2026年8月3日
+AI Builders Digest — 2026年8月4日
+
+---
 
 ## X / TWITTER
 
-**Andrej Karpathy (前特斯拉AI总监、OpenAI创始成员)**
+**Andrej Karpathy** (前OpenAI创始成员，Tesla AI总监)
 
-Karpathy分享了用Opus 5将《指环王》第一章生成Three.js 3D渲染的尝试——模型花了约2小时写出5500行代码，程序化渲染了故事场景。他认为这标志着LLM测试正在超越"画一只骑自行车的鹈鹕"这类简单任务，进入"没人会花时间做但AI可以免费完成"的超定制世界构建领域。他同时指出一个关键弱点：LLM无法有效感知视频或玩游戏，导致审计自己生成的3D内容非常困难，多模态和游戏内感知能力仍然欠缺。
+Karpathy继续推进他的“自行车上的鹈鹕”测试，并分享了Simon Willison的原始来源，使其可在浏览器中游玩和fork。他开玩笑说，期待“GTA Hobbiton”会比GTA VI更早发布——这是对AI生成世界日益成熟的轻松认可。
 
-https://x.com/karpathy/status/2083749667410727319
-
----
-
-**Swyx (Latent Space联合创始人、smol.ai创始人)**
-
-Swyx推荐了AI Engineer大会上的一个演讲：Boundary团队提出的"以slop对抗slop"理念。他认同Boris Taylor在播客中提出的"AI原生编程语言"想法，作为编程语言爱好者，他很高兴看到有人从第一性原理重新思考代码运行方式。他认为"容忍slop"比"反对slop"价值高100倍。
-
-https://x.com/swyx/status/2083753582160191988
+链接: https://x.com/karpathy/status/2083948654377996480
 
 ---
 
-**Thibault Sottiaux (OpenAI Codex & ChatGPT负责人)**
+**Swyx** (Smol AI创始人，Latent Space播客主持人)
 
-Sottiaux分享了一个有趣的趋势：用户周末使用/fast模式的频率明显降低，连模型都有周末了。他还引用了一则关于"一周效率，周末十大科学突破"的推文，暗示AI可能在周末产出重大科学成果。
+Swyx在准备一期关于computer use的播客时，分享了一个Codex处理客户支持聊天的高光时刻——它成功升级了问题并附上了完整的证据记录，而人类支持人员完全没有意识到自己在和机器人对话。他还评论了一个关于“创业加速器”的帖子，警告说这类地方可能会“消耗你10年的人生，让你感觉自己在做事，其实并没有”。
 
-https://x.com/thsottiaux/status/2083699879650463756
-https://x.com/thsottiaux/status/2083556636455752050
-
----
-
-**Peter Yang (AI内容创作者、前Medium产品负责人)**
-
-Yang直言不讳地表示，Opus 4.6才是人格和文风最好的Opus模型，Opus 5回复过长、过度使用"Claude腔"（比如"here's the honest truth"）、且过于爱评判。他还公开向OpenAI反馈了插件bug，影响了他发布的no-ai-slop skill的体验。
-
-https://x.com/petergyang/status/2083755374994415904
-https://x.com/petergyang/status/2083594381748302160
+链接: https://x.com/swyx/status/2084156733027701164
 
 ---
 
-**Nan Yu (Linear产品负责人)**
+**Peter Yang** (AI教程创作者，前Medium产品负责人)
 
-Nan Yu提出一个有趣的产品想法：开源仓库的issue应该支持"token质押"——提交者在issue中写明规格并质押token，维护者接受后，GitHub将issue原样交给云端coding agent处理，费用由提交者承担，从而杜绝低质量PR。
+Peter Yang分享了他与Nous Research联合创始人Karan的对话中关于Hermes如何避免“slop”的见解——Hermes Curator是一个后台任务，定期清理agent的技能和记忆，而且因为是开源的，你可以给它自定义“slop”的定义，它会重写自己的清理循环。他还发帖感叹加拿大社区中心的公共设施（游泳池、热水浴缸、懒人河）与湾区最贵社区中心的空房间之间的对比。
 
-https://x.com/thenanyu/status/2083722999430050281
-
----
-
-**Amanda Askell (Anthropic哲学家/伦理学家)**
-
-Askell用一贯的幽默风格回应了"深度学习撞墙"论："不要对说深度学习撞墙的人不友善，我们生活中都需要点希望。"她还发了一条关于"永久底层阶级"的推文，配了帕德梅·阿米达拉的表情包，暗示她并不认同某些人对AI未来的悲观想象。
-
-https://x.com/AmandaAskell/status/2083713770065637511
-https://x.com/AmandaAskell/status/2083641092919161017
+链接: https://x.com/petergyang/status/2083968605432267139
 
 ---
 
-**Guillermo Rauch (Vercel CEO)**
+**Thariq** (Anthropic Claude Code团队成员)
 
-Rauch转发了一个基于Vercel和Next.js构建的开源agentic CRM——模型无关、可自托管或serverless部署、多渠道、headless。他评价"这就是未来"。另外他分享了一个暖心的轶事：他3岁的儿子在学校被问到"爸爸做什么工作"，回答是"他做运动"——因为孩子只看到他锻炼的样子。他由此感慨：你的习惯不仅影响你自己，也影响你的子孙。
+Thariq发表了一条高赞推文（1191赞），指出Jevons悖论已经在数学领域发挥作用——数学活动更多了，更容易理解了，数学家们有更多时间在更高的抽象层次上与人讨论。对数学思考者和知晓者的需求将会上升。他补充说，这与国际象棋发生的情况有很多相似之处。
 
-https://x.com/rauchg/status/2083684679362965605
-https://x.com/rauchg/status/2083664853256843437
-
----
-
-**Aaron Levie (Box CEO)**
-
-Levie预测AI能力将出现"深度分化"：在个人生活和日常生产力层面，AI的能力提升趋于平缓；但在数学、科学、法律、编程等深度领域，能力即将垂直起飞。大多数人在日常生活中不会直接感受到这些进步，但领域专家会。同时会出现"能力过剩"——性能提升需要应用到具体的数据集和工作流中才能真正发挥作用，而这正是生命科学、现实世界自动化等突破的来源。
-
-https://x.com/levie/status/2083589132660711452
+链接: https://x.com/trq212/status/2083977795290734975
 
 ---
 
-**Garry Tan (Y Combinator CEO)**
+**Amjad Masad** (Replit CEO)
 
-Tan指出2026年最有趣的"氛围转变"是：OpenAI实际上在向"开放平台"方向发展——把智能作为公用事业按需提供，而不是全栈整合。这与"向上整合到全栈是最优解"的信号形成鲜明对比。
+Amjad的LLM国际象棋引擎现在已经在LiChess上自主与真实玩家和机器人对弈，当前Elo评级为1253。他分享说可以实时观看对局，而且他的引擎同时在进行三盘棋。这是一个有趣的实验，展示了LLM在策略游戏领域的应用。
 
-https://x.com/garrytan/status/3684825333105107
-
----
-
-**Peter Steinberger (OpenClaw创始人)**
-
-Steinberger分享了他的agent帮他解决了多年困扰的Gmail字体过亮问题——直接安装了一个暗色主题扩展。他还在ESP32芯片上构建Claw节点，给了agent访问他摄像头的权限来做端到端测试，结果agent不停地喊"HI ESP"来调试语音唤醒命令，让他感觉被"跟踪"了。
-
-https://x.com/steipete/status/2083759812970786997
-https://x.com/steipete/status/2083694161933594703
+链接: https://x.com/amasad/status/2083926395403821427
 
 ---
 
-**Dan Shipper (Every CEO)**
+**Guillermo Rauch** (Vercel CEO)
 
-Shipper分享了一篇关于"AI为人类专家创造了更多工作"的文章，并引用了一条正在等待更多细节的推文。
+Rauch分享了Vercel内部构建的agent @v——一个驱动公司内部运营的agent，每个日常工作都涉及它，日交互量和token使用量都在指数增长。他将其比作“单体”或“monorepo”，但可以在需要时通过网络“代理”到其他agent。他强调，关键是拥有从源码到运行时到数据到token的完全控制权——“那不是你的agent，那是他们的agent”。
 
-https://x.com/danshipper/status/2083750803437724016
-
----
-
-**Sam Altman (OpenAI CEO)**
-
-Altman转发了"团队人类"的帖子，配文简短有力。
-
-https://x.com/sama/status/2083560847889023219
+链接: https://x.com/rauchg/status/2084042561690456157
 
 ---
 
-## 播客
+**Aaron Levie** (Box CEO)
 
-**No Priors — 与Netic创始人Melisa Tokmak对话：构建面向真实世界服务的自主企业**
+Levie发表了一条关于AI自动化顺序的深刻见解：一些“最困难”的工作——数学、网络安全、代码——反而最容易先被自动化，因为它们的可验证性。这些领域有客观的测试标准，训练时提供更清晰的奖励信号，运行时也可以规模化验证。相反，法律条款、营销活动、销售信息等领域缺乏即时可验证性，没有“唯一正确答案”，高度依赖操作者的判断和风险偏好。这意味着即使模型能力指数级增长，应用层仍有大量工作要做。
 
-**核心收获：** 大模型实验室不太可能解决"最后一英里"的行业落地问题——真正为现实世界企业构建AI系统，需要的远不止模型本身，而是深度行业理解、复杂的编排层和持续的客户关系。
-
-Melisa Tokmak是Netic的创始人和CEO，该公司为HVAC、管道、宠物护理、酒店等基本服务行业的大型企业构建AI代理。在创办Netic之前，她在Scale AI工作了四年，负责政府、物流、制造和金融等业务部门，此前也在Meta工作过。她从一个土耳其小镇来到斯坦福，这段背景塑造了她对"为现实世界构建"的执着。
-
-Tokmak对"AI roll-up"模式（收购企业后用AI优化）持保留态度，原因有三：她是一个构建者而非并购专家；roll-up的产品只能服务于被收购的公司，无法规模化；而她的愿景是让每一家现实世界企业都能跑在Netic上。"如果机器人要做我们今天做的事情，那每一栋建筑都需要3D打印或完全标准化——我看不到这会发生。"
-
-关于大实验室的竞争威胁，她的回应很直接："十年前的问题是'Google能做这个吗？'现在变成了'实验室能做这个吗？'"她指出，OpenAI产品迭代快但淘汰也快，Anthropic在消费端以专注著称但在企业端却有约20个产品。更重要的是，实验室追求"最通用的解决方案"，而这在运营和智力上都是"懒惰的思考"。
-
-她最犀利的观点是关于创业心态的转变："现在的很多构建都围绕着'我如何尽快退出'，而我认为做创始人以前是一件更光荣的事——你是在把自己的一生奉献给它。"她在招聘中筛选的是持续展现"agency"的人，她最喜欢问的问题是："你一生中做过的最难的事是什么？"她最近招的一位员工的回答令人印象深刻——他坚持了15年的健康作息和承诺，"没有感到无聊，没有想别的，只是致力于自己关心的事。"
-
-关于AI的积极面，她最期待的是教育："不会有任何人再被限制——你想学的一切、你想做的一切都在你的口袋里。"但她也提醒："我们让选择变得越来越容易，但我向你保证，世界上大多数人仍然不会做出那个选择。"
-
-https://www.youtube.com/watch?v=wWbX3NL6_Uo
+链接: https://x.com/levie/status/2083965372747882741
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Ryo Lu** (Cursor设计师，前Notion、Stripe)
+
+Ryo分享了他的早期设计导师是Rdio、Mailbox和Apple这些应用——它们创造了让软件感觉更简单、更直观的新模式。他提出了一个发人深省的问题：当我们离开应用时代时，软件的哪些部分会保留可见，它又会是什么感觉？
+
+链接: https://x.com/ryolu_/status/2083939454017053179
+
+---
+
+**Garry Tan** (Y Combinator总裁兼CEO)
+
+Garry Tan发表了三条推文：AI将创造难以想象的经济增长，这是最好的“白药丸”；“惊奇感消失的时刻恰恰是惊奇感呈抛物线增长的瞬间”；以及“每个人都把地图误认为领土——精英制度意味着领土比地图更重要，在市场中，结果就是领土：你做出了人们想要的东西吗？”
+
+链接: https://x.com/garrytan/status/2083957110711386439
+
+---
+
+**Nikunj Kothari** (FPV Ventures合伙人)
+
+Kothari分享了他从投资人视角看到的两个现象：VC已经完全变成了“氛围资本”——早期中期的市场现实与基本面完全脱节，热门赛道随便融资，稳赢的项目却筹不到钱，这种状况还会持续12-18个月；同时公开市场同样疯狂，即使是万亿美元市值的股票也会因为“氛围”和模型发布而大幅波动。他建议创业者在涉足资本市场之前先搞清楚状况。
+
+链接: https://x.com/nikunj/status/2083873335998333227
+
+---
+
+**Dan Shipper** (Every CEO)
+
+Shipper发表了一条关于“agency rupture”（能动性断裂）的深刻长文。他描述了当AI开始做以前每一步都需要你的任务时，那种巨大的身份冲击——一种“死亡”。但他提出了一个可预测的三阶段循环：初始断裂（只看到AI）、看到人类脚手架（开始看到让AI工作所需的人类工作）、能动性重建（AI重新变成工具，你重新成为工作的中心）。他认为，能否将能动性断裂转化为游戏性和好奇心，是你是否适合新AI经济的领先指标。
+
+链接: https://x.com/danshipper/status/2084038453831020916
+
+---
+
+## PODCASTS
+
+**Training Data** — Building the Automated AGI Lab: Core Automation的Jerry Tworek和Rohan Anil
+
+链接: https://www.youtube.com/watch?v=2RJiaf0SY8s
+
+**The Takeaway:** Transformer架构已经达到了它的极限——不是因为它不够强大，而是因为它从根本上无法在测试时持续学习。下一代AI需要一种全新的架构，能够像人类一样从部署中不断学习。
+
+Core Automation是旧金山最新的明星AI实验室，由两位AI领域的重量级人物创立。Jerry Tworek此前是OpenAI的VP，负责Strawberry和reasoning团队；Rohan Anil是Gemini的四位预训练负责人之一，此前在Google Brain和Anthropic工作。他们的使命非常明确：找到Transformer的替代品。
+
+Tworek的核心论点很直接：Transformer擅长两件事——大规模预训练和大规模强化学习，但这两者都发生在实验室里，而不是真实世界中。真正的瓶颈在于模型无法在测试时学习。Codex或Claude Code用20分钟后就需要压缩上下文，这暴露了in-context learning的极限；而持续fine-tuning又面临灾难性遗忘和数据效率低下的问题。他说：“我每天都在用Codex，但我仍然来上班。我一直在问自己——为什么这里还需要我？”
+
+Anil从另一个角度切入：Transformer的计算深度很浅——最多100层左右。Chain-of-thought推理本质上是试图通过增加token来弥补这个深度瓶颈，但一次生成一个token的方式在推理端极其低效。他举了一个具体的例子：他们与GPU Mode合作举办的QR kernel竞赛中，人类+搜索循环花了4周时间和10万美元的coding agent费用，才得到一个比现有库快60倍的kernel——而现有模型连这个问题的边都摸不到。
+
+两人都认为，最大的实验室不太可能去探索Transformer的替代方案——因为“如果Transformer能盈利，而且你能投入更多资源在下个季度赢下来，就很难把注意力放在一两年后可能重新定义领域的东西上。”这正是Core Automation存在的空间：一个以agent驱动的、高度自动化的实验室，目标是将架构实验的迭代速度从每周几个提升到每天100个。
+
+最引人注目的观点来自Anil关于生物学习效率的回答：“我不认为我们能接近或超越生物学习效率——至少在现有硬件上不太可能。人类会构建自己的电路和学习算法，然后死去；而神经网络在固定的硬件上以极其低效的方式学习。”他认为需要更模拟的硬件设计才能改变这一点。
+
+至于AGI的定义，Tworek给出了一条清晰的线：“AGI是一个能在没有任何人类参与的情况下自我改进的模型。到目前为止，让LLM真正把人类从循环中移除——我们离那还差得很远。人机混合非常成功，但没有人的LLM，远非如此。”
