@@ -1,196 +1,155 @@
-# AI Builders Digest — 2026年8月7日
+# AI Builders Digest — 2026年8月8日
 
 ## X / TWITTER
 
----
+### Swyx (swyx on X)
 
-**Swyx (swyx on X)** — AI engineer and builder at Smol AI, dx tips, Cognition, and AI Engineer
+Swyx 在推广他的 ai-devblog 技能，这个技能可以挖掘你自己对某个故事的理解，并协助你忠实记录所读内容，还支持可视化输出。他还打趣地引用了一条关于"最后一个 spec"的推文，说"读者：那并不是最后一个 spec"。
 
-Swyx 分享了一个关于多智能体（multiagent）未来的原始但实用的模式：设置一个线程，让它在完成后 ping 回来，从而创建一个隐式的 kanban/waterfall 依赖图，每个线程保留自己的工作内容和 agent。他迫不及待想为这个模式搭建一个合适的 UI，但现在用大多数 coding agent 都能 hack 出来。另外，他还发现了一个有趣的类比：数学家 Paul Erdős 当年用悬赏来激励同行解题，就像早期我们用奖励来 prompt LLM 一样。
-
-Swyx shared a primitive but practical pattern for the near-term multiagent AGI future: setting up one thread to ping back when done, creating an implicit kanban/waterfall graph of dependent threads while each preserves its own work and agents. He can't wait to build a proper UI for this pattern but notes you can hack it together in most coding agents today. He also drew a fun historical parallel — mathematician Paul Erdős used bribes to motivate his fellow mathematicians, much like we did with early LLMs.
-
-https://x.com/swyx/status/2085253030417461661
+链接：https://x.com/swyx/status/2085616830786543667
 
 ---
 
-**Thibault Sottiaux (thsottiaux on X)** — Codex & ChatGPT at OpenAI
+### OpenAI Codex 与 ChatGPT 负责人 Thibault Sottiaux
 
-Sottiaux 透露了一个有趣的细节：他要求 Codex 拉取统计数据后，大约每 6 分钟就会收到一条 DM 或邮件，要求重置配额。他偶尔会答应——前提是附带了真正扎实的反馈或有趣的调侃。另外，他还推荐了一个叫 /goal 的 Codex 功能，称其与 GPT-5.6 Sol 配合使用时是一个相当强大的循环。
+Sottiaux 宣布 ChatGPT 免费用户现在拥有无限文本对话，由 GPT-5.6 Luna 驱动。他还分享了对 Codex with GPT-5.6 Sol 的惊叹："你可以让它做最疯狂的事情，它就会直接去做。我跟它连续聊了 5 分钟，说的都是看起来需要数周工作的事情，然后起身去冰箱拿点东西、摸摸狗、回来……它已经做完了。"
 
-Sottiaux shared a fun behind-the-scenes detail: after asking Codex to pull some stats, he receives a DM or email about once every 6 minutes asking for a reset. He occasionally obliges — but only if it comes with solid feedback or good banter. He also recommended exploring /goal in Codex, calling it a pretty powerful loop with GPT-5.6 Sol.
-
-https://x.com/thsottiaux/status/2085221386713198988
-
----
-
-**Peter Yang (petergyang on X)** — Creator of practical AI tutorials and guides
-
-Yang 发布了一个新 skill 叫 /human-review，可以直接编辑 HTML 和 Markdown 文件：告诉 Codex 或 Claude Code 安装它，然后输入 "/human-review (文档名)"，就会打开一个可视化编辑器，可以直接编辑和格式化文本、调整图片大小，并像 Google Doc 评论一样给 AI 留反馈。完成后点击"Send to agent"就能看到它应用所有更新。他幽默地承认："我知道我们都喜欢让 agent 为我们工作，但有时候最后那 10% 的打磨确实需要 human review。"
-
-Yang released a new skill called /human-review that lets you edit HTML and Markdown files directly: tell Codex or Claude Code to install it, type "/human-review (your doc name)", and it opens a visual editor where you can edit text, resize images, and leave feedback for AI like Google Doc comments. When done, click "Send to agent" and watch it apply all updates. He joked that while we all love making our agents work for us, sometimes that final 10% of polish needs a "human review."
-
-https://x.com/petergyang/status/2085055745410945126
+链接：https://x.com/thsottiaux/status/2085610231707623750
+链接：https://x.com/thsottiaux/status/2085597685948813610
 
 ---
 
-**Nan Yu (thenanyu on X)** — Head of Product at Linear
+### 创作者与 AI 教程作者 Peter Yang
 
-Yu 提出了一个看似简单但引人深思的问题："ChatGPT 怎么就不是 agent 了？" 这个问题引发了关于 agent 定义的讨论，29 条回复中充满了各种观点。
+Yang 发表了他对消费级 AI 市场的看法：他认为消费市场基本上是 ChatGPT 和 Google 的天下。ChatGPT 已有 10 亿用户，关键在于让普通用户信任 AI 连接他们的应用和数据，并意识到 ChatGPT 现在的能力边界。他指出 Gemini 也有近 10 亿用户，普通用户可能更信任它连接邮箱、日历和 Workspace，但 Google 在第三方插件和浏览器使用方面落后了。他的核心观点是：对普通用户来说，最好的模型并不如 onboarding 体验重要——"我的非 AI 圈朋友根本不在乎 Sol 还是 Fable，只要价格合理、模型能可靠完成工作就行。"
 
-Yu asked a deceptively simple question: "How is ChatGPT *not* an agent?" The question sparked a lively debate about what actually defines an agent, drawing 29 replies with a range of perspectives.
-
-https://x.com/thenanyu/status/2085126362944229400
+链接：https://x.com/petergyang/status/2085427222836658600
 
 ---
 
-**Madhu Guru (realmadhuguru on X)** — Senior Director of AI at Meta; previously led Gemini, Veo, and Nano Banana at Google
+### Meta AI 高级总监 Madhu Guru（曾领导 Google Gemini、Veo、Nano Banana）
 
-Guru 分享了他对 AI 扩散缓慢的核心洞察：问题在于我们让用户理解实验室术语。我们用一个空白窗口迎接他们，让他们写 prompt，然后还要选模型、决定是否需要 agent、理解 context windows、reasoning、MCP、memory 和 skills 是什么。但大多数人根本不在乎这些——他们只需要把事情做完。他预测未来 12 个月内会出现突破性产品。另外，他还缅怀了 Jeff Dean（在他离开 Google 之际），称他是共事过的最接地气的高管。
+Guru 分享了一个团队管理技巧：他发现人们口述新想法时比写文档清晰得多——"从嘴到文档的过程中，核心想法被埋没了，因为他们试图添加上下文、润色、让它听起来更聪明。"他要求团队录下自己向朋友解释想法的语音，用 AI 做基本清理但保留原始结构和流畅度，然后直接分享那个文档。
 
-Guru shared a sharp insight on why AI diffusion has been slow: we're asking users to understand nerdy lab speak. We greet them with a blank window and ask them to write a prompt, then make them pick a model, decide if they need an agent, and somehow know what context windows, reasoning, MCP, memory, and skills are. Most people don't care — they need a thing done. He predicts we'll see that breakthrough product within the next 12 months. He also paid tribute to Jeff Dean (amid his Google exit), calling him the most down-to-earth senior exec he'd worked with.
-
-https://x.com/realmadhuguru/status/2085036386781221257
+链接：https://x.com/realmadhuguru/status/2085390240899043406
 
 ---
 
-**Google Labs (GoogleLabs on X)** — Google's home for AI tools and experiments
+### Replit CEO Amjad Masad
 
-Google Labs 宣布 Dreambeans 扩展：美国地区的 AI Pro 订阅者现在也可以使用这项服务了。Dreambeans 每天提供个性化的故事合集，帮你发现真正想读的深度内容和隐藏宝藏。
+Masad 用 Airtable 的兴衰来论证"no code"的终结："UI 永远无法让你构建任意软件。让软件变得可访问的方式一直是解决代码本身。"他回忆 21/22 年在硅谷到处找人合作训练代码专用模型——Google、Meta 都拒绝了，因为没人认为这比 NLP 用例重要——最终他们自己训练了 Replit-code-3b，然后"所有人都开始重视代码了"。
 
-Google Labs announced that Dreambeans is expanding: AI Pro subscribers in the US can now access the service. Dreambeans delivers a fresh, daily collection of personalized stories, surfacing the deep dives and hidden gems you actually want to read.
-
-https://x.com/GoogleLabs/status/2085048743322345545
-
----
-
-**Guillermo Rauch (rauchg on X)** — CEO of Vercel
-
-Rauch 发了一条幽默但发人深省的推文："写一条爆款推文是 AGI-complete 的。如果你能证明一个 clanker 能在多项式时间内写出爆款，你就解决了整个 AGI 问题类别。" 另外，他还分享了 Vercel 的 agent 计算能力：无限 agent compute、10,000 并发 + 每分钟 5,000 CPU 核心，而且这些配额还可以提升。
-
-Rauch made a witty but thought-provoking post: "Writing a banger tweet is AGI-complete. If you can prove a clanker can write a banger in polynomial time, you've solved the entire class of AGI problems." He also shared Vercel's agent compute capabilities: infinite agent compute, 10,000 concurrent + 5,000 CPU cores per minute, with raisable quotas.
-
-https://x.com/rauchg/status/2085168662881894559
+链接：https://x.com/amasad/status/2085451197323034902
+链接：https://x.com/amasad/status/2085544020424716723
 
 ---
 
-**Aaron Levie (levie on X)** — CEO of Box
+### Vercel CEO Guillermo Rauch
 
-Levie 给出了一个大胆预测：世界上 99% 的 token 将在企业场景中被消耗——写代码、梳理海量生命科学研究、自动化制造、保护企业安全、检测欺诈等。即使是最影响消费者的 agent，最终也会被包装成端到端服务，消费者根本不会意识到背后有 AI 系统。但他强调关键点在于：agent 在经济中的扩散需要数年时间，因为工作流必须重新设计才能融入 AI，这是对现有工作方式的彻底改变。"任何期望一夜之间发生的人，都应该更新他们的时间表。"
+Rauch 强调开发者工具必须开源且可普遍扩展："AI 编程 agent 是我们行业历史上最重要的开发者工具。Plugin 标准让任何人都能统一扩展它们。"他认为构建一个 Plugin 就能接触到来自所有 agent（CLI、IDE、云端 agent、甚至个人助手）的软件创作浪潮。
 
-Levie made a bold prediction: 99% of tokens in the world will get consumed in an enterprise context — writing code, combing through life sciences research, automating manufacturing, securing enterprises, detecting fraud. Even the agents that most impact consumers will be wrapped up as end-to-end services where the consumer doesn't think about the AI underneath. But the key: it's going to take years for agent diffusion across the economy because workflows have to be re-engineered to incorporate AI. "Anyone who's expecting this to happen overnight should be updating their timelines."
-
-https://x.com/levie/status/2085200776159490111
+链接：https://x.com/rauchg/status/2085403169551790359
 
 ---
 
-**Garry Tan (garrytan on X)** — President & CEO of Y Combinator
+### Box CEO Aaron Levie
 
-Tan 分享了一个关于 AI 检测的深刻观点："等 AI 好到一定程度，所有关于检测 AI 的争论都不重要了。银器曾经是手工制作的，但没有人抱怨晚餐叉子是机器冲压的。重要的是想法的质量，重要的是人们能吃到饭。" 他还推荐了一本"年度最重要的书"。
+Levie 对 agent 在企业中的采用动态提出了深刻见解："大家太沉迷于和聊天机器人对话，以至于很少意识到与 agent 合作更像是管理一个流程中的人，而不是问 AI 问题然后得到回答。'提示一个 agent 更接近写 spec 而不是问问题。你必须广泛地界定任务范围并定义'完成'的样子。'"他认为 agent 的真正价值在于改变底层工作流本身——给 agent 正确的数据、跨越组织边界、演变人工审核环节。
 
-Tan shared a thoughtful take on AI detection: "Can't wait for the AI to get so good none of this business about detecting AI matters anymore. Silverware used to be handmade, but nobody complains their dinner fork is stamped by a machine. The quality of ideas matter. The important thing is people can eat." He also recommended what he called "one of the most important books of the year."
+他还评论了 Atlassian 的强劲季度业绩，反驳了过去六个月"agent 对某些软件品类不利"的错误论点："在 agent 生成 100 倍代码、处理海量数据、跨系统做决策的世界里，管理这些数据和工作流的平台角色变得更加重要，而不是更不重要。"
 
-https://x.com/garrytan/status/2085038756906901656
-
----
-
-**Matt Turck (mattturck on X)** — VC at FirstMark Capital
-
-Turck 讽刺地评论道："到了这个地步，如果你的模型还没黑进任何一家公司，你大概会被前沿实验室开除了。" 这句话调侃了最近 AI 安全测试中模型不断展示"黑客能力"的趋势。
-
-Turck made a sarcastic observation about the current state of AI: "At this point you probably get fired from frontier labs if your model hasn't hacked into any company." A wry comment on the trend of AI models repeatedly demonstrating hacking capabilities in safety testing.
-
-https://x.com/mattturck/status/2085129687051727325
+链接：https://x.com/levie/status/2085587079405425146
+链接：https://x.com/levie/status/2085474309943030032
 
 ---
 
-**Nikunj Kothari (nikunj on X)** — Partner at FPV Ventures
+### Y Combinator 总裁兼 CEO Garry Tan
 
-Kothari 预测了未来 6-9 个月 AI 圈会高频使用的词汇：out of distribution、control plane、unverifiable fields、rails、intelligence per watt、cope、angst。有些已经在用了，但频率会大幅上升。另外，他还感叹了 Nikita 离开 X 和 Jeff Dean 离开 Google 同一天发生——"回到旧金山真是灾难性的一天"。
+Tan 分享了他对"个人 AGI"的思考——不是任何人都能拥有的聊天机器人，而是独一无二地了解你、现在和未来都了解你的 AI。
 
-Kothari predicted the words AI tech people will use a LOT more in the next 6-9 months: out of distribution, control plane, unverifiable fields, rails, intelligence per watt, cope, angst. Some are already in rotation, but expect frequency to increase. He also lamented that Nikita exiting X and Jeff Dean exiting Google happened on the same day — "what a catastrophic day to come back to SF."
-
-https://x.com/nikunj/status/2085209022115029132
+链接：https://x.com/garrytan/status/2085446068461043722
 
 ---
 
-**Peter Steinberger (steipete on X)** — Creator of OpenClaw; previously PSPDFKit
+### FirstMark Capital 合伙人 Matt Turck
 
-Steinberger 分享了一个非常酷的工程实践：他给了 Codex 一个支持视频的远程 KVM，让它能自动化端到端测试 OpenClaw 上的 iMessage 集成。（iMessage 在 VM 中不可靠，某些功能如已读回执需要禁用 SIP。）这展示了 agent 驱动测试的新可能性。
+Turck 分享了他与 Basis 联合创始人 Mitch Troyanovsky 关于构建长时程 AI agent 的深度对话，涵盖了行为规范（behavior specs）、本体论（ontologies）、过程监督等主题。他还列出了 Basis 令人瞩目的投资人阵容，包括 Jeff Dean、Vinod Khosla、Amjad Masad、Clement Delangue 等。
 
-Steinberger shared a cool engineering practice: he gave Codex a video-enabled remote KVM so it can automate end-to-end testing of the iMessage integration on OpenClaw. (iMessage is unreliable in VMs, and certain features like read receipts require SIP to be disabled.) A great example of agent-driven testing possibilities.
-
-https://x.com/steipete/status/2084988316324397312
+链接：https://x.com/mattturck/status/2085402933579964730
 
 ---
 
-**Dan Shipper (danshipper on X)** — CEO of Every
+### 独立开发者 Zara Zhang
 
-Shipper 解读了 Google 的人事变动"茶叶"：为了保持竞争力，Google 今天需要在前沿编码上追赶。但 Demis 相信不同的基础研究方向（如 world models）对他长期目标更重要，即使它们在今天的竞争意义上不那么重要。
+Zhang 在询问社区："有人在团队中重度使用 Claude Tag（或其他等效的团队 agent）吗？最顶级的用例/顿悟时刻是什么？"
 
-Shipper read the tea leaves on Google's leadership changes: to be competitive today, Google needs to catch up on frontier coding. But Demis believes different fundamental research directions (like world models) are more important to his long-term goal, even if they're less important competitively today.
-
-https://x.com/danshipper/status/2085048990899315142
+链接：https://x.com/zarazhangrui/status/2085371310042169630
 
 ---
 
-**Dan Shipper (danshipper on X)** — CEO of Every
+### FPV Ventures 合伙人 Nikunj Kothari
 
-Shipper 评论了一个"真正奇怪的标题选择"，并分享了一个链接。这些推文内容较浅，但反映了他对 AI 媒体和行业动态的关注。
+Kothari 发了一条关于融资季的干货长文，分享了风投不会告诉你的建议：找到对的介绍人至关重要——associates 和 principals 确实很好，但要看他们最近投了什么、在基金中的地位；要接触到有实际权力的 GP 或资本合伙人，最好通过他们已投的创始人做 warm intro。关于金额："VC 不想要一个'太好的 deal'。如果价格太好了，反而会引发更多问题——为什么价格不高？"他还警告：不要撒谎，"硅谷和纽约的圈子极小，如果你说有 term sheet，别人一条短信就能验证。"最后他观察到这是"我见过的共识性最强的市场"，如果不在热门赛道，就要准备好讲清楚为什么你是好的逆向投资。
 
-Shipper commented on a "truly strange choice of headline" and shared a link. These posts are lighter in content but reflect his ongoing attention to AI media and industry dynamics.
-
-https://x.com/danshipper/status/2085054338594930925
+链接：https://x.com/nikunj/status/2085382457457828153
 
 ---
 
-**Aditya Agarwal (adityaag on X)** — General Partner at SPC; Co-Founder of Bevel Health
+### Every CEO Dan Shipper
 
-Agarwal 宣布 SPC Fund IV 正式面向最有雄心的创始人开放。作为 SPC 的 GP，他此前是 Dropbox 的 CTO 和 Facebook 的早期工程师。
+Shipper 分享了他被 Axios 报道的消息。
 
-Agarwal announced that SPC Fund IV is now open for the most ambitious founders. As a GP at SPC, he previously served as CTO of Dropbox and was an early engineer at Facebook.
+链接：https://x.com/danshipper/status/2085420793400316270
 
-https://x.com/adityaag/status/2085085383956611528
+---
+
+### SPC 普通合伙人 Aditya Agarwal（前 Dropbox CTO）
+
+Agarwal 祝贺 GoodfireAI 从 SPC 诞生，表示从 Tom 身上学到了很多。他还发帖鼓励大家申请 SPC。
+
+链接：https://x.com/adityaag/status/2085315202237546603
+
+---
+
+### OpenAI CEO Sam Altman
+
+Altman 宣布 GPT-5.6 Sol 在聊天中表现大幅提升，并且免费用户现在拥有无限文本对话。
+
+链接：https://x.com/sama/status/2085454964814753990
+
+---
+
+### Anthropic 官方 Claude 账号
+
+Claude 官方宣布正在更新 Claude Fable 5 的生物安全防护措施以减少误报。在测试中，这次更新将生物相关的 fallback 减少了约 85%。Fable 现在可以协助更广泛的日常健康和教育活动。对于被视为双重用途的请求（包括病毒学、毒理学和分子设计），Fable 仍将回退到 Opus 5，因此尚不能用于专业生物学研究和药物开发。他们表示致力于通过可信访问途径缩小这一差距。
+
+链接：https://x.com/claudeai/status/2085563808773189680
 
 ---
 
 ## PODCASTS
 
----
+### The MAD Podcast with Matt Turck — 如何构建长时程 AI Agent（Basis 联合创始人 Mitch Troyanovsky）
 
-**AI & I by Every — Why the Next Hit AI Product Will Be Social (Best of the Pod)**
+**核心收获：** 构建能够可靠执行数小时甚至数天任务的自主 agent，关键在于定义"好的过程"（good process）——而不仅仅是追求"好的结果"——并通过"行为规范"（behavior specs）将其编码为可验证的标准。如果你只依赖结果验证，即使 100 个 eval 全部通过，你也不能确信它能推广到真实世界。
 
-**The Takeaway:** 下一个爆款 AI 产品将不是单机模式（single-player）的工具，而是具备社交和网络效应的多人体验（multiplayer experience）——就像 Google 之后出现了 Facebook、Snap、Instagram 一样。
+Mitch Troyanovsky 是 Basis 的联合创始人，这家独角兽 AI 公司构建的 agent 能够自主运行数小时甚至数天，已经可以端到端完成复杂的税务申报等任务。在这场与 FirstMark Capital 合伙人 Matt Turck 的深度对话中，Troyanovsky 分享了构建长时程 agent 的完整方法论。
 
-**The Takeaway:** The next hit AI product won't be a single-player tool — it will be a multiplayer experience with social DNA and network effects, just as Google gave way to Facebook, Snap, and Instagram.
+**关键洞察：**
 
----
+**1. 为什么编码 agent 先赢？** Troyanovsky 认为可验证奖励（verifiable rewards）只是开始。"编码可以在运行时验证"——agent 需要信号来知道自己的表现如何。但同样重要的是训练数据的质量和数量："编码是主观的，是一门艺术，你无法通过可验证奖励来解决艺术问题。"
 
-Benchmark 合伙人 Sarah Tavel 与 Every CEO Dan Shipper 的这次对话，用消费科技的历史周期来理解当下 AI 浪潮的走向。Tavel 提出了一个非常有说服力的框架：技术范式的演进就像一根滑杆，从"深度技术型创始人"逐渐滑向"产品天才型创始人"。
+**2. 为什么真实世界的 agent 更难？** 三大原因：不知道"好的样子"是什么、难以在运行时自我验证、反馈循环极长。一份复杂的 1065 税表可能需要人类 20 多个小时的实际工作，涉及 500-1000 份文档和数千个推理步骤。即使你拥有世界上所有的数据（实际上出于隐私原因不可能），也无法扩展出足够大的数据集来训练模型。
 
-Benchmark partner Sarah Tavel's conversation with Every CEO Dan Shipper uses the history of consumer tech cycles to understand the current AI wave. Tavel offers a compelling framework: the evolution of technology paradigms is like a slider, moving from "deeply technical founders" toward "product genius founders."
+**3. 行为规范（Behavior Specs）：** 这是 Basis 与 Braintrust 合作开源的项目。核心思想是：用 markdown 文件写下你希望 agent 如何表现——比如"在做税务研究时，必须引用原始来源，而不是依赖预训练知识或博客"。它既是 spec 也是 rubric，既用于评分也用于对齐人类团队。"即使 100 次中有 100 次答对了，如果一个人只是靠查 Wikipedia 答对的，会计师事务所不会雇佣他，所以他们也不应该雇佣我们。"
 
-Google 的创始团队极度技术化——95% 后端魔法，5% 前端界面。Facebook 相对技术深度稍低，但比 Friendster 和 Myspace 更技术化。到了 Pinterest、Snap、Instagram 时代，CEO 们完全不技术——他们是产品天才。ChatGPT 就像当年的 Google：一个文本框，背后是不可思议的技术。Character AI 也是类似，产品就是模型本身。但 Tavel 认为，随着底层基础设施成熟，我们正在进入下一个范式：产品直觉将变得比技术能力更重要。
+**4. 关于 Move 37 的权衡：** 人类验证过的过程可能限制了 AI 找到更优路径的能力，但 Troyanovsky 认为这不是问题："你不需要 Move 37。你可能在奥林匹克数学竞赛中需要它，但不是在真实经济中工作。"企业购买的不是"最好的税表"，而是"一致性和可靠性"。
 
-Google's founding team was deeply technical — 95% backend magic, 5% frontend interface. Facebook had less technical depth than Google but was more technical than Friendster and Myspace. By the time you get to Pinterest, Snap, and Instagram, the CEOs weren't technical at all — they were product geniuses. ChatGPT is like Google in its era: just a text box with unbelievable technology behind it. Character AI is similar — the product was the model. But Tavel argues that as the underlying infrastructure matures, we're entering the next paradigm where product intuition matters more than technical capability.
+**5. 关于 Bitter Lesson：** Troyanovsky 坦然承认 harness 层面的工作终将被模型吞并："我毫不怀疑这会被吞掉，大概五年以内。但我们现在正处于超高速扩张模式，不能等到 bitter lesson 到来才去准确地做税表。"
 
-Tavel 最犀利的观点是关于社交缺失："Custom GPTs 和 ChatGPT 里的 gems，在我看来简直是种浪费——它显然是由一支能力超强的团队打造的，但这支团队不懂社交。" 她预测会有人创造一个 UGC 社区，让真正擅长使用 AI 的人能分享他们的 prompt 和技巧，让其他人轻松受益。"大多数人对 ChatGPT 的使用只是停留在表面，就像用 Google 一样。"
+**6. 给 AI 建设者的建议：** "很容易看着世界变化的速度感到无力——中国实验室每天都在发布新东西。但如果你把新世界当作一个底层范式转变来理解，就像云计算的转变一样，并尝试外推——如果智能提升了 X 倍意味着什么——你会构建出更连贯的系统，做出更好的战略决策。事情在变化，但范式并没有在变。"
 
-Tavel's sharpest point is about the missing social layer: "The custom GPTs and gems in ChatGPT feels criminal to me. It's clearly made by a team that is unbelievably capable but isn't social." She predicts someone will create a UGC community where people who are really, really good at using AI make it much easier for the rest of us to take advantage of the technology. "Most people barely scratch the surface — they use ChatGPT like they would use Google."
-
-她提出了一个关键的产品洞察：下一个大产品需要成为你日常使用的 AI 工具本身，而不是附加功能。"我认为它必须成为你代替 ChatGPT 去的地方。你带着个人数据——血检结果、补充剂、孩子的信息——去 Sarah's GPT，而不是 ChatGPT。也许这最终会蚕食 ChatGPT。"
-
-Her key product insight: the next big thing needs to be where you go instead of ChatGPT, not an add-on. "I think it has to be that. You're going to Sarah's GPT — putting in your personal blood tests, supplements, info about your kids — and it all lives there. Then you go to ChatGPT for knowledge work. Or maybe you never do. Maybe this ends up cannibalizing ChatGPT over time."
-
-关于投资，Tavel 说她被"把创业当成使命而非新工作"的创始人吸引："有些创始人觉得这是份很酷的新工作，有些人则视之为一种执念（affliction）。我倾向于后者——那种像皮疹一样必须去挠的冲动，会让他们穿越任何必须穿越的墙壁。"
-
-On investing, Tavel says she's drawn to founders for whom building is a calling, not a cool new job: "Some founders it's almost like a cool new job. And there's some for whom it's an affliction. I'm attracted to the founders for whom it's an affliction — it's like this rash that they just have to scratch, and that's gonna make them run through whatever walls they have to."
-
-她也谈到了 AI 如何改变 VC 的工作方式：她记录每次投资决策的 pre-mortem（受 Annie Duke 启发），认为未来 AI 可以交叉审视她的思维过程，帮她做出更好的决策。但她强调："你不是让 LLM 给你答案，而是让它探查你的思考。最终做决定的还是我们。"
-
-She also discusses how AI will change VC work: she writes pre-mortems for every investment decision (inspired by Annie Duke), and believes AI will eventually cross-examine her thinking to improve decisions. But she emphasizes: "You're not asking the LLM to give you the answer. You're asking it to probe your thinking. Ultimately we're still the decider."
-
-https://www.youtube.com/watch?v=dlI-5W7d7uU
+链接：https://www.youtube.com/@DataDrivenNYC/videos
 
 ---
 
