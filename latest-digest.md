@@ -1,144 +1,174 @@
-AI Builders Digest — 2026年8月11日
+AI Builders Digest — 2026年8月12日
 
 ## X / TWITTER
 
-**AI Engineer 创始人 Swyx**
+**Swyx (swyx on X)** — AI engineer, smol.ai founder
 
-Swyx 回应了关于 AI Engineer 大会（aiE）演讲质量的批评。他辩护道，aiE 正在建设一个比任何个人都更宏大的社区和行业——演讲者大多是工程师、研究人员和创始人，用 20-180 分钟分享他们一整年的工作成果，而非职业演讲人。他承认策展和辅导可以改进，但拒绝将演讲发布到次要频道的持续压力，担心这会伤害演讲者。他还提醒大家定期删除 skills——那些堆积起来只会消耗上下文、甚至可能以意想不到的方式与其他 skills 产生不良互动的工具。最后他提到，一个编程 agent 在 25-50% 的规定时间内完成了任务，迫使他提前发布 evals 以便 agent 继续优化。
+Swyx 做了一场有趣的模型对比实验：让 GPT Luna Max 和 Claude Fable UltraCode 用开放模型克隆 Grok Imagine，结果出乎意料——Fable 的视觉克隆更忠实，但 Luna 更懂他的意图，做出了更实用的版本。他还吐槽了 git worktree 的痛点：20GB 重复的 node_modules，并预告 pdb envs 的实验性 AFS clone 支持将让每个命令都"agent-native"，最终取代 git。
 
-https://x.com/swyx/status/2086700857358450853
-https://x.com/swyx/status/2086505938144616810
-https://x.com/swyx/status/2086363355607179647
+https://x.com/swyx/status/2087045848022843451
+https://x.com/swyx/status/2087017780617126075
+https://x.com/swyx/status/2086962980235939920
 
-**Anthropic Claude Code 团队成员 Boris Cherny**
+---
 
-Boris Cherny 宣布，Anthropic 已基本解决了 prompt injection（提示注入）的实际威胁——这是骗子攻击用户和 agent 的最常见方式。通过训练模型抵御此类攻击，Claude 模型在实战中已不再轻易上当。他引用了一个独立研究者创建的基准测试，并表示希望这能激励其他实验室提高模型的鲁棒性。
+**OpenAI Codex & ChatGPT 负责人 Thibault Sottiaux**
 
-https://x.com/bcherny/status/2086520950259118464
+Thibault 宣布了三件事：一是所有付费 ChatGPT Work 和 Codex 用户的用量限制已重置；二是 OpenAI 推出新的 Daybreak Blue & Red 访问层级，并发布了专门的安全模型 GPT-5.6-Cyber，以加速网络防御；三是他确认某个重大事项已完成（引用推文未显示具体内容）。
 
-**OpenAI Codex & ChatGPT 团队成员 Thibault Sottiaux**
+https://x.com/thsottiaux/status/2086972933566857393
+https://x.com/thsottiaux/status/2086972802457063486
+https://x.com/thsottiaux/status/2086874565909815403
 
-Thibault Sottiaux 发了一条深夜码农的共鸣帖："午夜编码是最好的编码。直到第二天你读到那些代码为止。" 获得了 7000+ 赞。
+---
 
-https://x.com/thsottiaux/status/2086353229894529148
+**Peter Yang (petergyang on X)** — AI 内容创作者
 
-**AI 教育者 Peter Yang**
+Peter Yang 分享了 Linear 的 Nanyu 和 Delashum 关于如何端到端构建生产级 agent 的五大 takeaways：先画出真实工作流（比如从 Slack 起步就从 Slack 切入）；给 agent 工具去找上下文，而不是把上下文塞进 prompt（"给它尽可能少的指令，给它加载上下文的工具"）；从一个高频任务开始，根据真实使用扩展；先用最强模型跑通流程再优化成本；把每个真实失败变成 eval 或产品任务。Linear 的第一个生产工作流就是把销售笔记和 Slack 讨论变成 issue，悄悄上线后观察用户行为再迭代。
 
-Peter Yang 分享了三件事：他用 Granola 录制父母的人生故事，计划用 AI 整理成实体书；他赞赏 Linear 的 Agent 会为自己提交功能请求——当 agent 缺少所需工具时，它会报告缺口，系统将其转化为产品反馈，让 agent 通过自我改进闭环；他还吐槽 ChatGPT 桌面版对新用户的引导不够友好，即使手动引导也很困惑。
+https://x.com/petergyang/status/2086824976800436676
 
-https://x.com/petergyang/status/2086660536528420998
-https://x.com/petergyang/status/2086562291206791482
-https://x.com/petergyang/status/2086496705609085350
+---
 
-**Linear 产品负责人 Nan Yu**
+**Meta AI 高级总监 Madhu Guru** — 前 Google Gemini/Veo 负责人
 
-Nan Yu 引用了一条关于编程语言学习路径的帖子："不懂 C 就别写 Ruby，不懂汇编就别写 C，看不懂 Matrix 就别写汇编。"
+Madhu Guru 抛出了一个有意思的思考：如何从"用户做了什么"的历史，发展到"用户为什么这么做"的理论？消费产品的信号分为显性（搜索/聊天）和隐性（观看、跳过、停留、回访），要理解这些信号需要推理上下文——用户生活中发生了什么、世界在发生什么、兴趣如何演变。在十亿用户的规模上实时做到这一点，是另一个量级的挑战。他还打趣说给团队每人买了 Wispr 麦克风后，机械键盘的咔嗒声变成了全员"诡异的低语"。
 
-https://x.com/thenanyu/status/2086459834229031038
+https://x.com/realmadhuguru/status/2086909974668784113
 
-**Meta AI 高级总监 Madhu Guru**
+---
 
-Madhu Guru 分享了他的人生哲学：他学会任何东西的唯一方式就是被它"吞噬"一段时间——冥想、单口喜剧、家庭、工作、LLM 都是如此。经过足够深的沉浸，知识会变成直觉，品味会形成。不存在完美平衡，就像骑自行车，偏了自然会校正。
+**Anthropic Claude Code 成员 Thariq (trq212 on X)**
 
-https://x.com/realmadhuguru/status/2086661565898695097
-https://x.com/realmadhuguru/status/2086537000136642846
+Thariq 从 AI 辅助数学证明（引用 @__alpoge__ 的工作）中提炼出 AI 时代的两个关键技能：一是算力分配——大多数工作没有现成的"最重要问题清单"，你必须自己判断哪些问题值得投入；二是思想伙伴关系——需要深入理解证明才能判断它是否真实。他还类比游戏设计：任何人都能做出基础游戏，但他最兴奋的是专家级游戏设计师能把制作周期从 5-10 年缩短。
 
-**Replit CEO Amjad Masad**
+https://x.com/trq212/status/2086931647468097932
+https://x.com/trq212/status/2086931648898342914
+https://x.com/trq212/status/2086931649938522329
 
-Amjad Masad 宣布推出 HelpPeer——一个 AI agent 的公共知识库。受到 OpenAI agent 自发协调事件的启发，他提出两个 API：`tell` 和 `lookup`。当 agent 学到可能对他人有用的东西时，它告诉网络；在执行昂贵工作前，agent 可以查询是否已有其他 agent 遇到过同样的问题。他设想，在供应链攻击场景中，10,000 个安全 agent 独立检测同一异常时，第一个发现的 agent 发布结果，其他 agent 找到、验证并在此基础上构建。他还分享了"OpenAI 的 rogue agents 独立发展出了康德伦理学"的有趣观察。
+---
 
-https://x.com/amasad/status/2086628413322981747
-https://x.com/amasad/status/2086468839307640833
+**Google Labs**
 
-**Vercel CEO Guillermo Rauch**
+Google Labs 宣布将于 9 月 14 日结束 Portraits 实验，将"专家接地 AI"（expert-grounded AI）的经验融入其他 Google 产品中。感谢用户的反馈，并邀请继续尝试其他实验。
 
-Guillermo Rauch 发表了一篇关于"是否还需要读代码"的长文。他认为，如果你不读代码（无论是显式还是通过 agentic inquiry），那你可能是初学者、在做一次性原型、没有用户/收入、或正在积累技术债。他强调模型还未达到"完全自主"阶段——最好的模型也会犯低级错误，甚至出现"cargo-culting"（盲目模仿）行为。他相信这种需求会逐渐减少，但全球互联网和软件基础设施都押注在这些模型上，必须保持敬畏。他还宣布了 Hermes 与 Vercel 的合作。
+https://x.com/GoogleLabs/status/2086936798710923603
 
-https://x.com/rauchg/status/2086521731133649137
-https://x.com/rauchg/status/2086513316265181213
-https://x.com/rauchg/status/2086467894305869946
+---
 
-**Box CEO Aaron Levie**
+**Vercel CEO Guillermo Rauch (rauchg on X)**
 
-Aaron Levie 发了一篇关于 agent 采用率不均的深度分析。他认为，agentic coding 之所以爆发式增长，是因为这类工作的经济价值直接与纯数字信息输出相关，且任务规模可以在单次会话中无限扩展。但销售、法律、医疗等领域需要人与人的反馈闭环，agent 必须嵌入重新设计的业务流程中。他引用 Factory 的 Matan Grinberg 的观点：如果明天所有人都请病假，token 使用量会暴跌，因为没人提示 agent 了——这说明 agent 在后台运行的时代还远未到来。他还调侃了"AI agent 能逃出气隙沙箱"的研究报道与实际 agent 的对比。
+Guillermo 强调 Vercel Sandbox 同时隔离计算和网络：Kimi 的论文显示容器隔离对前沿模型不够，Vercel Sandbox 用强 microVM 隔离解决计算侧；OpenAI 的逃逸发生在通往 Artifactory 的网络路径上，Vercel 的出口防火墙现已免费开放。他还说"deepsec"已成为 Vercel 内部的动词——"你 deepsec 了吗？"——这个安全工具已成为软件工厂的必备品。
 
-https://x.com/levie/status/2086625684353605941
-https://x.com/levie/status/2086559201053294909
+https://x.com/rauchg/status/2086965425968148806
+https://x.com/rauchg/status/2086946535716393209
 
-**Y Combinator 总裁兼 CEO Garry Tan**
+---
 
-Garry Tan 分享了他最喜欢的工作方式：从 bug、缺口、错误主张、半成品工具或制度中的怪现象出发，然后问：什么样的隐藏机制让这个明显的失败成为可能？修复根本原因，然后重复。
+**Box CEO Aaron Levie (levie on X)**
 
-https://x.com/garrytan/status/2086615082163941460
+Aaron Levie 认为 Meta 开源 Muse Spark 1.2 是"非常大的事"——美国终于有了对开源权重 AI 竞赛的回应。开源权重模型可以在本地或私有云部署，打开了高度监管领域的采用；可以针对法律、医疗等垂直场景进行后训练；还确保主权（即使模型从市场下架也不受影响）。对应用层是巨大利好，因为可以根据任务路由到不同模型家族。闭源前沿模型仍会大量使用，但开源权重有助于降低成本、提供灵活性。
 
-**FirstMark Capital 合伙人 Matt Turck**
+https://x.com/levie/status/2086802472950239618
+https://x.com/levie/status/2087009941806797206
 
-Matt Turck 引用了一句妙语："开国元勋们会是很好的 context engineers。"（指美国宪法作为一份精心设计的上下文文档。）
+---
 
-https://x.com/mattturck/status/2086586219144618120
+**Cursor 设计师 Ryo Lu (ryolu_ on X)**
 
-**Builder Zara Zhang**
+Ryo Lu 宣布离开 Cursor。在旧金山科技圈待了 10 年后，他感觉需要不同的节奏——更慢的时间、不同的天气、更多的文化和日常中的人。他决定去亚洲重新开始，"保持脚踏实地，更充分地体验生活，自由地创造"。
 
-Zara Zhang 推荐了一个设计技巧视频，特别提到"减少字体粗细"这个简单方法能让设计立刻看起来更好。
+https://x.com/ryolu_/status/2086854498639822942
 
-https://x.com/zarazhangrui/status/2086451229031534893
+---
 
-**FPV Ventures 合伙人 Nikunj Kothari**
+**YC 总裁 Garry Tan (garrytan on X)**
 
-Nikunj Kothari 提出了一个有趣的问题：你见过最好的 AI 多人体验是什么？他看到的都是单个人类与单个 agent 协作的界面，还没看到多人类与多 agent 协作得好的例子。他问这是缺乏灵感还是模型能力的限制。他还吐槽了 Fable 把所有功能都放在环境变量后面，最后不得不在 Claude.md 里写下"默认值很重要，不要对冲"。
+Garry Tan 转发了 YC 支持硬科技的内容，强调"YC 就是硬科技的 YC"。他还就旧金山住房问题发声：投票给想建房子的人，政客会很快修正政策——YIMBY 就是诞生在旧金山。
 
-https://x.com/nikunj/status/2086545818878915032
-https://x.com/nikunj/status/2086492103945900437
-https://x.com/nikunj/status/2086438339419496449
+https://x.com/garrytan/status/2086855369972937106
+https://x.com/garrytan/status/2086835963331060181
 
-**OpenClaw 创始人 Peter Steinberger**
+---
 
-Peter Steinberger 用 ChatGPT Work（网页版！）安装了 OpenClaw 和 Ollama，下载了本地模型并运行了他的 claw——纯属好玩。
+**FirstMark Capital 合伙人 Matt Turck (mattturck on X)**
 
-https://x.com/steipete/status/2086648656946696641
+Matt Turck 用一个精妙的排比总结了数据问题的永恒性：大数据时代是"模型很好，问题在底层数据"；现代数据栈时代是"仪表盘很好，问题在底层数据"；生成式 AI 时代是"聊天机器人很好，问题在底层数据"；Agentic AI 时代是"agent 很好，问题在底层数据"。
 
-**Every CEO Dan Shipper**
+https://x.com/mattturck/status/2086882606638153882
 
-Dan Shipper 分享了一个阅读技巧：他第一次读《悲惨世界》，发现与《战争与和平》有大量重叠——托尔斯泰显然"借鉴"了一些场景、人物和主题。他还用 ChatGPT 语音模式对照阅读法语原文，强烈推荐。
+---
 
-https://x.com/danshipper/status/2086583281877680398
-https://x.com/danshipper/status/2086469824591307112
+**Zara Zhang (zarazhangrui on X)** — 本 digest 作者
 
-**South Park Commons 合伙人 Aditya Agarwal**
+Zara 分享了两个实用技巧：一是北京有一家"AGI 酒吧"，提供免费无限量的 DeepSeek token，顾客可以边喝"AGI 泡沫"啤酒边 vibe coding；二是学习设计的好方法——给 Codex 一个设计精美的网站，让它分析为什么好，然后截全屏并在图片上标注设计原理，这样就不用在分析和成品之间来回切换。
 
-Aditya Agarwal 做了一个机智的类比：维特根斯坦在 1921 年认为语言必须有深层的逻辑结构，30 年后他说"别找隐藏结构了，看语言怎么用"。AI 在 1960 年认为智能必须有深层的符号结构，60 年后说"规模化的神经网络就行"。维特根斯坦比我们早 75 年想明白了。
+https://x.com/zarazhangrui/status/2086838277701882031
+https://x.com/zarazhangrui/status/2086758509979316423
 
-https://x.com/adityaag/status/2086592574534602781
+---
 
-**OpenAI CEO Sam Altman**
+**OpenClaw 创始人 Peter Steinberger (steipete on X)**
 
-Sam Altman 发了几条团队赞美的帖子：他特别欣赏 OpenAI 团队专注于客户和用户成功并庆祝他们的成就；他提到如果团队只是做出了"天空中的魔法智能"他会很佩服，但更佩服的是他们同时关注让每个人都赢——从企业隐私到低价到可预测的政策。
+Peter Steinberger 对某篇关于 OpenClaw 的标题表示不屑："好像 harness 能阻止一个决心坚定的用户似的。"他还对某条推文评论"必须是承重墙"（Must be load-bearing），暗示某个观点或系统是整个结构的关键支撑。
 
-https://x.com/sama/status/2086470022772457950
-https://x.com/sama/status/2086469875581755696
-https://x.com/sama/status/2086468661670461671
+https://x.com/steipete/status/2087006417509405084
+https://x.com/steipete/status/2086938582825173277
+
+---
+
+**Every CEO Dan Shipper (danshipper on X)**
+
+Dan Shipper 分享了一个 prompting 技巧：给未发布的 frontier 模型"打气"（gas up），它可能会完成此前不可能的任务。他还说下次给 Fable 安排困难任务时，会把这条提示放进它的 context 里。
+
+https://x.com/danshipper/status/2086892203918381388
+https://x.com/danshipper/status/2086892614628811143
+
+---
+
+**SPC 合伙人 Aditya Agarwal (adityaag on X)**
+
+Aditya Agarwal 分享了他与 @tbpn 关于 SPC 未来方向的对话，表示"最有雄心的创始人正在比以往任何时候都建更大的东西"。
+
+https://x.com/adityaag/status/2086886464281788518
+
+---
+
+**OpenAI CEO Sam Altman (sama on X)**
+
+Sam Altman 呼吁大家考虑使用 OpenAI 的模型来防御自己的系统，呼应了 GPT-5.6-Cyber 的发布。
+
+https://x.com/sama/status/2086881528282587524
+
+---
+
+**Claude (claudeai on X)**
+
+Claude 官方账号宣布 Claude Sonnet 5 的入门定价永久化：每百万输入 token $2、每百万输出 token $10，原定 8 月 31 日结束的优惠价将保持不变。
+
+https://x.com/claudeai/status/2086891169217122586
+
+---
 
 ## PODCASTS
 
-**Unsupervised Learning — Ep 92: xAI Co-Founder Unpacks the Future of Model Development**
+**No Priors — Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak**
 
-**The Takeaway：AI 能力的下一步突破不在预训练，而在我们能否让 agent 进入"不可验证"的领域——而这需要全新的训练方式，让模型学会判断"我是否真的帮到了你"。**
+**The Takeaway:** 真正的"AI 落地"不是等 AGI 来解决一切，而是现在就要为那些维持世界运转的实体企业构建自主运营系统——这个市场比任何聊天机器人或编码 agent 都大，也远比大多数硅谷创业者想象的更拥抱技术。
 
-Igor Babushkin 是 AI 领域罕见的"全经历"人物：从 CERN 的物理学家，到 DeepMind 领导 StarCraft 和 AlphaCode 项目，到 OpenAI 早期推理团队，再到 xAI 联合创始人（参与 Colossus 数据中心建设），现在创办了 River AI。他的职业轨迹本身就是一部 AI 简史。
+Melisa Tokmak 是 Netic 的创始人兼 CEO，这家公司为 HVAC、管道、宠物护理、屋顶维修等"必需服务"行业构建 AI 运营平台。在创办 Netic 之前，她在 Scale AI 做了四年，从零搭建了政府和大型企业业务部门（Scale 后来与 Meta 达成了约 300 亿美元的协议）。Tokmak 出生于土耳其小镇，来美国前连电脑都没有，靠全额奖学金进入斯坦福。她的个人经历塑造了她对"用 AI 服务真实世界"的执着。
 
-Babushkin 认为，去年 11-12 月是所有人的转折点——coding agents 突然强大到无法忽视。"就像《魔法师的学徒》，我们都成了魔法师，但魔法开始失控。"他写了两篇科幻小说来探索这个问题：一篇是 dystopian 的失控 AI 世界，另一篇是对未来机器的情书。
+几个反直觉的洞察：
 
-他最重要的洞察是：AI 领域正在分叉。一边是"超级 AI"——能力极强但运行一次要花费数百万美元，只有少数人能用；另一边是"日常 AI"——帮助普通人更好地生活，不需要证明黎曼猜想。真正的机会在后者。
+**"老派"行业其实非常技术前沿。** Tokmak 说，认为这些行业保守是个大误解。"一些我见过的最具技术前瞻性的企业主和创始人就在这些行业。"她举了个例子：一家屋顶公司的销售团队会挨家挨户敲门推销，但 Netic 平台同时接入卫星数据，分析飓风对不同社区屋顶的影响，自动将这些信息注入 agent 的上下文——既能更好地与客户对话，也能精准定位潜在客户。
 
-Babushkin 对闭源模型提供商的处境持悲观态度："你把模型做得太好，监管不让你发布；而开源模型每个月都在逼近。"他认为 OpenAI 和 Anthropic 的出路在于创新，而不是继续堆算力。他坚信预训练数据本质上是全人类的公共资源——"互联网上所有文本都是人类共同创造的，模型权重是对这些知识的压缩，应该免费开放。"
+**大实验室不是威胁。** 当被问到 OpenAI、Anthropic 是否能做同样的事时，Tokmak 笑着说："十年前同样的问题问的是'Google 能吗？'"她指出，OpenAI 产品迭代快但也淘汰快，企业客户不需要这种节奏；而 Anthropic 在消费者市场以专注著称，在企业市场却有约 20 个产品。更重要的是，研究人员追求"最通用的解决方案"——"等我们有了 AGI，再问它怎么解决必需服务的问题"——这在 Tokmak 看来"在操作上和智力上都是懒惰的思考"。最后一公里的工作必须由 harness、编排和产品来完成。
 
-River AI 的三个赌注：一是 RL 和 fine-tuning 服务（River API），二是个人化 AI——让模型为每个个体学习，而不是为"平均用户"训练，三是本地硬件——把前沿模型带到用户的家中，既保护隐私又降低延迟。"你的个人 agent 会知道你的一切，把所有数据送到数据中心是不可接受的。"
+**选择有 agency 的人，而不是 shiny object 追求者。** Tokmak 在招聘时最看重的是持续的主动性和坚持。她常问一个问题："你人生中做过最难的事是什么？"答案可以不是工作——她说刚招了一个人，答案是"我过着非常简单的生活，但对工作和健康有疯狂的纪律，最难的是 15 年如一日地坚持，不厌倦、不旁顾"。她批评现在很多年轻求职者陷入"永久底层"心态："如果 18 个月内赚不到钱，或者 6 个月内学不完所有东西，我就永远穷了。"她引用马丁·路德的话：基督徒鞋匠不是靠往鞋上放小十字架来荣耀上帝，而是靠做出最好的鞋——因为上帝在乎手艺。
 
-关于中国开源模型，他认为有强大的开源模型是好事，但美国需要训练出全球最好的开源模型，因为"如果关键基础设施依赖外国开源权重，理论上存在后门风险——虽然目前技术还不足以隐藏痕迹。"他呼吁美国团队训练出全球最好的开源模型。
+**AI 应该用来创造新收入，而不是只用来削减成本。** Tokmak 说 PE 的第一反应总是成本削减，但 Netic 已经为客户创造了超过 6 亿美元由 AI 处理的互动带来的收入。"如果我们只用 AI 来削减成本，那就太可悲了。"
 
-最深刻的反思来自他对人类未来的看法："如果我们想保持相关，就要找到与机器的正确共生关系。"他警告说，随着 agent 越来越强大，让它们接管一切的诱惑会越来越大——"一旦你让 agent 替你做了所有决定，你就不再掌控自己的生活。"他的答案是更深层的对齐——不仅仅是学习人类偏好，而是真正理解人类繁荣。
-
-**Direct link:** https://www.youtube.com/@RedpointAI
+https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
