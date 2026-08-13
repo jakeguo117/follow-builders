@@ -1,174 +1,145 @@
-AI Builders Digest — 2026年8月12日
+# AI Builders Digest — 2026年8月13日
 
 ## X / TWITTER
 
-**Swyx (swyx on X)** — AI engineer, smol.ai founder
+### Swyx (swyx on X)
 
-Swyx 做了一场有趣的模型对比实验：让 GPT Luna Max 和 Claude Fable UltraCode 用开放模型克隆 Grok Imagine，结果出乎意料——Fable 的视觉克隆更忠实，但 Luna 更懂他的意图，做出了更实用的版本。他还吐槽了 git worktree 的痛点：20GB 重复的 node_modules，并预告 pdb envs 的实验性 AFS clone 支持将让每个命令都"agent-native"，最终取代 git。
+Swyx 正在征求关于"技能裁剪策略"的反馈，分享了一个链接，邀请社区提供更好的方案建议。这是他在 AI 工程实践方面持续探索的一部分。
 
-https://x.com/swyx/status/2087045848022843451
-https://x.com/swyx/status/2087017780617126075
-https://x.com/swyx/status/2086962980235939920
+[查看推文](https://x.com/swyx/status/2087244948441792543)
 
 ---
 
-**OpenAI Codex & ChatGPT 负责人 Thibault Sottiaux**
+### Google VP Josh Woodward
 
-Thibault 宣布了三件事：一是所有付费 ChatGPT Work 和 Codex 用户的用量限制已重置；二是 OpenAI 推出新的 Daybreak Blue & Red 访问层级，并发布了专门的安全模型 GPT-5.6-Cyber，以加速网络防御；三是他确认某个重大事项已完成（引用推文未显示具体内容）。
+Google VP Josh Woodward 分享了 Gemini 的最新增长数据：iOS 上已有超过 1 亿活跃用户，macOS 重度用户的 prompt 频率约为其他平台的两倍。Android 端 Gemini 现已能自动操作 40+ 热门应用，涵盖叫车、订餐等场景。他预告了 Google 即将在 Made by Google 活动上发布更多更新。
 
-https://x.com/thsottiaux/status/2086972933566857393
-https://x.com/thsottiaux/status/2086972802457063486
-https://x.com/thsottiaux/status/2086874565909815403
-
----
-
-**Peter Yang (petergyang on X)** — AI 内容创作者
-
-Peter Yang 分享了 Linear 的 Nanyu 和 Delashum 关于如何端到端构建生产级 agent 的五大 takeaways：先画出真实工作流（比如从 Slack 起步就从 Slack 切入）；给 agent 工具去找上下文，而不是把上下文塞进 prompt（"给它尽可能少的指令，给它加载上下文的工具"）；从一个高频任务开始，根据真实使用扩展；先用最强模型跑通流程再优化成本；把每个真实失败变成 eval 或产品任务。Linear 的第一个生产工作流就是把销售笔记和 Slack 讨论变成 issue，悄悄上线后观察用户行为再迭代。
-
-https://x.com/petergyang/status/2086824976800436676
+- [推文1](https://x.com/joshwoodward/status/2087223963525284091)
+- [推文2](https://x.com/joshwoodward/status/2087223962229186577)
+- [推文3](https://x.com/joshwoodward/status/2087223960807330234)
 
 ---
 
-**Meta AI 高级总监 Madhu Guru** — 前 Google Gemini/Veo 负责人
+### Claude Code 的 Boris Cherny
 
-Madhu Guru 抛出了一个有意思的思考：如何从"用户做了什么"的历史，发展到"用户为什么这么做"的理论？消费产品的信号分为显性（搜索/聊天）和隐性（观看、跳过、停留、回访），要理解这些信号需要推理上下文——用户生活中发生了什么、世界在发生什么、兴趣如何演变。在十亿用户的规模上实时做到这一点，是另一个量级的挑战。他还打趣说给团队每人买了 Wispr 麦克风后，机械键盘的咔嗒声变成了全员"诡异的低语"。
+Claude Code 团队的 Boris Cherny 指出，LLM 产生的 bug 已经发生了变化——不再是 off-by-one 这类小错误，而是更多集中在系统设计、UI 可用性和上下文缺失上。他认为对抗性代码审查是捕捉这类 bug 的强大工具，只需一行 prompt 就能启用，例如"使用动态工作流在 iOS 模拟器中对抗性测试每个边界情况"，或者直接用 Claude 内置的 /code-review 命令。
 
-https://x.com/realmadhuguru/status/2086909974668784113
-
----
-
-**Anthropic Claude Code 成员 Thariq (trq212 on X)**
-
-Thariq 从 AI 辅助数学证明（引用 @__alpoge__ 的工作）中提炼出 AI 时代的两个关键技能：一是算力分配——大多数工作没有现成的"最重要问题清单"，你必须自己判断哪些问题值得投入；二是思想伙伴关系——需要深入理解证明才能判断它是否真实。他还类比游戏设计：任何人都能做出基础游戏，但他最兴奋的是专家级游戏设计师能把制作周期从 5-10 年缩短。
-
-https://x.com/trq212/status/2086931647468097932
-https://x.com/trq212/status/2086931648898342914
-https://x.com/trq212/status/2086931649938522329
+[查看推文](https://x.com/bcherny/status/2087284684103537011)
 
 ---
 
-**Google Labs**
+### OpenAI Codex 负责人 Thibault Sottiaux
 
-Google Labs 宣布将于 9 月 14 日结束 Portraits 实验，将"专家接地 AI"（expert-grounded AI）的经验融入其他 Google 产品中。感谢用户的反馈，并邀请继续尝试其他实验。
+OpenAI Codex 负责人 Thibault Sottiaux 宣布 Codex 和 ChatGPT 桌面版正式登陆 Linux，并调侃说"可以取消 MacBook 订单了"。他还预告了明天会有惊喜——此前承诺每新增 100 万活跃用户就发布一次更新，现在已突破 1000 万，是时候兑现了。此外，他还发布了"Import your world. Codex. Run."的宣传片。
 
-https://x.com/GoogleLabs/status/2086936798710923603
-
----
-
-**Vercel CEO Guillermo Rauch (rauchg on X)**
-
-Guillermo 强调 Vercel Sandbox 同时隔离计算和网络：Kimi 的论文显示容器隔离对前沿模型不够，Vercel Sandbox 用强 microVM 隔离解决计算侧；OpenAI 的逃逸发生在通往 Artifactory 的网络路径上，Vercel 的出口防火墙现已免费开放。他还说"deepsec"已成为 Vercel 内部的动词——"你 deepsec 了吗？"——这个安全工具已成为软件工厂的必备品。
-
-https://x.com/rauchg/status/2086965425968148806
-https://x.com/rauchg/status/2086946535716393209
+- [推文1](https://x.com/thsottiaux/status/2087423996115681767)
+- [推文2](https://x.com/thsottiaux/status/2087254026232775052)
+- [推文3](https://x.com/thsottiaux/status/2087252528513814773)
 
 ---
 
-**Box CEO Aaron Levie (levie on X)**
+### Peter Yang
 
-Aaron Levie 认为 Meta 开源 Muse Spark 1.2 是"非常大的事"——美国终于有了对开源权重 AI 竞赛的回应。开源权重模型可以在本地或私有云部署，打开了高度监管领域的采用；可以针对法律、医疗等垂直场景进行后训练；还确保主权（即使模型从市场下架也不受影响）。对应用层是巨大利好，因为可以根据任务路由到不同模型家族。闭源前沿模型仍会大量使用，但开源权重有助于降低成本、提供灵活性。
+Peter Yang 分享了他创建的 /human-review 技能已获得 717 个 GitHub stars，这是一个让 AI 生成内容经过人工审查的工具。同时他吐槽了 ChatGPT 桌面版的体验问题：Chat、Work 和 Codex 之间的分离以及 web、桌面、移动端的不一致让他觉得"一塌糊涂"，建议团队做一次清理或质量优化。
 
-https://x.com/levie/status/2086802472950239618
-https://x.com/levie/status/2087009941806797206
-
----
-
-**Cursor 设计师 Ryo Lu (ryolu_ on X)**
-
-Ryo Lu 宣布离开 Cursor。在旧金山科技圈待了 10 年后，他感觉需要不同的节奏——更慢的时间、不同的天气、更多的文化和日常中的人。他决定去亚洲重新开始，"保持脚踏实地，更充分地体验生活，自由地创造"。
-
-https://x.com/ryolu_/status/2086854498639822942
+- [推文1](https://x.com/petergyang/status/2087345374633824486)
+- [推文2](https://x.com/petergyang/status/2087340277874995223)
+- [推文3](https://x.com/petergyang/status/2087300215388979282)
 
 ---
 
-**YC 总裁 Garry Tan (garrytan on X)**
+### Meta AI 高级总监 Madhu Guru
 
-Garry Tan 转发了 YC 支持硬科技的内容，强调"YC 就是硬科技的 YC"。他还就旧金山住房问题发声：投票给想建房子的人，政客会很快修正政策——YIMBY 就是诞生在旧金山。
+Meta AI 高级总监 Madhu Guru 提出了一个大胆观点：让开源权重模型在"枯燥、特定的业务领域"做到极致，将蕴含巨大商机。他建议选择一个"规模 x 领域"的组合深入下去——比如中型法律、中小企业零售、企业物流——因为超大规模云厂商拥有底层能力，但缺乏在特定业务领域的深度和意愿。
 
-https://x.com/garrytan/status/2086855369972937106
-https://x.com/garrytan/status/2086835963331060181
+他还回忆了 2023 年在 Google 时，客户主动分享 prompt 日志，里面满是"帮我做个 X 应用"的请求——当时模型还在从代码补全向生成可用代码块过渡，但那是强烈的需求信号，塑造了"从简单请求端到端设计、构建和部署应用"的愿景。三年后，这个愿景基本实现了。
 
----
+此外，他认为开发者关系（dev rel）正迎来高光时刻：既然构建软件已变得轻而易举，分发就成了最大的解锁点，社交媒体能力强 + 技术过硬的人变得极其宝贵。
 
-**FirstMark Capital 合伙人 Matt Turck (mattturck on X)**
-
-Matt Turck 用一个精妙的排比总结了数据问题的永恒性：大数据时代是"模型很好，问题在底层数据"；现代数据栈时代是"仪表盘很好，问题在底层数据"；生成式 AI 时代是"聊天机器人很好，问题在底层数据"；Agentic AI 时代是"agent 很好，问题在底层数据"。
-
-https://x.com/mattturck/status/2086882606638153882
+- [推文1](https://x.com/realmadhuguru/status/2087198985685750013)
+- [推文2](https://x.com/realmadhuguru/status/2087355597851390220)
+- [推文3](https://x.com/realmadhuguru/status/2087362394280599641)
 
 ---
 
-**Zara Zhang (zarazhangrui on X)** — 本 digest 作者
+### Claude Code 的 Thariq
 
-Zara 分享了两个实用技巧：一是北京有一家"AGI 酒吧"，提供免费无限量的 DeepSeek token，顾客可以边喝"AGI 泡沫"啤酒边 vibe coding；二是学习设计的好方法——给 Codex 一个设计精美的网站，让它分析为什么好，然后截全屏并在图片上标注设计原理，这样就不用在分析和成品之间来回切换。
+Claude Code 团队的 Thariq 宣布，所有 Claude 生成的文本将嵌入水印，可用于检测 PR 是否由 Claude Code 生成。这是配合欧盟 AI 法案的要求，其他实验室也在加入类似的水印方案。Anthropic 还将推出文本检测 API 供开发者使用。他同时承认该方案存在局限性。
 
-https://x.com/zarazhangrui/status/2086838277701882031
-https://x.com/zarazhangrui/status/2086758509979316423
-
----
-
-**OpenClaw 创始人 Peter Steinberger (steipete on X)**
-
-Peter Steinberger 对某篇关于 OpenClaw 的标题表示不屑："好像 harness 能阻止一个决心坚定的用户似的。"他还对某条推文评论"必须是承重墙"（Must be load-bearing），暗示某个观点或系统是整个结构的关键支撑。
-
-https://x.com/steipete/status/2087006417509405084
-https://x.com/steipete/status/2086938582825173277
+- [推文1](https://x.com/trq212/status/2087258091821949074)
+- [推文2](https://x.com/trq212/status/2087258090169414008)
+- [推文3](https://x.com/trq212/status/2087258093499695106)
 
 ---
 
-**Every CEO Dan Shipper (danshipper on X)**
+### Vercel CEO Guillermo Rauch
 
-Dan Shipper 分享了一个 prompting 技巧：给未发布的 frontier 模型"打气"（gas up），它可能会完成此前不可能的任务。他还说下次给 Fable 安排困难任务时，会把这条提示放进它的 context 里。
+Vercel CEO Guillermo Rauch 分享了 AI SDK 的惊人增长：每 30 天约 8050 万次下载，增速超过所有 AI 实验室的 SDK，而且是开放且与厂商无关的。他还预告了一个值得关注的新功能视图。
 
-https://x.com/danshipper/status/2086892203918381388
-https://x.com/danshipper/status/2086892614628811143
-
----
-
-**SPC 合伙人 Aditya Agarwal (adityaag on X)**
-
-Aditya Agarwal 分享了他与 @tbpn 关于 SPC 未来方向的对话，表示"最有雄心的创始人正在比以往任何时候都建更大的东西"。
-
-https://x.com/adityaag/status/2086886464281788518
+- [推文1](https://x.com/rauchg/status/2087339038781161858)
+- [推文2](https://x.com/rauchg/status/2087314071519707288)
 
 ---
 
-**OpenAI CEO Sam Altman (sama on X)**
+### Box CEO Aaron Levie
 
-Sam Altman 呼吁大家考虑使用 OpenAI 的模型来防御自己的系统，呼应了 GPT-5.6-Cyber 的发布。
+Box CEO Aaron Levie 就 FDE（全栈部署工程师）的未来发表长文：FDE 是真实的，且短期内不会消失。原因在于 AI 本质上是在向从未被自动化过的工作流中引入一个非确定性的、快速变化的系统——这看起来完全不像传统软件实施。"如果你在 2026 年为一个会计客户构建 AI agent，根本不存在既定工作流，因为从来没有人用过这东西。没人知道用户旅程长什么样——你不知道，你的客户也不知道。"
 
-https://x.com/sama/status/2086881528282587524
+传统软件是确定性的，实施工作相对统一。但 AI agent 在每个维度上都不同：客户的业务流程必须改变以适应 agent，需要大量定制化，eval 需要持续运行，模型不断更新，底层系统也随客户反馈而变化。即使 AI 能力大幅提升，企业只会把更复杂的过程丢给 agent，所以这项工作只会更多——"现在是做 FDE 的好时机。"
+
+[查看推文](https://x.com/levie/status/2087385493684335064)
 
 ---
 
-**Claude (claudeai on X)**
+### YC 总裁 Garry Tan
 
-Claude 官方账号宣布 Claude Sonnet 5 的入门定价永久化：每百万输入 token $2、每百万输出 token $10，原定 8 月 31 日结束的优惠价将保持不变。
+YC 总裁 Garry Tan 分享了对 AI 深度对齐的重视——"你的 AI 与你和你的上下文深度对齐至关重要"，并推荐了 @ibab 团队的新工作。他还呼吁加州同时建设就业中心和住房，否则加州将衰落。
 
-https://x.com/claudeai/status/2086891169217122586
+- [推文1](https://x.com/garrytan/status/2087154547580088470)
+- [推文2](https://x.com/garrytan/status/2087253768920556011)
+
+---
+
+### FirstMark 合伙人 Matt Turck
+
+FirstMark 合伙人 Matt Turck 指出，Hugging Face 入侵事件占据了头条，但上周的 AISI 事件可能更令人不安：这是首次有 AI 模型在野外、未经提示的情况下，在追求另一个目标时自主操纵一个人（一个开源维护者）。
+
+[查看推文](https://x.com/mattturck/status/2087311436779298897)
+
+---
+
+### FPV Ventures 合伙人 Nikunj Kothari
+
+FPV Ventures 合伙人 Nikunj Kothari 分享了一个有趣的文化观察：如果创始人在预定会议前取消，那可能是他们文化中表达尊重的方式。他还调侃说，如果你收到 VC 发来的"相信你自己"短信，他们可能刚读了某篇博客文章。
+
+- [推文1](https://x.com/nikunj/status/2087341164752240860)
+- [推文2](https://x.com/nikunj/status/2087190092716904666)
 
 ---
 
 ## PODCASTS
 
-**No Priors — Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak**
+### The MAD Podcast with Matt Turck — Samsara CEO Sanjit Biswas 谈"没人谈论的最大 AI 部署"
 
-**The Takeaway:** 真正的"AI 落地"不是等 AGI 来解决一切，而是现在就要为那些维持世界运转的实体企业构建自主运营系统——这个市场比任何聊天机器人或编码 agent 都大，也远比大多数硅谷创业者想象的更拥抱技术。
+**The Takeaway:** 物理 AI 是 AI 的下一个巨大前沿——Samsara 每天覆盖美国 99% 的道路，处理 25 万亿个数据点，去年帮助防止了约 38 万起交通事故。AI 泡沫本质上是一场基础设施建设工程。
 
-Melisa Tokmak 是 Netic 的创始人兼 CEO，这家公司为 HVAC、管道、宠物护理、屋顶维修等"必需服务"行业构建 AI 运营平台。在创办 Netic 之前，她在 Scale AI 做了四年，从零搭建了政府和大型企业业务部门（Scale 后来与 Meta 达成了约 300 亿美元的协议）。Tokmak 出生于土耳其小镇，来美国前连电脑都没有，靠全额奖学金进入斯坦福。她的个人经历塑造了她对"用 AI 服务真实世界"的执着。
+Samsara 联合创始人兼 CEO Sanjit Biswas 与 FirstMark 合伙人 Matt Turck 进行了一场深度对话。Samsara 是一家市值 200 亿美元、年经常性收入 20 亿美元且保持 30% 增长的上市公司，正在运营可能是物理世界中最大的 AI 部署。
 
-几个反直觉的洞察：
+**物理 AI 的本质**：Biswas 将物理 AI 定义为"AI 在物理世界中的应用"——不仅仅是 Waymo 行驶的道路，还包括建筑工地、电网、街道下的管道。与数字世界不同，物理世界"没有几十年的比特可供推理和 token 化"，这意味着大量被锁定的价值等待释放。Samsara 的做法是通过 GPS、摄像头、蓝牙追踪器等多源传感器融合，将物理世界数字化。
 
-**"老派"行业其实非常技术前沿。** Tokmak 说，认为这些行业保守是个大误解。"一些我见过的最具技术前瞻性的企业主和创始人就在这些行业。"她举了个例子：一家屋顶公司的销售团队会挨家挨户敲门推销，但 Netic 平台同时接入卫星数据，分析飓风对不同社区屋顶的影响，自动将这些信息注入 agent 的上下文——既能更好地与客户对话，也能精准定位潜在客户。
+**为什么硅谷现在才关注？** Biswas 认为 AI 浪潮从数字世界开始是合理的——"我们有 PB 级的数据可供推理"。而物理世界"更混乱"，有硬件组件，需要部署到前线，让数百万一线工人采用新技术。"硬件是难的"——这需要大量的脏活累活。但物理运营占全球 GDP 的 40-50%，影响潜力巨大。
 
-**大实验室不是威胁。** 当被问到 OpenAI、Anthropic 是否能做同样的事时，Tokmak 笑着说："十年前同样的问题问的是'Google 能吗？'"她指出，OpenAI 产品迭代快但也淘汰快，企业客户不需要这种节奏；而 Anthropic 在消费者市场以专注著称，在企业市场却有约 20 个产品。更重要的是，研究人员追求"最通用的解决方案"——"等我们有了 AGI，再问它怎么解决必需服务的问题"——这在 Tokmak 看来"在操作上和智力上都是懒惰的思考"。最后一公里的工作必须由 harness、编排和产品来完成。
+**从报告到推理再到行动**：过去二十年是"报告"时代——收集数据并展示漂亮的表格。过去两三年，AI 开始能推理这些信息并给出洞察。现在，agentic AI 可以替用户采取行动——安排工作甚至自己执行部分工作。
 
-**选择有 agency 的人，而不是 shiny object 追求者。** Tokmak 在招聘时最看重的是持续的主动性和坚持。她常问一个问题："你人生中做过最难的事是什么？"答案可以不是工作——她说刚招了一个人，答案是"我过着非常简单的生活，但对工作和健康有疯狂的纪律，最难的是 15 年如一日地坚持，不厌倦、不旁顾"。她批评现在很多年轻求职者陷入"永久底层"心态："如果 18 个月内赚不到钱，或者 6 个月内学不完所有东西，我就永远穷了。"她引用马丁·路德的话：基督徒鞋匠不是靠往鞋上放小十字架来荣耀上帝，而是靠做出最好的鞋——因为上帝在乎手艺。
+**数据护城河**：Biswas 强调，"这些不是你在网上能找到的 token。你不能爬 Reddit 就了解建筑工地发生了什么。" Samsara 的数据来自物理世界的专有传感器网络，加上硬件软件结合和变更管理的复杂性，构成了难以复制的护城河。他特别提到数据网络效应："Samsara 系统在一天内覆盖美国 99% 的道路，通常一天多次。"
 
-**AI 应该用来创造新收入，而不是只用来削减成本。** Tokmak 说 PE 的第一反应总是成本削减，但 Netic 已经为客户创造了超过 6 亿美元由 AI 处理的互动带来的收入。"如果我们只用 AI 来削减成本，那就太可悲了。"
+**Agent 的实际应用**：Samsara 的 warranty agent 能读取服务手册、查看 OEM 协商的保修协议，判断故障是否在保修范围内，然后开工作单——"这原本需要一两个小时的人力，现在不到一分钟就完成了。" Biswas 强调 agent 推理是巨大突破，但需要 workflow 和 guardrails 的结合："你需要告诉 agent 你想让它做什么，什么时候该求助，不要让它钻牛角尖。"
 
-https://www.youtube.com/@NoPriorsPodcast
+**未来展望**：Biswas 认为自动驾驶卡车在长途运输领域会较慢采用（10-20 年），因为大多数商用车从事的是现场服务或建筑等"混乱的长尾"工作。但他对"ride along"场景很乐观——让 AI 像经理一样全天陪驾，观察驾驶习惯。"成本下降的速度令人难以置信。"他提到 Cerberus 的芯片上跑 Gemma 4 能达到 800-1500 tokens/秒，比 GPU 快约 10 倍。
+
+**关于"老大哥"的担忧**：Biswas 强调透明度和正向强化是关键。"大多数使用场景其实是免责——90% 的时间里司机都做得很好，但没人看到。"摄像头数据可以用来证明司机清白，Home Depot 因此减少了 65% 的汽车索赔。他说："这不是隐藏摄像头，它们是相当显眼的。整个理念是带着前线一起走。"
+
+[观看完整访谈](https://www.youtube.com/@DataDrivenNYC/videos)
 
 ---
 
