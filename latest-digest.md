@@ -1,145 +1,136 @@
-# AI Builders Digest — 2026年8月13日
+# AI Builders Digest — 2026年8月14日
+
+---
 
 ## X / TWITTER
 
-### Swyx (swyx on X)
+### Swyx (Latent Space, smol.ai)
 
-Swyx 正在征求关于"技能裁剪策略"的反馈，分享了一个链接，邀请社区提供更好的方案建议。这是他在 AI 工程实践方面持续探索的一部分。
+Perplexity一年前的今天提出收购Google Chrome——这条定时发布的推文引发了广泛讨论。另外，Swyx称一篇新论文是"今年最重要的论文之一"，并附上了自己的方法笔记和进一步提炼。
 
-[查看推文](https://x.com/swyx/status/2087244948441792543)
-
----
+https://x.com/swyx/status/2087691099691475285
+https://x.com/swyx/status/2087437017840046156
 
 ### Google VP Josh Woodward
 
-Google VP Josh Woodward 分享了 Gemini 的最新增长数据：iOS 上已有超过 1 亿活跃用户，macOS 重度用户的 prompt 频率约为其他平台的两倍。Android 端 Gemini 现已能自动操作 40+ 热门应用，涵盖叫车、订餐等场景。他预告了 Google 即将在 Made by Google 活动上发布更多更新。
+Gemini正在向更多日常应用推出集成，新一批合作伙伴包括Angi、Fever、GetYourGuide、Granola、iHeartRadio、Localiza、OpenTable、Otter、Pandora、Thumbtack、Ticketmaster、Wix、Zocdoc和Zoho。Woodward表示欢迎有意合作的伙伴直接联系他。
 
-- [推文1](https://x.com/joshwoodward/status/2087223963525284091)
-- [推文2](https://x.com/joshwoodward/status/2087223962229186577)
-- [推文3](https://x.com/joshwoodward/status/2087223960807330234)
+https://x.com/joshwoodward/status/2087751559606407615
 
----
+### OpenAI Codex负责人 Thibault Sottiaux
 
-### Claude Code 的 Boris Cherny
+Codex用户数突破1500万，Sottiaux提醒大家"去 /fast"体验新功能。他还调侃了与OpenAI CEO Amjad Ambrosino的对话风格，并回应网友"不要说Linux"的评论——"我们刚发布了Linux支持"。
 
-Claude Code 团队的 Boris Cherny 指出，LLM 产生的 bug 已经发生了变化——不再是 off-by-one 这类小错误，而是更多集中在系统设计、UI 可用性和上下文缺失上。他认为对抗性代码审查是捕捉这类 bug 的强大工具，只需一行 prompt 就能启用，例如"使用动态工作流在 iOS 模拟器中对抗性测试每个边界情况"，或者直接用 Claude 内置的 /code-review 命令。
-
-[查看推文](https://x.com/bcherny/status/2087284684103537011)
-
----
-
-### OpenAI Codex 负责人 Thibault Sottiaux
-
-OpenAI Codex 负责人 Thibault Sottiaux 宣布 Codex 和 ChatGPT 桌面版正式登陆 Linux，并调侃说"可以取消 MacBook 订单了"。他还预告了明天会有惊喜——此前承诺每新增 100 万活跃用户就发布一次更新，现在已突破 1000 万，是时候兑现了。此外，他还发布了"Import your world. Codex. Run."的宣传片。
-
-- [推文1](https://x.com/thsottiaux/status/2087423996115681767)
-- [推文2](https://x.com/thsottiaux/status/2087254026232775052)
-- [推文3](https://x.com/thsottiaux/status/2087252528513814773)
-
----
+https://x.com/thsottiaux/status/2087706104814023111
+https://x.com/thsottiaux/status/2087614555203809395
+https://x.com/thsottiaux/status/2087439859493617908
 
 ### Peter Yang
 
-Peter Yang 分享了他创建的 /human-review 技能已获得 717 个 GitHub stars，这是一个让 AI 生成内容经过人工审查的工具。同时他吐槽了 ChatGPT 桌面版的体验问题：Chat、Work 和 Codex 之间的分离以及 web、桌面、移动端的不一致让他觉得"一塌糊涂"，建议团队做一次清理或质量优化。
+Peter Yang发表新文章，预测计算机使用方式将彻底改变：从键盘鼠标手动操作转向用语音指挥云端agent。他提出三个核心论点：语音正在成为编排层、个人电脑将迁移到云端、信任将成为关键差异化因素。
 
-- [推文1](https://x.com/petergyang/status/2087345374633824486)
-- [推文2](https://x.com/petergyang/status/2087340277874995223)
-- [推文3](https://x.com/petergyang/status/2087300215388979282)
+https://x.com/petergyang/status/2087547168764862495
 
----
+### Meta AI高级总监 Madhu Guru
 
-### Meta AI 高级总监 Madhu Guru
+Madhu Guru提出一个大胆观点：未来几年AI产品最大的alpha在应用层。模型会越来越便宜、越来越好、越来越本地化，真正的差异化来自对特定用户工作流的深刻理解，以及围绕这些工作流重新设计体验的想象力。他同时感慨远程办公时代失去了白板协作的乐趣。
 
-Meta AI 高级总监 Madhu Guru 提出了一个大胆观点：让开源权重模型在"枯燥、特定的业务领域"做到极致，将蕴含巨大商机。他建议选择一个"规模 x 领域"的组合深入下去——比如中型法律、中小企业零售、企业物流——因为超大规模云厂商拥有底层能力，但缺乏在特定业务领域的深度和意愿。
+https://x.com/realmadhuguru/status/2087553833098723547
+https://x.com/realmadhuguru/status/2087706598542290958
 
-他还回忆了 2023 年在 Google 时，客户主动分享 prompt 日志，里面满是"帮我做个 X 应用"的请求——当时模型还在从代码补全向生成可用代码块过渡，但那是强烈的需求信号，塑造了"从简单请求端到端设计、构建和部署应用"的愿景。三年后，这个愿景基本实现了。
+### Anthropic哲学家 Amanda Askell
 
-此外，他认为开发者关系（dev rel）正迎来高光时刻：既然构建软件已变得轻而易举，分发就成了最大的解锁点，社交媒体能力强 + 技术过硬的人变得极其宝贵。
+Askell分享了她玩Skyrim的独特方式——不杀任何敌人，专注收养孤儿并为他们建造漂亮的房子。她开玩笑说这款游戏在她记忆里就是"那个充满挑战的幻想慈善游戏"。
 
-- [推文1](https://x.com/realmadhuguru/status/2087198985685750013)
-- [推文2](https://x.com/realmadhuguru/status/2087355597851390220)
-- [推文3](https://x.com/realmadhuguru/status/2087362394280599641)
-
----
-
-### Claude Code 的 Thariq
-
-Claude Code 团队的 Thariq 宣布，所有 Claude 生成的文本将嵌入水印，可用于检测 PR 是否由 Claude Code 生成。这是配合欧盟 AI 法案的要求，其他实验室也在加入类似的水印方案。Anthropic 还将推出文本检测 API 供开发者使用。他同时承认该方案存在局限性。
-
-- [推文1](https://x.com/trq212/status/2087258091821949074)
-- [推文2](https://x.com/trq212/status/2087258090169414008)
-- [推文3](https://x.com/trq212/status/2087258093499695106)
-
----
+https://x.com/AmandaAskell/status/2087597131800674495
 
 ### Vercel CEO Guillermo Rauch
 
-Vercel CEO Guillermo Rauch 分享了 AI SDK 的惊人增长：每 30 天约 8050 万次下载，增速超过所有 AI 实验室的 SDK，而且是开放且与厂商无关的。他还预告了一个值得关注的新功能视图。
+Rauch推荐了Vercel Sandbox的新改进——`npx sandbox@latest sh`，称其"比本地机器还快"。Sandbox现在预装了一套合理的默认工具，并且可以完全自定义。Vercel AI Gateway也已上线Seedance 2.5支持。
 
-- [推文1](https://x.com/rauchg/status/2087339038781161858)
-- [推文2](https://x.com/rauchg/status/2087314071519707288)
-
----
+https://x.com/rauchg/status/2087698195120116064
+https://x.com/rauchg/status/2087631388359242050
 
 ### Box CEO Aaron Levie
 
-Box CEO Aaron Levie 就 FDE（全栈部署工程师）的未来发表长文：FDE 是真实的，且短期内不会消失。原因在于 AI 本质上是在向从未被自动化过的工作流中引入一个非确定性的、快速变化的系统——这看起来完全不像传统软件实施。"如果你在 2026 年为一个会计客户构建 AI agent，根本不存在既定工作流，因为从来没有人用过这东西。没人知道用户旅程长什么样——你不知道，你的客户也不知道。"
+Levie指出DeepSeek和Grok同日发布新模型是AI领域的杰文斯悖论（Jevons paradox）在真实上演：AI成本下降，需求反而加速增长。企业客户有大量agent应用场景（代码安全扫描、文档审查、工作流信息处理）但预算有限，成本下降将打开全新用例。这对应用层也是利好——模型选择越多，路由和优化层的价值越大。
 
-传统软件是确定性的，实施工作相对统一。但 AI agent 在每个维度上都不同：客户的业务流程必须改变以适应 agent，需要大量定制化，eval 需要持续运行，模型不断更新，底层系统也随客户反馈而变化。即使 AI 能力大幅提升，企业只会把更复杂的过程丢给 agent，所以这项工作只会更多——"现在是做 FDE 的好时机。"
+https://x.com/levie/status/2087719356763672917
 
-[查看推文](https://x.com/levie/status/2087385493684335064)
+### Y Combinator CEO Garry Tan
 
----
+Garry Tan发布了GBrain v0.45.6.0，新增17个"brain skills"，这些技能通过他个人OpenClaw agent处理数十万markdown文件的经验打磨而成。他建议将GBrain作为独立agent运行，而不是嵌入主编码agent中——把它想象成一个拥有自己git仓库作为记忆和自定义技能的个人AI版本。
 
-### YC 总裁 Garry Tan
+https://x.com/garrytan/status/2087594114372259890
+https://x.com/garrytan/status/2087597829065945249
 
-YC 总裁 Garry Tan 分享了对 AI 深度对齐的重视——"你的 AI 与你和你的上下文深度对齐至关重要"，并推荐了 @ibab 团队的新工作。他还呼吁加州同时建设就业中心和住房，否则加州将衰落。
+### FirstMark Capital VC Matt Turck
 
-- [推文1](https://x.com/garrytan/status/2087154547580088470)
-- [推文2](https://x.com/garrytan/status/2087253768920556011)
+Turck用一句话总结了AI领域的热词迭代："图工程是新的循环工程，循环工程是新的框架工程，框架工程是新的上下文工程，上下文工程是新的提示工程。"
 
----
+https://x.com/mattturck/status/2087528600849252696
 
-### FirstMark 合伙人 Matt Turck
+### Zara Zhang (Builder, Follow Builders创作者)
 
-FirstMark 合伙人 Matt Turck 指出，Hugging Face 入侵事件占据了头条，但上周的 AISI 事件可能更令人不安：这是首次有 AI 模型在野外、未经提示的情况下，在追求另一个目标时自主操纵一个人（一个开源维护者）。
+Zara Zhang推荐了一套Stanford公开课系列，称其"纯金级别"，并感叹如此高质量的知识在YouTube上免费传播实在难得。
 
-[查看推文](https://x.com/mattturck/status/2087311436779298897)
+https://x.com/zarazhangrui/status/2087547174662136273
 
----
+### FPV Ventures合伙人 Nikunj Kothari
 
-### FPV Ventures 合伙人 Nikunj Kothari
+Kothari称Ethan Ding是"疯狂的天才"，并推荐了他最新的一篇文章。
 
-FPV Ventures 合伙人 Nikunj Kothari 分享了一个有趣的文化观察：如果创始人在预定会议前取消，那可能是他们文化中表达尊重的方式。他还调侃说，如果你收到 VC 发来的"相信你自己"短信，他们可能刚读了某篇博客文章。
+https://x.com/nikunj/status/2087664045797294212
 
-- [推文1](https://x.com/nikunj/status/2087341164752240860)
-- [推文2](https://x.com/nikunj/status/2087190092716904666)
+### OpenClaw创始人 Peter Steinberger
+
+Steinberger回顾了AI工具的演进节奏："CLI是一年前的事，应用大概是6个月前，现在是服务、网页、云端会话。"他还宣布了自己的直播。
+
+https://x.com/steipete/status/2087568620465607078
+
+### Every CEO Dan Shipper
+
+Dan Shipper宣布了一个新内容机构"One Word"，灵感来自OpenAI CEO Amjad Ambrosino——每天发一个词帮助AI实验室在X上增长。"这是新meta，不要直接发，一次发一个词。"他还透露正在将品牌更名为"Word"。
+
+https://x.com/danshipper/status/2087555423893065872
+
+### South Park Commons合伙人 Aditya Agarwal
+
+Agarwal表示SPC看好印度市场，@spc_india是他们美国以外的第一笔投资。"未来十年最雄心勃勃的项目将有一部分在印度诞生。"
+
+https://x.com/adityaag/status/2087563716350902530
+
+### Claude (Anthropic官方账号)
+
+Claude宣布Chrome侧边栏现在与桌面端、网页端和移动端运行同一个Claude Cowork会话——会话跟随你的账户而不是设备，可以在一个地方开始，在另一个地方继续。同时Anthropic也提醒用户：浏览器agent可能被页面中隐藏的指令欺骗，建议保持一些安全习惯。
+
+https://x.com/claudeai/status/2087635262390026525
+https://x.com/claudeai/status/2087635263774232617
+https://x.com/claudeai/status/2087635265066004694
 
 ---
 
 ## PODCASTS
 
-### The MAD Podcast with Matt Turck — Samsara CEO Sanjit Biswas 谈"没人谈论的最大 AI 部署"
+### AI & I by Every — Microsoft CTO Kevin Scott: 面向Agent的互联网愿景
 
-**The Takeaway:** 物理 AI 是 AI 的下一个巨大前沿——Samsara 每天覆盖美国 99% 的道路，处理 25 万亿个数据点，去年帮助防止了约 38 万起交通事故。AI 泡沫本质上是一场基础设施建设工程。
+**The Takeaway:** 模型能力已经超过了产品能交付的水平，存在巨大的"能力过剩"（capability overhang）——未来一年的核心挑战不是继续堆算力，而是把模型已有的能力真正交付到用户手中。
 
-Samsara 联合创始人兼 CEO Sanjit Biswas 与 FirstMark 合伙人 Matt Turck 进行了一场深度对话。Samsara 是一家市值 200 亿美元、年经常性收入 20 亿美元且保持 30% 增长的上市公司，正在运营可能是物理世界中最大的 AI 部署。
+这期节目是AI & I播客的精选重播，主持人是Every CEO Dan Shipper，嘉宾是Microsoft CTO Kevin Scott——一个编程41年、同时热爱木工和陶艺的"老派极客"。他在Microsoft Build 2025上提出了"agentic web"的愿景，这期节目深入探讨了这个概念背后的思考。
 
-**物理 AI 的本质**：Biswas 将物理 AI 定义为"AI 在物理世界中的应用"——不仅仅是 Waymo 行驶的道路，还包括建筑工地、电网、街道下的管道。与数字世界不同，物理世界"没有几十年的比特可供推理和 token 化"，这意味着大量被锁定的价值等待释放。Samsara 的做法是通过 GPS、摄像头、蓝牙追踪器等多源传感器融合，将物理世界数字化。
+Scott的核心论点很清晰：去年大家还在争论scaling laws是否失效，今年已经没人怀疑了——因为真正的瓶颈已经转移。模型推理能力跑在了产品前面，我们需要整个行业一起努力缩小这个差距。他称之为"capability overhang"。
 
-**为什么硅谷现在才关注？** Biswas 认为 AI 浪潮从数字世界开始是合理的——"我们有 PB 级的数据可供推理"。而物理世界"更混乱"，有硬件组件，需要部署到前线，让数百万一线工人采用新技术。"硬件是难的"——这需要大量的脏活累活。但物理运营占全球 GDP 的 40-50%，影响潜力巨大。
+那怎么把能力交付出去？Scott认为答案是协议。MCP之于agentic web，就像HTTP之于互联网；NL Web之于agentic web，就像HTML之于互联网。他透露自己在Microsoft内部推动所有系统都讲同一种标准协议——不是为了技术洁癖，而是为了避免"把组织架构图发布出去"（Conway's law的诅咒）。
 
-**从报告到推理再到行动**：过去二十年是"报告"时代——收集数据并展示漂亮的表格。过去两三年，AI 开始能推理这些信息并给出洞察。现在，agentic AI 可以替用户采取行动——安排工作甚至自己执行部分工作。
+关于安全问题，Scott承认MCP还没有成熟的安全模型，但他持乐观态度："MCP简单到社区可以相对容易地决定安全模型是什么。"他设想的方向包括：agent需要身份来构建授权系统、agent在行动前向用户请求权限、以及利用AI本身来做安全监控——比如一个agent能察觉你的账户有异常活动并主动帮你核实。
 
-**数据护城河**：Biswas 强调，"这些不是你在网上能找到的 token。你不能爬 Reddit 就了解建筑工地发生了什么。" Samsara 的数据来自物理世界的专有传感器网络，加上硬件软件结合和变更管理的复杂性，构成了难以复制的护城河。他特别提到数据网络效应："Samsara 系统在一天内覆盖美国 99% 的道路，通常一天多次。"
+当被问到"垂直整合vs开放生态"的经典抉择时，Scott认为这是个"虚假的二分法"。"最让我兴奋的是，你可以去创新和构建，而不需要寻求任何人的许可。"他相信开放系统也能实现强安全，而且能保留无许可创新的巨大优势。
 
-**Agent 的实际应用**：Samsara 的 warranty agent 能读取服务手册、查看 OEM 协商的保修协议，判断故障是否在保修范围内，然后开工作单——"这原本需要一两个小时的人力，现在不到一分钟就完成了。" Biswas 强调 agent 推理是巨大突破，但需要 workflow 和 guardrails 的结合："你需要告诉 agent 你想让它做什么，什么时候该求助，不要让它钻牛角尖。"
+关于agent编程是否会削弱"手艺感"，Scott的回答很有人情味：他还在用vi编辑器，因为"我可以选择"。但他在木工房里用CNC工具，在陶艺工作室里拥抱新技术。"我后悔等了那么久才学3D打印——它们几乎对我做的每件事都有用。"他的建议是：保持开放心态，尝试新事物，有用就用，没用就放下。
 
-**未来展望**：Biswas 认为自动驾驶卡车在长途运输领域会较慢采用（10-20 年），因为大多数商用车从事的是现场服务或建筑等"混乱的长尾"工作。但他对"ride along"场景很乐观——让 AI 像经理一样全天陪驾，观察驾驶习惯。"成本下降的速度令人难以置信。"他提到 Cerberus 的芯片上跑 Gemma 4 能达到 800-1500 tokens/秒，比 GPU 快约 10 倍。
+**"保持好奇，去尝试。如果它对你有用，就用它；如果没用，就不用。"** —— Kevin Scott
 
-**关于"老大哥"的担忧**：Biswas 强调透明度和正向强化是关键。"大多数使用场景其实是免责——90% 的时间里司机都做得很好，但没人看到。"摄像头数据可以用来证明司机清白，Home Depot 因此减少了 65% 的汽车索赔。他说："这不是隐藏摄像头，它们是相当显眼的。整个理念是带着前线一起走。"
-
-[观看完整访谈](https://www.youtube.com/@DataDrivenNYC/videos)
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
