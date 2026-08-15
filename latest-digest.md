@@ -1,136 +1,60 @@
-# AI Builders Digest — 2026年8月14日
-
----
+AI Builders Digest — 2026年8月15日
 
 ## X / TWITTER
 
-### Swyx (Latent Space, smol.ai)
+**Anthropic Claude Code 的 Boris Cherny** 分享了一项实验：让 Claude 接管应用日常维护。他在 Slack 频道中设置了日常例行任务，包括崩溃模糊测试、重复代码统一、死代码清理和抽象违规检查。几周内，这些例行任务在代码库中开启了 388 个 PR，其中 180 个在 Claude Code Review 和人工审核后合并。Claude 通常一次就能写对 PR；如果不对，团队会让 Claude 调整其例行程序，以便第二天做得更好。他邀请其他人尝试类似的工作流程。链接：https://x.com/bcherny/status/2088014489438621990
 
-Perplexity一年前的今天提出收购Google Chrome——这条定时发布的推文引发了广泛讨论。另外，Swyx称一篇新论文是"今年最重要的论文之一"，并附上了自己的方法笔记和进一步提炼。
+**OpenAI Codex 与 ChatGPT 的 Thibault Sottiaux** 推广了 ChatGPT 的 Google Docs/Sheets/Slides 集成，称这改变了他写文档、头脑风暴和校对的方式——直接在流程中聊天或口述修改。他还分享了一个有趣的用法：让 ChatGPT 通过 Computer History 插件"吐槽"你一天的电脑使用情况，结果既搞笑又引人深思——比如"你的 Mac 基本上是一台 3000 美元的 Slack 通知机"和"你的生产力系统就是狂点'清除'直到上帝介入"。链接：https://x.com/thsottiaux/status/2088103609477238858 和 https://x.com/thsottiaux/status/2088133823619895712
 
-https://x.com/swyx/status/2087691099691475285
-https://x.com/swyx/status/2087437017840046156
+**Google VP Josh Woodward** 宣布了 3.7 Flash：更快、便宜 50%，而且只用了大约三周就完成了。链接：https://x.com/joshwoodward/status/2088016871710957587
 
-### Google VP Josh Woodward
+**Replit CEO Amjad Masad** 发表了大胆预测："到明年，使用电脑将是可选的。工作将发生根本性改变。"他还指出 ARC-AGI-3 几乎仅通过添加编码 harness 就解决了，印证了"编码使 LLM 泛化"的预测。链接：https://x.com/amasad/status/2088110851681386864 和 https://x.com/amasad/status/2088124774824521786
 
-Gemini正在向更多日常应用推出集成，新一批合作伙伴包括Angi、Fever、GetYourGuide、Granola、iHeartRadio、Localiza、OpenTable、Otter、Pandora、Thumbtack、Ticketmaster、Wix、Zocdoc和Zoho。Woodward表示欢迎有意合作的伙伴直接联系他。
+**Box CEO Aaron Levie** 反驳了"AI 消灭工程师"的假设，称其"荒谬地错误"。他认为 AI 给了工程师一个加速开发的强力工具，他们的价值不仅保持关键，而且在许多领域实际上是上升的——因为工程师可以应用于比以前多得多的领域。无论是自动化药物发现、制造业还是更大的软件项目，都需要工程师。他还预测这一趋势将扩展到工程以外的领域：AI 让公司承担更多工作，从而需要更多专家来监督。链接：https://x.com/levie/status/2088105350201270529
 
-https://x.com/joshwoodward/status/2087751559606407615
+**Meta AI 高级总监 Madhu Guru** 提出了两个观点。第一："Prompt 债务是新的技术债务。"随着每次模型更新，你应该至少削减 50% 的 prompt。大多数 AI 产品都有臃肿的 prompt，反而损害了产品质量——三个月后你的 system prompt 变成了一本小说，而模型本身已经更聪明了，你的微管理式 prompt 正在把它变成一台愚蠢的规则机器。第二：他吐槽 AI 行业都爱给产品起名叫"Studio"——他数了 20 多个，从 Google AI Studio 到 Copilot Studio 到 LangGraph Studio。链接：https://x.com/realmadhuguru/status/2087916590964851172 和 https://x.com/realmadhuguru/status/2088074515188519182
 
-### OpenAI Codex负责人 Thibault Sottiaux
+**Anthropic Claude Code 的 Swyx** 分享了一个巧妙的修改：受到 Matt Pocock 和 Thariq 的启发，他给 /align-me 做了一个批处理问题版本，而不是逐轮交互——和 spec decoding 同样的直觉，通过向前看 2-10 步来加速。他说这对设计探索效果"惊人地好"。链接：https://x.com/swyx/status/2088073777779515615
 
-Codex用户数突破1500万，Sottiaux提醒大家"去 /fast"体验新功能。他还调侃了与OpenAI CEO Amjad Ambrosino的对话风格，并回应网友"不要说Linux"的评论——"我们刚发布了Linux支持"。
+**FirstMark Capital 的 Matt Turck** 对 AI 创业生态做出了尖锐观察：现在你要么是"AI 原生火箭船"——听起来很有趣，直到你意识到这意味着永远在融资、估值越来越吓人、和其他火箭船进行生死搏斗抢客户、牺牲毛利率；要么基本上"被宣判死刑"，不管你的公司实际上有多好。他说这种情况已经持续了一段时间，但感觉刚刚又升级了一档。链接：https://x.com/mattturck/status/2087978386195103916
 
-https://x.com/thsottiaux/status/2087706104814023111
-https://x.com/thsottiaux/status/2087614555203809395
-https://x.com/thsottiaux/status/2087439859493617908
+**South Park Commons 的 Aditya Agarwal** 分享了他与 Samir Kaji 的对话，讨论了什么造就伟大的公司以及 SPC 对未来的思考。链接：https://x.com/adityaag/status/2087959516545470973
 
-### Peter Yang
+**Zara Zhang** 指出一个讽刺现象：很多人以为 AI 编程会让工程师贬值，但实际上最抢手的职位全都带"工程师"三个字——forward-deployed engineer、design engineer、product engineer、growth engineer……链接：https://x.com/zarazhangrui/status/2088087765267386564
 
-Peter Yang发表新文章，预测计算机使用方式将彻底改变：从键盘鼠标手动操作转向用语音指挥云端agent。他提出三个核心论点：语音正在成为编排层、个人电脑将迁移到云端、信任将成为关键差异化因素。
+**Vercel CEO Guillermo Rauch** 预测"一条命令统治所有 token"将成为规模化使用编程 AI 的默认方式——涵盖 uptime、模型选择、更低成本、可观测性、ZDR 等。最酷的是这条命令可以配置所有现有的编码 harness，包括 Claude Code 和 Codex。他还推广了在 Vercel 上免费使用 GLM 5.2，速度高达 500 TPS。链接：https://x.com/rauchg/status/2088020529039180204 和 https://x.com/rauchg/status/2087982033499042205
 
-https://x.com/petergyang/status/2087547168764862495
+**FPV Ventures 的 Nikunj Kothari** 对 Grok Bot 的发布发表了深思熟虑的看法：用户最终会想要一个掌握所有上下文的超级 agent，还是多个各自负责一小块任务的子 agent？如果把人比作 agent，Grok Bot 的设计很有道理——你可以按部门划分工具、上下文和结果。但如果你把 agent 当作 Jarvis，你会想要一个能搞定一切的主 agent，它可以创建和协调所有需要的 bot。他预测最终会走向一个主 agent 作为编排者，但会从窄范围开始。链接：https://x.com/nikunj/status/2087906119914340540
 
-### Meta AI高级总监 Madhu Guru
+**Anthropic Claude Code 的 Cat Wu** 邀请营销、销售、财务、法务、运营等非工程岗位的用户与 Cowork 团队进行 15 分钟的 office hours，分享使用反馈以改进产品。链接：https://x.com/_catwu/status/2088006642189361564
 
-Madhu Guru提出一个大胆观点：未来几年AI产品最大的alpha在应用层。模型会越来越便宜、越来越好、越来越本地化，真正的差异化来自对特定用户工作流的深刻理解，以及围绕这些工作流重新设计体验的想象力。他同时感慨远程办公时代失去了白板协作的乐趣。
+**OpenAI CEO Sam Altman** 发布了 /ultrafast 模式。链接：https://x.com/sama/status/2088101491802243121
 
-https://x.com/realmadhuguru/status/2087553833098723547
-https://x.com/realmadhuguru/status/2087706598542290958
+**Peter Yang** 分享了一个个人观察：他在处理家庭健康问题时，以为会用 AI 来研究病情，但实际上 AI 最有帮助的是应对医疗系统的官僚流程。他还向社区提问：现在人们写产品规格时，会包含什么内容使其对人类和 agent 都友好、简洁？链接：https://x.com/petergyang/status/2087946170274570385 和 https://x.com/petergyang/status/2088108304274960667
 
-### Anthropic哲学家 Amanda Askell
+**Every CEO Dan Shipper** 正在为某个项目招聘，平均每分钟收到 2 份申请，来自 Citadel、OpenAI、Microsoft、Google、NASDAQ 等公司。链接：https://x.com/danshipper/status/2087995350745244083
 
-Askell分享了她玩Skyrim的独特方式——不杀任何敌人，专注收养孤儿并为他们建造漂亮的房子。她开玩笑说这款游戏在她记忆里就是"那个充满挑战的幻想慈善游戏"。
-
-https://x.com/AmandaAskell/status/2087597131800674495
-
-### Vercel CEO Guillermo Rauch
-
-Rauch推荐了Vercel Sandbox的新改进——`npx sandbox@latest sh`，称其"比本地机器还快"。Sandbox现在预装了一套合理的默认工具，并且可以完全自定义。Vercel AI Gateway也已上线Seedance 2.5支持。
-
-https://x.com/rauchg/status/2087698195120116064
-https://x.com/rauchg/status/2087631388359242050
-
-### Box CEO Aaron Levie
-
-Levie指出DeepSeek和Grok同日发布新模型是AI领域的杰文斯悖论（Jevons paradox）在真实上演：AI成本下降，需求反而加速增长。企业客户有大量agent应用场景（代码安全扫描、文档审查、工作流信息处理）但预算有限，成本下降将打开全新用例。这对应用层也是利好——模型选择越多，路由和优化层的价值越大。
-
-https://x.com/levie/status/2087719356763672917
-
-### Y Combinator CEO Garry Tan
-
-Garry Tan发布了GBrain v0.45.6.0，新增17个"brain skills"，这些技能通过他个人OpenClaw agent处理数十万markdown文件的经验打磨而成。他建议将GBrain作为独立agent运行，而不是嵌入主编码agent中——把它想象成一个拥有自己git仓库作为记忆和自定义技能的个人AI版本。
-
-https://x.com/garrytan/status/2087594114372259890
-https://x.com/garrytan/status/2087597829065945249
-
-### FirstMark Capital VC Matt Turck
-
-Turck用一句话总结了AI领域的热词迭代："图工程是新的循环工程，循环工程是新的框架工程，框架工程是新的上下文工程，上下文工程是新的提示工程。"
-
-https://x.com/mattturck/status/2087528600849252696
-
-### Zara Zhang (Builder, Follow Builders创作者)
-
-Zara Zhang推荐了一套Stanford公开课系列，称其"纯金级别"，并感叹如此高质量的知识在YouTube上免费传播实在难得。
-
-https://x.com/zarazhangrui/status/2087547174662136273
-
-### FPV Ventures合伙人 Nikunj Kothari
-
-Kothari称Ethan Ding是"疯狂的天才"，并推荐了他最新的一篇文章。
-
-https://x.com/nikunj/status/2087664045797294212
-
-### OpenClaw创始人 Peter Steinberger
-
-Steinberger回顾了AI工具的演进节奏："CLI是一年前的事，应用大概是6个月前，现在是服务、网页、云端会话。"他还宣布了自己的直播。
-
-https://x.com/steipete/status/2087568620465607078
-
-### Every CEO Dan Shipper
-
-Dan Shipper宣布了一个新内容机构"One Word"，灵感来自OpenAI CEO Amjad Ambrosino——每天发一个词帮助AI实验室在X上增长。"这是新meta，不要直接发，一次发一个词。"他还透露正在将品牌更名为"Word"。
-
-https://x.com/danshipper/status/2087555423893065872
-
-### South Park Commons合伙人 Aditya Agarwal
-
-Agarwal表示SPC看好印度市场，@spc_india是他们美国以外的第一笔投资。"未来十年最雄心勃勃的项目将有一部分在印度诞生。"
-
-https://x.com/adityaag/status/2087563716350902530
-
-### Claude (Anthropic官方账号)
-
-Claude宣布Chrome侧边栏现在与桌面端、网页端和移动端运行同一个Claude Cowork会话——会话跟随你的账户而不是设备，可以在一个地方开始，在另一个地方继续。同时Anthropic也提醒用户：浏览器agent可能被页面中隐藏的指令欺骗，建议保持一些安全习惯。
-
-https://x.com/claudeai/status/2087635262390026525
-https://x.com/claudeai/status/2087635263774232617
-https://x.com/claudeai/status/2087635265066004694
-
----
+**YC CEO Garry Tan** 主持了一场公民联盟聚会，接待了他希望成为加州下一任州长的 Xavier Becerra，并表示"我们可以让加州成为最好的双赢之地"。他还回应了"每个 bot 需要独立话题"的建议。链接：https://x.com/garrytan/status/2088066634074443901 和 https://x.com/garrytan/status/2088029937714565260
 
 ## PODCASTS
 
-### AI & I by Every — Microsoft CTO Kevin Scott: 面向Agent的互联网愿景
+### No Priors — 与 CEO Erik Allebest 探讨 Chess.com 关于超人能力的启示
 
-**The Takeaway:** 模型能力已经超过了产品能交付的水平，存在巨大的"能力过剩"（capability overhang）——未来一年的核心挑战不是继续堆算力，而是把模型已有的能力真正交付到用户手中。
+**核心要点：当机器在某个领域超越人类时，人类并不会放弃这个领域——反而会更投入。Chess.com 用 30 年的数据证明了这一点，而 AI 时代的其他行业也可以从中借鉴。**
 
-这期节目是AI & I播客的精选重播，主持人是Every CEO Dan Shipper，嘉宾是Microsoft CTO Kevin Scott——一个编程41年、同时热爱木工和陶艺的"老派极客"。他在Microsoft Build 2025上提出了"agentic web"的愿景，这期节目深入探讨了这个概念背后的思考。
+Erik Allebest 在 2005 年以 55 美元从破产拍卖中买下了 chess.com 域名——当时几乎所有投资人都告诉他这是一个不可投资的利基爱好项目。20 年后，他建立了拥有超过 2.5 亿注册会员、年收入超过 2 亿美元的全球最大国际象棋平台。这段对话不只是关于国际象棋，更是关于一个根本性问题：当 AI 超越人类时，人类活动会发生什么？
 
-Scott的核心论点很清晰：去年大家还在争论scaling laws是否失效，今年已经没人怀疑了——因为真正的瓶颈已经转移。模型推理能力跑在了产品前面，我们需要整个行业一起努力缩小这个差距。他称之为"capability overhang"。
+**当机器成为超人后，人类反而更投入了。** 1997 年深蓝击败卡斯帕罗夫时，很多人预测国际象棋"完了"。事实恰恰相反。Allebest 说，早期 Stockfish 这样的引擎确实让棋局变得无聊——棋手们试图模仿计算机的"完美"风格，磨出枯燥的残局。但后来神经网络引擎（如 Leela Chess Zero）出现了，它们下棋激进、不按常理出牌，反而把棋局推向了更令人兴奋的方向。"计算机先让国际象棋变得有点无聊，然后让它变得前所未有的精彩。"
 
-那怎么把能力交付出去？Scott认为答案是协议。MCP之于agentic web，就像HTTP之于互联网；NL Web之于agentic web，就像HTML之于互联网。他透露自己在Microsoft内部推动所有系统都讲同一种标准协议——不是为了技术洁癖，而是为了避免"把组织架构图发布出去"（Conway's law的诅咒）。
+**AI 没有取代人类技能，而是加速了人类技能的获取。** Allebest 观察到，现在的 7 岁孩子已经能给特级大师制造麻烦。关键是工具让学习曲线变陡了——但前提是你仍然要投入重复练习。"你生命中任意一天乘以一千，就是你人生的样子。"每天做 5 道棋题，乘以一千就是 5000 道。AI 是极好的研究伙伴，但无法替代练习本身。
 
-关于安全问题，Scott承认MCP还没有成熟的安全模型，但他持乐观态度："MCP简单到社区可以相对容易地决定安全模型是什么。"他设想的方向包括：agent需要身份来构建授权系统、agent在行动前向用户请求权限、以及利用AI本身来做安全监控——比如一个agent能察觉你的账户有异常活动并主动帮你核实。
+**Chess.com 正在把国际象棋的玩法搬到扑克上。** 他们推出了 Gambit 扑克平台，核心创新是"为评级而玩"而不是"为钱而玩"——就像国际象棋的 ELO 评级一样，扑克评级衡量你作为棋手的真实水平，而不是你能买多少筹码。"人们会像在乎钱一样在乎自己的扑克评级，因为它是你作为玩家价值的体现。"Allebest 说，输 100 美元他不太在乎，但输 100 个评级点会让他真的很不爽。
 
-当被问到"垂直整合vs开放生态"的经典抉择时，Scott认为这是个"虚假的二分法"。"最让我兴奋的是，你可以去创新和构建，而不需要寻求任何人的许可。"他相信开放系统也能实现强安全，而且能保留无许可创新的巨大优势。
+**对创始人的建议：** "现在创始人最大的诅咒之一就是市面上有太多创始人建议。"Allebest 和他的朋友走了所有"反常规"的路——没有斯坦福技术合伙人、没有融资、没有办公室、没有获客预算、选了一个小市场。他的建议很简单："倾听你的内心，想清楚你想让世界上出现什么，然后不计代价地去做。别再听别人告诉你该怎么做了。"
 
-关于agent编程是否会削弱"手艺感"，Scott的回答很有人情味：他还在用vi编辑器，因为"我可以选择"。但他在木工房里用CNC工具，在陶艺工作室里拥抱新技术。"我后悔等了那么久才学3D打印——它们几乎对我做的每件事都有用。"他的建议是：保持开放心态，尝试新事物，有用就用，没用就放下。
+**关于 AGI：** Allebest 相信超人智能会到来，但他认为这更多是一个文化问题而非技术问题。"我们已经有核技术、有枪、有经济体系很长时间了，真正重要的是我们作为一个文化如何运用它们。"他担心太多钱流向了太少的人，"我不确定我们是怎么走到让不该掌控世界的人掌控世界的境地的。"
 
-**"保持好奇，去尝试。如果它对你有用，就用它；如果没用，就不用。"** —— Kevin Scott
-
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+视频链接：https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
