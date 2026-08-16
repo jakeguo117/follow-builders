@@ -1,60 +1,124 @@
-AI Builders Digest — 2026年8月15日
+AI Builders Digest — 2026年8月16日
 
 ## X / TWITTER
 
-**Anthropic Claude Code 的 Boris Cherny** 分享了一项实验：让 Claude 接管应用日常维护。他在 Slack 频道中设置了日常例行任务，包括崩溃模糊测试、重复代码统一、死代码清理和抽象违规检查。几周内，这些例行任务在代码库中开启了 388 个 PR，其中 180 个在 Claude Code Review 和人工审核后合并。Claude 通常一次就能写对 PR；如果不对，团队会让 Claude 调整其例行程序，以便第二天做得更好。他邀请其他人尝试类似的工作流程。链接：https://x.com/bcherny/status/2088014489438621990
+**Swyx（AI Engineer 创始人）**
 
-**OpenAI Codex 与 ChatGPT 的 Thibault Sottiaux** 推广了 ChatGPT 的 Google Docs/Sheets/Slides 集成，称这改变了他写文档、头脑风暴和校对的方式——直接在流程中聊天或口述修改。他还分享了一个有趣的用法：让 ChatGPT 通过 Computer History 插件"吐槽"你一天的电脑使用情况，结果既搞笑又引人深思——比如"你的 Mac 基本上是一台 3000 美元的 Slack 通知机"和"你的生产力系统就是狂点'清除'直到上帝介入"。链接：https://x.com/thsottiaux/status/2088103609477238858 和 https://x.com/thsottiaux/status/2088133823619895712
+Swyx 在回应 Databricks 1880亿美元融资时调侃道，这轮融资的"M"代表"我们要干掉无数会议"——讽刺了大型融资轮次所带来的内部协调成本。此外，他还宣布 AI Engineer NYC 峰会第一轮 CFP 录取正在今天最终确定，并提醒这是赶上第一轮报名的最后一天，同时预告今年的金融主题演讲将有特殊要求。
 
-**Google VP Josh Woodward** 宣布了 3.7 Flash：更快、便宜 50%，而且只用了大约三周就完成了。链接：https://x.com/joshwoodward/status/2088016871710957587
+https://x.com/swyx/status/2088381680478540096
 
-**Replit CEO Amjad Masad** 发表了大胆预测："到明年，使用电脑将是可选的。工作将发生根本性改变。"他还指出 ARC-AGI-3 几乎仅通过添加编码 harness 就解决了，印证了"编码使 LLM 泛化"的预测。链接：https://x.com/amasad/status/2088110851681386864 和 https://x.com/amasad/status/2088124774824521786
+**Google VP Josh Woodward**
 
-**Box CEO Aaron Levie** 反驳了"AI 消灭工程师"的假设，称其"荒谬地错误"。他认为 AI 给了工程师一个加速开发的强力工具，他们的价值不仅保持关键，而且在许多领域实际上是上升的——因为工程师可以应用于比以前多得多的领域。无论是自动化药物发现、制造业还是更大的软件项目，都需要工程师。他还预测这一趋势将扩展到工程以外的领域：AI 让公司承担更多工作，从而需要更多专家来监督。链接：https://x.com/levie/status/2088105350201270529
+Google VP Josh Woodward 宣布 Gemini 3.7 Flash 现已上线 Gemini App，这是该模型的一个重要发布节点。此外，他还介绍了 Google Labs 的实验项目 Pomelli——这个工具因其能让小型企业轻松在任意场景下让产品看起来更专业而广受欢迎，此次更新支持将高质量照片直接转化为短视频或 GIF，进一步降低了营销素材的制作门槛。
 
-**Meta AI 高级总监 Madhu Guru** 提出了两个观点。第一："Prompt 债务是新的技术债务。"随着每次模型更新，你应该至少削减 50% 的 prompt。大多数 AI 产品都有臃肿的 prompt，反而损害了产品质量——三个月后你的 system prompt 变成了一本小说，而模型本身已经更聪明了，你的微管理式 prompt 正在把它变成一台愚蠢的规则机器。第二：他吐槽 AI 行业都爱给产品起名叫"Studio"——他数了 20 多个，从 Google AI Studio 到 Copilot Studio 到 LangGraph Studio。链接：https://x.com/realmadhuguru/status/2087916590964851172 和 https://x.com/realmadhuguru/status/2088074515188519182
+https://x.com/joshwoodward/status/2088344782821326980
 
-**Anthropic Claude Code 的 Swyx** 分享了一个巧妙的修改：受到 Matt Pocock 和 Thariq 的启发，他给 /align-me 做了一个批处理问题版本，而不是逐轮交互——和 spec decoding 同样的直觉，通过向前看 2-10 步来加速。他说这对设计探索效果"惊人地好"。链接：https://x.com/swyx/status/2088073777779515615
+**OpenAI Codex 负责人 Thibault Sottiaux**
 
-**FirstMark Capital 的 Matt Turck** 对 AI 创业生态做出了尖锐观察：现在你要么是"AI 原生火箭船"——听起来很有趣，直到你意识到这意味着永远在融资、估值越来越吓人、和其他火箭船进行生死搏斗抢客户、牺牲毛利率；要么基本上"被宣判死刑"，不管你的公司实际上有多好。他说这种情况已经持续了一段时间，但感觉刚刚又升级了一档。链接：https://x.com/mattturck/status/2087978386195103916
+OpenAI Codex 负责人 Thibault Sottiaux 在 X 上发起了一个问题："这周 Codex 帮你解决了什么难题？"获得了666个赞和527条回复，显示出开发者社区对 Codex 的高参与度。他还宣布 ChatGPT 现在可以轻松处理餐厅预订，并预告了更多新功能即将上线。
 
-**South Park Commons 的 Aditya Agarwal** 分享了他与 Samir Kaji 的对话，讨论了什么造就伟大的公司以及 SPC 对未来的思考。链接：https://x.com/adityaag/status/2087959516545470973
+https://x.com/thsottiaux/status/2088500028721832432
 
-**Zara Zhang** 指出一个讽刺现象：很多人以为 AI 编程会让工程师贬值，但实际上最抢手的职位全都带"工程师"三个字——forward-deployed engineer、design engineer、product engineer、growth engineer……链接：https://x.com/zarazhangrui/status/2088087765267386564
+**Peter Yang（AI 教育创作者）**
 
-**Vercel CEO Guillermo Rauch** 预测"一条命令统治所有 token"将成为规模化使用编程 AI 的默认方式——涵盖 uptime、模型选择、更低成本、可观测性、ZDR 等。最酷的是这条命令可以配置所有现有的编码 harness，包括 Claude Code 和 Codex。他还推广了在 Vercel 上免费使用 GLM 5.2，速度高达 500 TPS。链接：https://x.com/rauchg/status/2088020529039180204 和 https://x.com/rauchg/status/2087982033499042205
+Peter Yang 深入分析了 X 平台的开源算法，发现其反 AI 垃圾内容的机制存在重大漏洞。他提到 X 有一个名为 TweetSpamBot 的行为模型，分析用户最近512次操作来识别发布爆发、引用推文垃圾等模式，但该模型并不读取推文实际内容——这意味着成熟的 AI 内容工厂依然可以每天用固定模板批量产出垃圾内容。他建议 X 应该关注那些反复将不相关热门推文转化为相同模板引用推文的账户，否则会"变成 LinkedIn"。
 
-**FPV Ventures 的 Nikunj Kothari** 对 Grok Bot 的发布发表了深思熟虑的看法：用户最终会想要一个掌握所有上下文的超级 agent，还是多个各自负责一小块任务的子 agent？如果把人比作 agent，Grok Bot 的设计很有道理——你可以按部门划分工具、上下文和结果。但如果你把 agent 当作 Jarvis，你会想要一个能搞定一切的主 agent，它可以创建和协调所有需要的 bot。他预测最终会走向一个主 agent 作为编排者，但会从窄范围开始。链接：https://x.com/nikunj/status/2087906119914340540
+https://x.com/petergyang/status/2088261100202868768
 
-**Anthropic Claude Code 的 Cat Wu** 邀请营销、销售、财务、法务、运营等非工程岗位的用户与 Cowork 团队进行 15 分钟的 office hours，分享使用反馈以改进产品。链接：https://x.com/_catwu/status/2088006642189361564
+**Linear 产品负责人 Nan Yu**
 
-**OpenAI CEO Sam Altman** 发布了 /ultrafast 模式。链接：https://x.com/sama/status/2088101491802243121
+Linear 产品负责人 Nan Yu 在三条推文中分享了对 AI 和产品管理的思考。他提出了一个反主流观点："AI 不是'锯齿状'的，它就是 AI 形状的——就像说狗是'锯齿状'的，因为它们在特定任务上比人类强或弱。"他还分享了一个产品管理洞察：如果你相信同事是聪明的，那他们的想法一定有来头，应该去理解背后的动机。另外他吐槽"科技界没有比 PM 晋升材料更具破坏力的力量了"。
 
-**Peter Yang** 分享了一个个人观察：他在处理家庭健康问题时，以为会用 AI 来研究病情，但实际上 AI 最有帮助的是应对医疗系统的官僚流程。他还向社区提问：现在人们写产品规格时，会包含什么内容使其对人类和 agent 都友好、简洁？链接：https://x.com/petergyang/status/2087946170274570385 和 https://x.com/petergyang/status/2088108304274960667
+https://x.com/thenanyu/status/2088461657311785236
 
-**Every CEO Dan Shipper** 正在为某个项目招聘，平均每分钟收到 2 份申请，来自 Citadel、OpenAI、Microsoft、Google、NASDAQ 等公司。链接：https://x.com/danshipper/status/2087995350745244083
+**Meta AI 高级总监 Madhu Guru**
 
-**YC CEO Garry Tan** 主持了一场公民联盟聚会，接待了他希望成为加州下一任州长的 Xavier Becerra，并表示"我们可以让加州成为最好的双赢之地"。他还回应了"每个 bot 需要独立话题"的建议。链接：https://x.com/garrytan/status/2088066634074443901 和 https://x.com/garrytan/status/2088029937714565260
+Meta AI 高级总监 Madhu Guru 提出，Cursor 对 AI 产品文化的影响被低估了——在 AI 产品一度困在聊天机器人阶段时，"Cursor for X"开创了一个全新的产品范式。他还分享了一个经济学视角：蒸汽机效率提升反而增加了煤炭需求，高级语言让编程更容易反而产生了更多软件，AI 之于软件工程也会遵循同样的规律——当成本和复杂度下降时，新的用例会变得经济可行。
+
+https://x.com/realmadhuguru/status/2088489059115270532
+
+**Google Labs**
+
+Google Labs 官方账号推介了两个实验性产品：Pomelli（帮助品牌大规模构建营销活动）和 Flow（将想象力转化为视觉故事）。
+
+https://x.com/GoogleLabs/status/2088307370787328223
+
+**Replit CEO Amjad Masad**
+
+Replit CEO Amjad Masad 推荐了一个实用的开发技巧：即使不打算发布到 App Store，通过 TestFlight 构建个人应用也是一种很好的体验。
+
+https://x.com/amasad/status/2088388714351518130
+
+**Vercel CEO Guillermo Rauch**
+
+Vercel CEO Guillermo Rauch 宣称 Vercel 是"全球最快的 AI Gateway 基础设施"，展示了公司在 AI 基础设施领域的野心。
+
+https://x.com/rauchg/status/2088323451132199338
+
+**Box CEO Aaron Levie**
+
+Box CEO Aaron Levie 对 Cursor 的成功发表了深度评论，称其"完美执行了应用型 AI 战略"。他指出大多数人严重低估了 AI 编程的市场规模——历史上最大的开发者工具退出也只有几十亿美元级别，而 Cursor 证明用户和底层模型之间存在着巨大的创新空间。他总结出 Cursor 的成功剧本：找准 agentic coding 的产品形态、在模型和工作流之间做中立层、对模型做 post-training 以降本增效、构建匹配的 infra 栈和 GTM 策略。这对所有做应用型 AI 的人都是宝贵的经验。
+
+https://x.com/levie/status/2088476232933577124
+
+**Y Combinator CEO Garry Tan**
+
+Y Combinator CEO Garry Tan 分享了一个有趣的观察：使用 GStack 配合 Fable 5 之后，以前需要在 Claude Code 里逐个确认的"单向门"问题，现在可以直接说"采纳所有建议"而不用担心。他还分享了一个 Steve Jobs 的轶事——Jobs 看到字体里城市名后说"至少叫它们世界级城市"，于是 Paoli 和 Wynwood 就变成了 New York 和 Geneva。
+
+https://x.com/garrytan/status/2088388000267002195
+
+**FirstMark Capital VC Matt Turck**
+
+FirstMark Capital 的 Matt Turck 用一张图生动地描述了 AI 对工作日的改变：以前是"决策-流程-流程-决策-流程-流程-流程，晚上10点还在干"；现在变成了"决策-决策-决策-决策-决策，下午3点：脑子空了、需要咖啡、盯着墙发呆"。AI 把流程性工作消解掉了，剩下的是纯粹的判断和决策。
+
+https://x.com/mattturck/status/2088323186819539041
+
+**FPV Ventures 合伙人 Nikunj Kothari**
+
+FPV Ventures 合伙人 Nikunj Kothari 分享了与 Basis 创始人每月散步的三个收获：对方对基础设施演进的预判能力几乎无人能及（自己已被证明错了好几次）、公司执行速度快到离谱、以及走路速度快得让他轻松刷够一万步。他还展示了一个 14 小时一次跑通的 agent 任务，称赞其"一次性执行超详细规格"的能力。
+
+https://x.com/nikunj/status/2088440618196607061
+
+**OpenClaw 创始人 Peter Steinberger**
+
+OpenClaw 创始人 Peter Steinberger 分享了两个团队实践：一是给共享的 AGENTS MD 文件加了一条指令，要求每个改动 UI 的 PR 都上传视频演示；二是整个团队已经"用 OpenClaw 开发 OpenClaw"，并且将 agent 会话以 URL 形式共享成为了一种超级能力。
+
+https://x.com/steipete/status/2088473882357530979
+
+**Every CEO Dan Shipper**
+
+Every CEO Dan Shipper 在回应关于 AI 原生公司是否必须持续融资的讨论时给出了否定的答案："你可以成为 AI 原生的火箭，而不必永远处于融资状态、不必与其他火箭进行争夺客户的生死战。"但他也承认，这样做的规则完全不同。
+
+https://x.com/danshipper/status/2088270756043993503
+
+---
+
+## OFFICIAL BLOGS
+
+*（本周无新的官方博客内容）*
+
+---
 
 ## PODCASTS
 
-### No Priors — 与 CEO Erik Allebest 探讨 Chess.com 关于超人能力的启示
+**The MAD Podcast with Matt Turck — How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis**
 
-**核心要点：当机器在某个领域超越人类时，人类并不会放弃这个领域——反而会更投入。Chess.com 用 30 年的数据证明了这一点，而 AI 时代的其他行业也可以从中借鉴。**
+**The Takeaway:** 构建长周期自主 agent 的核心不是追求"神之一手"式的惊艳表现，而是通过行为规范（behavior specs）确保 agent 遵循人类验证过的流程——因为企业购买的不是最优解，而是可靠性和信任。
 
-Erik Allebest 在 2005 年以 55 美元从破产拍卖中买下了 chess.com 域名——当时几乎所有投资人都告诉他这是一个不可投资的利基爱好项目。20 年后，他建立了拥有超过 2.5 亿注册会员、年收入超过 2 亿美元的全球最大国际象棋平台。这段对话不只是关于国际象棋，更是关于一个根本性问题：当 AI 超越人类时，人类活动会发生什么？
+Mitch Troyanovsky 是 Basis 的联合创始人，这家独角兽 AI 公司正在用 agent 端到端地完成税务申报工作——一个通常需要人类会计师 20 多个小时、涉及数百上千份文件、数千步推理的复杂任务。他是少数真正在非编程领域构建长周期自主 agent 的人，而编程恰恰是 agent 目前唯一被验证成功的领域。
 
-**当机器成为超人后，人类反而更投入了。** 1997 年深蓝击败卡斯帕罗夫时，很多人预测国际象棋"完了"。事实恰恰相反。Allebest 说，早期 Stockfish 这样的引擎确实让棋局变得无聊——棋手们试图模仿计算机的"完美"风格，磨出枯燥的残局。但后来神经网络引擎（如 Leela Chess Zero）出现了，它们下棋激进、不按常理出牌，反而把棋局推向了更令人兴奋的方向。"计算机先让国际象棋变得有点无聊，然后让它变得前所未有的精彩。"
+为什么编程 agent 成功了？Troyanovsky 认为可验证奖励（verifiable rewards）只是表象。更深层的原因是：代码可以在运行时被验证、验证成本极低、且模型训练数据中充满了高质量代码。但即使如此，他提醒："你通过了所有测试，不代表你的应用架构是对的、数据库建得好、文件拆分合理——编程最终是主观的，是艺术，而艺术无法通过可验证奖励来解决。"
 
-**AI 没有取代人类技能，而是加速了人类技能的获取。** Allebest 观察到，现在的 7 岁孩子已经能给特级大师制造麻烦。关键是工具让学习曲线变陡了——但前提是你仍然要投入重复练习。"你生命中任意一天乘以一千，就是你人生的样子。"每天做 5 道棋题，乘以一千就是 5000 道。AI 是极好的研究伙伴，但无法替代练习本身。
+这正是 Basis 面对的核心难题。税务申报没有编译器，没有单元测试，而且"即使你 100 次都做对了，如果只是因为去 Wikipedia 查到的答案，会计师事务所不会雇佣这样的人，所以他们也不应该雇佣我们。"他们的解决方案是行为规范（behavior specs）：用 markdown 文件定义 agent 应该如何工作——比如"必须引用一手来源"或"交付 PowerPoint 前先渲染成图片检查格式"——然后由 judge agent 检查轨迹中是否遵循了这些行为。
 
-**Chess.com 正在把国际象棋的玩法搬到扑克上。** 他们推出了 Gambit 扑克平台，核心创新是"为评级而玩"而不是"为钱而玩"——就像国际象棋的 ELO 评级一样，扑克评级衡量你作为棋手的真实水平，而不是你能买多少筹码。"人们会像在乎钱一样在乎自己的扑克评级，因为它是你作为玩家价值的体现。"Allebest 说，输 100 美元他不太在乎，但输 100 个评级点会让他真的很不爽。
+Troyanovsky 最有冲击力的观点之一是：**"你会看到人们因为代码文件没有正确抽象而抓狂，但他们的 context 却是一团糟。英文更珍贵，因为英文影响性能；代码不影响性能。"** 他把 agent 的 context 比作"运行时训练数据"——模型在推理时学习，因此 context 的质量直接决定性能，而代码的组织方式（假设逻辑相同）并不影响运行时表现。
 
-**对创始人的建议：** "现在创始人最大的诅咒之一就是市面上有太多创始人建议。"Allebest 和他的朋友走了所有"反常规"的路——没有斯坦福技术合伙人、没有融资、没有办公室、没有获客预算、选了一个小市场。他的建议很简单："倾听你的内心，想清楚你想让世界上出现什么，然后不计代价地去做。别再听别人告诉你该怎么做了。"
+他还有一个关于 LLM 直觉的独特建议：不要通过刷论文或 Twitter 来建立直觉，而是大量在自己的工作中使用 agent，然后像 Elon Musk 那样追问"真正的限制因素是什么？"——通常答案不是"模型不够聪明"，而是系统设计的问题。
 
-**关于 AGI：** Allebest 相信超人智能会到来，但他认为这更多是一个文化问题而非技术问题。"我们已经有核技术、有枪、有经济体系很长时间了，真正重要的是我们作为一个文化如何运用它们。"他担心太多钱流向了太少的人，"我不确定我们是怎么走到让不该掌控世界的人掌控世界的境地的。"
+关于未来，Troyanovsky 预计"闭环"（从 agent 犯错到自动改进系统）将在年底前基本实现。但他也坦率承认，所有这些 harness 层面的工作终将被模型能力吞没——"我估计在五年以内，但不会在两年以内。"在那之前，Basis 的策略是高速扩张、深度嵌入客户工作流，因为"技术护城河不是真正的护城河，业务护城河才是。"
 
-视频链接：https://www.youtube.com/@NoPriorsPodcast
+https://www.youtube.com/@DataDrivenNYC/videos
 
 ---
 
