@@ -1,149 +1,175 @@
-AI Builders Digest — 2026年8月19日（周三）
-
----
+AI Builders Digest — 2026年8月20日
 
 ## X / TWITTER
 
----
+**Swyx (AI Engineer 联合创始人)**
 
-**AI Engineer创始人、Smol AI联合创始人swyx（Shawn Wang）**
+Swyx 分享了 aiDotEngineer YouTube 频道在缩略图 A/B 测试上的经验，表示他向来讨厌这种不透明的过程，于是决定将团队的学习成果开源。他希望借此让优质的教育内容在信息噪音中脱颖而出，并邀请大家分享经验或提出建议。
 
-Trajectory在AI持续学习（Continual Learning）领域给他留下了深刻印象——联合创始人Ronak在AI Engineer大会上做了一场非常扎实的分享，讲他们如何解决持续学习中剩余的核心数据问题，包括为什么GRPO不够用、必须转向on-policy训练，以及随之而来的一系列工程问题。swyx评价这是该领域早期领导者之一给出的高质量综述。此外他还转发确认了Cursor相关动态。
-
-链接：https://x.com/swyx/status/2089393073327653344
+[查看推文](https://x.com/swyx/status/2089798658225266806)
 
 ---
 
-**Google VP Josh Woodward**
+**Boris Cherny (Anthropic, Claude Code)**
 
-Josh Woodward对之前收集的Gemini用户反馈逐条做了进度更新：Workspace工具改进版正在测试中、预计1-2周内推出；Gemini 3.7 Flash在工具调用方面有改进；新的"Projects"设计已完成、正在实现中；目前已支持49个连接器；10条反馈里有7条已完成或接近完成。这种公开、透明的产品迭代节奏值得关注。
+Boris Cherny 提到 Claude Code Desktop 的启动速度正在持续优化。他表示，每天使用桌面应用时，缓慢的启动会让整个应用显得迟钝，团队正在进一步改善这一体验。
 
-链接：https://x.com/joshwoodward/status/2089520767281324112
-
----
-
-**Anthropic Claude Code团队Boris Cherny**
-
-Boris分享了Claude Code的几个小质量改进，强调这类细节优化累积起来对日常开发体验的提升非常明显，并透露更多改进正在路上。他还邀请用户反馈使用体验。
-
-链接：https://x.com/bcherny/status/2089538781909332210
+[查看推文](https://x.com/bcherny/status/2089924199804711410)
 
 ---
 
-**OpenAI Codex与ChatGPT产品负责人Thibault Sottiaux**
+**Thibault Sottiaux (OpenAI, Codex & ChatGPT)**
 
-Thibault做了一个非常有意思的开放提问：Codex、API或模型层面，有什么显而易见但我们还没做的事情？100%在能力范围内、却一直被忽视的改进是什么？这条帖子获得了3726个赞和4727条回复，说明社区对OpenAI的期待值极高。另外他还用ABBA的歌词恶搞了一把Codex："Gimme, gimme, gimme Codex after midnight——能不能有人把这些失败的测试都修掉？"（深夜提交代码的开发者应该都懂）
+Thibault 发布了两条重要更新。第一条是收到了一份"非常 fancy 的新重置按钮"礼物，暗示 Codex 有重大更新。第二条则详细说明了 Codex 在过去几周针对"破坏性操作"的安全改进——此前有少量报告称 GPT-5.6 在 Codex 中执行了用户未要求的破坏性操作，最严重的情况是清理临时文件的命令误删了用户文件。团队在多个层面增加了防护：明确指示模型在删除前检查目标、创建全新的临时目录、避免重用系统环境变量；加强了高风险删除命令的执行检查；让 Full access 模式更难被意外开启；更新了 Auto-review 以更好地识别破坏性操作。他还建议用户保持 Codex 应用更新，并尽量使用沙箱模式。
 
-链接：https://x.com/thsottiaux/status/2089500941842342287
-
----
-
-**AI教程创作者Peter Yang**
-
-Peter Yang在寻找用AI编辑YouTube口播视频片头（zoom in、动态字幕、logo动画、B-roll）的工具，目前正在测试HyperFrames，但想知道有没有更好的替代方案。他的终极目标是：全程只靠跟Codex或其他agent对话完成整个剪辑流程。
-
-链接：https://x.com/petergyang/status/2089519732336787619
+[查看推文1](https://x.com/thsottiaux/status/2089941380336644295) | [查看推文2](https://x.com/thsottiaux/status/2089891927659585918)
 
 ---
 
-**Meta AI高级总监Madhu Guru（此前在Google主导Gemini、Veo、Nano Banana）**
+**Peter Yang (AI 内容创作者)**
 
-Madhu分享了一套非常实用的eval方法论：最好的学习方式是把一个你非常熟悉的工作流拿来，想办法让它的质量变得可衡量。具体做法是研究真实的trace数据——用户典型的prompt序列、每一步和最终结果的好回答长什么样；然后找到产品失败的地方，创建能捕获这些失败场景的trace（比如混乱的工具调用、缺失上下文等）。有了好的eval之后，再思考如何让它自动化、可重复运行，以及如何确保eval能持续反映线上流量的变化。他还问大家要不要把这个做成一个系列。
+Peter Yang 分享了三则观察：一是他考虑做一个应用（或 agent？）来记录"不把手机带进卧室"的连续天数，他坚持了三天后睡眠明显改善；二是他引用数据指出非工程师正在更多地参与代码提交——PM 提交 PR 的比例两年内从 3% 升至 10%，设计师从 1% 升至 8%，创始人达到 23%；三是他观察到 AI 是"叠加"在现有工作之上而非取代——团队花更多时间与 AI 对话、委派任务给 agent，但原有工作的时间并未减少，因为各职能的期望值被拉高了。
 
-链接：https://x.com/realmadhuguru/status/2089480958571331623
-
----
-
-**Anthropic Claude Code团队Thariq**
-
-Thariq有一个非常强烈的判断：最近涌现的程序化生成艺术、视频编辑和3D游戏demo让他越来越倾向于认为，LLM编程模型在很多创意工作上会比扩散模型（diffusion models）做得更好。原因很简单——代码比像素更容易编辑、微调，也更方便导出到现有工具链中。他还强烈推荐大家在Claude Code里试试新的/design命令。
-
-链接：https://x.com/trq212/status/2089415712007938315
+[查看推文1](https://x.com/petergyang/status/2089931839016468575) | [查看推文2](https://x.com/petergyang/status/2089877083510235328) | [查看推文3](https://x.com/petergyang/status/2089877068188471545)
 
 ---
 
-**Replit CEO Amjad Masad**
+**Nan Yu (产品爱好者)**
 
-Amjad转发了一个让他印象深刻的团队：他们的pitch里完全没有提"AI"，但增长曲线完全是AI公司的水平——如果不是因为深度拥抱AI，他们的团队规模会大10倍。另外他还强调了一个安全观点：仅仅扫描代码漏洞是不够的，必须主动进行渗透测试来尝试攻破自己的系统。
+Nan Yu 转发了两个产品示例，一个是更多案例展示，另一个是对某款手表的评价"我希望它是一款更好的手表"，未给出更多细节。
 
-链接：https://x.com/amasad/status/2089525819567739264
-
----
-
-**Vercel CEO Guillermo Rauch**
-
-Guillermo宣布了一个有趣的生态整合：现在可以在Cursor Origin上托管代码仓库，并通过Cursor Origin（本身托管在Vercel上）直接部署到Vercel。他调侃说，和GitHub不一样，这回是"在线"的。
-
-链接：https://x.com/rauchg/status/2089409162270965858
+[查看推文1](https://x.com/thenanyu/status/2089800195907502481) | [查看推文2](https://x.com/thenanyu/status/2089692801537560610)
 
 ---
 
-**Box CEO Aaron Levie**
+**Madhu Guru (Meta AI 高级总监，前 Google Gemini/Veo 负责人)**
 
-Aaron Levie对"数据是新石油"这句话给出了一个非常具体的注脚：AI对数据的渴求已经到了几乎任何形式的数据都有价值的程度。在一个AI世界里，信息实际上应该作为资产出现在资产负债表上。他判断，企业如何管理和挖掘自身组织 intelligence 的能力，将成为未来竞争力的决定性因素之一。
+Madhu Guru 分享了他关于 eval 成本的思考框架：把 eval 当作前沿模型来对待——先建立质量前沿，再沿着成本曲线往下走。具体来说，先用最高质量的方式（昂贵 judge 模型、人工评估）建立可信的信号，搞清楚"好"的标准是什么，写好评判标准；一旦 eval 能可靠区分好坏，再开始优化成本——自动化、更小的 judge 模型、采样、确定性检查。质量优先，成本其次。
 
-链接：https://x.com/levie/status/2089499887905997272
-
----
-
-**Y Combinator总裁兼CEO Garry Tan**
-
-Garry Tan开源了一套"个人AGI"工具包：一个包含70个经过验证的skills的私有GitHub仓库，外加一个Karpathy风格的知识wiki起步模板。全部MIT许可、免费使用，并且可以直接配合现有的Claude Code或Codex订阅使用——只需新建一个目录，把设置图片粘贴给CC或Codex就能自动搭建agent仓库。这个项目源于他今年早些时候在Startup School的演讲。
-
-链接：https://x.com/garrytan/status/2089425134339961173
+[查看推文](https://x.com/realmadhuguru/status/2089918106814603728)
 
 ---
 
-**FPV Ventures合伙人Nikunj Kothari**
+**Thariq (Anthropic, Claude Code)**
 
-Nikunj发了一条火力全开的帖子，逐一点名AI生态各层的"护城河困境"：模型层（OpenAI、Anthropic、xAI）、IDE层（Cursor、Windsurf）、harness层（Cognition、Factory、LangChain）、应用构建层（Replit、Lovable、Bolt）、wrapper层（Harvey、Abridge、OpenEvidence）、推理层（Together、Fireworks、Groq）、语音层（Sierra、Decagon、ElevenLabs）、数据标注（Scale、Surge、Mercor）、AI基础设施（Baseten、Modal、Railway）、neocloud（CoreWeave、Lambda、Crusoe）、生成式媒体（Runway、Higgsfield、Suno）——"显然AI圈没人有护城河，除了VC机构☠️"。
+Thariq 发了一条引发热议的推文："奇怪的是，明明有一个'赚大钱'的按钮，却没人按。"他的建议是：把你的 SaaS 做成 headless，让 agent 能调用它，按交互收费（尤其面向企业客户）。
 
-另外他的另一个观点是：品牌营销将成为未来公司最重要的差异化因素和最珍贵的资产之一。尤其是在agent成为大多数产品的主要用户之后，要吸引注意力稀缺的人类用户，持续一致的品牌呈现会变得至关重要。他预测未来10年，擅长品牌的人会被提拔为联合创始人级别，而不是像现在这样被降级为二等角色。
+[查看推文](https://x.com/trq212/status/2089844723691479333)
 
-链接：https://x.com/nikunj/status/2089486802356961364
+---
+
+**Google Labs**
+
+Google Labs 宣布其 Gmail 中的 AI 生产力 agent "CC" 在澳大利亚和新西兰开放了候补名单，同时扩大了美国和加拿大的可用性。CC 还升级了日历管理功能——连接 Gmail 后，事件会自动创建在专用 Google Calendar 中并保持同步。
+
+[查看推文](https://x.com/GoogleLabs/status/2089812430885208361)
+
+---
+
+**Guillermo Rauch (Vercel CEO)**
+
+Guillermo Rauch 发布了三条重要消息：一是他正在日常使用 Vercel 的新 CLI 工具（比主流编码 CLI 小 10-20 倍，启动瞬时，感觉更像 zsh 而不是终端里的 IDE，可嵌入任何地方甚至通过 WebAssembly 在浏览器中运行，开源且模型无关）；二是他主张"你的软件工厂应该是一个 monorepo"——把公司所有上下文（设计、营销、销售、工程、支持）放在一处供 agent 构建；三是 Vercel 投入 100 万美元公开验证 Vercel Sandbox 的安全性，欢迎任何人测试任何模型试图逃逸，发现的漏洞将公开分享以加强全球网络安全。
+
+[查看推文1](https://x.com/rauchg/status/2089831055373316274) | [查看推文2](https://x.com/rauchg/status/2089804717337817514) | [查看推文3](https://x.com/rauchg/status/2089747453004468339)
+
+---
+
+**Aaron Levie (Box CEO)**
+
+Aaron Levie 发了一条长推，阐述"AI 模型与最终用户工作流之间创造的价值远超许多人想象"。他列举了应用层 AI 的六大差异化领域：1) 让 agent 在关键业务工作流中与人类协作需要针对不同业务流程定制不同的呈现方式（聊天、后台确定性工作流等）；2) 不同工作流连接完全不同的企业系统和数据，需要情境化方法；3) 领域特定的变革管理仍然至关重要——银行和律所的落地方式截然不同；4) 多模型策略可以调优成本与性能，甚至可以针对特定任务做后训练；5) 领域特定的 eval 有极长的长尾效应；6) 很多垂直领域需要超越 token 计价的定价模型。他总结说，应用层是一个巨大的创新与差异化空间。
+
+[查看推文](https://x.com/levie/status/2089921630650925170)
+
+---
+
+**Ryo Lu (Cursor/Notion/Stripe 设计师)**
+
+Ryo Lu 宣布了他移居亚洲的第一步——用 @bot 和 Notion 搭建了一个"帮我清空公寓"的页面，旧金山的朋友可以在线下单并在下周取走物品。
+
+[查看推文](https://x.com/ryolu_/status/2089894938934911053)
+
+---
+
+**Garry Tan (Y Combinator 总裁兼 CEO)**
+
+Garry Tan 发了两条政治相关推文：一条批评旧金山民主党机器试图推动 Connie Chan 进入国会，称如果想让旧金山一居室租金涨到 1 万美元/月（如果你是 NIMBY 房东、讨厌新来者和年轻人），才应该投给她；另一条是"很多这样的案例"的转发评论。
+
+[查看推文1](https://x.com/garrytan/status/2089869693201092848) | [查看推文2](https://x.com/garrytan/status/2089850288840794596)
+
+---
+
+**Zara Zhang (Builder)**
+
+Zara Zhang 发了一条有趣的观察："我不明白为什么会有人通过读书来学习 Claude Code，但显然在日本这已经成了一种潮流。"配图是一本关于 Claude Code 的日文书。
+
+[查看推文](https://x.com/zarazhangrui/status/2089940315268645373)
+
+---
+
+**Nikunj Kothari (FPV Ventures 合伙人)**
+
+Nikunj Kothari 分享了一条人生感悟："如果把生活当作没人欠你任何东西，事情会简单得多。太多人在玩有限游戏，而实际上有很多无限游戏可以玩。善待他人，生活（和因果）自会照顾你。"
+
+[查看推文](https://x.com/nikunj/status/2089870745174446217)
+
+---
+
+**Peter Steinberger (OpenClaw 创始人)**
+
+Peter Steinberger 发了三条推文：一是苹果给他们送来了 512GB 内存的 Mac Studio；二是调侃那些质疑 CLI 方案的人——"你一说，就会把 CLI 人群吵醒，他们会给你一堆'这行不通'的理由。我以前也是其中之一，直到我看到了光"；第三条是"讽刺"两个字配了一张图。
+
+[查看推文1](https://x.com/steipete/status/2089877190422974974) | [查看推文2](https://x.com/steipete/status/2089804281331548280) | [查看推文3](https://x.com/steipete/status/2089801681014043122)
+
+---
+
+**Dan Shipper (Every CEO)**
+
+Dan Shipper 发了两条推文：一条关于冥想——他说自己冥想达到更深层次时鼻子会完全通畅，并配了一个相关的引用；另一条是 Every 团队请 Anthony Ambrosino 用一句话总结"自动化之后工作的未来"，他只回了一个词："tibo"。
+
+[查看推文1](https://x.com/danshipper/status/2089877888396906801) | [查看推文2](https://x.com/danshipper/status/2089788656445734922)
+
+---
+
+**Aditya Agarwal (South Park Commons 合伙人，Bevel Health 联合创始人)**
+
+Aditya Agarwal 发了一条致敬推文，感谢 Travis Kalanick："我最近在和别人聊起 Travis，我意识到地球上没有第二个人有那样的韧性，让我几乎能在每个全球城市从 A 点到达 B 点。硅谷没有其他人有这个胆量。他有。"
+
+[查看推文](https://x.com/adityaag/status/2089845563097563604)
+
+---
+
+**Sam Altman (OpenAI CEO)**
+
+Sam Altman 发布了一条重磅消息：OpenAI 暂停了部分前沿 RL 训练，以确保能符合新能力水平所需的对齐、安全与监控标准。"模型进步现在极其迅速，我们一直说如果模型能力超出安全与对齐的步伐，我们会采取行动。"他表示相信整个领域需要协调共享安全标准，但在那之前会单方面行动，并预期安全信心将日益决定 AI 进步的节奏。随后他补充说近期仍会发布优秀的新模型，受影响的是更远期的发布。另外他还转发了与 Jensen Huang 的合作消息。
+
+[查看推文1](https://x.com/sama/status/2089805495783813196) | [查看推文2](https://x.com/sama/status/2089787807611195475) | [查看推文3](https://x.com/sama/status/2089758522678657212)
+
+---
+
+**Claude (Anthropic)**
+
+Claude 官方账号发布了两条更新：一是 Claude 现在可以在 Gmail 中发送邮件、管理 Google Drive 文件——让 Claude 回复邮件线程，它会起草并发送回复，由你控制何时需要审批；二是 Claude Cowork 现在已对所有付费计划的移动端和网页端开放。
+
+[查看推文1](https://x.com/claudeai/status/2089806039088517356) | [查看推文2](https://x.com/claudeai/status/2089756371570900999)
 
 ---
 
 ## PODCASTS
 
----
+### Training Data — Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again
 
-**No Priors — "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad"**
+**核心要点：当前 AI 模型的根本缺陷是"部署后不再学习"——权重冻结。真正的智能必须能够持续学习，而合成数据无法替代真实经验。**
 
-**核心要点：未来五年内能诞生多少家万亿美元公司？答案可能比你想的少得多。**
+[观看视频](https://www.youtube.com/watch?v=xH7U7w9Qzlo)
 
-这期No Priors是Sarah Guo（Conviction创始合伙人）和Elad Gil（知名投资人、多家AI独角兽背后的推手）之间的一场坦诚对谈。两人都是硅谷AI投资圈最有影响力的声音之一——Sarah创办的Conviction是Cognition、Physical Intelligence等前沿公司的早期投资人，Elad则是GitHub、Stripe、Instacart等公司背后的传奇天使投资人。
+强化学习之父 Rich Sutton 与他的学生、Oak Lab 联合创始人 Khurram Javed 一起，接受了 Training Data 播客的深度访谈。Sutton 是《强化学习》教科书的作者、AlphaGo 背后关键人物 David Silver 的老师，也是那篇被奉为领域圣经的《苦涩的教训》(The Bitter Lesson) 的作者。如今他创办了 Oak Lab，目标是实现真正的持续深度学习。
 
-**关于万亿美元公司：Elad的冷静判断**
+Sutton 在访谈中反复强调一个观点："我不是奇怪的那个人，这个领域才是。"在他看来，持续学习根本不需要特别命名——"所有学习都是持续的。我们一直在行动，一直在学习。这才是正常的思考方式。"而当前的 LLM 范式恰恰违背了这一点：模型在部署后权重就再也不变了。
 
-过去五年，Anthropic、OpenAI、SpaceX三家公司在极短时间内从零冲到万亿美元市值——这在人类历史上是前所未有的。通常这需要15到20年（Google用了90年代至今，SpaceX从2000年代初开始）。Elad认为，很多人现在默认3到5年内还会有一批新的万亿美元公司出现，但他对此持怀疑态度："1000亿美元的公司还能建很多，但万亿美元级的公司很难达到。"他的框架很直接：要支撑万亿美元市值，你需要500亿到1000亿美元的收入——这不是"市场很大"就能解决的问题。
+他对合成数据持强烈批判态度，认为这是"一个大错误"。Sutton 和 Javed 提出了"大世界假说"(Big World Hypothesis)：世界比任何模型都复杂得多，因为世界包含无数其他智能体。任何模拟都只是"微观世界"——"如果你写一个小程序来生成合成数据，那它将是一个小世界。"Javed 补充说，合成数据仍然依赖人类专家判断什么数据是好的，"如果 OpenAI、Anthropic 的所有工程师都去度假了，谁来生成合成数据？"真正的学习应该来自 agent 自身的经验。
 
-**关于创始人野心：Sarah的失望**
+访谈中最令人印象深刻的观点是：当前 LLM 的能力——"博士级别的经验与专业知识"——竟然来自一个"完全不再学习的东西"。Sutton 认为语言能力只占智能的"20% 或四分之一"，"所有智能都不是流利地使用语言。还有太多太多。"
 
-Sarah提出了一个值得深思的观察："我最近更常感到失望的是，创始人们的野心不够大。"她认为很多优秀创始人因为害怕与AI labs正面竞争，纷纷转向了更小众、更衍生的方向。Elad同意这是一个令人担忧的趋势："我不担心普通创始人，我担心的是最好的那些创始人。"他鼓励创始人在某些市场应该直接与labs竞争——产品体验和分发能力仍然是可打的牌。
+Oak Lab 的路线图来自 Sutton 的"阿尔伯塔计划"(Alberta Plan)，其中最关键的两步是持续深度学习和正确的抽象形成。他们提出的"持续反向传播"(Continual Backprop) 算法已在 Nature 发表，核心思想是：每个权重有自己的步长（通过元学习获得），同时不断注入新的随机初始化单元，让网络持续生长。他们的终极愿景是一个万亿参数、仅耗 20 瓦的模型——Sutton 算了一笔账：摩尔定律十年两个数量级，如果今天能用 2000 瓦做到，十年后就能用 20 瓦做到。Javed 认为"我们甚至现在就能比这更高效，只要有正确的算法"。
 
-**关于退出时机：每年做一次"退出演练"**
-
-Elad给了一个非常实用的建议：每年开一次预设的董事会会议，议题就是"未来六个月我们是否应该考虑退出"——不带情绪、不是创始人push、也不是投资人push，就是一次理性的讨论。因为在AI时代，"一年的AI时间相当于正常周期的三到四年"，三年就是十年。你的假设和事实基础变化太快，必须更频繁地重新校验。
-
-**关于token预算：下一个ROI战场**
-
-Elad提出了"投入token的回报率"（return on invested tokens）这个概念——你有一定量的token预算，应该给谁、为什么？他类比了当年公司内部工具团队总是被饿死的现象："为什么要把token花在一堆SaaS上，而不是投到核心产品或大幅提升利润率的事情上？"他预测企业会从"大家都来试试AI"转向"我们必须衡量开支，把更多东西迁移到开源"。
-
-**关于18个月后RSI的信仰：Sarah的担忧**
-
-Elad提到，实验室里弥漫着一种狂热的能量——有人预计6个月左右代码问题将被彻底解决，明年年底可能出现某种形式的递归自我改进（RSI）。但Sarah对此提出了一个清醒的提醒："过去五年里，每隔18个月就有人声称ASI还有18个月就到了。"她认为从代码到训练代码的延伸是可信的，但真正的瓶颈在于物理算力的可及性，而不是算法可能性。
-
-**关于监管：一个被引用的历史教训**
-
-Elad用核电做了一个有力的类比：法国70%的电力来自核电，几十年零事故；美国18%，40年没建过新反应堆。"70年代的安全游说团体基本上扼杀了我们获得丰富清洁能源的机会。"他的结论是：历史上，大行业在安全监管上往往走得太远，而科技之所以能快速成功并产生巨大影响，恰恰是因为监管宽松。"我们会在安全与风险的天平上把指针放在哪里，这最终是我们社会要做的选择。"
-
-**金句：**
-
-"你的生命中最有生产力的那些年正押在这上面。你可以带着一笔可观的资金离开，去做下一件大事——你已经做成过一次了，人们还会愿意跟你合作——或者你可以掷骰子。" —— Elad Gil
-
-链接：https://www.youtube.com/watch?v=6l8oAO_LBx4
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Sutton 对 LLM 的未来并不悲观，但认为它们"可能会面临风险"。"LLM 是一个惊人的科学突破……但问题是，它必须假装自己就是全部 AI。"
