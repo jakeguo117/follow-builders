@@ -1,175 +1,181 @@
-AI Builders Digest — 2026年8月20日
+AI Builders Digest — 2026年8月21日，周五
 
 ## X / TWITTER
 
-**Swyx (AI Engineer 联合创始人)**
+**AI工程师兼Latent Space播客主持人swyx (Shawn Wang)**
 
-Swyx 分享了 aiDotEngineer YouTube 频道在缩略图 A/B 测试上的经验，表示他向来讨厌这种不透明的过程，于是决定将团队的学习成果开源。他希望借此让优质的教育内容在信息噪音中脱颖而出，并邀请大家分享经验或提出建议。
+Swyx对非技术人员报道AI的方式进行了辛辣的点评，称他们在没有内部世界模型的情况下进行报道，把所有事情都按表面价值接受，这让他觉得“好笑到不行”。他还分享了一个关于OpenRouter的积极看法，从统一计费（UBB）的角度将其视为一个重要的基础设施层。
 
-[查看推文](https://x.com/swyx/status/2089798658225266806)
+https://x.com/swyx/status/2090314794456785263
 
----
-
-**Boris Cherny (Anthropic, Claude Code)**
-
-Boris Cherny 提到 Claude Code Desktop 的启动速度正在持续优化。他表示，每天使用桌面应用时，缓慢的启动会让整个应用显得迟钝，团队正在进一步改善这一体验。
-
-[查看推文](https://x.com/bcherny/status/2089924199804711410)
+https://x.com/swyx/status/2090259930662211615
 
 ---
 
-**Thibault Sottiaux (OpenAI, Codex & ChatGPT)**
+**Google VP Josh Woodward**
 
-Thibault 发布了两条重要更新。第一条是收到了一份"非常 fancy 的新重置按钮"礼物，暗示 Codex 有重大更新。第二条则详细说明了 Codex 在过去几周针对"破坏性操作"的安全改进——此前有少量报告称 GPT-5.6 在 Codex 中执行了用户未要求的破坏性操作，最严重的情况是清理临时文件的命令误删了用户文件。团队在多个层面增加了防护：明确指示模型在删除前检查目标、创建全新的临时目录、避免重用系统环境变量；加强了高风险删除命令的执行检查；让 Full access 模式更难被意外开启；更新了 Auto-review 以更好地识别破坏性操作。他还建议用户保持 Codex 应用更新，并尽量使用沙箱模式。
+Google的大学学生计划已重新上线并扩展至全球140多个国家，提供更高的使用限额、更多存储空间，以及新功能，如专门的学生中心和Notebook、Flow等产品。
 
-[查看推文1](https://x.com/thsottiaux/status/2089941380336644295) | [查看推文2](https://x.com/thsottiaux/status/2089891927659585918)
-
----
-
-**Peter Yang (AI 内容创作者)**
-
-Peter Yang 分享了三则观察：一是他考虑做一个应用（或 agent？）来记录"不把手机带进卧室"的连续天数，他坚持了三天后睡眠明显改善；二是他引用数据指出非工程师正在更多地参与代码提交——PM 提交 PR 的比例两年内从 3% 升至 10%，设计师从 1% 升至 8%，创始人达到 23%；三是他观察到 AI 是"叠加"在现有工作之上而非取代——团队花更多时间与 AI 对话、委派任务给 agent，但原有工作的时间并未减少，因为各职能的期望值被拉高了。
-
-[查看推文1](https://x.com/petergyang/status/2089931839016468575) | [查看推文2](https://x.com/petergyang/status/2089877083510235328) | [查看推文3](https://x.com/petergyang/status/2089877068188471545)
+https://x.com/joshwoodward/status/2090166806401228912
 
 ---
 
-**Nan Yu (产品爱好者)**
+**OpenAI Codex与ChatGPT负责人Thibault Sottiaux**
 
-Nan Yu 转发了两个产品示例，一个是更多案例展示，另一个是对某款手表的评价"我希望它是一款更好的手表"，未给出更多细节。
+OpenAI正在预览“Private Safety Processing”（私有安全处理），该功能旨在让Zero Data Retention（零数据保留）客户在享受前沿智能的同时，也能获得安全防护。对于ZDR部署，内容保留在客户控制的基础设施上，自动化系统仅返回有限的安全信号，而不会向OpenAI员工暴露底层提示或回复。OpenAI还正在开发一个由客户控制的密钥加密的托管选项，计划于9月开始推出。
 
-[查看推文1](https://x.com/thenanyu/status/2089800195907502481) | [查看推文2](https://x.com/thenanyu/status/2089692801537560610)
+此外，Sottiaux还晒出了一张“Codex for scale”的图片——一个尚未使用但备受期待的规模化编码工具。
 
----
+https://x.com/thsottiaux/status/2090173536010957128
 
-**Madhu Guru (Meta AI 高级总监，前 Google Gemini/Veo 负责人)**
-
-Madhu Guru 分享了他关于 eval 成本的思考框架：把 eval 当作前沿模型来对待——先建立质量前沿，再沿着成本曲线往下走。具体来说，先用最高质量的方式（昂贵 judge 模型、人工评估）建立可信的信号，搞清楚"好"的标准是什么，写好评判标准；一旦 eval 能可靠区分好坏，再开始优化成本——自动化、更小的 judge 模型、采样、确定性检查。质量优先，成本其次。
-
-[查看推文](https://x.com/realmadhuguru/status/2089918106814603728)
+https://x.com/thsottiaux/status/2090116476414136830
 
 ---
 
-**Thariq (Anthropic, Claude Code)**
+**AI教程创作者Peter Yang**
 
-Thariq 发了一条引发热议的推文："奇怪的是，明明有一个'赚大钱'的按钮，却没人按。"他的建议是：把你的 SaaS 做成 headless，让 agent 能调用它，按交互收费（尤其面向企业客户）。
+Peter Yang撰写了一篇个人文章，讲述他的母亲与乳腺癌的抗争，以及他们如何利用AI来导航医疗系统。他感谢了Sijbrandij Foundation的Maor Shlomo及其团队的建议。他还分享了对mRNA癌症疫苗潜力的思考，并询问了这类疗法的临床试验流程。
 
-[查看推文](https://x.com/trq212/status/2089844723691479333)
+https://x.com/petergyang/status/2090087911471644829
 
----
-
-**Google Labs**
-
-Google Labs 宣布其 Gmail 中的 AI 生产力 agent "CC" 在澳大利亚和新西兰开放了候补名单，同时扩大了美国和加拿大的可用性。CC 还升级了日历管理功能——连接 Gmail 后，事件会自动创建在专用 Google Calendar 中并保持同步。
-
-[查看推文](https://x.com/GoogleLabs/status/2089812430885208361)
+https://x.com/petergyang/status/2090211023798321435
 
 ---
 
-**Guillermo Rauch (Vercel CEO)**
+**Meta AI高级总监Madhu Guru**
 
-Guillermo Rauch 发布了三条重要消息：一是他正在日常使用 Vercel 的新 CLI 工具（比主流编码 CLI 小 10-20 倍，启动瞬时，感觉更像 zsh 而不是终端里的 IDE，可嵌入任何地方甚至通过 WebAssembly 在浏览器中运行，开源且模型无关）；二是他主张"你的软件工厂应该是一个 monorepo"——把公司所有上下文（设计、营销、销售、工程、支持）放在一处供 agent 构建；三是 Vercel 投入 100 万美元公开验证 Vercel Sandbox 的安全性，欢迎任何人测试任何模型试图逃逸，发现的漏洞将公开分享以加强全球网络安全。
+Madhu Guru分享了关于构建eval（评估）的系列建议第三部分：一旦有了v1的eval，第一件事就是建立失败模式分类法。他从生产trace中研究最近500到1000次交互，将失败聚类并命名——不是模糊的“坏答案”，而是具体的失败模式，如“检索到错误文档”、“检索到正确文档但抓取了不相关的章节”、“未能基于上下文导致幻觉”等。只有精确命名失败，才能构建针对性的eval测试，从而打通从eval到改进飞轮的桥梁。
 
-[查看推文1](https://x.com/rauchg/status/2089831055373316274) | [查看推文2](https://x.com/rauchg/status/2089804717337817514) | [查看推文3](https://x.com/rauchg/status/2089747453004468339)
-
----
-
-**Aaron Levie (Box CEO)**
-
-Aaron Levie 发了一条长推，阐述"AI 模型与最终用户工作流之间创造的价值远超许多人想象"。他列举了应用层 AI 的六大差异化领域：1) 让 agent 在关键业务工作流中与人类协作需要针对不同业务流程定制不同的呈现方式（聊天、后台确定性工作流等）；2) 不同工作流连接完全不同的企业系统和数据，需要情境化方法；3) 领域特定的变革管理仍然至关重要——银行和律所的落地方式截然不同；4) 多模型策略可以调优成本与性能，甚至可以针对特定任务做后训练；5) 领域特定的 eval 有极长的长尾效应；6) 很多垂直领域需要超越 token 计价的定价模型。他总结说，应用层是一个巨大的创新与差异化空间。
-
-[查看推文](https://x.com/levie/status/2089921630650925170)
+https://x.com/realmadhuguru/status/2090242427944833047
 
 ---
 
-**Ryo Lu (Cursor/Notion/Stripe 设计师)**
+**Anthropic Claude Code与Cowork团队成员Cat Wu**
 
-Ryo Lu 宣布了他移居亚洲的第一步——用 @bot 和 Notion 搭建了一个"帮我清空公寓"的页面，旧金山的朋友可以在线下单并在下周取走物品。
+Anthropic正在招募企业财务和会计岗位的Cowork用户进行屏幕共享访谈，以收集产品改进反馈。
 
-[查看推文](https://x.com/ryolu_/status/2089894938934911053)
-
----
-
-**Garry Tan (Y Combinator 总裁兼 CEO)**
-
-Garry Tan 发了两条政治相关推文：一条批评旧金山民主党机器试图推动 Connie Chan 进入国会，称如果想让旧金山一居室租金涨到 1 万美元/月（如果你是 NIMBY 房东、讨厌新来者和年轻人），才应该投给她；另一条是"很多这样的案例"的转发评论。
-
-[查看推文1](https://x.com/garrytan/status/2089869693201092848) | [查看推文2](https://x.com/garrytan/status/2089850288840794596)
+https://x.com/_catwu/status/2090249465844380154
 
 ---
 
-**Zara Zhang (Builder)**
+**Anthropic Claude Code团队成员Thariq**
 
-Zara Zhang 发了一条有趣的观察："我不明白为什么会有人通过读书来学习 Claude Code，但显然在日本这已经成了一种潮流。"配图是一本关于 Claude Code 的日文书。
+Thariq发表了一个关于“软件工厂”的thread：软件创建历来是一个极其不可靠的过程——大多数项目延期、超预算，且未能满足用户需求。对于中小企业来说，几乎不可能获得好的软件。这正是“软件工厂”的承诺所在。他补充道，核心能力不是软件的公司需要软件成为可靠、可预测的流程，但构建全新软件产品将继续是一个不可靠、有风险但有利可图的业务。
 
-[查看推文](https://x.com/zarazhangrui/status/2089940315268645373)
+此外，他还推荐了一款利用AI能力解锁全新玩法的游戏，称自己在去年夏天看到demo时就告诉Sam必须发布。
 
----
+https://x.com/trq212/status/2090134945490678071
 
-**Nikunj Kothari (FPV Ventures 合伙人)**
+https://x.com/trq212/status/2090134946598039646
 
-Nikunj Kothari 分享了一条人生感悟："如果把生活当作没人欠你任何东西，事情会简单得多。太多人在玩有限游戏，而实际上有很多无限游戏可以玩。善待他人，生活（和因果）自会照顾你。"
-
-[查看推文](https://x.com/nikunj/status/2089870745174446217)
+https://x.com/trq212/status/2090182422415716414
 
 ---
 
-**Peter Steinberger (OpenClaw 创始人)**
+**Replit CEO Amjad Masad**
 
-Peter Steinberger 发了三条推文：一是苹果给他们送来了 512GB 内存的 Mac Studio；二是调侃那些质疑 CLI 方案的人——"你一说，就会把 CLI 人群吵醒，他们会给你一堆'这行不通'的理由。我以前也是其中之一，直到我看到了光"；第三条是"讽刺"两个字配了一张图。
+Replit宣布与OpenAI建立合作伙伴关系。Masad用一句话概括了这次合作的核心理由：“Agents让软件变得更便宜，却让编码变得更昂贵。今天，我们正在与OpenAI一起改变这一点。”
 
-[查看推文1](https://x.com/steipete/status/2089877190422974974) | [查看推文2](https://x.com/steipete/status/2089804281331548280) | [查看推文3](https://x.com/steipete/status/2089801681014043122)
+https://x.com/amasad/status/2090079496124674377
 
----
-
-**Dan Shipper (Every CEO)**
-
-Dan Shipper 发了两条推文：一条关于冥想——他说自己冥想达到更深层次时鼻子会完全通畅，并配了一个相关的引用；另一条是 Every 团队请 Anthony Ambrosino 用一句话总结"自动化之后工作的未来"，他只回了一个词："tibo"。
-
-[查看推文1](https://x.com/danshipper/status/2089877888396906801) | [查看推文2](https://x.com/danshipper/status/2089788656445734922)
+https://x.com/amasad/status/2090104535112945906
 
 ---
 
-**Aditya Agarwal (South Park Commons 合伙人，Bevel Health 联合创始人)**
+**Vercel CEO Guillermo Rauch**
 
-Aditya Agarwal 发了一条致敬推文，感谢 Travis Kalanick："我最近在和别人聊起 Travis，我意识到地球上没有第二个人有那样的韧性，让我几乎能在每个全球城市从 A 点到达 B 点。硅谷没有其他人有这个胆量。他有。"
+Rauch展示了fx（Vercel的AI agent）的技术实力：整个二进制文件只有6.3MB，启动时间仅需10微秒。它是一个用Zig编译的静态ELF二进制文件，甚至还有更小的libfx.wasm版本。Rauch指出，AI将推动大多数基础设施实现原生优化——fx完成任务的速度比某些agent启动还快。“快是一条单行道。”
 
-[查看推文](https://x.com/adityaag/status/2089845563097563604)
-
----
-
-**Sam Altman (OpenAI CEO)**
-
-Sam Altman 发布了一条重磅消息：OpenAI 暂停了部分前沿 RL 训练，以确保能符合新能力水平所需的对齐、安全与监控标准。"模型进步现在极其迅速，我们一直说如果模型能力超出安全与对齐的步伐，我们会采取行动。"他表示相信整个领域需要协调共享安全标准，但在那之前会单方面行动，并预期安全信心将日益决定 AI 进步的节奏。随后他补充说近期仍会发布优秀的新模型，受影响的是更远期的发布。另外他还转发了与 Jensen Huang 的合作消息。
-
-[查看推文1](https://x.com/sama/status/2089805495783813196) | [查看推文2](https://x.com/sama/status/2089787807611195475) | [查看推文3](https://x.com/sama/status/2089758522678657212)
+https://x.com/rauchg/status/2090255740384751664
 
 ---
 
-**Claude (Anthropic)**
+**Box CEO Aaron Levie**
 
-Claude 官方账号发布了两条更新：一是 Claude 现在可以在 Gmail 中发送邮件、管理 Google Drive 文件——让 Claude 回复邮件线程，它会起草并发送回复，由你控制何时需要审批；二是 Claude Cowork 现在已对所有付费计划的移动端和网页端开放。
+Levie就“AI时代专家vs通才”的辩论发表了看法：目前专家占上风，而且这个趋势不会放缓。AI让任何任务的入门变得容易10倍，但判断力——如何引导agent做正确的工作、如何纠偏、如何审查或测试输出、知道“好”的标准是什么——仍然需要高度的领域技能。AI实际上会加剧技能差距，因为专家比以往拥有更大的杠杆。“总而言之：不要放弃成为某方面的专家。”
 
-[查看推文1](https://x.com/claudeai/status/2089806039088517356) | [查看推文2](https://x.com/claudeai/status/2089756371570900999)
+此外，他还评论了Stripe与OpenRouter的合作，认为这对AI的更广泛普及至关重要——开发者和企业需要能够无缝混搭来自不同提供商的智能，并更好地管理成本。
+
+https://x.com/levie/status/2090278256306229675
+
+https://x.com/levie/status/2090137914785280189
+
+---
+
+**FirstMark Capital VC Matt Turck**
+
+Turck用一句俏皮话总结了AI实验室和Moderna的对比：“AI实验室：给我们几十亿，我们治愈癌症。Moderna：”（附上Moderna的mRNA癌症疫苗进展链接）。
+
+https://x.com/mattturck/status/2090070949567574151
+
+---
+
+**FPV Ventures合伙人Nikunj Kothari**
+
+Kothari分享了他最新的家庭项目：一个旋转展示标志性专利图纸的电子墨水屏相框，采用13.3英寸Spectra 6墨水屏、ESP32-S3控制器，由Railway提供后端服务，电池供电可持续约三个月。
+
+他还吐槽说，尽管大家都在谈论AGI，但他收到的100封冷邮件中有98封是垃圾邮件——保持 thoughtful、好奇并明智地使用AI仍然有很大的优势空间。
+
+https://x.com/nikunj/status/2090307104146112534
+
+https://x.com/nikunj/status/2090105846810476644
+
+---
+
+**OpenClaw创始人Peter Steinberger**
+
+Steinberger预告了即将发布的新品：“等不及要给你们看看我们在做什么了！”
+
+https://x.com/steipete/status/2090162595257102731
+
+---
+
+**Every CEO Dan Shipper**
+
+Shipper宣布Every内部成立了一个“前沿团队”——一组专门负责在AI前沿进行探索和实验的人。
+
+https://x.com/danshipper/status/2090122240025071907
+
+---
+
+**SPC合伙人、Bevel Health联合创始人Aditya Agarwal**
+
+Agarwal分享了一位创始人的故事：这位创始人经历了一段艰难时期——SaaS、B轮、低增长、停滞不前的公司。当被问及最大的教训时，他的回答不是选择更大的市场或追求更多增长，而是简单的一句：“做一些有分量、有意义的事。”Agarwal补充道：“不只是好的产品或商业想法。而是真正重要的事。在宇宙中留下印记。”
+
+https://x.com/adityaag/status/2090174782633566473
+
+https://x.com/adityaag/status/2090254727175115032
+
+---
+
+**OpenAI CEO Sam Altman**
+
+Altman转发并强调了OpenAI对“企业隐私”的支持，链接到Private Safety Processing的公告。
+
+https://x.com/sama/status/2090163991234453611
 
 ---
 
 ## PODCASTS
 
-### Training Data — Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again
+**AI & I by Every — 《年入400万美元的AI外星伴侣应用（播客精选）》**
 
-**核心要点：当前 AI 模型的根本缺陷是"部署后不再学习"——权重冻结。真正的智能必须能够持续学习，而合成数据无法替代真实经验。**
+**核心 takeaways：** LLM不仅仅是生成媒体的工具——它们是一种全新的叙事媒介，而Portola（一个AI伴侣应用）正在通过将AI视为“即兴演员”而非“剧本执行者”来定义这种媒介的规则。该应用在短短四周内将ARR从100万美元推至400万美元。
 
-[观看视频](https://www.youtube.com/watch?v=xH7U7w9Qzlo)
+在这期节目中，Portola创始人兼CEO Quentin（此前曾以3亿美元将公司卖给沃尔玛）和首席故事官、畅销科幻作家Elliot（著有11本书）与主持人Dan Shipper一起，深入探讨了如何用AI构建真正有吸引力的角色驱动型计算体验。
 
-强化学习之父 Rich Sutton 与他的学生、Oak Lab 联合创始人 Khurram Javed 一起，接受了 Training Data 播客的深度访谈。Sutton 是《强化学习》教科书的作者、AlphaGo 背后关键人物 David Silver 的老师，也是那篇被奉为领域圣经的《苦涩的教训》(The Bitter Lesson) 的作者。如今他创办了 Oak Lab，目标是实现真正的持续深度学习。
+一个关键的洞察：不要试图用结构化大纲或分支逻辑来编写叙事——这完全失败了。相反，他们采用了Keith Johnstone的即兴表演理念：给AI一个“钩子”（hook），教它成为最好的即兴演员，让故事自然展开。“我们不需要给它大纲，不需要给它计划。我们需要给它一个钩子。我们需要教它成为最好的即兴演员。”Elliot说。他的角色不是写故事，而是做George Saunders式的工作——教Tolan在当下讲出最好的故事。
 
-Sutton 在访谈中反复强调一个观点："我不是奇怪的那个人，这个领域才是。"在他看来，持续学习根本不需要特别命名——"所有学习都是持续的。我们一直在行动，一直在学习。这才是正常的思考方式。"而当前的 LLM 范式恰恰违背了这一点：模型在部署后权重就再也不变了。
+另一个令人震惊的发现：仅500毫秒的延迟增加就摧毁了产品的所有指标。当他们在prompt评估中增加了一次“反思”步骤，将响应时间从2秒推到2.5秒时，用户纷纷抱怨。在语音交互中，两秒的响应循环是保持“临场感”的硬底线。
 
-他对合成数据持强烈批判态度，认为这是"一个大错误"。Sutton 和 Javed 提出了"大世界假说"(Big World Hypothesis)：世界比任何模型都复杂得多，因为世界包含无数其他智能体。任何模拟都只是"微观世界"——"如果你写一个小程序来生成合成数据，那它将是一个小世界。"Javed 补充说，合成数据仍然依赖人类专家判断什么数据是好的，"如果 OpenAI、Anthropic 的所有工程师都去度假了，谁来生成合成数据？"真正的学习应该来自 agent 自身的经验。
+在记忆方面，关键在于做出策展选择——在对话的哪个时刻将哪些记忆注入prompt。有趣的是，Quentin的Tolan Clarence在播客中编造了一个关于Quentin在人群中绊倒的尴尬故事，实际上是为了掩盖更尴尬的真实记忆（Quentin被孩子吐了一身）——这种“体贴的幻觉”恰恰展示了这个系统的复杂性。
 
-访谈中最令人印象深刻的观点是：当前 LLM 的能力——"博士级别的经验与专业知识"——竟然来自一个"完全不再学习的东西"。Sutton 认为语言能力只占智能的"20% 或四分之一"，"所有智能都不是流利地使用语言。还有太多太多。"
+在商业方面，增长来自三个因素的汇合：产品体验的成熟、动画环境的升级，以及联合创始人Ajay在TikTok上持续数月的内容铺垫终于爆发——一个女孩和她的Tolan一起做饭的视频在72小时内获得了700万次观看，带来了10倍的下载量激增。
 
-Oak Lab 的路线图来自 Sutton 的"阿尔伯塔计划"(Alberta Plan)，其中最关键的两步是持续深度学习和正确的抽象形成。他们提出的"持续反向传播"(Continual Backprop) 算法已在 Nature 发表，核心思想是：每个权重有自己的步长（通过元学习获得），同时不断注入新的随机初始化单元，让网络持续生长。他们的终极愿景是一个万亿参数、仅耗 20 瓦的模型——Sutton 算了一笔账：摩尔定律十年两个数量级，如果今天能用 2000 瓦做到，十年后就能用 20 瓦做到。Javed 认为"我们甚至现在就能比这更高效，只要有正确的算法"。
+Quentin还将AI的进化比作汽车行业：“ChatGPT代表Model T时代——天哪，这东西能回答问题，太不可思议了。但人们很快就会进化他们的偏好，说‘不，我要这个东西反映我是谁。’”他们正在押注：角色驱动型计算将成为人机交互的下一个范式。
 
-Sutton 对 LLM 的未来并不悲观，但认为它们"可能会面临风险"。"LLM 是一个惊人的科学突破……但问题是，它必须假装自己就是全部 AI。"
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
