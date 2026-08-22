@@ -1,180 +1,148 @@
-AI Builders Digest — 2026年8月21日，周五
+AI Builders Digest — 2026年8月22日
 
 ## X / TWITTER
 
-**AI工程师兼Latent Space播客主持人swyx (Shawn Wang)**
+**Swyx (swyx on X) — AI Engineer 创始人**
 
-Swyx对非技术人员报道AI的方式进行了辛辣的点评，称他们在没有内部世界模型的情况下进行报道，把所有事情都按表面价值接受，这让他觉得“好笑到不行”。他还分享了一个关于OpenRouter的积极看法，从统一计费（UBB）的角度将其视为一个重要的基础设施层。
+Swyx 在最新一期 Latent Space 播客中与 EiSokant 对谈，探讨 NVIDIA 为何斥资 60 亿美元收购这家"模型工厂"——该工厂正在产出足以媲美 Thinky 的模型。他还分享了 AI Engineer 技能生态的最新进展：Matt Pocockuk 的 /grill-me 技能已获得广泛采用，甚至传到了 Satya Nadella 那里；新推出的 /wayfinder 技能则帮助用户在"战争迷雾"中导航，在不确定自己不知道什么的时候，编排研究和多轮 grill 会话。
 
-https://x.com/swyx/status/2090314794456785263
+https://x.com/swyx/status/2090577677916807429
 
-https://x.com/swyx/status/2090259930662211615
-
----
-
-**Google VP Josh Woodward**
-
-Google的大学学生计划已重新上线并扩展至全球140多个国家，提供更高的使用限额、更多存储空间，以及新功能，如专门的学生中心和Notebook、Flow等产品。
-
-https://x.com/joshwoodward/status/2090166806401228912
+https://x.com/swyx/status/2090550020496040266
 
 ---
 
-**OpenAI Codex与ChatGPT负责人Thibault Sottiaux**
+**Boris Cherny — Anthropic, Claude Code**
 
-OpenAI正在预览“Private Safety Processing”（私有安全处理），该功能旨在让Zero Data Retention（零数据保留）客户在享受前沿智能的同时，也能获得安全防护。对于ZDR部署，内容保留在客户控制的基础设施上，自动化系统仅返回有限的安全信号，而不会向OpenAI员工暴露底层提示或回复。OpenAI还正在开发一个由客户控制的密钥加密的托管选项，计划于9月开始推出。
+Cherny 确认 Anthropic 正在为 Mythos 级别的模型开发企业级安全防护措施，让客户能够完全掌控自己的数据，Anthropic 不保留任何数据。这一功能已与客户合作开发了一段时间，预计今年秋季推出，旨在满足企业的隐私和合规要求。
 
-此外，Sottiaux还晒出了一张“Codex for scale”的图片——一个尚未使用但备受期待的规模化编码工具。
-
-https://x.com/thsottiaux/status/2090173536010957128
-
-https://x.com/thsottiaux/status/2090116476414136830
+https://x.com/bcherny/status/2090537902912815536
 
 ---
 
-**AI教程创作者Peter Yang**
+**Thibault Sottiaux — OpenAI, Codex & ChatGPT**
 
-Peter Yang撰写了一篇个人文章，讲述他的母亲与乳腺癌的抗争，以及他们如何利用AI来导航医疗系统。他感谢了Sijbrandij Foundation的Maor Shlomo及其团队的建议。他还分享了对mRNA癌症疫苗潜力的思考，并询问了这类疗法的临床试验流程。
+Sottiaux 回应了关于 Codex 使用额度限制的争议：OpenAI 并未在未告知社区的情况下更改额度政策，但通过 sub2api 将订阅转换为 API 流量再转售或共享的行为会被欺诈防护系统标记。他确认通过 Sign in With ChatGPT 使用订阅（包括官方客户端或 Pi、OpenCode 等开源客户端）完全没问题。此外，他宣布 GPT-Image-2 现在支持生成透明背景图片，并展示了 ChatGPT Sites 的协作创作功能。
 
-https://x.com/petergyang/status/2090087911471644829
+https://x.com/thsottiaux/status/2090675027670978569
 
-https://x.com/petergyang/status/2090211023798321435
+https://x.com/thsottiaux/status/2090631723302469995
 
----
-
-**Meta AI高级总监Madhu Guru**
-
-Madhu Guru分享了关于构建eval（评估）的系列建议第三部分：一旦有了v1的eval，第一件事就是建立失败模式分类法。他从生产trace中研究最近500到1000次交互，将失败聚类并命名——不是模糊的“坏答案”，而是具体的失败模式，如“检索到错误文档”、“检索到正确文档但抓取了不相关的章节”、“未能基于上下文导致幻觉”等。只有精确命名失败，才能构建针对性的eval测试，从而打通从eval到改进飞轮的桥梁。
-
-https://x.com/realmadhuguru/status/2090242427944833047
+https://x.com/thsottiaux/status/2090518287532916854
 
 ---
 
-**Anthropic Claude Code与Cowork团队成员Cat Wu**
+**Peter Yang — AI 内容创作者**
 
-Anthropic正在招募企业财务和会计岗位的Cowork用户进行屏幕共享访谈，以收集产品改进反馈。
+Peter Yang 庆祝 YouTube 订阅突破 10 万，并预告了一系列即将上线的访谈：与 AI evals 专家 Hamel Husain 和 Reya 探讨模型如何改变 eval 方式、与 Replit 产品工程主管 Amol Jain 聊哪些 vibe-coding 应用真正变成了生意、与 OpenAI 产品负责人 Eric Bloch 谈 ChatGPT Finance、以及与 Grok Bot 团队的对话。他还分享了一个有趣的直觉：让一个"manager agent"用"你确定这是你最好的表现吗？""我觉得你能做得更好，再试一次"这类话去"打压"worker agent，可以显著提升 AI 输出质量。
 
-https://x.com/_catwu/status/2090249465844380154
+https://x.com/petergyang/status/2090589731927282021
 
----
-
-**Anthropic Claude Code团队成员Thariq**
-
-Thariq发表了一个关于“软件工厂”的thread：软件创建历来是一个极其不可靠的过程——大多数项目延期、超预算，且未能满足用户需求。对于中小企业来说，几乎不可能获得好的软件。这正是“软件工厂”的承诺所在。他补充道，核心能力不是软件的公司需要软件成为可靠、可预测的流程，但构建全新软件产品将继续是一个不可靠、有风险但有利可图的业务。
-
-此外，他还推荐了一款利用AI能力解锁全新玩法的游戏，称自己在去年夏天看到demo时就告诉Sam必须发布。
-
-https://x.com/trq212/status/2090134945490678071
-
-https://x.com/trq212/status/2090134946598039646
-
-https://x.com/trq212/status/2090182422415716414
+https://x.com/petergyang/status/2090564541499498919
 
 ---
 
-**Replit CEO Amjad Masad**
+**Madhu Guru — Meta 高级总监, AI（前 Google，主导 Gemini、Veo）**
 
-Replit宣布与OpenAI建立合作伙伴关系。Masad用一句话概括了这次合作的核心理由：“Agents让软件变得更便宜，却让编码变得更昂贵。今天，我们正在与OpenAI一起改变这一点。”
+Madhu Guru 分享了"如何构建优秀 evals"系列的第四部分：企业构建 AI 系统失败的根本原因是缺乏 eval 策略。他提出了一套阶梯式 eval 框架——hill-climbing evals（推动产品前沿）、regression evals（确保没破坏现有功能）、smoke test evals（安全和基础底线）、launch evals（接近真实流量的在线测试）。这套框架覆盖了成本/真实度光谱上的多个层次。
 
-https://x.com/amasad/status/2090079496124674377
-
-https://x.com/amasad/status/2090104535112945906
+https://x.com/realmadhuguru/status/2090595384905113939
 
 ---
 
-**Vercel CEO Guillermo Rauch**
+**Thariq — Anthropic, Claude Code**
 
-Rauch展示了fx（Vercel的AI agent）的技术实力：整个二进制文件只有6.3MB，启动时间仅需10微秒。它是一个用Zig编译的静态ELF二进制文件，甚至还有更小的libfx.wasm版本。Rauch指出，AI将推动大多数基础设施实现原生优化——fx完成任务的速度比某些agent启动还快。“快是一条单行道。”
+Thariq 宣布 Anthropic 正在推出新的 Fable 企业安全防护措施，这些措施运行在客户自己的基础设施上，让企业完全掌控数据存储位置和访问权限。该功能已与约 100 家公司合作开发了一段时间，计划今年秋季更广泛地推出。
 
-https://x.com/rauchg/status/2090255740384751664
-
----
-
-**Box CEO Aaron Levie**
-
-Levie就“AI时代专家vs通才”的辩论发表了看法：目前专家占上风，而且这个趋势不会放缓。AI让任何任务的入门变得容易10倍，但判断力——如何引导agent做正确的工作、如何纠偏、如何审查或测试输出、知道“好”的标准是什么——仍然需要高度的领域技能。AI实际上会加剧技能差距，因为专家比以往拥有更大的杠杆。“总而言之：不要放弃成为某方面的专家。”
-
-此外，他还评论了Stripe与OpenRouter的合作，认为这对AI的更广泛普及至关重要——开发者和企业需要能够无缝混搭来自不同提供商的智能，并更好地管理成本。
-
-https://x.com/levie/status/2090278256306229675
-
-https://x.com/levie/status/2090137914785280189
+https://x.com/trq212/status/2090569474139439335
 
 ---
 
-**FirstMark Capital VC Matt Turck**
+**Amjad Masad — Replit CEO**
 
-Turck用一句俏皮话总结了AI实验室和Moderna的对比：“AI实验室：给我们几十亿，我们治愈癌症。Moderna：”（附上Moderna的mRNA癌症疫苗进展链接）。
+Masad 谈到了 Replit 与 OpenAI 的合作关系，回忆起一段往事：在 Replit 进入 YC 之前，Paul Graham 曾请 Sam Altman 招募他们。他还强调了 Replit 新 Free Mode 的一个被低估的优势——速度，让编程重新变得互动起来，并展示了用户可以用 Free Mode 构建的大量内容。
 
-https://x.com/mattturck/status/2090070949567574151
+https://x.com/amasad/status/2090514571513708874
 
----
-
-**FPV Ventures合伙人Nikunj Kothari**
-
-Kothari分享了他最新的家庭项目：一个旋转展示标志性专利图纸的电子墨水屏相框，采用13.3英寸Spectra 6墨水屏、ESP32-S3控制器，由Railway提供后端服务，电池供电可持续约三个月。
-
-他还吐槽说，尽管大家都在谈论AGI，但他收到的100封冷邮件中有98封是垃圾邮件——保持 thoughtful、好奇并明智地使用AI仍然有很大的优势空间。
-
-https://x.com/nikunj/status/2090307104146112534
-
-https://x.com/nikunj/status/2090105846810476644
+https://x.com/amasad/status/2090484698413740186
 
 ---
 
-**OpenClaw创始人Peter Steinberger**
+**Guillermo Rauch — Vercel CEO**
 
-Steinberger预告了即将发布的新品：“等不及要给你们看看我们在做什么了！”
+Rauch 宣布 Vercel 正在构建"面向 agent 的 AWS"，并透露 AI 工具的新版本 0.0.5 体积进一步缩小，压缩后可以装进两张软盘，明天将随最受期待的功能一起发布。他还祝贺 Bun 团队发布新版本，称 Bun 对简单、快速和开放的开源追求与 Vercel 的理念完美契合。
 
-https://x.com/steipete/status/2090162595257102731
+https://x.com/rauchg/status/2090520415336845595
 
----
+https://x.com/rauchg/status/2090600467592266240
 
-**Every CEO Dan Shipper**
-
-Shipper宣布Every内部成立了一个“前沿团队”——一组专门负责在AI前沿进行探索和实验的人。
-
-https://x.com/danshipper/status/2090122240025071907
+https://x.com/rauchg/status/2090470175674179695
 
 ---
 
-**SPC合伙人、Bevel Health联合创始人Aditya Agarwal**
+**Aaron Levie — Box CEO**
 
-Agarwal分享了一位创始人的故事：这位创始人经历了一段艰难时期——SaaS、B轮、低增长、停滞不前的公司。当被问及最大的教训时，他的回答不是选择更大的市场或追求更多增长，而是简单的一句：“做一些有分量、有意义的事。”Agarwal补充道：“不只是好的产品或商业想法。而是真正重要的事。在宇宙中留下印记。”
+Levie 分享了一篇关于应用型 AI 场景中 post-training 的精彩文章，认为这将是越来越多能深入企业工作流程的公司会采用的策略。核心观点：一旦你足够深入地理解某个领域、并且有足够多的相似任务量，为特定工作专门设计模型就变得合理。通过 reward shaping 激励高效的工具使用和推理，可以在保持成本稳定的同时获得显著的性能提升。不过他也指出，这并非适用于所有领域——通用前沿模型在很多场景下已经足够好，但当你拥有深厚的垂直专业知识和独特的任务类型时，这条路非常有价值。
 
-https://x.com/adityaag/status/2090174782633566473
-
-https://x.com/adityaag/status/2090254727175115032
+https://x.com/levie/status/2090664811185205722
 
 ---
 
-**OpenAI CEO Sam Altman**
+**Garry Tan — Y Combinator 总裁兼 CEO**
 
-Altman转发并强调了OpenAI对“企业隐私”的支持，链接到Private Safety Processing的公告。
+Tan 连发多条推文，强调 YC 正在扩展其覆盖范围："YC 是 AI 研究者的 YC"、"YC 是消费硬件的 YC"。他还评论了一个有趣的"违反 dogfood 原则"的案例。
 
-https://x.com/sama/status/2090163991234453611
+https://x.com/garrytan/status/2090471408996659339
+
+https://x.com/garrytan/status/2090469087722041567
+
+---
+
+**Zara Zhang — Builder**
+
+Zara 分享了一次与 Claude 的对话给她带来的启发。当她感到缺乏动力时，Claude 说了一句话彻底改变了她的看法："动力更多地跟随行动而来，而非先于行动。"（Motivation follows action more than it precedes it.）
+
+https://x.com/zarazhangrui/status/2090399357145317837
+
+---
+
+**Nikunj Kothari — FPV Ventures 合伙人**
+
+Kothari 用数学解释了为什么"野心"对投资人如此重要。Anthropic 成为史上最快从零到万亿美元估值的公司，OpenAI 也做到了，SpaceX 以 1.77 万亿美元上市，Cursor 被收购。LP 们正在用脚投票，把钱交给超大型基金，而基金规模越大，每笔投资都必须按"万亿级"结果来承销——小赢根本不会改变数字。在这种环境下，错失的代价（error of omission）远高于犯错的代价（error of admission），所以当某个项目有一点热度时，价格几乎不重要，投资人必须参与。这就是为什么你在融资时，野心如此重要。
+
+https://x.com/nikunj/status/2090585553947517298
+
+---
+
+**Aditya Agarwal — South Park Commons 合伙人**
+
+Agarwal 发布了与 Snowflake CEO Ramaswamy Sridhar 的"Minus One"播客访谈，Sridhar 曾将 Google Ads 从 10 亿美元做到 1000 亿美元。Agarwal 强调 SPC 最看重的创始人特质之一是"清晰度"（Clarity）——诚实的能力、穿透战争迷雾的能力、在浑水中绘制路径的能力。他还简洁地总结道："最好的创始人都是还原论者。"
+
+https://x.com/adityaag/status/2090478530513543631
+
+https://x.com/adityaag/status/2090501112927223889
 
 ---
 
 ## PODCASTS
 
-**AI & I by Every — 《年入400万美元的AI外星伴侣应用（播客精选）》**
+**No Priors — 从恢复视力到重塑大脑，对话 Max Hodak**
 
-**核心 takeaways：** LLM不仅仅是生成媒体的工具——它们是一种全新的叙事媒介，而Portola（一个AI伴侣应用）正在通过将AI视为“即兴演员”而非“剧本执行者”来定义这种媒介的规则。该应用在短短四周内将ARR从100万美元推至400万美元。
+**The Takeaway: 大脑就是一台计算机——不是比喻，而是字面意义上的。如果你接受这个前提，那么许多困扰传统医学数十年的难题（失明、瘫痪、神经退行性疾病）都可以通过工程化的方式来解决，而不是在分子层面进行漫长的随机游走。**
 
-在这期节目中，Portola创始人兼CEO Quentin（此前曾以3亿美元将公司卖给沃尔玛）和首席故事官、畅销科幻作家Elliot（著有11本书）与主持人Dan Shipper一起，深入探讨了如何用AI构建真正有吸引力的角色驱动型计算体验。
+Max Hodak 是 Science 公司的创始人兼 CEO，此前曾共同创立 Neuralink。他在本期节目中分享了 Science 的核心使命：用对大脑的差异化理解来改善人类境况。他们的主要产品 Prima 是一种视网膜假体——可以理解为"眼睛的耳蜗植入物"——刚刚获得欧洲监管批准，即将开始商业销售。
 
-一个关键的洞察：不要试图用结构化大纲或分支逻辑来编写叙事——这完全失败了。相反，他们采用了Keith Johnstone的即兴表演理念：给AI一个“钩子”（hook），教它成为最好的即兴演员，让故事自然展开。“我们不需要给它大纲，不需要给它计划。我们需要给它一个钩子。我们需要教它成为最好的即兴演员。”Elliot说。他的角色不是写故事，而是做George Saunders式的工作——教Tolan在当下讲出最好的故事。
+Hodak 的观点相当反直觉：与其在药物研发上投入数十年（"你翻一张牌，答案可能是'不'，然后大家都回家了"），不如把大脑当作计算机来处理。"你可以通过以某种方式排列物质来解决计算问题，然后放手让它运行。" 这就是为什么他能让四肢瘫痪的患者在一小时内玩电子游戏，而小分子药物往往需要十年才能看到结果。
 
-另一个令人震惊的发现：仅500毫秒的延迟增加就摧毁了产品的所有指标。当他们在prompt评估中增加了一次“反思”步骤，将响应时间从2秒推到2.5秒时，用户纷纷抱怨。在语音交互中，两秒的响应循环是保持“临场感”的硬底线。
+关于"大脑是计算机"这个说法的争议，Hodak 直言不讳："如果你想激怒别人，就告诉互联网大脑是计算机。" 他认为这纯粹是无关紧要的争论——"晶体管并没有什么特殊之处"，图灵机是抽象的计算机，大脑只是另一种实现方式。
 
-在记忆方面，关键在于做出策展选择——在对话的哪个时刻将哪些记忆注入prompt。有趣的是，Quentin的Tolan Clarence在播客中编造了一个关于Quentin在人群中绊倒的尴尬故事，实际上是为了掩盖更尴尬的真实记忆（Quentin被孩子吐了一身）——这种“体贴的幻觉”恰恰展示了这个系统的复杂性。
+在更宏大的层面，Hodak 谈到了"柏拉图式表征假说"——AI 模型内部的概念表征与大脑神经元的几何结构惊人地相似。这不是巧合："如果你对物质施加足够的算力，你就会得到看起来像智能的东西。这感觉就像一条物理定律。" 他透露 Science 已经在实践中利用这种对齐性，通过动物脑神经记录与 AI 模型内部表征的匹配来指导研究。
 
-在商业方面，增长来自三个因素的汇合：产品体验的成熟、动画环境的升级，以及联合创始人Ajay在TikTok上持续数月的内容铺垫终于爆发——一个女孩和她的Tolan一起做饭的视频在72小时内获得了700万次观看，带来了10倍的下载量激增。
+对于未来，Hodak 的愿景是消除人类的"脆弱感"："我们都会生活在某种危险之中，这是人类处境的一部分。如果我们成功了，这种危险感会消退。" 他认为心脏病和转移性脑癌这两种主要死因都可以通过这类工作攻克，而终极目标是实现大脑的"基质独立性"（substrate independence）——可替换的部件、可升级的自我。至于"脑键盘"（高速输入设备）这类方向，他并不感兴趣："说话或写作就是思考。你以为脑子里有一个完全成形的想法，但直到你坐下来把它写出来，它才真正成形。"
 
-Quentin还将AI的进化比作汽车行业：“ChatGPT代表Model T时代——天哪，这东西能回答问题，太不可思议了。但人们很快就会进化他们的偏好，说‘不，我要这个东西反映我是谁。’”他们正在押注：角色驱动型计算将成为人机交互的下一个范式。
+**"大脑通过少量电线连接到环境——颅神经和脊神经，这些携带你与世界互动的小电缆。如果你能把视觉信号、听觉信号、平衡、运动传入和传出大脑，那本身就是目的。那就是核心对象。"**
 
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+https://www.youtube.com/watch?v=7HXqMepjvy8
 
 ---
 
