@@ -1,160 +1,82 @@
-# AI Builders Digest — 2026年8月23日
+AI Builders Digest — 2026年8月24日
 
 ## X / TWITTER
 
----
+**OpenAI Codex负责人 Thibault Sottiaux**
 
-**Swyx (swyx on X)** — AI engineer, smol.ai founder, Latent Space podcast co-host
+Thibault Sottiaux在Codex中解决了速率限制问题，他识别出效率低下的问题，包括长时间会话中的图像使用、高p95+的计算机使用，以及一个消耗过多使用量的标题生成功能。一支专项团队正在修复这些问题，并将在明天为所有付费订阅用户完全重置使用量。他还提到发现了一种无关的新方法，可以显著提高效率，将于下周进行探索。
 
-Swyx 在播客访谈中坦言自己曾经对"Simulation is a new scaling law"嗤之以鼻，但采访到一半时他从半开玩笑变得非常严肃。他花了两年时间才真正理解为什么 Karpathy、李飞飞等人投资了 Smallville 团队——当时 Smallville 零商业应用，但如果你认真对待 RSI（递归自我改进），当模型自动化了越来越多的 ML 研究和 AI 工程后，最后的壁垒就是模拟人类和人类反馈。Simile 显然就是这个领域的团队，而且已经在 Fortune 100 公司找到 PMF。他说"从未如此高兴自己错了"。
+链接：https://x.com/thsottiaux/status/2091407991736332689
 
-另外，Swyx 宣布要"再杀一个 SaaS"——他的 Kill My SaaS 系列第一期结果将在下周公布。
+**AI教育创作者 Peter Yang**
 
-🔗 [Tweet](https://x.com/swyx/status/2090948945753076141) | [Tweet](https://x.com/swyx/status/2090908959590740033)
+Peter Yang分享了一个隐私技巧：在Chrome中打开Google账户权限页面，然后让Codex或Claude Code扫描打开的标签页，选择要撤销访问权限的应用，AI会帮你完成操作。他借此机会断开了大约一半不应该再拥有其Google信息的应用。他还宣布正在开发一个名为"/fuck-cancer"的新AI技能，旨在帮助患者及其家属应对治疗过程，并征求社区意见。
 
----
+链接：https://x.com/petergyang/status/2091331251211059468
+链接：https://x.com/petergyang/status/2091239339204415969
 
-**OpenAI Codex & ChatGPT 负责人 Thibault Sottiaux**
+**Meta AI高级总监 Madhu Guru**
 
-Thibault 宣布 Codex 的 banked reset 功能已上线——所有 ChatGPT Work 和 Codex 付费用户都可以使用。同时他承认本周部分用户的缓存命中率低于前几周的稳定状态，这可能导致使用额度消耗更快，团队正在调查并将在明天更新进展。
+Madhu Guru继续他的"如何构建优秀评估"系列，分享了第六部分，关于在评估上进行爬山优化——选择一个重要的维度并对其进行优化，无论是提高现有功能的质量、扩展到相邻用例，还是降低成本或延迟。他建议先用最好的模型推出产品，一旦用户喜欢这种体验，再通过爬山优化来用更小、更便宜、更快的模型实现类似的质量。关键是要有能告诉你是否在朝正确方向前进的评估。
 
-🔗 [Tweet](https://x.com/thsottiaux/status/2090964822422949999) | [Tweet](https://x.com/thsottiaux/status/2091033630147854385)
-
----
-
-**AI 创作者 Peter Yang**
-
-Peter Yang 评测了新的 AI 助手 Instinct，对它的 onboarding 体验印象深刻——连接 iMessages、Google Workspace 和 MCP 的过程非常顺滑，而且它比竞争对手更主动，连接 MCP 后会立即建议可以做的事。但他指出 Instinct 所有对话都在一个线程里，无法多线程并行，所以真实工作场景下他还是会选择 ChatGPT Work 和 Codex。此外他公开质疑 Instinct 索引和保留他的邮件却不允许删除的做法，表示在解决之前不会推荐给任何人。
-
-🔗 [Tweet](https://x.com/petergyang/status/2090814910720835633) | [Tweet](https://x.com/petergyang/status/2090936583814025417)
-
----
-
-**Meta AI 高级总监 Madhu Guru（前 Google Gemini/Veo 负责人）**
-
-Madhu Guru 继续他的 eval 系列第五篇："平均值的暴政"。他警告团队不要把你精心设计的 eval 套件结果压缩成一个单一分数——这在 Gemini 早期就发生过。一个从 85%→89% 的摘要模型、80%→85% 的事实问答、但 70%→63% 的复杂金融分析的模型，单一分数会掩盖它在最前沿用例上的退步。他建议按优先级维护 eval 清单，找能看细节的人做判断，而不是追求抽象简化。
-
-🔗 [Tweet](https://x.com/realmadhuguru/status/2090930137885774324)
-
----
-
-**Anthropic Claude Code 团队成员 Thariq**
-
-Thariq 分享了一个 Anthropic 内部最近很火的 skill：ELI5。用 `/eli5 <你想了解的东西>` 就能让 Claude 用"完全不懂这个主题的人"的视角，配合大图和少文字的 HTML artifact 来解释。他在考虑是否将其做成官方插件，目前可以通过 `claude plugin marketplace add anthropics/claude-plugins-community` 和 `claude plugin install eli5@claude-community` 安装试用。他个人喜欢用它来拆解问题，比如"这个模块怎么工作的"、"为什么做这个取舍"、"这次事故是什么原因"。
-
-🔗 [Tweet](https://x.com/trq212/status/2090884854590382515) | [Tweet](https://x.com/trq212/status/2090884855798407576)
-
----
+链接：https://x.com/realmadhuguru/status/2091278653435072523
 
 **Replit CEO Amjad Masad**
 
-Amjad 转发了几个令人兴奋的 demo，包括"用手机就能赚钱"的案例，以及一个让他发出"🤯"的项目。具体内容未展开，但看起来都是 Replit 平台上用户构建的真实应用。
+Amjad Masad发布了一条简短但有力的推文，指出"一周有7天，这意味着7次发布"，暗示Replit的快速发布节奏。"很快"变成了3个月。
 
-🔗 [Tweet](https://x.com/amasad/status/2090922626890031428) | [Tweet](https://x.com/amasad/status/2090845035537522925)
-
----
+链接：https://x.com/amasad/status/2091346778746757204
+链接：https://x.com/amasad/status/2091217410615644349
 
 **Vercel CEO Guillermo Rauch**
 
-Guillermo 宣布 v0 现在支持用户的 Grok 和 Codex 订阅，可以在 sandbox 里直接测试。另外他分享了一个疯狂的内部过程：他们用 `is-agenitic` 对 v0 循环跑分直到拿到 100/100，这个过程逼他们修复了不少差距。Python 团队也在快速进展中。
+Guillermo Rauch分享了他对美国和阿根廷的看多观点，称这两个国家是"最自由的国家"，同时也拥有"最壮丽的大地和地理"。他还称旧金山是"地球上的天堂"。
 
-🔗 [Tweet](https://x.com/rauchg/status/2090953806624489501) | [Tweet](https://x.com/rauchg/status/2090858571613470919)
-
----
+链接：https://x.com/rauchg/status/2091338152791474331
+链接：https://x.com/rauchg/status/2091263423359389951
 
 **Box CEO Aaron Levie**
 
-Aaron Levie 表示当前 AI 的进步速度是科技史上任何时期都无法比拟的——模型在同等任务上越来越便宜、越来越通用、越来越快，而且在几乎每个领域都在深入。当智能变得"便宜到无法计量"时，最大的机会就是将 AI 扩散到整个经济中。这对应用层 AI 公司来说是巨大的顺风，现在是创业公司抓住这个机遇的伟大时刻。
+Aaron Levie认为，AI的普及受限于缺乏好的评估，这比大多数人意识到的更重要。虽然模型发布时的通用评估很有帮助，但更大的机会在于针对企业主要工作流程的评估，甚至细化到单个公司的具体情况。"你无法自动化你无法评估进展的东西。企业不能只凭感觉行事。"
 
-🔗 [Tweet](https://x.com/levie/status/2091038566260539574)
+链接：https://x.com/levie/status/2091359223368315050
 
----
+**Builder Zara Zhang**
 
-**Y Combinator 总裁 Garry Tan**
+Zara Zhang观察到一种现象：有才华的人在自己的项目上借助AI可以实现10倍的潜力提升，但放在大型组织中，最多只能提升20%的潜力，有时甚至会降低。这就是为什么越来越多有才华的人离开大公司——唯一的例外可能是OpenAI和Anthropic这样的顶级AI实验室。她还指出："每个在AI使用上领先的人都觉得自己落后了。"
 
-Garry Tan 发表了几个观点性推文：批评"奢侈信念工业综合体"依然活跃；对一位 UC Berkeley 计算机系教授的观点表示震惊；以及再次指出亚裔美国人被系统性抹除的现象（他称之为"例证 #107492"）。
+链接：https://x.com/zarazhangrui/status/2091379220257603593
+链接：https://x.com/zarazhangrui/status/2091338374447763481
 
-🔗 [Tweet](https://x.com/garrytan/status/2090889728719777952) | [Tweet](https://x.com/garrytan/status/2090801607894344047)
+**FPV Ventures合伙人 Nikunj Kothari**
 
----
+Nikunj Kothari批评了一些年轻创业者试图通过激怒投资者来获取资金的策略，指出"用愤怒诱饵吸引投资者，然后给他们发SAFE文件让他们直接给你打钱，这不是投资运作的方式"。他还评论了LinkedIn上的内容质量，称其"已经跌到了难以想象的低水平"。
 
-**FirstMark Capital 投资人 Matt Turck**
-
-Matt Turck 发了一个幽默 meme：VC 看到自己 seed 阶段错过的公司又完成一轮巨额融资时的表情。
-
-🔗 [Tweet](https://x.com/mattturck/status/2090870362007281984)
-
----
-
-**Zara Zhang（Builder，Follow Builders 作者）**
-
-Zara 分享了她作为 builder 的核心理念：每天出现、永远在发布、不要害怕一遍又一遍地重复自己。
-
-🔗 [Tweet](https://x.com/zarazhangrui/status/2090702627206214081)
-
----
-
-**FPV Ventures 合伙人 Nikunj Kothari**
-
-Nikunj 分享了一个很实用的真实案例：他女儿上幼儿园了，每天的菜单在一个结构混乱的随机网站上。他让 Claude Code 通过网络请求找到了那个 API（恰好无需认证），搞清楚了正确的格式，然后接入他们现有的 Hermes bot。现在每天早上家里的 Home bot 会告诉他们早餐和午餐吃什么，方便准备食物。他还预告了与 Todd Saunders 的新一期播客。
-
-🔗 [Tweet](https://x.com/nikunj/status/2090884422178627624)
-
----
-
-**OpenClaw 创始人 Peter Steinberger**
-
-Peter 在 Berkeley 的 Agentic AI Summit 上发表了演讲，主题是"No Doors for Agents"——关于 agent 如何应对那些没有 API、没有文档、没有"门"的真实世界环境。同时他预告即将发布一个新 skill。
-
-🔗 [Tweet](https://x.com/steipete/status/2090898421108605078)
-
----
+链接：https://x.com/nikunj/status/2091381756012511244
+链接：https://x.com/nikunj/status/2091220881590927441
 
 **Every CEO Dan Shipper**
 
-Dan Shipper 转发了某个内容并配文"gang gang"，未提供更多细节。
+Dan Shipper宣布Every正在招聘，并分享了他对"agent native"（原生代理）方法的认可。
 
-🔗 [Tweet](https://x.com/danshipper/status/2090860697504653480)
-
----
-
-**South Park Commons 合伙人 Aditya Agarwal（前 Dropbox CTO）**
-
-Aditya 分享了与 Sridhar Ramaswamy（Snowflake CEO）在 SPC 的完整访谈，并评论说"前沿模型竞赛才刚刚开始"。
-
-🔗 [Tweet](https://x.com/adityaag/status/2090814574400307585)
-
----
-
-**Claude 官方账号**
-
-Claude 官方发布了 Claude Security 的新能力：将 Claude Security 指向一个 GitHub repo，Mythos 就会扫描漏洞，追踪跨文件的数据流并推理组件间的交互方式。每个发现都附带 CWE 分类、置信度和严重性评级，以及建议的修复方案。这些建议补丁可以直接在 Claude Code on the web 中打开，使用团队现有的模型。扫描按标准 token 用量计费。此外 Anthropic 正在与合作伙伴将 Mythos 5 集成到他们的安全产品中，新的 Defender Advantage Fund 为开源安全提供 3500 万美元的 credits，Cyber Verification Program 也将在未来几周扩展。
-
-🔗 [Tweet](https://x.com/claudeai/status/2090852316328902930) | [Tweet](https://x.com/claudeai/status/2090852318527033804) | [Tweet](https://x.com/claudeai/status/2090852320128938319)
-
----
+链接：https://x.com/danshipper/status/2091361962068254840
+链接：https://x.com/danshipper/status/2091162447029608735
 
 ## PODCASTS
 
----
+**AI & I by Every — Microsoft的代理互联网愿景：CTO Kevin Scott（播客精选）**
 
-### No Priors — What Chess.com Teaches Us About Superhuman Capabilities, with CEO Erik Allebest
+**核心观点：** AI模型的能力已经超过了我们在产品中实际交付的能力——这个"能力过剩"（capability overhang）是当前行业最大的机遇，而弥合这一差距的关键在于构建一个类似互联网的"代理网络"（agentic web），让代理能够通过开放协议与系统交互。
 
-**核心观点：当机器在某个领域超越人类之后，人类对这个领域的热情不降反升——关键不在于工具本身，而在于文化如何定义"参与"和"精通"。**
+微软CTO Kevin Scott与Every CEO Dan Shipper的对话深入探讨了代理如何改变软件开发和互联网本身。Scott提出了一个引人注目的论点：去年人们还在质疑scaling laws是否会继续成立，但今年已经证明它们依然有效，模型的能力已经超过了产品实际交付的能力。这意味着行业需要集体努力，缩小模型能力与用户实际体验之间的差距。
 
-Erik Allebest 在 2005 年以 5.5 万美元从破产拍卖中买下 chess.com 域名时，几乎所有投资人都告诉他这是一个"不可投资的小众爱好项目"。二十年后，chess.com 拥有超过 2.5 亿注册会员、年收入超过 2 亿美元，使命是让 10 亿人下棋——尽管计算机在三十年前就已经在象棋上碾压人类了。
+Scott将当前的代理网络与早期互联网进行了类比：MCP之于代理网络，就像HTTP之于互联网；NL Web则扮演着类似HTML的角色。"如果代理要有用，它们就必须代表你采取行动。它们必须能够使用工具、修改系统、查阅多样且丰富的信息源。"
 
-这个故事的特别之处在于它违背了几乎所有硅谷的创业教条：没有融资（一开始融不到，后来不需要）、没有烧钱获客、选了一个"太小"的市场、从 2007 年上线后 18 个月内就开始盈利。Allebest 的反思很直接："如今做创始人的一个诅咒就是有太多创始人建议了。二十年前的标准剧本是：从斯坦福找个技术合伙人、融一大笔钱、租办公室、打大市场、花钱买用户。我们做的每一件事都和这个剧本相反。"
+在安全方面，Scott认为MCP的简洁性使得社区能够相对容易地确定安全模型。他提到需要为代理建立身份系统，以便构建授权体系，让代理能够代表特定用户请求权限。他还驳斥了"封闭垂直整合vs开放创新"的二元对立，认为两者可以兼得——AI本身可以用来增强安全性，比如代理能够注意到可疑活动并主动提醒用户。
 
-关于 AI 与人类技能的关系，Allebest 提供了一个难得的长周期观察。Deep Blue 击败 Kasparov 后，很多人预言象棋"结束了"，但事实恰恰相反。有意思的是，计算机先让象棋变得无聊——Stockfish 太完美了，所有棋手都试图模仿它，比赛变得枯燥。但神经网络（Leela Chess Zero）出现后，AI 开始下出激进而非常规的棋，反而把比赛推向了前所未有的精彩。他说："人类根本上是想做人类的事——人与人的竞争、人创造东西、人解决问题。机器在某些方面更强，但在象棋这件事上，它把人类推向了更高的水平。"
+关于AI辅助编程对"手艺感"的影响，Scott以自己40年的编程经验和木工爱好为例，指出这并非第一次技术变革引发争论——就像当年"用电动工具还算不算真正的木工"的争论一样。"保持好奇心。尝试一下。如果对你有用，就用它。如果没用，就不用。"他预测一年后，那些还在以"技术不够成熟"为借口拖延的人将远远落后，因为一切都在逐年变得更便宜、更强大。
 
-作为拥有数百万人在每个等级犯错和改进的数据平台，Allebest 说人类获取专长的方式"不幸又幸运地"很简单：重复。做 puzzle、复盘错误、训练。"没有捷径可以绕过练习本身，工具可以缩短路径，但你必须把重复输入大脑，就像训练神经网络一样——只不过我们不能并行处理。"
-
-chess.com 现在把象棋的玩法带到了扑克上——新推出的 Gambit 平台核心是 rating 系统。"你有多强？不是你能不能买最多的筹码，不是你能不能开 bot，不是你能不能偷最多的钱。" Allebest 认为人们最终会像在乎钱一样在乎自己的扑克 rating，因为"它是你作为玩家价值的体现。输 100 美元我不太在乎，但输 100 个 rating 点真的让我很难受。"
-
-他对 AGI 的态度是审慎的乐观："我确实相信超人类智能会以越来越快的速度前进。如果不在它和人类互动的方式上设好护栏，会有点可怕。但技术问题其实是文化问题——核技术、枪支、经济体系，我们早就有了。真正重要的是文化怎么使用它。"
-
-🔗 [观看完整访谈](https://www.youtube.com/@NoPriorsPodcast)
+链接：https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
