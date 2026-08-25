@@ -1,82 +1,80 @@
-AI Builders Digest — 2026年8月24日
+AI Builders Digest — 2026年8月25日
 
 ## X / TWITTER
 
-**OpenAI Codex负责人 Thibault Sottiaux**
+**OpenAI Codex & ChatGPT负责人 Thibault Sottiaux**
 
-Thibault Sottiaux在Codex中解决了速率限制问题，他识别出效率低下的问题，包括长时间会话中的图像使用、高p95+的计算机使用，以及一个消耗过多使用量的标题生成功能。一支专项团队正在修复这些问题，并将在明天为所有付费订阅用户完全重置使用量。他还提到发现了一种无关的新方法，可以显著提高效率，将于下周进行探索。
+Thibault Sottiaux（OpenAI Codex 与 ChatGPT 负责人）在周日发布更新，称账户已重置并修复了此前发现的用量问题，用户应该能感受到明显改善。他同时给出一个大胆预测：2026 年是企业开始认真对待模型效率和可靠性的一年，因为 AI 已逐渐成为关键基础设施。他还附上了一条关于重置的引用推文。
 
-链接：https://x.com/thsottiaux/status/2091407991736332689
+- [查看推文](https://x.com/thsottiaux/status/2091688655828246890)
+- [查看推文](https://x.com/thsottiaux/status/2091581575108653374)
 
-**AI教育创作者 Peter Yang**
+**Peter Yang**
 
-Peter Yang分享了一个隐私技巧：在Chrome中打开Google账户权限页面，然后让Codex或Claude Code扫描打开的标签页，选择要撤销访问权限的应用，AI会帮你完成操作。他借此机会断开了大约一半不应该再拥有其Google信息的应用。他还宣布正在开发一个名为"/fuck-cancer"的新AI技能，旨在帮助患者及其家属应对治疗过程，并征求社区意见。
+Peter Yang 分享了他与一位人类助理 Char 合作 6 个月的经验——这位助理熟练使用 Claude Code 和 Codex 来协助播客后期制作、起草节目笔记和制作片段，并逐渐将 Peter 的 AI 技能适配为自己的工作流。他还转发了 Reya 关于 AI 评估的观点：Claude 擅长自上而下的评估，但自下而上的评估（从大量样本输出中提炼直觉反馈）只能靠人自己完成。
 
-链接：https://x.com/petergyang/status/2091331251211059468
-链接：https://x.com/petergyang/status/2091239339204415969
+- [查看推文](https://x.com/petergyang/status/2091631590799737306)
+- [查看推文](https://x.com/petergyang/status/2091586298779955512)
 
-**Meta AI高级总监 Madhu Guru**
+**Nan Yu**
 
-Madhu Guru继续他的"如何构建优秀评估"系列，分享了第六部分，关于在评估上进行爬山优化——选择一个重要的维度并对其进行优化，无论是提高现有功能的质量、扩展到相邻用例，还是降低成本或延迟。他建议先用最好的模型推出产品，一旦用户喜欢这种体验，再通过爬山优化来用更小、更便宜、更快的模型实现类似的质量。关键是要有能告诉你是否在朝正确方向前进的评估。
+Nan Yu（产品爱好者）用一句简洁的评论回应了某条推文："还有所有其他类别的软件"，暗示 AI 的影响将遍及所有软件类别。
 
-链接：https://x.com/realmadhuguru/status/2091278653435072523
+- [查看推文](https://x.com/thenanyu/status/2091559951739277451)
 
-**Replit CEO Amjad Masad**
+**Meta AI 高级总监 Madhu Guru**
 
-Amjad Masad发布了一条简短但有力的推文，指出"一周有7天，这意味着7次发布"，暗示Replit的快速发布节奏。"很快"变成了3个月。
+Madhu Guru（Meta AI 高级总监，曾任 Google Gemini、Veo、Nano Banana 负责人）继续他的评估系列，提出"金发姑娘原则"：评估应该衡量各个"待完成的工作"阶段，而不仅仅是最终答案。以金融分析 agent 为例，如果只检查最终推荐是否正确，就无法定位问题出在客户理解、证据收集、数据分析还是推荐环节。评估粒度要刚好能诊断问题并采取行动。
 
-链接：https://x.com/amasad/status/2091346778746757204
-链接：https://x.com/amasad/status/2091217410615644349
+- [查看推文](https://x.com/realmadhuguru/status/2091684812012875981)
 
 **Vercel CEO Guillermo Rauch**
 
-Guillermo Rauch分享了他对美国和阿根廷的看多观点，称这两个国家是"最自由的国家"，同时也拥有"最壮丽的大地和地理"。他还称旧金山是"地球上的天堂"。
+Guillermo Rauch（Vercel CEO）指出，OpenAI Sol 的降价和 Vercel AI Gateway 上的折扣让 Sol 成为增长最快的前沿模型，这证明智能的需求弹性极高——推理成本下降，用量就快速增长。他建议不用 gateway 的公司会错过这种价格波动带来的成本优势，并认为 router 赛道升温是必然的。他还阐述了 Vercel 扩展 fx 的哲学：开放协议（MCP、Skills、Plugins）加上 Unix 哲学——小程序做好一件事，并通过 libfx 实现可嵌入性。
 
-链接：https://x.com/rauchg/status/2091338152791474331
-链接：https://x.com/rauchg/status/2091263423359389951
+- [查看推文](https://x.com/rauchg/status/2091671326897713424)
+- [查看推文](https://x.com/rauchg/status/2091583525661384813)
 
 **Box CEO Aaron Levie**
 
-Aaron Levie认为，AI的普及受限于缺乏好的评估，这比大多数人意识到的更重要。虽然模型发布时的通用评估很有帮助，但更大的机会在于针对企业主要工作流程的评估，甚至细化到单个公司的具体情况。"你无法自动化你无法评估进展的东西。企业不能只凭感觉行事。"
+Box CEO Aaron Levie 发了一条简短的推文"我可以退休了"，配图内容未展开，但显然是在表达对某项 AI 进展的惊叹。
 
-链接：https://x.com/levie/status/2091359223368315050
+- [查看推文](https://x.com/levie/status/2091580656598102047)
 
-**Builder Zara Zhang**
+**Ryo Lu**
 
-Zara Zhang观察到一种现象：有才华的人在自己的项目上借助AI可以实现10倍的潜力提升，但放在大型组织中，最多只能提升20%的潜力，有时甚至会降低。这就是为什么越来越多有才华的人离开大公司——唯一的例外可能是OpenAI和Anthropic这样的顶级AI实验室。她还指出："每个在AI使用上领先的人都觉得自己落后了。"
+Ryo Lu（曾设计 Cursor、Notion、Stripe，现致力于让每个人都能创造软件）发布了一首原创诗歌《leaving》，以细腻的笔触描写离开熟悉生活、面对未知和自由的过程。诗中反复追问"什么是自由、什么是幸福"，并写道"不再把波浪误认为命运，不再把海岸当作救赎"。
 
-链接：https://x.com/zarazhangrui/status/2091379220257603593
-链接：https://x.com/zarazhangrui/status/2091338374447763481
+- [查看推文](https://x.com/ryolu_/status/2091596272654582062)
 
-**FPV Ventures合伙人 Nikunj Kothari**
+**Y Combinator CEO Garry Tan**
 
-Nikunj Kothari批评了一些年轻创业者试图通过激怒投资者来获取资金的策略，指出"用愤怒诱饵吸引投资者，然后给他们发SAFE文件让他们直接给你打钱，这不是投资运作的方式"。他还评论了LinkedIn上的内容质量，称其"已经跌到了难以想象的低水平"。
+Garry Tan（Y Combinator 总裁兼 CEO）给出预测：系统记录（systems of record）将需要变成 AI 的"缰绳"（harness），否则就会被 agent 取代。这条推文引发了大量讨论，回复数超 100。
 
-链接：https://x.com/nikunj/status/2091381756012511244
-链接：https://x.com/nikunj/status/2091220881590927441
+- [查看推文](https://x.com/garrytan/status/2091742825042030681)
 
-**Every CEO Dan Shipper**
+**FPV Ventures 合伙人 Nikunj Kothari**
 
-Dan Shipper宣布Every正在招聘，并分享了他对"agent native"（原生代理）方法的认可。
+Nikunj Kothari（FPV Ventures 合伙人，投资种子轮和 A 轮）分享了一个生活小故事：岳母从印度来访，需要和孙女出门约会但没开通漫游。他三分钟内搞定一张数据 eSIM，岳母就联网了。他感叹过去这需要跑一趟营业厅或打电话加一条一个月后要取消的线路。
 
-链接：https://x.com/danshipper/status/2091361962068254840
-链接：https://x.com/danshipper/status/2091162447029608735
+- [查看推文](https://x.com/nikunj/status/2091696412744700268)
+
+**OpenClaw 创始人 Peter Steinberger**
+
+Peter Steinberger（OpenClaw 创始人，前 PSPDFKit 创始人）继续展示他的 AI 龙虾硬件实验：他给 OpenClaw 添加了旋转 USB 协议，让龙虾"看来看去"，并玩起了 360 度网络摄像头。他还表示 CLI 很好，但在团队工作的地方有 UI 可视化和协作功能更好。
+
+- [查看推文](https://x.com/steipete/status/2091650136506327253)
+- [查看推文](https://x.com/steipete/status/2091639468935831910)
+
+---
+
+## OFFICIAL BLOGS
+
+（今日无新的官方博客内容）
 
 ## PODCASTS
 
-**AI & I by Every — Microsoft的代理互联网愿景：CTO Kevin Scott（播客精选）**
-
-**核心观点：** AI模型的能力已经超过了我们在产品中实际交付的能力——这个"能力过剩"（capability overhang）是当前行业最大的机遇，而弥合这一差距的关键在于构建一个类似互联网的"代理网络"（agentic web），让代理能够通过开放协议与系统交互。
-
-微软CTO Kevin Scott与Every CEO Dan Shipper的对话深入探讨了代理如何改变软件开发和互联网本身。Scott提出了一个引人注目的论点：去年人们还在质疑scaling laws是否会继续成立，但今年已经证明它们依然有效，模型的能力已经超过了产品实际交付的能力。这意味着行业需要集体努力，缩小模型能力与用户实际体验之间的差距。
-
-Scott将当前的代理网络与早期互联网进行了类比：MCP之于代理网络，就像HTTP之于互联网；NL Web则扮演着类似HTML的角色。"如果代理要有用，它们就必须代表你采取行动。它们必须能够使用工具、修改系统、查阅多样且丰富的信息源。"
-
-在安全方面，Scott认为MCP的简洁性使得社区能够相对容易地确定安全模型。他提到需要为代理建立身份系统，以便构建授权体系，让代理能够代表特定用户请求权限。他还驳斥了"封闭垂直整合vs开放创新"的二元对立，认为两者可以兼得——AI本身可以用来增强安全性，比如代理能够注意到可疑活动并主动提醒用户。
-
-关于AI辅助编程对"手艺感"的影响，Scott以自己40年的编程经验和木工爱好为例，指出这并非第一次技术变革引发争论——就像当年"用电动工具还算不算真正的木工"的争论一样。"保持好奇心。尝试一下。如果对你有用，就用它。如果没用，就不用。"他预测一年后，那些还在以"技术不够成熟"为借口拖延的人将远远落后，因为一切都在逐年变得更便宜、更强大。
-
-链接：https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+（今日无新的播客内容）
 
 ---
 
