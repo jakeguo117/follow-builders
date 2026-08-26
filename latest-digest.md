@@ -1,80 +1,98 @@
-AI Builders Digest — 2026年8月25日
+AI Builders Digest — 2026年8月26日
 
 ## X / TWITTER
 
 **OpenAI Codex & ChatGPT负责人 Thibault Sottiaux**
 
-Thibault Sottiaux（OpenAI Codex 与 ChatGPT 负责人）在周日发布更新，称账户已重置并修复了此前发现的用量问题，用户应该能感受到明显改善。他同时给出一个大胆预测：2026 年是企业开始认真对待模型效率和可靠性的一年，因为 AI 已逐渐成为关键基础设施。他还附上了一条关于重置的引用推文。
+Thibault Sottiaux放话称OpenAI DevDay 2026将是公司历史上最盛大的一次，"不会有任何接近的对手"。此外，他宣布从明天起，ChatGPT Work和Codex的Plus账户将恢复5小时使用限制。他解释这一决定是为了平滑计算负载，保持套餐在周使用量上的慷慨度，同时避免相对轻度的用户意外耗尽整周配额而困惑。Pro $100和$200订阅在未来几个月内不受此限制影响。
 
-- [查看推文](https://x.com/thsottiaux/status/2091688655828246890)
-- [查看推文](https://x.com/thsottiaux/status/2091581575108653374)
+https://x.com/thsottiaux/status/2092117461646856505
+https://x.com/thsottiaux/status/2092058556707344708
 
-**Peter Yang**
+**AI教程创作者 Peter Yang**
 
-Peter Yang 分享了他与一位人类助理 Char 合作 6 个月的经验——这位助理熟练使用 Claude Code 和 Codex 来协助播客后期制作、起草节目笔记和制作片段，并逐渐将 Peter 的 AI 技能适配为自己的工作流。他还转发了 Reya 关于 AI 评估的观点：Claude 擅长自上而下的评估，但自下而上的评估（从大量样本输出中提炼直觉反馈）只能靠人自己完成。
+Peter Yang分享了一个产品直觉：每当需要登录新网站或应用，甚至看到agent被困在某个网站/应用里，他通常直接放弃使用该产品——娱乐和游戏除外。他还表示自己现在已经有3个AI chief of staff，下一步显然是再加一个。此外他正在寻找用AI语音拨打客服电话、穿越糟糕的自动电话系统、与真人对话预约或取消订阅的最简单方案。
 
-- [查看推文](https://x.com/petergyang/status/2091631590799737306)
-- [查看推文](https://x.com/petergyang/status/2091586298779955512)
+https://x.com/petergyang/status/2092080901094248474
+https://x.com/petergyang/status/2092048940732682395
+https://x.com/petergyang/status/2092031413319266382
 
-**Nan Yu**
+**产品爱好者 Nan Yu**
 
-Nan Yu（产品爱好者）用一句简洁的评论回应了某条推文："还有所有其他类别的软件"，暗示 AI 的影响将遍及所有软件类别。
+Nan Yu体验了用Codex设置新电脑的流程——"下载并安装Handy、Slack、Chrome、CleanShot、Rectangle"——感叹这让人希望Siri也能这么好用。他还转发了一条关于Gmail emoji反应功能的吐槽：该功能在其他邮件客户端（包括最常见的iPhone邮件应用）中会显示为丑陋的随机单字符邮件和元数据。
 
-- [查看推文](https://x.com/thenanyu/status/2091559951739277451)
+https://x.com/thenanyu/status/2092048044502192374
+https://x.com/thenanyu/status/2091993558018572434
 
-**Meta AI 高级总监 Madhu Guru**
+**Meta AI高级总监 Madhu Guru**
 
-Madhu Guru（Meta AI 高级总监，曾任 Google Gemini、Veo、Nano Banana 负责人）继续他的评估系列，提出"金发姑娘原则"：评估应该衡量各个"待完成的工作"阶段，而不仅仅是最终答案。以金融分析 agent 为例，如果只检查最终推荐是否正确，就无法定位问题出在客户理解、证据收集、数据分析还是推荐环节。评估粒度要刚好能诊断问题并采取行动。
+Madhu Guru继续他的eval系列，这次聚焦"判别力"这一核心属性。他举例说明：如果五个AI系统的得分是94、93、95、94、92，而你知道其中两个明显优于另外两个，那么这个eval就是失败的——因为它没有区分度。就像给一群博士考五年级数学，人人满分，什么都没学到。但eval也不能随意变难，否则全员不及格，同样无法衡量系统能力。最佳状态是：真实+有难度+对能力差异敏感。他还抛出一个问题：当好的eval随着模型进步而饱和后，该怎么办？
 
-- [查看推文](https://x.com/realmadhuguru/status/2091684812012875981)
+https://x.com/realmadhuguru/status/2092058332735693264
+
+**Replit CEO Amjad Masad**
+
+Amjad Masad表示Replit Agent已经完全取代了Claude CoWork在他日常工作中的位置——它更持久、更细致，并且更善于利用代码和软件来完成任务。他还转发了一条关于达到某个重要里程碑的帖子，并配文"只有少数人达成了这一里程碑！"
+
+https://x.com/amasad/status/2091963442186092639
+https://x.com/amasad/status/2091962601907638352
 
 **Vercel CEO Guillermo Rauch**
 
-Guillermo Rauch（Vercel CEO）指出，OpenAI Sol 的降价和 Vercel AI Gateway 上的折扣让 Sol 成为增长最快的前沿模型，这证明智能的需求弹性极高——推理成本下降，用量就快速增长。他建议不用 gateway 的公司会错过这种价格波动带来的成本优势，并认为 router 赛道升温是必然的。他还阐述了 Vercel 扩展 fx 的哲学：开放协议（MCP、Skills、Plugins）加上 Unix 哲学——小程序做好一件事，并通过 libfx 实现可嵌入性。
+Guillermo Rauch分享了一个有趣的考古发现：终端进入"坏状态"时运行的reset命令之所以慢，是因为1979年3BSD的tset里有一个sleep(1)，专门让机械打印机和墨水终端"安定下来"。他让fx用Zig写了一个更快的替代品，从1秒提速到1毫秒。他还强调，软件进化通常会变得更慢、更臃肿、更多bug、更大，而Vercel的新架构从设计之初就致力于阻止这一趋势——更快、更便宜、更强，而且更小。
 
-- [查看推文](https://x.com/rauchg/status/2091671326897713424)
-- [查看推文](https://x.com/rauchg/status/2091583525661384813)
+https://x.com/rauchg/status/2092081554814320677
+https://x.com/rauchg/status/2091957823945216474
 
 **Box CEO Aaron Levie**
 
-Box CEO Aaron Levie 发了一条简短的推文"我可以退休了"，配图内容未展开，但显然是在表达对某项 AI 进展的惊叹。
+Aaron Levie提出一个核心观点：在一个AI agent将比人类在这些平台上多完成100倍工作的世界里，记录系统（systems of record）比以往任何时候都更重要。Agent将查询数据、处理任务、执行工作流、与人类和agent用户协作——因此治理、可靠性、安全性、访问控制和业务逻辑比以往更关键。OpenAI Hugging Face事件只是未来的一瞥。但他也指出，这只有在记录系统提供正确的产品体验、API和商业模式来支持agent在平台内外执行时才能成立。他认为当前是软件行业巨大的机遇与颠覆时刻。
 
-- [查看推文](https://x.com/levie/status/2091580656598102047)
+Levie还深入分析了ZDR（零数据保留）对AI普及的贡献：它大幅简化了企业使用子处理器的合规流程，否则AI的采用速度会慢得多。主流AI工具通常只提供ZDR模型，企业内部的治理要求也规定只能使用ZDR模型，因为企业无法明确区分放入上下文窗口的PII和其他敏感数据。如果整个行业都朝这个方向走，这些政策可能需要数年才能改变——没有ZDR，AI的扩散将戛然而止。
 
-**Ryo Lu**
+https://x.com/levie/status/2092087679240569126
+https://x.com/levie/status/2091909170308296950
 
-Ryo Lu（曾设计 Cursor、Notion、Stripe，现致力于让每个人都能创造软件）发布了一首原创诗歌《leaving》，以细腻的笔触描写离开熟悉生活、面对未知和自由的过程。诗中反复追问"什么是自由、什么是幸福"，并写道"不再把波浪误认为命运，不再把海岸当作救赎"。
+**Y Combinator总裁兼CEO Garry Tan**
 
-- [查看推文](https://x.com/ryolu_/status/2091596272654582062)
+Garry Tan分享了三条内容：一是为数据中心正名——它们实际上创造就业和繁荣；二是称赞Conductor Cloud让他生产力大增，再也不用一直开着MacBook Pro了；三是分享了一套行动方法论："形成一个观点。把它变成实物或实验。让它接触现实。不带自欺地阅读结果。修正后再来一次。"
 
-**Y Combinator CEO Garry Tan**
+https://x.com/garrytan/status/2092062820229890209
+https://x.com/garrytan/status/2092062231488061584
+https://x.com/garrytan/status/2092059517446156640
 
-Garry Tan（Y Combinator 总裁兼 CEO）给出预测：系统记录（systems of record）将需要变成 AI 的"缰绳"（harness），否则就会被 agent 取代。这条推文引发了大量讨论，回复数超 100。
+**Builder Zara Zhang**
 
-- [查看推文](https://x.com/garrytan/status/2091742825042030681)
+Zara Zhang抛出一个非主流观点：黑客松是一种过时的活动形式——至少按传统方式举办的话。她还推荐了David Senra对Sam Altman的访谈，认为Senra能迅速切入正题并让嘉宾展现最自然的状态，这是她看过的Sam Altman最放松的一次采访。
 
-**FPV Ventures 合伙人 Nikunj Kothari**
+https://x.com/zarazhangrui/status/2092079390301556883
+https://x.com/zarazhangrui/status/2092053829772881972
 
-Nikunj Kothari（FPV Ventures 合伙人，投资种子轮和 A 轮）分享了一个生活小故事：岳母从印度来访，需要和孙女出门约会但没开通漫游。他三分钟内搞定一张数据 eSIM，岳母就联网了。他感叹过去这需要跑一趟营业厅或打电话加一条一个月后要取消的线路。
+**FPV Ventures合伙人 Nikunj Kothari**
 
-- [查看推文](https://x.com/nikunj/status/2091696412744700268)
+Nikunj Kothari分享了风投内部的一个现实：每一笔非传统deal在正式打款前都会"死"一百次。通常只需要一个真正力挺创始人的champion，默默地把交易推到终点线。他建议创始人弄清楚谁是你真正的支持者，并尽可能为他们提供所需信息来帮你争取。他特别指出，associates和非投票合伙人在这时极其有用——他们有意愿帮你，这也是测试他们未来如何与你合作的绝佳机会。
 
-**OpenClaw 创始人 Peter Steinberger**
+https://x.com/nikunj/status/2092079149028716877
 
-Peter Steinberger（OpenClaw 创始人，前 PSPDFKit 创始人）继续展示他的 AI 龙虾硬件实验：他给 OpenClaw 添加了旋转 USB 协议，让龙虾"看来看去"，并玩起了 360 度网络摄像头。他还表示 CLI 很好，但在团队工作的地方有 UI 可视化和协作功能更好。
+**OpenClaw创始人 Peter Steinberger**
 
-- [查看推文](https://x.com/steipete/status/2091650136506327253)
-- [查看推文](https://x.com/steipete/status/2091639468935831910)
+Peter Steinberger发表了一个高赞观点："我们需要摆脱那些不能用prompt改变的软件。"他还分享了一个新学到的词"prompt kiddie"，并开玩笑说更多博客文章应该配上主题曲。
 
----
+https://x.com/steipete/status/2091923535513928015
+https://x.com/steipete/status/2091779461650006514
+https://x.com/steipete/status/2091778518531395927
 
-## OFFICIAL BLOGS
+**Every CEO Dan Shipper**
 
-（今日无新的官方博客内容）
+Dan Shipper报告了一个令人头疼的问题：Google在没有任何通知和理由的情况下封禁了Every的YouTube账号。他在X上公开求助，询问是否有人遇到过类似情况或知道如何恢复账号。
 
-## PODCASTS
+https://x.com/danshipper/status/2092026065644335446
 
-（今日无新的播客内容）
+**South Park Commons合伙人 Aditya Agarwal**
+
+Aditya Agarwal预告了Hans Robertson将到访SPC——他是VMware早期员工、Meraki联合创始人（以12亿美元卖给Cisco），2016年联合创立Verkada并至今仍担任CEO。同时他也在为SPC招募新成员。
+
+https://x.com/adityaag/status/2091958074827313523
 
 ---
 
