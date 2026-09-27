@@ -1,9 +1,7 @@
 name: Deliver Daily Digest
 
 on:
-  schedule:
-    # 8am CST (China Standard Time) = midnight UTC
-    - cron: '0 0 * * *'
+  # Daily schedule disabled. Re-add the cron to resume automatic delivery.
   workflow_dispatch:
 
 jobs:
